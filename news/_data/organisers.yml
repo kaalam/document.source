@@ -1,21 +1,9 @@
-David Boyne:
-    name: David Boyne
-    email: "david.boyne@test.com"
-    photo: "https://pbs.twimg.com/profile_images/660943257795457030/igA_joVD.jpg"
+Santiago Basaldúa:
+    name: Santiago Basaldúa
+    email: "jacques@dybot.com"
+    photo: "http://gravatar.com/avatar/90613e1e8d9284ef39462746165f668b"
 
-Jimmy Smith:
-    name: Jimmy Smith
-    email: "jimmy.smith@test.com"
-    photo: "https://randomuser.me/api/portraits/men/92.jpg"
-
-Frank Smith:
-    name: Frank Smith
-    email: "frank.smith@test.com"
-    photo: "https://randomuser.me/api/portraits/men/64.jpg"
-
-
-Laura Frank:
-    name: Laura Frank
-    email: "laura.frank@test.com"
-    photo: "https://randomuser.me/api/portraits/women/0.jpg"
-
+Kaalam AI:
+    name: kaalam.ai
+    email: "kaalam@dybot.com"
+    photo: ""
