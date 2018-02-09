@@ -39,7 +39,7 @@ To modify styling and highlight colors edit `/_sass/_syntax.scss`.
 ```
 
 ```ruby
-module Jekyll
+module j_module
   class TagIndex < Page
     def initialize(site, base, dir, tag)
       @site = site
@@ -94,7 +94,7 @@ end
 ~~~
 
 ~~~ ruby
-module Jekyll
+module j_module
   class TagIndex < Page
     def initialize(site, base, dir, tag)
       @site = site
