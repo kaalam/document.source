@@ -1,10 +1,10 @@
 # Site wide configuration
 
-title: Site Title
+title: reinterpret_cast&lt;ai&gt;(Jazz)
 locale: en_US
-description: Describe your website here.
-logo: site-logo.png
-search: true
+description: The Jazz Papers
+logo: site-logo.jpg
+search: false
 url: http://localhost:8888/blog
 
 # Jekyll configuration
@@ -36,24 +36,9 @@ exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.
 
 # Site owner
 owner:
-  name: Your Name
-  avatar: bio-photo.jpg
-  email: you@email.com
-  disqus-shortname:
+  name: Kaalam.ai
+  avatar: kaalam.jpg
+  email: kaalam@dybot.com
   twitter: #username
-  facebook: #username
   github: #username
-  stackexchange: #http://stackoverflow.com/users/123456/username
   linkedin: #username
-  instagram: #username
-  flickr: #username
-  tumblr: #username
-  pinterest: #username
-  weibo: #userid
-  google:
-    plus: #username
-    analytics:
-    verify:
-    ad-client:
-    ad-slot:
-  bing-verify:
