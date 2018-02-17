@@ -15,7 +15,7 @@ description: > # this means to ignore newlines until "baseurl:"
   Jazz related events for 2018.
 
 baseurl: "/news" # the subpath of your site, e.g. /blog
-url: "http://localhost:8888" # the base hostname & protocol for your site
+url: "http://kaalam.github.io" # the base hostname & protocol for your site
 
 #These settings might be able to go?
 author: Kaalam.ai

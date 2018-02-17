@@ -5,7 +5,7 @@ locale: en_US
 description: The Jazz Papers
 logo: site-logo.jpg
 search: false
-url: http://localhost:8888/blog
+url: http://kaalam.github.io/blog
 
 # Jekyll configuration
 
