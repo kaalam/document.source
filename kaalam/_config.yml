@@ -1,33 +1,22 @@
 # site settings
-title: Forty
-subtitle: by HTML5 UP
-email: youremailaddress@gmail.com
-description: A responsive site template designed by HTML5 Up<br /> and released under the Creative Commons.
+title: kaalam.ai
+subtitle: The Authors of Jazz
+email: kaalam@dybot.com
+description: Efficiency is never wrong.
 baseurl: "/kaalam" # the subpath of your site, e.g. /blog
-url: "http://localhost:8888" # the base hostname & protocol for your site
-author:
-street_address: 1234 Somewhere Road
-city: Nashville
-state: TN
-zip_code: 55555
-country: United States of America
-phone: (716) 555-5555
+url: "https://kaalam.github.io" # the base hostname & protocol for your site
+author: The Authors of Jazz
+country: Madrid and the whole planet (for now).
 
 # homepage tiles
 tiles-source: posts # accepts "posts" or "pages"
-tiles-count: 6
+tiles-count: 4
 
 # social settings
-500px_url:
-facebook_url:
-github_url:
-gitlab_url: https://gitlab.com/u/andrewbanchich
-googleplus_url: https://plus.google.com/u/0/+AndrewBanchich
-instagram_url: https://instagram.com
-linkedin_url: https://www.linkedin.com/in/andrew-banchich-a4ba1195
-pinterest_url:
-slack_url:
-twitter_url: https://twitter.com/andrewbanchich
+github_url: https://github.com/kaalam
+linkedin_url: 
+slack_url: https://kaalam-ai.slack.com
+twitter_url: https://twitter.com/kaalam_ai
 
 # build settings
 markdown: kramdown
