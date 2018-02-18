@@ -8,11 +8,13 @@ author: null
 ---
 
 We wish to thank [BBVA](https://www.bbva.com) and especially [BBVA Data & Analytics](https://www.bbvadata.com) where Jazz was originally created
-for giving us the opportunity to build Jazz on top of their OSS Jazz 0.1.07 released in 2017. In the financial sector BBVA is second to none in 
-digital transformation and betting on OSS shows that BBVA's mission "Creating Opportunities" is much more than just a sentence.
+for giving us the opportunity to build Jazz on top of their OSS Jazz 0.1.07 released in December 2017. BBVA is second to none in digital transformation in the financial sector. Betting on OSS shows that BBVA's mission "Creating Opportunities" is much more than just a sentence.
 
 
-We also wish to thank the whole OSS community, especially LMDB, CURL, MHD, Catch2, SWIG, the R community, the Python community and tiny-dnn.
+We also wish to thank the whole OSS community, especially LMDB, CURL, MHD, Catch2, SWIG, the Linux community (too many tools to list each of them), the R community, the Python community and tiny-dnn used in the Jazz server.
+
+
+And we finally wish to thank [HTML5UP](https://html5up.net/) for this website's template and [Andrew Banchich](https://github.com/andrewbanchich/forty-jekyll-theme) for its Jekyll automation available under a [CCA3.0](https://creativecommons.org/licenses/by/3.0/) license.
 
 
 *[OSS]: Open Source Software
