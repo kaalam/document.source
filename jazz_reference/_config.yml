@@ -104,7 +104,7 @@ sidebars:
 - home_sidebar
 - mydoc_sidebar
 
-description: "This is the Jazz server's user manual."
+description: "Jazz User's Manual"
 # the description is used in the feed.xml file
 
 # needed for sitemap.xml file only
