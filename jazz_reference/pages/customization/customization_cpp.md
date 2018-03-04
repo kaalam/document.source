@@ -1,12 +1,11 @@
 ---
-title: Labels
-tags: [formatting]
-keywords: labels, buttons, bootstrap, api methods
-last_updated: July 3, 2016
-summary: "Labels are just a simple Bootstrap component that you can include in your pages as needed. They represent one of many Bootstrap options you can include in your theme."
+title: Extending Jazz in C++
+tags: [Jazz, Customization]
+keywords:
+summary: "Extending the Core in C++"
 sidebar: mydoc_sidebar
-permalink: mydoc_labels.html
-folder: mydoc
+permalink: customization_cpp.html
+folder: customization
 ---
 
 ## About labels

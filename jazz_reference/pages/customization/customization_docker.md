@@ -1,10 +1,11 @@
 ---
-title: Lists
-keywords: bulleted lists, numbered lists
-tags: [formatting]
-summary: "This page shows how to create both bulleted and numbered lists"
+title: Deploying Jazz Docker Images with flavors
+tags: [Jazz, Customization]
+keywords:
+summary: "Creating your own dockerized, preloaded Jazz servers"
 sidebar: mydoc_sidebar
-permalink: mydoc_lists.html
+permalink: customization_docker.html
+folder: customization
 ---
 
 ## Bulleted Lists

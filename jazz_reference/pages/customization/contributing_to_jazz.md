@@ -1,12 +1,11 @@
 ---
-title:  Navtabs
-tags: [formatting]
-keywords: navigation tabs, hide sections, tabbers, interface tabs
-last_updated: July 3, 2016
-summary: "Navtabs provide a tab-based navagation directly in your content, allowing users to click from tab to tab to see different panels of content. Navtabs are especially helpful for showing code samples for different programming languages. The only downside to using navtabs is that you must use HTML instead of Markdown."
+title: Contributing to Jazz
+tags: [Jazz, Customization]
+keywords:
+summary: "Be part of kaalam.ai"
 sidebar: mydoc_sidebar
-permalink: mydoc_navtabs.html
-folder: mydoc
+permalink: contributing_to_jazz.html
+folder: customization
 ---
 
 

@@ -222,7 +222,7 @@ entries:
     output: web
     folderitems:
 
-    - title: Extending in Bebop, R and Python
+    - title: Extending Jazz in Bebop, R and Python
       url: /customization_scripting.html
       output: web
 
@@ -230,7 +230,7 @@ entries:
       url: /customization_cpp.html
       output: web
 
-    - title: Deploying Jazz Dockers with flavors
+    - title: Deploying Jazz Docker Images with flavors
       url: /customization_docker.html
       output: web
 
