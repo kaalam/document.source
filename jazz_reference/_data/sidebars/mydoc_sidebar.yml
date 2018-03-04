@@ -19,7 +19,7 @@ entries:
       url: /basics_fundamental.html
       output: web, pdf
 
-    - title: A fast walkthrough
+    - title: A fast Jazz walkthrough
       url: /basics_walkthrough.html
       output: web, pdf
 
