@@ -1,22 +1,12 @@
 ---
-title: YAML tutorial in the context of Jekyll
-tags: [formatting]
-keywords: search
-summary: "YAML is a format that relies on white spacing to separate out the various elements of content. Jekyll lets you use Liquid with YAML as a way to parse through the data. Storing items for your table of contents is one of the most common uses of YAML with Jekyll."
+title: SC Block Types
+tags: [Jazz, Standard Core]
+keywords:
+summary: "Jazz Standard Core - Block Types"
 sidebar: mydoc_sidebar
-permalink: mydoc_yaml_tutorial.html
-folder: mydoc
+permalink: sc_01_block_types.html
+folder: sc
 ---
-
-<style>
-.result {
-background-color: #f0f0f0;
-border: 1px solid #dedede;
-padding: 10px;
-margin-top: 10px;
-margin-bottom: 10px;
-}
-</style>
 
 ## Overview
 One of the most interesting features of Jekyll is the ability to separate out data elements from formatting elements using a combination of YAML and Liquid. This setup is most common when you're trying to create a table of contents.

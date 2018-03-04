@@ -170,7 +170,7 @@ entries:
           url: /sc_01_block_types.html
           output: web
 
-        - title: Basic Manipulation. initialize, copy and serialize
+        - title: Basic Manipulation, initialize, copy and serialize
           url: /sc_02_basic_functions.html
           output: web
 
@@ -178,44 +178,48 @@ entries:
           url: /sc_03_arithmetic.html
           output: web
 
+        - title: Math Functions
+          url: /sc_04_math.html
+          output: web
+
         - title: String Operations
-          url: /sc_04_strings.html
+          url: /sc_05_strings.html
           output: web
 
         - title: Logic Operations
-          url: /sc_05_logic.html
+          url: /sc_06_logic.html
           output: web
 
         - title: Program Flow
-          url: /sc_06_program_flow.html
+          url: /sc_07_program_flow.html
           output: web
 
         - title: SC Support for File-like Structures
-          url: /sc_07_file_like.html
+          url: /sc_08_file_like.html
           output: web
 
         - title: SC Support for Data Sources
-          url: /sc_08_data_sources.html
+          url: /sc_09_data_sources.html
           output: web
 
         - title: SC Support for Data Frames
-          url: /sc_09_data_frames.html
+          url: /sc_10_data_frames.html
           output: web
 
         - title: SC Support for Multinode
-          url: /sc_10_multi_node.html
+          url: /sc_11_multi_node.html
           output: web
 
         - title: Functions in Bebop
-          url: /sc_11_functions.html
+          url: /sc_12_functions.html
           output: web
 
         - title: Functions in R
-          url: /sc_12_functions_in_r.html
+          url: /sc_13_functions_in_r.html
           output: web
 
         - title: Functions in Python
-          url: /sc_13_functions_in_python.html
+          url: /sc_14_functions_in_python.html
           output: web
 
   - title: Extending the Core

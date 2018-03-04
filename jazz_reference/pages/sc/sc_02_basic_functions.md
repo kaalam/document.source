@@ -1,12 +1,11 @@
 ---
-title: Workflow maps
-tags: [formatting]
-keywords: release notes, announcements, what's new, new features
-last_updated: July 16, 2016
-summary: "Version 6.0 of the Documentation theme for Jekyll reverts back to relative links so you can view the files offline. Additionally, you can store pages in subdirectories. Templates for alerts and images are available."
+title: Basic Manipulation, initialize, copy and serialize
+tags: [Jazz, Standard Core]
+keywords:
+summary: "Jazz Standard Core - block operations initialize, convert type, copy, etc."
 sidebar: mydoc_sidebar
-permalink: mydoc_workflow_maps.html
-folder: mydoc
+permalink: sc_02_basic_functions.html
+folder: sc
 ---
 
 ## Workflow maps overview

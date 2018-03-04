@@ -1,14 +1,11 @@
 ---
-title: Supported features
-tags:
-  - getting_started
-keywords: "features, capabilities, scalability, multichannel output, dita, hats, comparison, benefits"
-last_updated: "July 16, 2016"
-summary: "If you're not sure whether Jekyll and this theme will support your requirements, this list provides a semi-comprehensive overview of available features."
-published: true
+title: SC Support for Multinode
+tags: [Jazz, Standard Core]
+keywords:
+summary: "Jazz Standard Core - Multinode principles"
 sidebar: mydoc_sidebar
-permalink: mydoc_supported_features.html
-folder: mydoc
+permalink: sc_11_multi_node.html
+folder: sc
 ---
 
 Before you get into exploring Jekyll as a potential platform for help content, you may be wondering if it supports some basic features needed to fulfill your tech doc requirements. The following table shows what is supported in Jekyll and this theme.

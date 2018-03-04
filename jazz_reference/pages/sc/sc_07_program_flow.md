@@ -1,13 +1,11 @@
 ---
-title: Tags
-audience: writer, designer
-tags: [navigation]
-last_updated: July 16, 2016
-keywords: tags, navigation, buttons, links, association
-summary: "Tags provide another means of navigation for your content. Unlike the table of contents, tags can show the content in a variety of arrangements and groupings. Implementing tags in this Jekyll theme is somewhat of a manual process."
+title: Program Flow
+tags: [Jazz, Standard Core]
+keywords:
+summary: "Jazz Standard Core - Conditional flow"
 sidebar: mydoc_sidebar
-permalink: mydoc_tags.html
-folder: mydoc
+permalink: sc_07_program_flow.html
+folder: sc
 ---
 
 ## Add a tag to a page

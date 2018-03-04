@@ -1,12 +1,11 @@
 ---
-title: Tag archives overview
-keywords: archives, tagging
-last_updated: July 3, 2016
-tags: [navigation]
-summary: "This is an overview to the tag archives section. Really the only reason this section is listed explicitly in the TOC here is to demonstrate how to add a third-level to the navigation."
+title: SC Support for File-like Structures
+tags: [Jazz, Standard Core]
+keywords:
+summary: "Jazz Standard Core - File-like Structures"
 sidebar: mydoc_sidebar
-permalink: mydoc_tag_archives_overview.html
-folder: mydoc
+permalink: sc_08_file_like.html
+folder: sc
 ---
 
 ## Reasons for tags

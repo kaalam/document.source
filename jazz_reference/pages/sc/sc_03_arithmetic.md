@@ -1,11 +1,11 @@
 ---
-title: WebStorm Text Editor
-keywords: webstorm, sublime, markdown, atom, gnome, notepad ++, textpad, bbedit
-last_updated: March 20, 2016
-summary: "You can use a variety of text editors when working with a Jekyll project. WebStorm from IntelliJ offers a lot of project-specific features, such as find and replace, that make it ideal for working with tech comm projects."
+title: Arithmetic Operations
+tags: [Jazz, Standard Core]
+keywords:
+summary: "Jazz Standard Core - Arithmetic operations"
 sidebar: mydoc_sidebar
-permalink: mydoc_webstorm_text_editor.html
-folder: mydoc
+permalink: sc_03_arithmetic.html
+folder: sc
 ---
 
 ## About text editors and WebStorm
@@ -88,3 +88,5 @@ Rather than insert the frontmatter by hand each time, it's much faster to simply
 ## Disable pair quotes
 
 By default, each time you type `'`, WebStorm will pair the quote (creating two quotes). You can disable this by going to **WebStorm > Preferences > Editor > Smartkeys**. Clear the **Insert pair quotes** check box.
+
+{% include links.html %}

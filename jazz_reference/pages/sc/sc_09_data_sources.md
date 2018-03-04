@@ -1,13 +1,11 @@
 ---
-title: Tables
-tags: [formatting]
-keywords: datatables, tables, grids, markdown, multimarkdown, jquery plugins
-last_updated: July 16, 2016
-datatable: true
-summary: "You can format tables using either multimarkdown syntax or HTML. You can also use jQuery datatables (a plugin) if you need more robust tables."
+title: SC Support for Data Sources
+tags: [Jazz, Standard Core]
+keywords:
+summary: "Jazz Standard Core - Data sources"
 sidebar: mydoc_sidebar
-permalink: mydoc_tables.html
-folder: mydoc
+permalink: sc_09_data_sources.html
+folder: sc
 ---
 
 ## Multimarkdown Tables
