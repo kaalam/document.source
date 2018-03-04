@@ -1,9 +1,11 @@
 ---
-title: Install Jekyll on Windows
-permalink: mydoc_install_jekyll_on_windows.html
-keywords: jekyll on windows, pc, ruby, ruby dev kit
+title: Extending Bebop to Data Frames
+tags: [Jazz, Bebop]
+keywords:
+summary: "Jazz Data Frames as defined in Bebop"
 sidebar: mydoc_sidebar
-folder: mydoc
+permalink: bebop_multiblock_data_frames.html
+folder: bebop
 ---
 
 {% include tip.html content="For a better terminal emulator on Windows, use [Git Bash](https://git-for-windows.github.io/). Git Bash gives you Linux-like control on Windows." %}

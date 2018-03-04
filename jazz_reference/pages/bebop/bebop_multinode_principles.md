@@ -1,8 +1,11 @@
 ---
-title: Introduction
+title: Distribution Principles
+tags: [Jazz, Bebop]
+keywords:
+summary: "Defining Bebop's principles for distributed computing"
 sidebar: mydoc_sidebar
-permalink: mydoc_introduction.html
-folder: mydoc
+permalink: bebop_multinode_principles.html
+folder: bebop
 ---
 
 ## Overview
