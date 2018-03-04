@@ -1,13 +1,11 @@
 ---
-title: Code samples
-tags: [formatting]
-keywords: dcode samples syntax highlighting
-last_updated: July 3, 2016
-datatable: true
-summary: "You can use fenced code blocks with the language specified after the first set of backtick fences."
+title: Jazz with NLP tools
+tags: [Jazz, Docker]
+keywords:
+summary: "Jazz on steroids series - The NLP image"
 sidebar: mydoc_sidebar
-permalink: mydoc_code_samples.html
-folder: mydoc
+permalink: docker_jazz_nlp.html
+folder: docker
 ---
 
 ## Code Samples

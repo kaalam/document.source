@@ -1,18 +1,12 @@
 ---
-title: 10. Configure the build scripts
-tags:
-  - publishing
-keywords: "build scripts, generating outputs, building, publishing"
-last_updated: "November 30, 2016"
-summary: "You need to customize the build scripts. These script automate the publishing of your PDFs and web outputs through shell scripts on the command line."
-series: "Getting Started"
-weight: 10
+title: Dockerized Jazz Applications
+tags: [Jazz, Docker]
+keywords:
+summary: "Jazz Docker images à la carte"
 sidebar: mydoc_sidebar
-permalink: mydoc_build_scripts.html
-folder: mydoc
+permalink: docker_jazz_a_la_carte.html
+folder: docker
 ---
-
-{% include custom/getting_started_series.html %}
 
 ## About the build scripts
 
@@ -192,6 +186,5 @@ After you've configured all the scripts, you can run them all by running `. mydo
 
 After setting up and customizing the build scripts, run a few tests to make sure everything is generating correctly. Getting this part right is somewhat difficult and may likely require you to tinker around with the scripts a while before it works flawlessly.
 
-{% include custom/getting_started_series_next.html %}
 
 {% include links.html %}

@@ -1,13 +1,11 @@
 ---
-title: Commenting on files
-tags:
-  - navigation
-keywords: "annotations, comments, feedback"
-last_updated: "November 30, 2016"
-summary: "You can add a button to your pages that allows people to add comments."
+title: Jazz speech processing
+tags: [Jazz, Docker]
+keywords:
+summary: "Jazz on steroids series - The speech processing image"
 sidebar: mydoc_sidebar
-permalink: mydoc_commenting_on_files.html
-folder: mydoc
+permalink: docker_jazz_speech.html
+folder: docker
 ---
 
 ## About the review process
