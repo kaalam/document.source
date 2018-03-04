@@ -61,8 +61,6 @@ echo "Now run . mydoc_2_multibuild_pdf.sh"
 
 After killing all existing Jekyll instances that may be running, this script serves up a PDF friendly version of the docs (in HTML format) at the destination specified in the configuration file.
 
-Each of your configuration files needs to have a destination like this: `../doc_outputs/mydoc/adtruth-java`. That is, the project should build in the doc_outputs folder, in a subfolder that matches the project name.
-
 The purpose of this script is to make a version of the HTML output that is friendly to the Prince XML PDF generator. This version of the output strips out the sidebar, topnav, and other components to just render a bare-bones HTML representation of the content.
 
 Customize the script with your own PDF configuration file names.

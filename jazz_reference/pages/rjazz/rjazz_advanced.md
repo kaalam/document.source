@@ -44,19 +44,9 @@ exclude:
 
 If you have more sophisticated exclusion, add another level to your file names. For example, if you have different programming languages you want to filter by, add this:
 
-* alpha_java_sample.html
 * alpha_cpp_sample.html
 
 Then you exclude files for your Alpha C++ project as follows:
-
-```
-exclude:
-
-- alpha_java_*
-- beta_*
-```
-
-And you exclude files for your Alpha Java project as follows:
 
 ```
 exclude:
