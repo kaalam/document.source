@@ -1,12 +1,11 @@
 ---
-title: Tooltips
-tags: [formatting]
-keywords: popovers, tooltips, user interface text, glossaries, definitions
-last_updated: July 3, 2016
-summary: "You can add tooltips to any word, such as an acronym or specialized term. Tooltips work well for glossary definitions, because you don't have to keep repeating the definition, nor do you assume the reader already knows the word's meaning."
+title: Installing a Jazz client
+tags: [Jazz, Installation]
+keywords:
+summary: "Installing an R or Python client with or without a Jazz server"
 sidebar: mydoc_sidebar
-permalink: mydoc_adding_tooltips.html
-folder: mydoc
+permalink: setup_installing_client.html
+folder: setup
 ---
 
 ## Creating tooltips

@@ -1,11 +1,11 @@
 ---
-title: Atom Text Editor
-keywords: atom, text editor,
-last_updated: March 20, 2016
-summary: "Atom is a free text editor that is a favorite tool of many writers because it is free. This page provides some tips for using Atom."
+title: Compiling Jazz from source
+tags: [Jazz, Installation]
+keywords:
+summary: "Compiling the Jazz server, the clients and the docker images from source"
 sidebar: mydoc_sidebar
-permalink: mydoc_atom_text_editor.html
-folder: mydoc
+permalink: setup_compiling_from_source.html
+folder: setup
 ---
 
 If you haven't downloaded [Atom](https://atom.io/), download and install it. Use this as your editor when working with Jekyll. The syntax highlighting is probably the best among the available editors, as it was designed with Jekyll-authoring in mind. However, if you prefer Sublime Text, WebStorm, or some other editor, you can also use that.

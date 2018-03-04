@@ -31,7 +31,7 @@ entries:
       url: /setup_installing_client.html
       output: web, pdf
 
-    - title: Installing a Jazz server
+    - title: Running a dockerized Jazz server
       url: /setup_installing_server.html
       output: web, pdf
 
