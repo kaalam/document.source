@@ -12,14 +12,5 @@ folder: docker
 
 Use fenced code blocks with the language specified, like this:
 
-    ```js
-    console.log('hello');
-    ````
 
-**Result:**
-
-```js
-console.log('hello');
-```
-
-For the list of supported languages you can use (similar to `js` for JavaScript), see [Supported languages](https://github.com/jneen/rouge/wiki/list-of-supported-languages-and-lexers).
+{% include links.html %}

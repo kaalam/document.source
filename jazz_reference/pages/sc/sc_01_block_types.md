@@ -13,8 +13,6 @@ One of the most interesting features of Jekyll is the ability to separate out da
 
 Not many Jekyll themes actually have a robust table of contents, which is critical when you are creating any kind of documentation or reference material that has a lot of pages.
 
-Here's the basic approach in creating a table of contents. You store your data items in a YAML file using YAML syntax. (I'll go over more about YAML syntax in a later section.) You then create your HTML structure in another file, such as sidebar.html. You might leverage one of the many different table of content frameworks (such as [Navgoco](https://github.com/tefra/navgoco)) that have been created for this HTML structure.
-
 Then, using Liquid syntax for loops and conditions, you access all of those values from the data file and splice them into HTML formatting. This will become more clear as we go through some examples.
 
 ## YAML overview
@@ -409,8 +407,5 @@ And here is the result:
 </ul>
 </div>
 
-## More resources
-
-For more examples and explanations, see this helpful post on tournemille.com: [How to create data-driven navigation in Jekyll](http://www.tournemille.com/blog/How-to-create-data-driven-navigation-in-Jekyll).
 
 {% include links.html %}

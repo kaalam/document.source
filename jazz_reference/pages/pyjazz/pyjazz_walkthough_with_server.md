@@ -65,7 +65,7 @@ The following sections explain more about the setup.
 
 ## 1. Set up Prince
 
-Download and install [Prince](http://www.princexml.com/doc/installing/).
+Download and install **Prince**.
 
 You can install a fully functional trial version. The only difference is that the title page will have a small Prince PDF watermark.
 
@@ -75,7 +75,7 @@ The PDF configuration file will build on the settings in the regular configurati
 
 ```yaml
 destination: _site/
-url: "http://127.0.0.1:4010"
+url: "h t t p : / / 127.0.0.1:4010"
 baseurl: "/mydoc-pdf"
 port: 4010
 output: pdf

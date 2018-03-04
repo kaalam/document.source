@@ -17,12 +17,6 @@ If you decide to use WebStorm, here are a few tips on configuring the editor.
 
 By default, WebStorm comes packaged with a lot more functionality than you probably need. You can lighten the editor by removing some of the plugins. Go to **WebStorm > Preferences > Plugins** and clear the check boxes of plugins you don't need.
 
-## Set default tab indent to 3 spaces instead of 4
-
-You can set the way the tab works, and whether it uses spaces or a tab character. For details, see [Code Style. JavaScript](https://www.jetbrains.com/help/webstorm/2016.1/code-style-javascript.html?origin=old_help#d658997e132) in WebStorm's help.
-
-On a Mac, go to **WebStorm > Preferences > Editor > Code Style > Other File Types**. Don't select the "Use tab character" check box. Set **4** for the **Tab size** and **Indent** check boxes.
-
 On Windows, go to **File > Settings > Editor > Code Style > Other File Types** to access the same menu.
 
 ## Add the Markdown Support plugin
@@ -41,8 +35,6 @@ When you're searching for content, you don't want to edit any file that appears 
 
 You can set the default number of spaces a tab sets, including whether Webstorm uses a tab character or spaces. You want spaces, and you want to set this to default number of spaces to ```4```. Note that this is due to the way Kramdown handles the continuation 
 of lists.
-
-To set the indentation, see the "Tabs and Indents" topic in this [Code Style. Javascript](https://www.jetbrains.com/help/webstorm/2016.1/code-style-javascript.html?origin=old_help#d658997e132) topic in Webstorm's help.
 
 ## Shortcuts
 

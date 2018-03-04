@@ -131,12 +131,6 @@ Now you’ve got two bookmarks (essentially a tag) for your two branches at the 
 To switch to one of these branches you can use hg update feature to update to the tip changeset of that branch and mark yourself as working on that branch. When you commit, it will move the bookmark to the newly created changeset.
 
 
-## Git
-HEAD is a reference to the last commit in the current checked out branch.
-
-This is a good tutorial: https://www.digitalocean.com/community/tutorials/how-to-use-git-branches.
-
-
 ## Branching
 
 | Commands | Description |
