@@ -17,23 +17,23 @@ topnav_dropdowns:
     - title: Quick Help
       folderitems:
         - title: Getting started in R without a server
-          url: getstarted_r
+          url: rjazz_walkthough_client_only.html
         - title: Getting started in Python without a server
-          url: getstarted_py
+          url: pyjazz_walkthough_client_only.html
         - title: Getting started in R with a Docker server
-          url: getstarted_docker_r
+          url: rjazz_walkthough_with_server.html
         - title: Getting started in Python with a Docker server
-          url: getstarted_docker_py
-        - title: Setting up a dockerized Jazz server
-          url: setup_docker
-        - title: More on the R client
+          url: pyjazz_walkthough_with_server.html
+        - title: Get the last stable Reference Server dockerized
+          url: docker_last_stable_reference.html
+        - title: Explore the dockerized Jazz pre-built applications
+          url: docker_jazz_a_la_carte.html
+        - title: Jazz REST API reference
+          url: rest_reference.html
+        - title: R client Reference
           external_url: https://kaalam.github.io/rjazz/
-        - title: More on the Python client
+        - title: Python client Reference
           external_url: https://kaalam.github.io/pyjazz/
-        - title: Jazz server API reference
-          url: reference_api
-        - title: Adding C++ functions to the server
-          url: https://talk.jekyllrb.com
-        - title: Jazz server C++ core development
+        - title: Jazz for developers
           external_url: https://kaalam.github.io/develop/
 
