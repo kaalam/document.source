@@ -1,12 +1,11 @@
 ---
-title: Git notes and tips
-summary: "If you're interacting with your team using Git, the notes and tips will help you collaborate efficiently."
-tags: collaboration
-keywords: git, github, collaboration, interaction, file sharing, push
-published: false
+title: Advanced Python usage
+tags: [Jazz, Python]
+keywords:
+summary: "Getting oriented with Jazz Documentation for Python programmers"
 sidebar: mydoc_sidebar
-permalink: mydoc_git_collaboration.html
-folder: mydoc
+permalink: pyjazz_advanced.html
+folder: pyjazz
 ---
 
 

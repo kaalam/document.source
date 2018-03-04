@@ -1,12 +1,11 @@
 ---
-title: Generating PDFs
-permalink: mydoc_generating_pdfs.html
-tags: [publishing, single_sourcing, content_types]
-keywords: PDF, prince, prince XML, ant, xsl fo
-last_updated: July 3, 2016
-summary: "You can generate a PDF from your Jekyll project. You do this by creating a web version of your project that is printer friendly. You then use utility called Prince to iterate through the pages and create a PDF from them. It works quite well and gives you complete control to customize the PDF output through CSS, including page directives and dynamic tags from Prince."
+title: A quick Python walkthough connecting to a Jazz server
+tags: [Jazz, Python]
+keywords:
+summary: "A quick demo on operating a Jazz server via the REST API from Python"
 sidebar: mydoc_sidebar
-folder: mydoc
+permalink: pyjazz_walkthough_with_server.html
+folder: pyjazz
 ---
 
 

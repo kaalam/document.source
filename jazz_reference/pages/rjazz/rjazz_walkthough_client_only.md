@@ -1,12 +1,11 @@
 ---
-title: Conditional logic
-tags: [single_sourcing]
-keywords: if else logic, conditions, conditional attributes, conditional filtering
-last_updated: July 3, 2016
-summary: "You can implement advanced conditional logic that includes if statements, or statements, unless, and more. This conditional logic facilitates single sourcing scenarios in which you're outputting the same content for different audiences."
+title: A quick R walkthough without a Jazz server
+tags: [Jazz, R]
+keywords:
+summary: "How Jazz can be used in R without a server or reactively called by a server"
 sidebar: mydoc_sidebar
-permalink: mydoc_conditional_logic.html
-folder: mydoc
+permalink: rjazz_walkthough_client_only.html
+folder: rjazz
 ---
 
 ## About Liquid and conditional statements
