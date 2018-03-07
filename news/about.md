@@ -5,7 +5,7 @@ title: About Jazz News
 permalink: /about/
 ---
 
-This page show upcomming Jazz related events.
+This page shows upcomming Jazz related events.
 
 
 ## Jazz events for 2018
