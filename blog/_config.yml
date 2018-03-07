@@ -36,7 +36,7 @@ exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.
 
 # Site owner
 owner:
-  name: Kaalam.ai
+  name: kaalam.ai
   avatar: kaalam.jpg
   email: kaalam@dybot.com
   twitter: #username
