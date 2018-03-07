@@ -3,6 +3,8 @@
 topnav:
 - title: Topnav
   items:
+    - title: kaalam.ai
+      external_url: http://kaalam.ai
     - title: GitHub
       external_url: https://github.com/bbvadata/Jazz
     - title: News
