@@ -18,7 +18,7 @@ baseurl: "/news" # the subpath of your site, e.g. /blog
 url: "https://kaalam.github.io" # the base hostname & protocol for your site
 
 #These settings might be able to go?
-author: Kaalam.ai
+author: kaalam.ai
 twitter_username: kaalam_ai
 github_username:  kaalam
 company_name: kaalam.ai
