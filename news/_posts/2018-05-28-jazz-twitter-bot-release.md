@@ -9,8 +9,7 @@ start_time: "09:00"
 end_time: "12:00"
 
 #event organiser details
-organiser: "http://adigaskell.org/wp-content/uploads/2015/10/robot-musician.jpg"
-
+organiser: "kaalamai"
 
 
 ---
