@@ -1,7 +1,7 @@
 ---
 layout: post
 title: What Is Jazz?
-description: Jazz in 200 words
+description: Jazz in 444 words
 image: assets/images/pic01.jpg
 ---
 
