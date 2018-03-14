@@ -1,6 +1,6 @@
 ---
 layout: post
-title: What Is Jazz?
+title: Why Jazz?
 description: Jazz in 444 words
 image: assets/images/pic01.jpg
 ---
