@@ -1,7 +1,7 @@
 ---
 layout: post
 title: What Is kaalam.ai?
-description: Jazz Project Vision for Geeks, Suits, and Wonks
+description: The Mangrove Forest Explained to Geeks, Suits, and Wonks
 image: assets/images/pic02.jpg
 ---
 
