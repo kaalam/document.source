@@ -1,7 +1,7 @@
 ---
 layout: post
 title: What Does Jazz Enable?
-description: In plain English, how does Jazz change the rules?
+description: In plain English, what makes Jazz different?
 image: assets/images/pic03.jpg
 ---
 
