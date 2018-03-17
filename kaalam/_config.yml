@@ -1,7 +1,7 @@
 # site settings
 title: kaalam.ai
 subtitle: The Authors of Jazz
-email: kaalam@dybot.com
+email: kaalam@kaalam.ai
 description: Efficiency is never wrong.
 baseurl: "/kaalam" # the subpath of your site, e.g. /blog
 url: "https://kaalam.github.io" # the base hostname & protocol for your site
@@ -14,7 +14,7 @@ tiles-count: 4
 
 # social settings
 github_url: https://github.com/kaalam
-linkedin_url: 
+linkedin_url:
 slack_url: https://kaalam-ai.slack.com
 twitter_url: https://twitter.com/kaalam_ai
 
