@@ -15,9 +15,9 @@ image: assets/images/pic01.jpg
 
 <h3>Does AI live in the (technological) perfect world most proclaim?</h3>
 
-AI is living the most exciting moment in decades and all the necessary tools to explore, train and deploy deep learning models are free software. They combine highly optimized low level CPU and GPU software that is responsible for 99.9% of the execution with highly productive scripting languages that, of course,  could be optimized, but at the price of making them less productive. Who would want to optimize 0.1 of the execution time? Even making it 1000 times faster would just reduce 100 seconds to 99.9001. So, we do live in a perfect world ...
+AI is living the most exciting moment in decades and all the necessary tools to explore, train and deploy deep learning models are free software. They combine highly optimized low level CPU and GPU software that is responsible for 99.9% of the execution with highly productive scripting languages that, of course,  could be optimized, but at the price of making it less productive. Who would want to optimize 0.1 of the execution time? Even making it 1000 times faster would just reduce 100 seconds to 99.9001. So, we do live in a perfect world ...
 
- 
+
 <h4>... except for</h4>
 <ol>
 	<li>This way of thinking assumes we already know what to run in that 99.9% of the time. Actually, we don't. And our current platforms are a major hindrance in the exploration of new ideas.</li>
@@ -29,6 +29,6 @@ AI is living the most exciting moment in decades and all the necessary tools to 
 
 Anyway, we don't want to sound like we own the truth, we are just starting, we need as much help as we can get. We happen to have solutions that can lead the next generation of AI applications a quantum leap forward. And we offer them to the community the only way we know: by making the software open, the engines and research reproducible and everything ready to try. With simple one liners you can: run a server from docker hub, install a Python package with pip or an R client from cran.
 
-Before we even raised the first euro, we have enough of the product have <b>you</b> to decide by yourself if you want to use it or be part of it. And you can decide that using the simplest method: <b>trying out Jazz</b>.
+Before we even raised the first euro, we have enough of the product to have <b>you</b> decide by yourself if you want to use it or be part of it. Just use the simplest method: <b>give Jazz a try</b> and decide by yourself.
 
 Keep reading, if that makes sense.
