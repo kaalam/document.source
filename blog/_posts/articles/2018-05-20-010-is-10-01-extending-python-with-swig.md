@@ -1,10 +1,10 @@
 ---
 layout: post
-title: Sample Post
-excerpt: "Just about everything you'll need to style in the theme: headings, paragraphs, blockquotes, tables, code blocks, and more."
-modified: 2016-06-01T14:17:25-04:00
+title: 010 == 10, number 1: Extending Python in C++ using Swig
+excerpt: "The forth way is finally the good way?"
+modified: 2018-05-20
 categories: articles
-tags: [sample-post]
+tags: [extending Python]
 comments: true
 share: true
 ---
