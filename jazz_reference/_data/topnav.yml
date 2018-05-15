@@ -15,15 +15,15 @@ topnav_dropdowns:
     - title: Quick Help
       folderitems:
         - title: Getting started in R without a server
-          url: rjazz_walkthough_client_only.html
+          url: rjazz_walkthrough_client_only.html
         - title: Getting started in Python without a server
-          url: pyjazz_walkthough_client_only.html
+          url: pyjazz_walkthrough_client_only.html
         - title: Getting started in R with a Docker server
-          url: rjazz_walkthough_with_server.html
+          url: rjazz_walkthrough_with_server.html
         - title: Getting started in Python with a Docker server
-          url: pyjazz_walkthough_with_server.html
-        - title: Get the last stable Reference Server dockerized
-          url: docker_last_stable_reference.html
+          url: pyjazz_walkthrough_with_server.html
+        - title: Get the latest stable Reference Server dockerized
+          url: docker_latest_stable_reference.html
         - title: Explore the dockerized Jazz pre-built applications
           url: docker_jazz_a_la_carte.html
         - title: Jazz REST API reference
