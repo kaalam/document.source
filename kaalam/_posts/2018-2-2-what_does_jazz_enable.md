@@ -5,6 +5,42 @@ description: In plain English, what makes Jazz different?
 image: assets/images/pic03.jpg
 ---
 
+<h2>How is it different and how mature is it?</h2>
+
+In the [first kaalam post](https://kaalam.github.io/kaalam/2018/02/04/why_jazz.html) we have made some strong claims on current
+limitations of AI platforms and stated that Jazz is a step forward addressing these issues. Here, we want to have a closer look
+at all these claims one by one. We also want to describe how reliable Jazz is as a product and what to expect from it.
+
+<h3>But first, what is Jazz?</h3>
+
+Before we continue, you need a description of what Jazz is. The introductory explanation in this [2000 word post](https://kaalam.github.io/jazz_reference/basics_fundamental.html) is all you need to follow the rest of this discussion.
+
+<h3>Our current platforms are a major hindrance in the exploration of new ideas.</h3>
+
+This statement is strong, but if you agree with us on most (or even all) of the following seven points, it becomes a consequence. Let's see.
+
+<h3>1. Reinforcement Learning - Tree Search</h3>
+
+<h3>2. Learning with something else than Gradient Descent.</h3>
+
+<h3>3. Exploring ideas with the right amount of data naturally.</h3>
+	This includes "Learning with something else than fully connected layers."
+
+<h3>4. Creating semantic representations that do not make AI look stupid to laymen as soon as the initial "wow" fades out.<h3>
+
+<h3>5. Finding safe and automated ways to work with all kinds of data sources.</h3>
+	It is true that we have amazing free software tools to process all kinds of data. But, since we have not advanced much in persistent data abstractions since 1950 (yeah, the file was invented in 1950), it is hard for a machine to reason about how to apply these tools seamlessly. Creation of data pipelines is tedious and error prone.
+
+<h3>6. Being able to get rid of scripting languages is just as important as being able to use them.</h3>
+
+<h3>7. Supporting scaling and the creation of APIs in a natural automatic and intuitive way.</h3>
+
+	"The lightweight, single process, unlimited threads back-end that simply doesn't need anything else that itself."
+
+	"In the end, all you need is a box running Jazz and a browser."
+
+<h2>How reliable is Jazz?</h2>
+
 Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem ipsum, quia dolor sit amet consectetur adipisci[ng] velit, sed quia non-numquam [do] eius modi tempora inci[di]dunt, ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit, qui in ea voluptate velit esse, quam nihil molestiae consequatur, vel illum, qui dolorem eum fugiat, quo voluptas nulla pariatur?
 
 <div class="row">
