@@ -1,10 +1,10 @@
 ---
-title: The last stable Reference Server
+title: The latest stable Reference Server
 tags: [Jazz, Docker]
 keywords:
 summary: "A clean, read-to-go Jazz image available at Docker Cloud"
 sidebar: mydoc_sidebar
-permalink: docker_last_stable_reference.html
+permalink: docker_latest_stable_reference.html
 folder: docker
 ---
 
