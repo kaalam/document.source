@@ -1,10 +1,10 @@
 ---
-title: A quick R walkthough connecting to a Jazz server
+title: A quick R walkthrough connecting to a Jazz server
 tags: [Jazz, R]
 keywords:
 summary: "A quick demo on operating a Jazz server via the REST API from R"
 sidebar: mydoc_sidebar
-permalink: rjazz_walkthough_with_server.html
+permalink: rjazz_walkthrough_with_server.html
 folder: rjazz
 ---
 
