@@ -20,7 +20,12 @@ Jekyll runs on Ruby, a programming language. You have to have Ruby on your compu
 
 ### A Block has an owner
 
-Jekyll runs on Ruby, a programming language. You have to have Ruby on your computer in order to run Ruby-based programs like Jekyll. Ruby is installed on the Mac by default, but you must add it to Windows.
+Also a block is binary moveable, quasi-immutable and has an owner. This means it can be copied "as is" because it has no pointers, it
+is okay to treat it as immutable, Bebop does. Of course, in C++ you can still change its content, but you should have a good reason to do it
+and provide and interface that abstracts that out so that it can be "thought of" as immutable. This avoids the burden of having to reallocate
+RAM when you change attributes or strings, you can just create a copy of it with the new strings. According to the owner, a block can be
+"one shot", "volatile" or "persisted". "One shot" is possible only in C++ and it means the creator owns the pointer to the block. A block
+will be volatile or persisted depending on the class of the object that contains it.
 
 
 ## Simple (local) containers
@@ -54,10 +59,6 @@ Jekyll runs on Ruby, a programming language. You have to have Ruby on your compu
 Jekyll runs on Ruby, a programming language. You have to have Ruby on your computer in order to run Ruby-based programs like Jekyll. Ruby is installed on the Mac by default, but you must add it to Windows.
 
 ### Operators and Bebop
-
-Jekyll runs on Ruby, a programming language. You have to have Ruby on your computer in order to run Ruby-based programs like Jekyll. Ruby is installed on the Mac by default, but you must add it to Windows.
-
-### Functions in scripting languages
 
 Jekyll runs on Ruby, a programming language. You have to have Ruby on your computer in order to run Ruby-based programs like Jekyll. Ruby is installed on the Mac by default, but you must add it to Windows.
 
