@@ -15,7 +15,7 @@ entries:
       output: web, pdf
       type: homepage
 
-    - title: Fundamental Jazz Concepts
+    - title: Introduction to Jazz
       url: /basics_fundamental.html
       output: web, pdf
 
