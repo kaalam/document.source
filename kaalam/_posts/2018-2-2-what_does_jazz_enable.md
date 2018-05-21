@@ -18,7 +18,7 @@ all frameworks will evolve and some day a **community is built** that uses Jazz 
 
 Before we continue, you need to understand what Jazz is. The introduction in this
 [2500 word post](https://kaalam.github.io/jazz_reference/basics_fundamental.html) is all you need to follow the rest of this discussion.
-We tried to make it rigorous and short, the result may be too technical or assuming much knowledge on your side, sorry for that.
+We tried to make it rigorous and short, the result may be too technical or assuming too much knowledge, sorry for that.
 
 <h3>Q: You stated "current frameworks are a hindrance in the exploration of new ideas", isn't that too strong?</h3>
 
