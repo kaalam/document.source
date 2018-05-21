@@ -60,17 +60,17 @@ definitely a bad idea. Throwing hardware at the problem only makes it less obvio
 that's all you needed to get your PhD. "Huge hardware requirements" is just another name for **irreproducible** and ideas will only be adopted
 when they are implemented efficiently.
 
-Implementing from scratch (using libraries, of course) in C++ (or, say, go), produces some notable products, but only a fraction of researchers
-know C++, from those only a fraction understands the CPU well enough to write efficient and safe code. And most have deadlines.
-When they finish their PhD, they leave some thousands of undocumented lines of code full of technical debt behind and move on.
+Implementing from scratch (using libraries, of course) in C++ (or, say, rust or go), produces some notable products, but only a fraction of
+researchers know C++. Only a fraction of them understands the CPU well enough to write efficient and safe code. Most have deadlines.
+They finish their PhD, leave some thousands of undocumented lines of code with technical debt behind and move on.
 
-Anyway, **we don't want to sound like we own the truth**, we are just starting, we need as much help as we can get. We happen to have created
+This said, **we don't want to sound like we own the truth**, we are just starting, we need as much help as we can get. We happen to have created
 a product **we believe** can lead the next generation of AI applications a quantum leap forward. And we offer it to **the community** the only
-way we know: by making it **open source software**. Everything ready to try, with simple one liners you can: run a **Jazz server** from docker
-hub, install the Python package **pyjazz** with pip or the R client **rjazz** from cran.
+way we know: by making it **open source software**. Everything ready to try, with simple one liners you can: run a **Jazz server** from **docker**
+**hub**, install the **Python** package **pyjazz** using **pip** or the **R** client **rjazz** from **cran**.
 
 Before we even raised the first euro, we have enough of the product to have <b>you</b> decide by yourself if you want to use it or be part
-of it. Just use the simplest method: <b>give Jazz a try</b> and decide by yourself.
+of it. Just use the simplest method: <b>give Jazz a try</b> and decide for yourself.
 
 An remember, open source software is **not** about the product, it is **about the community**. We need **you** to make it happen.
 
