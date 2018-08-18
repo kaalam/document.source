@@ -182,8 +182,7 @@ block size, most computing time will be in tensor logic/arithmetic.
 
 ### Operators
 
-Operators are just functions than can be written "nicely". They are defined in the standard core or created in Bebop and declared with
-a "using" clause in other Bebop functions.
+Operators are just functions than can be written "nicely". They are defined in the standard core or created in Bebop.
 
 ### Classes
 
