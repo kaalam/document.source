@@ -116,20 +116,22 @@ redirected to a node that should be able to handle it." %}
 
 ### Columns and dataframes
 
-In Jazz, the first dimension of any block has a special meaning and is called **a row**. All tensors have rows that can be anything. If a block
-is a vector of videos, a row is a video, in an image a row is a row of pixels, in a file a row is a byte. Jazz supports **selecting rows** and
-**identifying rows** in a tensor as a first class citizen.
+In Jazz, the first dimension of any block is special and divides the tensor in **rows**. Rows that can be anything. In a vector of videos,
+a row is a video, in an image, a row is a row of pixels, in a file, a row is a byte. Jazz supports **selecting rows** and operating on
+row selections as a first class citizen. (E.g., It can return a selection from a persisted block without ever copying the block or
+accessing any non selected elements.)
 
 A "vertical" chain of blocks of any type can be abstracted as a **column**, and therefore distributed across a cluster, given:
 
 * All blocks have the **same type and dimensions**.
-* There is an explicit or implicit **unique identifier for each row** (existing or not).
+* There is an explicit or implicit **unique identifier for each row**.
 
 Examples of **explicit identifiers** include all kind of numeric or string codes, also Unix time is an example of identifier to store time
 series and events. An **implicit identifier** is something created automatically similar to an index in a relational db.
 
-A column is created by defining either a **DenseMapping** or a **SparseMapping** over the identifier. As you correctly guessed, the mapping
-defines what (existing or not) block contains each row and where (on what nodes) it can be found.
+A column is created by defining either a **DenseMapping** or a **SparseMapping** over the identifier. A **DenseMapping** will allocate
+a row for any existing value of the identifier, which may contain NA values if not informed. A **SparseMapping** is a more efficient way
+to represent sparse data where only exiting rows are stored together with an index identifying each row.
 
 {% include note.html content="A **dataframe is a list of columns** that share the same mapping. Since columns are tensors, it is possible
 to have a five columns dataframe where a row is: 1. a video, 2. a sound track, 3. a label, 4. a multiple choice of tags, 5. a free text
@@ -139,8 +141,8 @@ description. The **video and the soundtrack are tensors of raw data**, not links
 ### Filesystems, remote sources, distributed filesystems
 
 A **JazzFileSystem** is an abstraction to manage files in the Linux box running Jazz as JazzBlocks without necessarily copying their content.
-Since blocks have attributes, we can tag them to specify what services can do what on each file. This typically includes decompressing,
-compressing, scaling, etc.
+Since blocks have attributes, we can tag them to specify what functions can be applied to each file. This typically includes decompressing,
+compressing, scaling images, etc.
 
 {% include note.html content="Given a **tar.gz** file containing 10K **jpeg** images with different sizes and a **csv** file with labels
 corresponding to them, we want to build a dataframe with two columns: **image** (with identical dimensions) and **label** for training a
