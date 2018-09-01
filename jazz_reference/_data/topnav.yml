@@ -7,6 +7,10 @@ topnav:
       external_url: http://kaalam.ai
     - title: GitHub
       external_url: https://github.com/bbvadata/Jazz
+    - title: News
+      external_url: https://kaalam.github.io/news/
+    - title: Blog
+      external_url: https://kaalam.github.io/blog/
 
 #Topnav dropdowns
 topnav_dropdowns:
