@@ -1,12 +1,12 @@
 ---
 layout: post
-title: drop = FALSE, number 2: Explaining Markov Chains using R
-excerpt: "What is the probabily of winning a tennis game: A simple problem, not so simple without Markov Chains helps us explain Markov chains."
-modified: 2018-05-06
+title: "A Post with a Video"
+excerpt: "Custom written post descriptions are the way to go... if you're not lazy."
 categories: articles
-tags: [R, Markov Chains]
+tags: [sample-post, video]
 comments: true
 share: true
+modified: 2016-06-01T14:18:26-04:00
 ---
 
 <iframe width="560" height="315" src="//www.youtube.com/embed/pdSp4Y4GOQs" frameborder="0"> </iframe>

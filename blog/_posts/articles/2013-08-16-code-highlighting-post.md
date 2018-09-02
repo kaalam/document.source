@@ -1,12 +1,12 @@
 ---
 layout: post
-title: reinterpret_cast<ai>(Jazz), number 3: How can we make it happen?
-excerpt: "A roadmap to the Jazz Dream."
-modified: 2018-05-13
+title: Syntax Highlighting Post
+excerpt: "Demo post displaying the various ways of highlighting code in Markdown."
 categories: articles
-tags: [Jazz]
+tags: [sample-post, code, highlighting]
 comments: true
 share: true
+modified: 2016-06-01T14:11:53-04:00
 ---
 
 Syntax highlighting is a feature that displays source code, in different colors and fonts according to the category of terms. This feature facilitates writing in a structured language such as a programming language or a markup language as both structures and syntax errors are visually distinct. Highlighting does not affect the meaning of the text itself; it is intended only for human readers.[^1]
