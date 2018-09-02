@@ -38,8 +38,8 @@ One of the advantages of creating kaalam in <b>Spain</b> is we are not bound by 
 
 <h3>First bootstrapping, then funding</h3>
 
-We believe in doing everything correctly, proving we can become a player capable of achieving major advances in AI, and then, raising money is probably not going to be hard. There is no substitute for doing. We want others to respect us for the same thing we respect others: delivering amazing technology. We definitely believe in meritocracy, we need help, but want to find people that truly believe in the idea enough to invest their time just for the sake making it happen.
-	
+We believe in doing everything correctly, <b>first</b> proving that we can become a player capable of achieving major advances in AI, and <b>then</b>, raising money. There is no substitute for doing. We want others to respect us for the same thing we respect others: delivering amazing technology. We definitely believe in meritocracy, we need help, but want to find people that truly believe in the idea enough to invest their time just for the sake making it happen.
+
 Premature funding, especially by incumbents, typically ends up replicating the incumbent's hierarchy. In such scenarios, budget ownership replaces vision and ladder climbing skills replace merit. Of course, there may be exceptional incumbents who have successfully innovated in "skunk works" mode, but the risk of the former scenario makes us not want the shelter of a large corporation too early. Again, <b>not too early</b> we definitely look forward to build alliances with major players. We believe in going through a period of austerity that self-selects the team, builds the product and earns respect for the vision. After that, alliances can be built, not just for money but based of shared strategy, talent, experience and common interests.
 
 
@@ -59,8 +59,8 @@ Contributing to the code base gives you the right to shared copyright holding, t
 	</dd>
 	<dt>We all build kaalam.ai together</dt>
 	<dd>
-		<p>This is the optimal scenario. It requires a clear strategy that motivates three groups of stakeholders: founders, investors and new members. We want the company to be attractive to top talent and equity is the incentive that will create the kind of involvement we expect from all. It is an exercise of generosity, strategic resonance and commitment.</p>
+		<p>This is the optimal scenario. It requires a transparent business strategy shared by the three groups of stakeholders: <b>founders</b>, <b>investors</b> and <b>staff members</b>. We want the company to be attractive to top talent and equity is the incentive that will create the kind of involvement we expect from all. It is an exercise of generosity, strategic resonance and commitment.</p>
 	</dd>
 </dl>
 
-Maybe, now it gets clear why we should not be in a hurry to raise money.
+We hope, we made our point on why we should not be in a hurry to raise money.
