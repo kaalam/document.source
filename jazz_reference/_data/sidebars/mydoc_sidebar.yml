@@ -19,10 +19,6 @@ entries:
       url: /basics_fundamental.html
       output: web, pdf
 
-    - title: A fast Jazz walkthrough
-      url: /basics_walkthrough.html
-      output: web, pdf
-
   - title: Setup
     output: web, pdf
     folderitems:
@@ -31,7 +27,7 @@ entries:
       url: /setup_installing_client.html
       output: web, pdf
 
-    - title: Running a dockerized Jazz server
+    - title: Running a Dockerized Jazz server
       url: /setup_installing_server.html
       output: web, pdf
 
@@ -39,12 +35,16 @@ entries:
       url: /setup_compiling_from_source.html
       output: web, pdf
 
+    - title: Setting up a Jazz cluster
+      url: /setup_cluster.html
+      output: web, pdf
+
   - title: Jazz Dockers
     output: web, pdf
     folderitems:
 
-    - title: The last stable Reference Server
-      url: /docker_last_stable_reference.html
+    - title: The latest stable Reference Server
+      url: /docker_latest_stable_reference.html
       output: web, pdf
 
     - title: Dockerized Jazz Applications
@@ -72,12 +72,12 @@ entries:
     output: web, pdf
 
     folderitems:
-    - title: A quick R walkthough without a Jazz server
-      url: /rjazz_walkthough_client_only.html
+    - title: A quick R walkthrough without a Jazz server
+      url: /rjazz_walkthrough_client_only.html
       output: web, pdf
 
-    - title: A quick R walkthough connecting to a Jazz server
-      url: /rjazz_walkthough_with_server.html
+    - title: A quick R walkthrough connecting to a Jazz server
+      url: /rjazz_walkthrough_with_server.html
       output: web, pdf
 
     - title: Advanced R usage
@@ -88,12 +88,12 @@ entries:
     output: web, pdf
 
     folderitems:
-    - title: A quick Python walkthough without a Jazz server
-      url: /pyjazz_walkthough_client_only.html
+    - title: A quick Python walkthrough without a Jazz server
+      url: /pyjazz_walkthrough_client_only.html
       output: web, pdf
 
-    - title: A quick Python walkthough connecting to a Jazz server
-      url: /pyjazz_walkthough_with_server.html
+    - title: A quick Python walkthrough connecting to a Jazz server
+      url: /pyjazz_walkthrough_with_server.html
       output: web, pdf
 
     - title: Advanced Python usage
@@ -106,6 +106,10 @@ entries:
     folderitems:
     - title: Jazz with just a web browser
       url: /rest_just_a_browser.html
+      output: web, pdf
+
+    - title: REST API How To?
+      url: /rest_api_how_to.html
       output: web, pdf
 
     - title: The Jazz REST API Reference
