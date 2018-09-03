@@ -1,10 +1,10 @@
 ---
-title: A quick Python walkthough connecting to a Jazz server
+title: A quick Python walkthrough connecting to a Jazz server
 tags: [Jazz, Python]
 keywords:
 summary: "A quick demo on operating a Jazz server via the REST API from Python"
 sidebar: mydoc_sidebar
-permalink: pyjazz_walkthough_with_server.html
+permalink: pyjazz_walkthrough_with_server.html
 folder: pyjazz
 ---
 

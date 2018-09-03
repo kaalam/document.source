@@ -1,10 +1,10 @@
 ---
-title: A quick R walkthough without a Jazz server
+title: A quick R walkthrough without a Jazz server
 tags: [Jazz, R]
 keywords:
 summary: "How Jazz can be used in R without a server or reactively called by a server"
 sidebar: mydoc_sidebar
-permalink: rjazz_walkthough_client_only.html
+permalink: rjazz_walkthrough_client_only.html
 folder: rjazz
 ---
 
