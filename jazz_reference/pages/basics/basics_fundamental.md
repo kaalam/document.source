@@ -1,27 +1,26 @@
 ---
-title: Fundamental Jazz Concepts
+title: Introduction to Jazz
 tags: [Jazz, Basics]
 keywords:
-summary: "Introduction to basic Jazz Concepts"
+summary: "Introduction to Jazz"
 sidebar: mydoc_sidebar
 permalink: basics_fundamental.html
 folder: basics
 ---
 
-Thank you for wanting to know more on Jazz! This is the place to start. In your first reading, feel safe to skip all the links to
-"more on xxx". The content is self contained and hopefully will raise questions that can be answered following the links or contacting
-the authors.
+Thank you for wanting to know more about Jazz! This is the place to start. In your first reading feel safe to skip all the links. The content
+is self contained and hopefully will raise questions that can be answered later following the links or contacting the authors.
 
 ## From 20,000 feet:
 
 Before a detailed introduction, in case you feel the need to put a label on Jazz or want to pitch it in 10 seconds, you may ask...
 
-### Is it a distributed data platform, a language, a no-sql database, an http server, a deep learning framework?
+### Is it a distributed no-sql database, a language, an http server, a deep learning framework?
 
-Jazz is a new kind of data product. It combines all these things plus some others (like being an automated creator of APIs or an abstraction
-over many data sources) while being **just one** extremely lightweight process. It is free software created on top of third party free software.
-It is written in C/C++, available through R and Python packages and also through a REST API. The framework is Linux only, but since it is an http
-back-end, Jazz consumers include all kinds of devices and operating systems. Jazz is designed for millions of users interacting concurrently
+Jazz is a new kind of data product. It combines all these things and some others (an automated creator of APIs, an abstraction over data
+sources, ...) while being **just one** extremely lightweight process. It is free software created on top of third party free software.
+It is written in C/C++, available through R and Python packages and also through a REST API. The framework is Linux only, but, since it is
+an http back-end, Jazz consumers include all devices and operating systems. Jazz is designed for millions of users interacting concurrently
 with large clusters.
 
 Now, let's start the description.
