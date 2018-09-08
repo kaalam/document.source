@@ -28,24 +28,32 @@ This statement is strong, but if you agree on most of (or even all) the followin
 
 <h3>Q: "Learning with something else than Gradient Descent", again, how?</h3>
 
+Computer Go has been sold as a success of deep learning. It is a combination of MonteCarlo Tree Search and DNN. Without the DNN it is still
+stronger than almost the whole human population and as strong as the best in 9x9. Without the Tree Search it just sucks, it becomes
+a player that plays strong and elegant moves, but does not understand when to play them. A few mistakes and the game is over, just one
+mistake against a professional player.
+
 <h3>Q: "Exploring ideas with the right amount of data naturally." I can do that with, say, Tensorflow, so what?</h3>
-	This includes "Learning with something else than fully connected layers."
+
+This includes "Learning with something else than fully connected layers."
 
 <h3>Q: "Semantics that do not make AI look stupid", didn't you just say you don't know how to do that?</h3>
 
-	Automatic programming.
+Automatic programming.
 
-<h3>Q: "Safe and automated ways to work with all kinds of data sources" aren't you overpromising here?.</h3>
+<h3>Q: "Safe and automated ways to work with all kinds of data sources" aren't you overpromising here?</h3>
 
 It is true that we have amazing free software tools to process all kinds of data. But, since we have not advanced much in persistent data abstractions since 1950 (yeah, the file was invented in 1950), it is hard for a machine to reason about how to apply these tools seamlessly. Creation of data pipelines is tedious and error prone.
 
-<h3>Q: "Getting rid of scripting languages", why should that be an objective?.</h3>
+<h3>Q: Why on earth do we need another language? Would xyz not have been a better choice?</h3>
 
-<h3>Q: "Scaling, creating APIs, ..." I can already do that, why move to a less established framework?.</h3>
+<h3>Q: "Getting rid of scripting languages", why should that be an objective?</h3>
 
-	"The lightweight, single process, unlimited threads back-end that simply doesn't need anything else that itself."
+<h3>Q: "Scaling, creating APIs, ..." I can already do that, why move to a less established framework?</h3>
 
-	"In the end, all you need is a box running Jazz and a browser."
+"The lightweight, single process, unlimited threads back-end that simply doesn't need anything else that itself."
+
+"In the end, all you need is a box running Jazz and a browser."
 
 <h3>Q: Jazz does not have security implemented, am I right?</h3>
 
