@@ -8,8 +8,8 @@ permalink: basics_fundamental.html
 folder: basics
 ---
 
-Thank you for wanting to know more about Jazz! This is the place to start. In your first reading feel safe to skip all the links. The content
-is self contained and hopefully will raise questions that can be answered later following the links or contacting the authors.
+Thank you for wanting to know more about Jazz! This is the place to start. The content is self contained and hopefully will raise questions
+that can be answered later navigating the Jazz Reference or contacting the authors.
 
 ## From 20,000 feet:
 
@@ -53,8 +53,8 @@ block. Possible attributes are:
 * **Jazz classes**. Last but not least: Functions are blocks, classes are blocks, more on that in a moment.
 
 {% include note.html content="Since any resource is a block and blocks can have urls. A Jazz server is the only http server you need
-to support any web technology, from static webpages to Typescript and JS frameworks such as Angular and Ionic. For a user, Jazz is a
-website that does AI magic." %}
+to support any web technology, from static webpages to Typescript and JS frameworks such as Angular and Ionic. For the final user, Jazz is a
+website or mobile app that does AI magic." %}
 
 
 ### A Block has an owner
@@ -79,16 +79,16 @@ Jazz blocks have identifiers. Identifiers are unique in the context of their own
 character can be classified as:
 
 * **Volatile** - Temporary blocks that are always local. There is no way to reference them across nodes.
-* **Local** - Blocks that **could** be persisted locally. Will be persisted if owned by a source, will not if owned by some in-RAM owner.
-* **Distributed** - Blocks that contain data distributed and persisted (sharded and replicated) across a Jazz cluster.
-* **Ubiquitous** - Blocks that are everywhere in a cluster (like methods and variables of a distributed table).
+* **Local** - Blocks that **could** be persisted locally. They **will** if owned by a **source** (or any JazzPersistence).
+* **Distributed** - Blocks distributed and persisted (sharded and replicated) across a **Jazz cluster**.
+* **Ubiquitous** - Blocks that are **everywhere** in a cluster (like methods and variables of distributed tables).
 
 
 ### Simple volatile containers
 
 Volatile containers are RAM-only JazzBlockKeepr descendants. They are efficient data structures including: double linked lists, balanced
 binary trees, any trees, stacks and priority queues. Using the API, you will create keeprs by abstracting them as blocks and without caring
-about the details see [...Bebop reference]. For a detailed use in C++ see [...reference].
+about the details.
 {% include note.html content="You can create **graphs of keeprs** of any complexity using the API. E.g., a queue of trees of models belonging
 to a class written in Bebop. (**A class is a keepr itself**, it contains variables and methods, and is **abstracted as a block**.)" %}
 
@@ -98,9 +98,11 @@ Jazz has two more important local classes:
 
 * **JazzPersistence** - Is an abstract class that provides a **file saving** interface and a **pipeline interface** to read/write to/from
 other keeprs any number of blocks in one call.
-* **JazzSource** - Is the implementation of JazzPersistence using **LMDB**. See [...LMDB]. Therefore, a Jazz file is an LMDB file of
-persisted blocks. You can even use command line LMDB utilities to backup a Jazz server while running or access the same file from more than
-one process. E.g., Open a **source in a running http server** from a Python interpreter to see/fix what is running.
+* **JazzSource** - Is the implementation of JazzPersistence using **LMDB**. Therefore, a Jazz file is an LMDB file of persisted blocks.
+You can even use command line LMDB utilities to backup a Jazz server while running or access the same file from more than one process.
+E.g., Open a **source in a running http server** from a Python interpreter to see/fix it while running.
+{% include note.html content="Since **LMDB is a transactionally consistent key/value store** using a memory mapped file as a persistence, Jazz,
+at its minimum, is a distributed key/value store second to none in terms of efficiency." %}
 
 
 ## Distributed containers
