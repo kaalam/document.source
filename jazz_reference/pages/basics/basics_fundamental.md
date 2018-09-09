@@ -121,7 +121,8 @@ a row is a video, in an image, a row is a row of pixels, in a file, a row is a b
 row selections as a first class citizen. (E.g., It can return a selection from a persisted block without ever copying the block or
 accessing any non selected elements.)
 
-A "vertical" chain of blocks of any type can be abstracted as a **column**, and therefore distributed across a cluster, given:
+A "vertical" chain of blocks of any type can be abstracted as a **column** (JazzColumn), and therefore distributed across a **cluster**
+(JazzCluster), given:
 
 * All blocks have the **same type and dimensions**.
 * There is an explicit or implicit **unique identifier for each row**.
@@ -133,9 +134,9 @@ A column is created by defining either a **DenseMapping** or a **SparseMapping**
 a row for any existing value of the identifier, which may contain NA values if not informed. A **SparseMapping** is a more efficient way
 to represent sparse data where only exiting rows are stored together with an index identifying each row.
 
-{% include note.html content="A **dataframe is a list of columns** that share the same mapping. Since columns are tensors, it is possible
-to have a five columns dataframe where a row is: 1. a video, 2. a sound track, 3. a label, 4. a multiple choice of tags, 5. a free text
-description. The **video and the soundtrack are tensors of raw data**, not links to external files." %}
+{% include note.html content="A **dataframe (JazzDataframe) is a list of columns** that share the same mapping. Since columns are tensors,
+it is possible to have a five columns dataframe where a row is: 1. a video, 2. a sound track, 3. a label, 4. a multiple choice of tags, 5.
+a free text description. The **video and the soundtrack are tensors of raw data**, not links to external files." %}
 
 
 ### Filesystems, remote sources, distributed filesystems
