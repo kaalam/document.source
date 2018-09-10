@@ -5,7 +5,6 @@ keywords:
 summary: "Jazz Standard Core Reference"
 sidebar: mydoc_sidebar
 permalink: sc_00_reference.html
-folder: sc
 ---
 
 ## About iTerm profiles

@@ -5,7 +5,6 @@ keywords:
 summary: "Jazz on steroids series - The speech processing image"
 sidebar: mydoc_sidebar
 permalink: docker_jazz_speech.html
-folder: docker
 ---
 
 ## About the review process

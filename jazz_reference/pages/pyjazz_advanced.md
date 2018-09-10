@@ -5,7 +5,6 @@ keywords:
 summary: "Getting oriented with Jazz Documentation for Python programmers"
 sidebar: mydoc_sidebar
 permalink: pyjazz_advanced.html
-folder: pyjazz
 ---
 
 

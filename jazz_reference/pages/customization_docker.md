@@ -5,7 +5,6 @@ keywords:
 summary: "Creating your own dockerized, preloaded Jazz servers"
 sidebar: mydoc_sidebar
 permalink: customization_docker.html
-folder: customization
 ---
 
 ## Bulleted Lists

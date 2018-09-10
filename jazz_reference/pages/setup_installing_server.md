@@ -5,7 +5,6 @@ keywords:
 summary: "Getting up 'n' running with your Jazz server using a Docker image"
 sidebar: mydoc_sidebar
 permalink: setup_installing_server.html
-folder: setup
 ---
 
 ## About alerts

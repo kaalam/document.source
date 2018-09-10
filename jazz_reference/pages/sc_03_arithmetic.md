@@ -5,7 +5,6 @@ keywords:
 summary: "Jazz Standard Core - Arithmetic operations"
 sidebar: mydoc_sidebar
 permalink: sc_03_arithmetic.html
-folder: sc
 ---
 
 ## About text editors and WebStorm
@@ -33,7 +32,7 @@ When you're searching for content, you don't want to edit any file that appears 
 
 ## Set tabs to 4 spaces
 
-You can set the default number of spaces a tab sets, including whether Webstorm uses a tab character or spaces. You want spaces, and you want to set this to default number of spaces to ```4```. Note that this is due to the way Kramdown handles the continuation 
+You can set the default number of spaces a tab sets, including whether Webstorm uses a tab character or spaces. You want spaces, and you want to set this to default number of spaces to ```4```. Note that this is due to the way Kramdown handles the continuation
 of lists.
 
 ## Shortcuts
