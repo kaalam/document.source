@@ -1,8 +1,6 @@
 ---
 title: Introduction to Jazz
-tags: [Jazz, Basics]
-keywords:
-summary: "Introduction to Jazz"
+summary: Introduction to Jazz
 sidebar: mydoc_sidebar
 permalink: basics_fundamental.html
 ---
@@ -323,3 +321,5 @@ serializing functionality to use the REST API from Python seamlessly.
 
 Again, anything can be created in Bebop, a Bebop function can be a Python string so working with Jazz can be straightforward, but making
 it **Pythonic** may require other packages built on top of **pyjazz**.
+
+{% include links.html %}

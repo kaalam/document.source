@@ -1,8 +1,6 @@
 ---
-title: "Welcome to Jazz!"
-tags: [Jazz, Basics]
-keywords:
-summary: "Reference Documentation for Jazz, Bebop, the server, the clients and the reference docker images"
+title: Welcome to Jazz!
+summary: Reference Documentation for Jazz, Bebop, the server, the clients and the reference docker images
 sidebar: mydoc_sidebar
 permalink: index.html
 ---
