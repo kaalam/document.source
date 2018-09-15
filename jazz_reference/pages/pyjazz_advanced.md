@@ -6,3 +6,5 @@ permalink: pyjazz_advanced.html
 ---
 
 ## Remove this!
+
+{% include links.html %}

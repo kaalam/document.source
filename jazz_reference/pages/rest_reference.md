@@ -6,3 +6,5 @@ permalink: rest_reference.html
 ---
 
 ## Remove this!
+
+{% include links.html %}

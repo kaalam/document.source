@@ -6,3 +6,5 @@ permalink: sc_14_functions_in_python.html
 ---
 
 ## Remove this!
+
+{% include links.html %}

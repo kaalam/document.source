@@ -6,3 +6,5 @@ permalink: contributing_to_jazz.html
 ---
 
 ## Remove this!
+
+{% include links.html %}

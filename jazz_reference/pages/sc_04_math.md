@@ -5,5 +5,6 @@ sidebar: mydoc_sidebar
 permalink: sc_04_math.html
 ---
 
-
 ## Remove this!
+
+{% include links.html %}

@@ -6,3 +6,5 @@ permalink: pyjazz_walkthrough_client_only.html
 ---
 
 ## Remove this!
+
+{% include links.html %}

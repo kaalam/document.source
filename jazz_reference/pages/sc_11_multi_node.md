@@ -6,3 +6,5 @@ permalink: sc_11_multi_node.html
 ---
 
 ## Remove this!
+
+{% include links.html %}

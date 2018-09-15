@@ -6,3 +6,5 @@ permalink: customization_scripting.html
 ---
 
 ## Remove this!
+
+{% include links.html %}

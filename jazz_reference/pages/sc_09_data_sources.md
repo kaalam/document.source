@@ -6,3 +6,5 @@ permalink: sc_09_data_sources.html
 ---
 
 ## Remove this!
+
+{% include links.html %}

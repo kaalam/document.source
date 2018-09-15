@@ -5,5 +5,6 @@ sidebar: mydoc_sidebar
 permalink: sc_00_reference.html
 ---
 
-
 ## Remove this!
+
+{% include links.html %}
