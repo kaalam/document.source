@@ -134,9 +134,28 @@ audit_file <- function(i)
 	writeLines(txt, fn)
 }
 
-
 for (i in which(pages$status == 'found')) audit_file(i)
 
 if (files_moved) stop ('Some files were moved, run again to create new files (or copy manually if move was wrong).')
+
+
+new_file <- function(i)
+{
+	fn <- pages$fname[i]
+
+	head <- c('---',
+			  paste('title:', pages$title[i]),
+			  paste('summary:'),
+			  paste('sidebar:', 'mydoc_sidebar'),
+			  paste('permalink:', paste0(pages$name[i], '.html')),
+			  '---')
+
+	body <- readLines('template/template_body.md')
+
+	txt <- c(head, '', body, '', '{% include links.html %}')
+
+	cat('Creating new file from template', fn, '\n')
+	writeLines(txt, fn)
+}
 
 for (i in which(pages$status == 'not_found')) new_file(i)
