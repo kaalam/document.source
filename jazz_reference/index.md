@@ -1,17 +1,32 @@
 ---
 title: Welcome to Jazz!
-summary: Reference Documentation for Jazz, Bebop, the server, the clients and the reference docker images
+summary: Reference documentation for Jazz (the server), the R and Python clients, Bebop (the language) and core Docker images
 sidebar: mydoc_sidebar
 permalink: index.html
 ---
 
-If you've never installed or run a Jekyll site locally on your computer, follow these instructions to install Jekyll:
+Thank you for your interest in Jazz, this is the place to start.
 
-* [Install Jekyll on Mac][mydoc_install_jekyll_on_mac]
-* [Install Jekyll on Windows][mydoc_install_jekyll_on_windows]
+## Basic Questions on Jazz
 
-## Other instructions
+* [What is the vision? What does Jazz want to become?](basics_jazz_vision.html)
+* [What is the usable part of Jazz today?](basics_jazz_today.html)
+* [Why would I be interested in a product still under development?](basics_why_anytime_soon.html)
 
-The content here is just a getting started guide only. For other details in working with the theme, see the various sections in the sidebar.
+## Using Jazz
+
+* [What simple Proof of Concept can I do using prebuilt packages?](starting_trying_out_pocs.html)
+* [How can I compile Jazz and the clients?](starting_compile_jazz.html)
+
+## Contributing to Jazz
+
+* [What kind of skills can be helpful?](contributing_welcome_all.html)
+* [How do you plan making Jazz a business?](contributing_why_kaalam.html)
+
+## References
+
+* [Server internals and setup](reference_top_jazz_internals.html)
+* [API reference a clients](reference_top_clients.html)
+* [Bebop](reference_top_bebop.html)
 
 {% include links.html %}
