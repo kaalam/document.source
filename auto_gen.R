@@ -1,13 +1,39 @@
 #!/usr/bin/Rscript
 
 
-pages <- data.frame(stringsAsFactors = FALSE)
+get_serial <- function(fn = '../Jazz/server/src/include/jazz_platform.h')
+{
+	txt <- readLines(fn)
 
+	rex <- '^#define JAZZ_VERSION *"?([0-9]+\\.[0-9]+\\.[0-9]+)"? *$'
+
+	ix <- which(grepl(rex, txt))
+
+	if (length(ix) != 1) stop('Failed to locate version (1)')
+
+	gsub(rex, '\\1', txt[ix])
+}
+
+jazz_serial <- get_serial()
+pages       <- data.frame(stringsAsFactors = FALSE)
 files_moved <- FALSE
+
 
 parse_yml <- function (fn = 'jazz_reference/_data/sidebars/mydoc_sidebar.yml')
 {
 	txt <- readLines(fn)
+
+	rex <- '^  version: [0-9]+\\.[0-9]+\\.[0-9]+$'
+
+	ix <- which(grepl(rex, txt))
+
+	if (length(ix) != 1) stop('Failed to locate version (2)')
+
+	txt[ix]	<- paste('  version:', jazz_serial)
+
+	txt <- gsub(' $', '', txt)
+
+	writeLines(txt, fn)
 
 	rex_tit <- '^    (    )?- title: ?([^ ].*[^ ]) *$'
 	rex_url <- '^.*url: ?/([^ ]+)\\.html *$'
