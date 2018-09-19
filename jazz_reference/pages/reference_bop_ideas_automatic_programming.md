@@ -1,6 +1,6 @@
 ---
 title: Support for automatic programming
-summary:
+summary: 
 sidebar: mydoc_sidebar
 permalink: reference_bop_ideas_automatic_programming.html
 ---

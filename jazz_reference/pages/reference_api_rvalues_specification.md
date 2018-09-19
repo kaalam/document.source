@@ -1,6 +1,6 @@
 ---
 title: Rvalues specification
-summary:
+summary: 
 sidebar: mydoc_sidebar
 permalink: reference_api_rvalues_specification.html
 ---

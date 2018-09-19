@@ -1,6 +1,6 @@
 ---
 title: Language basics
-summary:
+summary: 
 sidebar: mydoc_sidebar
 permalink: reference_bop_basics.html
 ---

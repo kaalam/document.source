@@ -1,6 +1,6 @@
 ---
 title: Latest Stable Server
-summary:
+summary: 
 sidebar: mydoc_sidebar
 permalink: reference_docker_latest_server.html
 ---

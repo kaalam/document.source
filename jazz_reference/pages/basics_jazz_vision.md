@@ -1,6 +1,6 @@
 ---
 title: What is the vision? What does Jazz want to become?
-summary: Introduction to Jazz
+summary: 
 sidebar: mydoc_sidebar
 permalink: basics_jazz_vision.html
 ---

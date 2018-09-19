@@ -1,6 +1,6 @@
 ---
 title: Predicates, lvalues and rvalues
-summary:
+summary: 
 sidebar: mydoc_sidebar
 permalink: reference_api_predicates_lvalues_rvalues.html
 ---

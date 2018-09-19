@@ -1,6 +1,6 @@
 ---
 title: A Google assistant PoC
-summary:
+summary: 
 sidebar: mydoc_sidebar
 permalink: reference_google_actions_poc.html
 ---

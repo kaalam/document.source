@@ -1,6 +1,6 @@
 ---
 title: Configuring a Jazz cluster
-summary:
+summary: 
 sidebar: mydoc_sidebar
 permalink: starting_jazz_cluster_setup.html
 ---

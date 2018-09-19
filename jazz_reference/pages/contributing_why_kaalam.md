@@ -1,6 +1,6 @@
 ---
 title: How do you plan making Jazz a business?
-summary:
+summary: 
 sidebar: mydoc_sidebar
 permalink: contributing_why_kaalam.html
 ---

@@ -1,6 +1,6 @@
 ---
 title: What kind of skills can be helpful?
-summary:
+summary: 
 sidebar: mydoc_sidebar
 permalink: contributing_welcome_all.html
 ---
