@@ -7,6 +7,10 @@ permalink: index.html
 
 Thank you for your interest in Jazz, this is the place to start.
 
+{% include important.html content="Jazz is still under development to produce the first Minimum Viable Product (MVP), so don't expect
+this reference to be very stable. Things are changing and this manual **is the place** to keep materials that are \"following the
+movement\"." %}
+
 ## Basic Questions on Jazz
 
 * [What is the vision? What does Jazz want to become?](basics_jazz_vision.html)
