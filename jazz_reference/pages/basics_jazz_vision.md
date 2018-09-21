@@ -1,12 +1,12 @@
 ---
 title: What is the vision? What does Jazz want to become?
-summary: 
+summary:
 sidebar: mydoc_sidebar
 permalink: basics_jazz_vision.html
 ---
 
-Thank you for wanting to know more about Jazz! This is the place to start. The content is self contained and hopefully will raise questions
-that can be answered later navigating the Jazz Reference or contacting the authors.
+{% include note.html content="To avoid confusion, we call this page \"What is the vision\" instead of \"What is Jazz\" some day, we will
+change the name to the latter. Take this as **This is Jazz** but most of it is not implemented yet." %}
 
 
 ## From 20,000 feet:
