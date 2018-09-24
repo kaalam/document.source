@@ -114,7 +114,7 @@ The available include properties are as follows:
 
 | Property | description |
 |-------|--------|
-| file | The name of the file. Reference the subfolder path here, like this: `mysubfolder/jekyllrb.png` |
+| file | The name of the file. Reference the subfolder path here, like this: `my_subfolder/jekyll.png` |
 | url | Whether to link the image to a URL |
 | alt | Alternative image text for accessibility and SEO |
 | caption | A caption for the image |
@@ -159,11 +159,11 @@ widths.
 ## jQuery DataTables
 
 You also have the option of using a [jQuery DataTable](https://www.datatables.net/), which gives you some additional capabilities. To use
-a jQuery DataTable in a page, include `datatable: true` in a page's frontmatter. This tells the default layout to load the necessary CSS
+a jQuery DataTable in a page, include `datatable: true` in a page's front matter. This tells the default layout to load the necessary CSS
 and javascript bits and to include a `$(document).ready()` function that initializes the DataTables library.
 
 You can change the options used to initialize the DataTables library by editing the call to `$('table.display').DataTable()` in the default
-layout.  The available options for Datatables are described in the [DataTable documentation](https://www.datatables.net/manual/options),
+layout.  The available options for Data tables are described in the [DataTable documentation](https://www.datatables.net/manual/options),
 which is excellent.
 
 You also must add a class of `display` to your tables.  You can change the class, but then you'll need to change the trigger defined in
@@ -175,7 +175,7 @@ which lets you use different options on different tables.
 If you use an HTML table, adding `class="display"` to the `<table>` tag is sufficient.
 
 Markdown, however, doesn't allow you to add classes to tables, so you'll need to use a trick: add `<div class="datatable-begin"></div>`
-before the table and `<div class="datatable-end"></div>` after the table.  The default layout includes a jQuery snippet that automagically
+before the table and `<div class="datatable-end"></div>` after the table.  The default layout includes a jQuery snippet that automatically
 adds the `display` class to any table it finds between those two markers.  So you can start with this (we've trimmed the descriptions for
 display):
 
@@ -213,7 +213,7 @@ Here's the code for the above (with the filler text abbreviated):
   <div class="tab-content">
 <div role="tabpanel" class="tab-pane active" id="profile">
     <h2>Profile</h2>
-<p>Praesent sit amet fermentum leo....</p>
+<p>The quick brown fox....</p>
 </div>
 
 <div role="tabpanel" class="tab-pane" id="about">
@@ -222,7 +222,7 @@ Here's the code for the above (with the filler text abbreviated):
 
 <div role="tabpanel" class="tab-pane" id="match">
     <h2>Match</h2>
-    <p>Vel vehicula ....</p>
+    <p>jumps over ....</p>
 </div>
 </div>
 ```
@@ -249,9 +249,9 @@ for file_name in sorted(python_files):
     print
 ```
 
-## Navtabs demo
+## Nav tabs demo
 
-The following is a demo of a navtab. Refresh your page to see the tab you selected remain active.
+The following is a demo of a nav tab. Refresh your page to see the tab you selected remain active.
 
 <ul id="profileTabs" class="nav nav-tabs">
     <li class="active"><a class="noCrossRef" href="#profile" data-toggle="tab">Profile</a></li>
@@ -262,45 +262,40 @@ The following is a demo of a navtab. Refresh your page to see the tab you select
 <div role="tabpanel" class="tab-pane active" id="profile" markdown="1">
 ## Profile
 
-Praesent sit amet fermentum leo. Aliquam feugiat,
+The quick brown fox,
 
-1.  nibh in u ltrices mattis
-2.  felis ipsum venenatis metus, vel vehicula libero mauris a enim. Sed placerat est ac lectus vestibulum tempor.
-    * Quisque ut condimentum massa.
-    * ut condimentum massa.
+1.  jumps over
+2.  the lazy animals
+    * including the lazy dog
+    * and a hamster
 
-> Proin venenatis leo id urna cursus blandit. Vivamus sit amet hendrerit metus.
+> And the zoo keeper
 </div>
 
 <div role="tabpanel" class="tab-pane" id="about">
     <h2>About</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vel sollicitudin felis. Sed eu arcu sed ipsum semper luctus eu a
-	tortor. Suspendisse id leo eu metus laoreet varius. Mauris consequat accumsan ex, a iaculis metus fermentum a. Praesent sit amet
-	fermentum leo. Aliquam feugiat, nibh in u ltrices mattis, felis ipsum venenatis metus, vel vehicula libero mauris a enim. Sed placerat
-	est ac lectus vestibulum tempor. Quisque ut condimentum massa. Proin venenatis leo id urna cursus blandit. Vivamus sit amet hendrerit
-	metus.about</p></div>
+    <p>The quick brown fox jumps over the lazy dog a few times and then has a nap.</p></div>
 
 <div role="tabpanel" class="tab-pane" id="match">
     <h2>Match</h2>
-    <p>Vel vehicula libero mauris a enim. Sed placerat est ac lectus vestibulum tempor. Quisque ut condimentum massa. Proin venenatis leo
-	id urna cursus blandit. Vivamus sit amet hendrerit metus.</p>
+    <p>The quick brown fox jumps over the lazy dog a few times and then has a nap. (again)</p>
 </div>
 </div>
 
 ## Design constraints
 
-Bootstrap automatically clears any floats after the navtab. Make sure you aren't trying to float any element to the right of your navtabs,
+Bootstrap automatically clears any floats after the nav tab. Make sure you aren't trying to float any element to the right of your nav tabs,
 or there will be some awkward space in your layout.
 
 ## Appearance in the mini-TOC
 
-If you put a heading in the navtab content, that heading will appear in the mini-TOC as long as the heading tag has an ID. If you don't
-want the headings for each navtab section to appear in the mini-TOC, omit the ID attribute from the heading tag. Without this ID attribute
+If you put a heading in the nav tab content, that heading will appear in the mini-TOC as long as the heading tag has an ID. If you don't
+want the headings for each nav tab section to appear in the mini-TOC, omit the ID attribute from the heading tag. Without this ID attribute
 in the heading, the mini-TOC won't insert the heading title into the mini-TOC.
 
 ## Must use HTML
 
-You must use HTML within the navtab content because each navtab section is surrounded with HTML, and you can't use Markdown inside of HTML.
+You must use HTML within the nav tab content because each nav tab section is surrounded with HTML, and you can't use Markdown inside HTML.
 
 ## Match up ID tags
 
