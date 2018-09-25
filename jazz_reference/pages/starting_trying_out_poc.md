@@ -1,8 +1,8 @@
 ---
-title: How do you plan making Jazz a business?
+title: What simple Proof of Concept can I do using prebuilt packages?
 summary: 
 sidebar: mydoc_sidebar
-permalink: contributing_why_kaalam.html
+permalink: starting_trying_out_poc.html
 ---
 
 ## This is a template!
