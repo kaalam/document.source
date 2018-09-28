@@ -5,7 +5,6 @@ keywords:
 summary: "Be part of kaalam.ai"
 sidebar: mydoc_sidebar
 permalink: contributing_to_jazz.html
-folder: customization
 ---
 
 
@@ -28,12 +27,12 @@ The following is a demo of a navtab. Refresh your page to see the tab you select
 <div role="tabpanel" class="tab-pane active" id="profile" markdown="1">
 ## Profile
 
-Praesent sit amet fermentum leo. Aliquam feugiat, 
+Praesent sit amet fermentum leo. Aliquam feugiat,
 
 1.  nibh in u ltrices mattis
-2.  felis ipsum venenatis metus, vel vehicula libero mauris a enim. Sed placerat est ac lectus vestibulum tempor. 
-    * Quisque ut condimentum massa. 
-    * ut condimentum massa. 
+2.  felis ipsum venenatis metus, vel vehicula libero mauris a enim. Sed placerat est ac lectus vestibulum tempor.
+    * Quisque ut condimentum massa.
+    * ut condimentum massa.
 
 > Proin venenatis leo id urna cursus blandit. Vivamus sit amet hendrerit metus.
 </div>

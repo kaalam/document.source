@@ -5,7 +5,6 @@ keywords:
 summary: "Jazz on steroids series - A simple OCR example"
 sidebar: mydoc_sidebar
 permalink: docker_jazz_ocr.html
-folder: docker
 ---
 
 

@@ -2,10 +2,8 @@
 title: SC Support for File-like Structures
 tags: [Jazz, Standard Core]
 keywords:
-summary: "Jazz Standard Core - File-like Structures"
 sidebar: mydoc_sidebar
 permalink: sc_08_file_like.html
-folder: sc
 ---
 
 ## Reasons for tags

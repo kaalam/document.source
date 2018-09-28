@@ -5,7 +5,6 @@ keywords:
 summary: "Extending the Core in C++"
 sidebar: mydoc_sidebar
 permalink: customization_cpp.html
-folder: customization
 ---
 
 ## About labels

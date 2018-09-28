@@ -5,7 +5,6 @@ keywords:
 summary: "Jazz Standard Core - Multinode principles"
 sidebar: mydoc_sidebar
 permalink: sc_11_multi_node.html
-folder: sc
 ---
 
 Before you get into exploring Jekyll as a potential platform for help content, you may be wondering if it supports some basic features needed to fulfill your tech doc requirements. The following table shows what is supported in Jekyll and this theme.

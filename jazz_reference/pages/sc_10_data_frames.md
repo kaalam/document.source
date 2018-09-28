@@ -5,7 +5,6 @@ keywords:
 summary: "Jazz Standard Core - Data frames"
 sidebar: mydoc_sidebar
 permalink: sc_10_data_frames.html
-folder: sc
 ---
 
 ## About syntax highlighting
@@ -17,7 +16,7 @@ Fenced code blocks require a blank line before and after.
 If you're using an HTML file, you can also use the `highlight` command with Liquid markup.
 
 
-Result: 
+Result:
 
 
 The theme has syntax highlighting specified in the configuration file as follows:

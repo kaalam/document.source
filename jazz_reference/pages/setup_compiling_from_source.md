@@ -5,7 +5,6 @@ keywords:
 summary: "Compiling the Jazz server, the clients and the docker images from source"
 sidebar: mydoc_sidebar
 permalink: setup_compiling_from_source.html
-folder: setup
 ---
 
 If you haven't downloaded [Atom](https://atom.io/), download and install it. Use this as your editor when working with Jekyll. The syntax highlighting is probably the best among the available editors, as it was designed with Jekyll-authoring in mind. However, if you prefer Sublime Text, WebStorm, or some other editor, you can also use that.

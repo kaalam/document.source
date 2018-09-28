@@ -5,7 +5,6 @@ keywords:
 summary: "Setting up a cluster: Configuring a cluster and applying the configuration to all the nodes."
 sidebar: mydoc_sidebar
 permalink: setup_cluster.html
-folder: setup
 ---
 
 

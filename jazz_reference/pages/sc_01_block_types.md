@@ -5,7 +5,6 @@ keywords:
 summary: "Jazz Standard Core - Block Types"
 sidebar: mydoc_sidebar
 permalink: sc_01_block_types.html
-folder: sc
 ---
 
 ## Overview

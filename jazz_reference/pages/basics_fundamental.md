@@ -5,7 +5,6 @@ keywords:
 summary: "Introduction to Jazz"
 sidebar: mydoc_sidebar
 permalink: basics_fundamental.html
-folder: basics
 ---
 
 Thank you for wanting to know more about Jazz! This is the place to start. The content is self contained and hopefully will raise questions

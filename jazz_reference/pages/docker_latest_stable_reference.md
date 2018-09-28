@@ -5,7 +5,6 @@ keywords:
 summary: "A clean, read-to-go Jazz image available at Docker Cloud"
 sidebar: mydoc_sidebar
 permalink: docker_latest_stable_reference.html
-folder: docker
 ---
 
 ## How to build Jekyll sites

@@ -5,7 +5,6 @@ keywords:
 summary: "Defining Bebop's principles for distributed computing"
 sidebar: mydoc_sidebar
 permalink: bebop_multinode_principles.html
-folder: bebop
 ---
 
 ## Overview

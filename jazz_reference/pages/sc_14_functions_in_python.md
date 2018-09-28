@@ -5,7 +5,6 @@ keywords:
 summary: "Jazz Standard Core - Functions in Python"
 sidebar: mydoc_sidebar
 permalink: sc_14_functions_in_python.html
-folder: sc
 ---
 
 Note that the url does not include the project folder where the file is stored. This is because the site uses permalinks, which pulls the topics out of subfolders and places them into the root directory when the site builds.

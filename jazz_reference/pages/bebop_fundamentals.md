@@ -5,7 +5,6 @@ keywords:
 summary: "An introduction to Bebop"
 sidebar: mydoc_sidebar
 permalink: bebop_fundamentals.html
-folder: bebop
 ---
 
 ## Create an external link

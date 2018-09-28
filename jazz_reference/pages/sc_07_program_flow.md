@@ -5,7 +5,6 @@ keywords:
 summary: "Jazz Standard Core - Conditional flow"
 sidebar: mydoc_sidebar
 permalink: sc_07_program_flow.html
-folder: sc
 ---
 
 ## Add a tag to a page
