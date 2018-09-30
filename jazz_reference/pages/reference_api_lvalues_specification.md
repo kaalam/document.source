@@ -1,6 +1,6 @@
 ---
 title: Lvalues specification
-summary: 
+summary: Lvalues as implemented in Jazz, a complete specification.
 sidebar: mydoc_sidebar
 permalink: reference_api_lvalues_specification.html
 ---

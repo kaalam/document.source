@@ -1,6 +1,6 @@
 ---
 title: What kind of skills can be helpful?
-summary: 
+summary: Building a community with "no exclusion, no exceptions".
 sidebar: mydoc_sidebar
 permalink: contributing_welcome_all.html
 ---

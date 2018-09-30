@@ -1,6 +1,6 @@
 ---
 title: Rvalues specification
-summary: 
+summary: Rvalues as implemented in Jazz, a complete specification.
 sidebar: mydoc_sidebar
 permalink: reference_api_rvalues_specification.html
 ---
