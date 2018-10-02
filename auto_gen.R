@@ -3,6 +3,7 @@
 
 pages <- data.frame(stringsAsFactors = FALSE)
 
+files_moved <- FALSE
 
 parse_yml <- function (fn = 'jazz_reference/_data/sidebars/mydoc_sidebar.yml')
 {
@@ -45,6 +46,7 @@ search_files <- function(pat = 'jazz_reference/pages', index_pat = 'jazz_referen
 		cmds <- paste0('mv ', ist_fn, ' recycle/', gsub('^.*/([^/]+)$', '\\1', ist_fn))
 
 		for (cmd in cmds) {
+			files_moved <- TRUE
 			cat('Moving unused file: >', cmd, '\n')
 			system(cmd, intern = TRUE)
 		}
@@ -106,7 +108,16 @@ audit_file <- function(i)
 	while (body[1] == '') body <- body[-1]
 
 	if (any(body == '## This is a template!')) cat('Template detected in', fn, '\n')
-	if (any(body == '## Remove this!'))		   cat('Old markdown has to be removed in', fn, '\n')
+	if (any(body == '## Remove this!')) {
+		cmd <- paste0('mv ', fn, ' recycle/', gsub('^.*/([^/]+)$', '\\1', fn))
+
+		files_moved <- TRUE
+
+		cat('Moving unused file: >', cmd, '\n')
+		system(cmd, intern = TRUE)
+
+		return (TRUE)
+	}
 
 	ix <- which(body == '{% include links.html %}')
 
@@ -126,5 +137,6 @@ audit_file <- function(i)
 
 for (i in which(pages$status == 'found')) audit_file(i)
 
+if (files_moved) stop ('Some files were moved, run again to create new files (or copy manually if move was wrong).')
 
 for (i in which(pages$status == 'not_found')) new_file(i)
