@@ -29,7 +29,7 @@ entries:
           output: web
 
         - title: Core functions
-          url: /vision_applying_core_to_blocks.html
+          url: /vision_core_functions.html
           output: web
 
         - title: Distributed containers
