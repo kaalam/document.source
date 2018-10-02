@@ -1,12 +1,13 @@
 ---
-title: Introduction to Jazz
+title: What is the vision? What does Jazz want to become?
 summary: Introduction to Jazz
 sidebar: mydoc_sidebar
-permalink: basics_fundamental.html
+permalink: basics_jazz_vision.html
 ---
 
 Thank you for wanting to know more about Jazz! This is the place to start. The content is self contained and hopefully will raise questions
 that can be answered later navigating the Jazz Reference or contacting the authors.
+
 
 ## From 20,000 feet:
 
@@ -53,7 +54,6 @@ block. Possible attributes are:
 to support any web technology, from static webpages to Typescript and JS frameworks such as Angular and Ionic. For the final user, Jazz is a
 website or mobile app that does AI magic." %}
 
-
 ### A Block has an owner
 
 A block is binary moveable, quasi-immutable and has an owner, called a **keepr** (or more precisely a JazzBlockKeepr descendant).
@@ -79,7 +79,6 @@ character can be classified as:
 * **Local** - Blocks that **could** be persisted locally. They **will** if owned by a **source** (or any JazzPersistence).
 * **Distributed** - Blocks distributed and persisted (sharded and replicated) across a **Jazz cluster**.
 * **Ubiquitous** - Blocks that are **everywhere** in a cluster (like methods and variables of distributed tables).
-
 
 ### Simple volatile containers
 
@@ -110,7 +109,6 @@ the cluster definition. All Jazz nodes understand where (in possibly more than o
 {% include note.html content="When used via a REST API, **all nodes support all queries**. A query directed to the wrong node will simply be
 redirected to a node that should be able to handle it." %}
 
-
 ### Columns and dataframes
 
 In Jazz, the first dimension of any block is special and divides the tensor in **rows**. Rows that can be anything. In a vector of videos,
@@ -134,7 +132,6 @@ to represent sparse data where only exiting rows are stored together with an ind
 {% include note.html content="A **dataframe (JazzDataframe) is a list of columns** that share the same mapping. Since columns are tensors,
 it is possible to have a five columns dataframe where a row is: 1. a video, 2. a sound track, 3. a label, 4. a multiple choice of tags, 5.
 a free text description. The **video and the soundtrack are tensors of raw data**, not links to external files." %}
-
 
 ### Filesystems, remote sources, distributed filesystems
 
@@ -303,7 +300,6 @@ them from simple parts using Bebop functions written inside R. Since Jazz is acc
 serious limitation. Other R packages built on top of **rjazz** can make working inside R friendlier.
 
 The R package **rjazz** also includes built-in http client support to use the REST API from R.
-
 
 ### Python API
 
