@@ -1,12 +1,12 @@
-# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+# This is parsed and updated (the version only) by ./auto_gen.R
 
 entries:
 - title: sidebar
   product: Jazz
-  version: 0.2.x
+  version: 0.0.0
   folders:
 
-  - title: Basics
+  - title: Basic Questions on Jazz
     output: web, pdf
     folderitems:
 
@@ -15,40 +15,131 @@ entries:
       output: web, pdf
       type: homepage
 
-    - title: Introduction to Jazz
-      url: /basics_fundamental.html
+    - title: What is the vision? What does Jazz want to become?
+      url: /basics_jazz_vision.html
       output: web, pdf
 
-  - title: Setup
+    - title: What is the usable part of Jazz today?
+      url: /basics_jazz_today.html
+      output: web, pdf
+
+    - title: Why would I be interested in a product still under development?
+      url: /basics_why_anytime_soon.html
+      output: web, pdf
+
+  - title: Using Jazz
     output: web, pdf
     folderitems:
 
-    - title: Installing a Jazz client
-      url: /setup_installing_client.html
+    - title: What simple Proof of Concept can I do using prebuilt packages?
+      url: /starting_trying_out_pocs.html
       output: web, pdf
 
-    - title: Running a Dockerized Jazz server
-      url: /setup_installing_server.html
+    - title: How can I compile Jazz and the clients?
+      url: /starting_compile_jazz.html
       output: web, pdf
 
-    - title: Compiling Jazz from source
-      url: /setup_compiling_from_source.html
+    - title: Using Jazz as an R package only
+      url: /starting_jazz_from_r.html
       output: web, pdf
 
-    - title: Setting up a Jazz cluster
-      url: /setup_cluster.html
+    - title: Using Jazz as a Python package only
+      url: /starting_jazz_from_python.html
       output: web, pdf
 
-  - title: Jazz Dockers
+    - title: Using Jazz as an Http server
+      url: /starting_jazz_server_setup.html
+      output: web, pdf
+
+    - title: Configuring a Jazz cluster
+      url: /starting_jazz_cluster_setup.html
+      output: web, pdf
+
+  - title: Contributing to Jazz
     output: web, pdf
     folderitems:
 
-    - title: The latest stable Reference Server
-      url: /docker_latest_stable_reference.html
+    - title: What kind of skills can be helpful?
+      url: /contributing_welcome_all.html
       output: web, pdf
 
-    - title: Dockerized Jazz Applications
-      url: /docker_jazz_a_la_carte.html
+    - title: How do you plan making Jazz a business?
+      url: /contributing_why_kaalam.html
+      output: web, pdf
+
+  - title: Server Reference
+    output: web, pdf
+    folderitems:
+
+    - title: Server internals and setup
+      url: /reference_top_jazz_internals.html
+      output: web, pdf
+
+      subfolders:
+      - title: Blocks
+        output: web
+        subfolderitems:
+
+        - title: Blocks
+          url: /reference_jazz_blocks.html
+          output: web
+
+  - title: API Reference
+    output: web, pdf
+    folderitems:
+
+    - title: API reference a clients
+      url: /reference_top_clients.html
+      output: web, pdf
+
+      subfolders:
+      - title: Predicates, lvalues and rvalues
+        output: web
+        subfolderitems:
+
+        - title: Predicates, lvalues and rvalues
+          url: /reference_api_predicates_lvalues_rvalues.html
+          output: web
+
+        - title: Lvalues specification
+          url: /reference_api_lvalues_specification.html
+          output: web
+
+        - title: Rvalues specification
+          url: /reference_api_rvalues_specification.html
+          output: web
+
+  - title: Bebop Reference
+    output: web, pdf
+    folderitems:
+
+    - title: Bebop
+      url: /reference_top_bebop.html
+      output: web, pdf
+
+      subfolders:
+      - title: Language basics
+        output: web
+        subfolderitems:
+
+        - title: Language basics
+          url: /reference_bop_basics.html
+          output: web
+
+        - title: Support for automatic programming
+          url: /reference_bop_ideas_automatic_programming.html
+          output: web
+
+  - title: Docker Reference
+    output: web, pdf
+    folderitems:
+
+    - title: How to run a Jazz Docker image
+      url: /reference_docker_how_to_run.html
+      output: web, pdf
+
+    - title: How to build a Jazz Docker image
+      url: /reference_docker_how_to_build.html
       output: web, pdf
 
       subfolders:
@@ -56,184 +147,10 @@ entries:
         output: web
         subfolderitems:
 
-        - title: Jazz with NLP tools
-          url: /docker_jazz_nlp.html
+        - title: Latest Stable Server
+          url: /reference_docker_latest_server.html
           output: web
 
-  - title: Jazz with R
-    output: web, pdf
-
-    folderitems:
-    - title: A quick R walkthrough without a Jazz server
-      url: /rjazz_walkthrough_client_only.html
-      output: web, pdf
-
-    - title: A quick R walkthrough connecting to a Jazz server
-      url: /rjazz_walkthrough_with_server.html
-      output: web, pdf
-
-    - title: Advanced R usage
-      url: /rjazz_advanced.html
-      output: web, pdf
-
-  - title: Jazz with Python
-    output: web, pdf
-
-    folderitems:
-    - title: A quick Python walkthrough without a Jazz server
-      url: /pyjazz_walkthrough_client_only.html
-      output: web, pdf
-
-    - title: A quick Python walkthrough connecting to a Jazz server
-      url: /pyjazz_walkthrough_with_server.html
-      output: web, pdf
-
-    - title: Advanced Python usage
-      url: /pyjazz_advanced.html
-      output: web, pdf
-
-  - title: Jazz via the REST API
-    output: web, pdf
-
-    folderitems:
-    - title: Jazz with just a web browser
-      url: /rest_just_a_browser.html
-      output: web, pdf
-
-    - title: REST API How To?
-      url: /rest_api_how_to.html
-      output: web, pdf
-
-    - title: The Jazz REST API Reference
-      url: /rest_reference.html
-      output: web, pdf
-
-  - title: Bebop
-    output: web, pdf
-
-    folderitems:
-    - title: Bebop Fundamentals
-      url: /bebop_fundamentals.html
-      output: web, pdf
-
-    - title: Simple Bebop on local blocks
-      url: /bebop_simple_on_local_blocks.html
-      output: web, pdf
-
-    - title: Bebop Reference
-      url: /bebop_reference.html
-      output: web, pdf
-
-  - title: Multiblock Abstractions
-    output: web, pdf
-
-    folderitems:
-    - title: Extending Bebop to File-like Structures
-      url: /bebop_multiblock_file_like_structures.html
-      output: web, pdf
-
-    - title: Extending Bebop to Data Sources
-      url: /bebop_multiblock_data_sources.html
-      output: web, pdf
-
-    - title: Extending Bebop to Data Frames
-      url: /bebop_multiblock_data_frames.html
-      output: web, pdf
-
-  - title: Multinode Abstractions
-    output: web, pdf
-
-    folderitems:
-    - title: Distribution Principles
-      url: /bebop_multinode_principles.html
-      output: web, pdf
-
-  - title: Standard Core Functionality
-    output: web, pdf
-
-    folderitems:
-
-    - title: Standard Core Reference
-      url: /sc_00_reference.html
-      output: web, pdf
-
-      subfolders:
-      - title: SC Reference
-        output: web
-        subfolderitems:
-
-        - title: SC Block Types
-          url: /sc_01_block_types.html
+        - title: A Google assistant PoC
+          url: /reference_google_actions_poc.html
           output: web
-
-        - title: Basic Manipulation, initialize, copy and serialize
-          url: /sc_02_basic_functions.html
-          output: web
-
-        - title: Arithmetic Operations
-          url: /sc_03_arithmetic.html
-          output: web
-
-        - title: Math Functions
-          url: /sc_04_math.html
-          output: web
-
-        - title: String Operations
-          url: /sc_05_strings.html
-          output: web
-
-        - title: Logic Operations
-          url: /sc_06_logic.html
-          output: web
-
-        - title: Program Flow
-          url: /sc_07_program_flow.html
-          output: web
-
-        - title: SC Support for File-like Structures
-          url: /sc_08_file_like.html
-          output: web
-
-        - title: SC Support for Data Sources
-          url: /sc_09_data_sources.html
-          output: web
-
-        - title: SC Support for Data Frames
-          url: /sc_10_data_frames.html
-          output: web
-
-        - title: SC Support for Multinode
-          url: /sc_11_multi_node.html
-          output: web
-
-        - title: Functions in Bebop
-          url: /sc_12_functions.html
-          output: web
-
-        - title: Functions in R
-          url: /sc_13_functions_in_r.html
-          output: web
-
-        - title: Functions in Python
-          url: /sc_14_functions_in_python.html
-          output: web
-
-  - title: Extending the Core
-    output: web
-    folderitems:
-
-    - title: Extending Jazz in Bebop, R and Python
-      url: /customization_scripting.html
-      output: web
-
-    - title: Extending Jazz in C++
-      url: /customization_cpp.html
-      output: web
-
-    - title: Deploying Jazz Docker Images with flavors
-      url: /customization_docker.html
-      output: web
-
-    - title: Contributing to Jazz
-      url: /contributing_to_jazz.html
-      output: web
