@@ -60,14 +60,6 @@ entries:
           url: /docker_jazz_nlp.html
           output: web
 
-        - title: Jazz OCR demo
-          url: /docker_jazz_ocr.html
-          output: web
-
-        - title: Jazz speech processing
-          url: /docker_jazz_speech.html
-          output: web
-
   - title: Jazz with R
     output: web, pdf
 
