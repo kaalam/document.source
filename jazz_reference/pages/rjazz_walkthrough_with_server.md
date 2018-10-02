@@ -6,3 +6,5 @@ permalink: rjazz_walkthrough_with_server.html
 ---
 
 ## Remove this!
+
+{% include links.html %}

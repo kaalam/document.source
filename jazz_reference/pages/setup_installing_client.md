@@ -6,3 +6,5 @@ permalink: setup_installing_client.html
 ---
 
 ## Remove this!
+
+{% include links.html %}

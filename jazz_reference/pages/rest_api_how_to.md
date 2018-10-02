@@ -6,3 +6,5 @@ permalink: rest_api_how_to.html
 ---
 
 ## Remove this!
+
+{% include links.html %}

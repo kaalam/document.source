@@ -6,3 +6,5 @@ permalink: docker_latest_stable_reference.html
 ---
 
 ## Remove this!
+
+{% include links.html %}

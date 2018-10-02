@@ -6,3 +6,5 @@ permalink: rest_just_a_browser.html
 ---
 
 ## Remove this!
+
+{% include links.html %}

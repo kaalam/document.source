@@ -6,3 +6,5 @@ permalink: customization_docker.html
 ---
 
 ## Remove this!
+
+{% include links.html %}

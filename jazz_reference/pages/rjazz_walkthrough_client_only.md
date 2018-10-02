@@ -5,5 +5,6 @@ sidebar: mydoc_sidebar
 permalink: rjazz_walkthrough_client_only.html
 ---
 
-
 ## Remove this!
+
+{% include links.html %}

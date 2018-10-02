@@ -6,3 +6,5 @@ permalink: setup_installing_server.html
 ---
 
 ## Remove this!
+
+{% include links.html %}

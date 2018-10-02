@@ -6,3 +6,5 @@ permalink: setup_cluster.html
 ---
 
 ## Remove this!
+
+{% include links.html %}

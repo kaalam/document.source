@@ -5,5 +5,6 @@ sidebar: mydoc_sidebar
 permalink: bebop_multinode_principles.html
 ---
 
-
 ## Remove this!
+
+{% include links.html %}

@@ -6,3 +6,5 @@ permalink: sc_12_functions.html
 ---
 
 ## Remove this!
+
+{% include links.html %}

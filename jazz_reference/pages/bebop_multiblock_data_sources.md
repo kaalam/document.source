@@ -5,5 +5,6 @@ sidebar: mydoc_sidebar
 permalink: bebop_multiblock_data_sources.html
 ---
 
-
 ## Remove this!
+
+{% include links.html %}

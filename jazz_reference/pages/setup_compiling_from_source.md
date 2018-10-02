@@ -6,3 +6,5 @@ permalink: setup_compiling_from_source.html
 ---
 
 ## Remove this!
+
+{% include links.html %}

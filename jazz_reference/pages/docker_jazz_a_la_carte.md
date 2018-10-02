@@ -6,3 +6,5 @@ permalink: docker_jazz_a_la_carte.html
 ---
 
 ## Remove this!
+
+{% include links.html %}

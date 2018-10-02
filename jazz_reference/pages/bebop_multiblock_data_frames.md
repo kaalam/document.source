@@ -6,3 +6,5 @@ permalink: bebop_multiblock_data_frames.html
 ---
 
 ## Remove this!
+
+{% include links.html %}

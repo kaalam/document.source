@@ -6,3 +6,5 @@ permalink: docker_jazz_nlp.html
 ---
 
 ## Remove this!
+
+{% include links.html %}

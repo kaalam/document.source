@@ -5,5 +5,6 @@ sidebar: mydoc_sidebar
 permalink: bebop_simple_on_local_blocks.html
 ---
 
-
 ## Remove this!
+
+{% include links.html %}

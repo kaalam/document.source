@@ -6,3 +6,5 @@ permalink: sc_10_data_frames.html
 ---
 
 ## Remove this!
+
+{% include links.html %}

@@ -5,5 +5,6 @@ sidebar: mydoc_sidebar
 permalink: sc_08_file_like.html
 ---
 
-
 ## Remove this!
+
+{% include links.html %}

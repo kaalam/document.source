@@ -6,3 +6,5 @@ permalink: rjazz_advanced.html
 ---
 
 ## Remove this!
+
+{% include links.html %}
