@@ -1,6 +1,6 @@
 ---
 title: Bebop
-summary:
+summary: 
 sidebar: mydoc_sidebar
 permalink: reference_top_bebop.html
 ---

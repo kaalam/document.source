@@ -1,6 +1,6 @@
 ---
 title: What simple Proof of Concept can I do using prebuilt packages?
-summary:
+summary: 
 sidebar: mydoc_sidebar
 permalink: starting_trying_out_pocs.html
 ---

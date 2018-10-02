@@ -1,6 +1,6 @@
 ---
 title: Using Jazz as an Http server
-summary:
+summary: 
 sidebar: mydoc_sidebar
 permalink: starting_jazz_server_setup.html
 ---

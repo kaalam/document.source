@@ -1,6 +1,6 @@
 ---
 title: Server internals and setup
-summary:
+summary: 
 sidebar: mydoc_sidebar
 permalink: reference_top_jazz_internals.html
 ---

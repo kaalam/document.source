@@ -1,6 +1,6 @@
 ---
 title: How to build a Jazz Docker image
-summary:
+summary: 
 sidebar: mydoc_sidebar
 permalink: reference_docker_how_to_build.html
 ---

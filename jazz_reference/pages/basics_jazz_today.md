@@ -1,6 +1,6 @@
 ---
 title: What is the usable part of Jazz today?
-summary:
+summary: 
 sidebar: mydoc_sidebar
 permalink: basics_jazz_today.html
 ---

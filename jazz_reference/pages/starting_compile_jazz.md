@@ -1,6 +1,6 @@
 ---
 title: How can I compile Jazz and the clients?
-summary:
+summary: 
 sidebar: mydoc_sidebar
 permalink: starting_compile_jazz.html
 ---

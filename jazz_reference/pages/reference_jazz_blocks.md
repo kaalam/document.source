@@ -1,6 +1,6 @@
 ---
 title: Blocks
-summary:
+summary: 
 sidebar: mydoc_sidebar
 permalink: reference_jazz_blocks.html
 ---

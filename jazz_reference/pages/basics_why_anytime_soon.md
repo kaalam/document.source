@@ -1,6 +1,6 @@
 ---
 title: Why would I be interested in a product still under development?
-summary:
+summary: 
 sidebar: mydoc_sidebar
 permalink: basics_why_anytime_soon.html
 ---
