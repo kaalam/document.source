@@ -80,15 +80,25 @@ For the sake of simplicity, use two spaces after the dot for numbers 1 through 9
 your list doesn't align symmetrically on this left edge, the list will not render correctly. Also note that this is characteristic of
 kramdown-flavored Markdown and may not yield the same results in other Markdown flavors.
 
-## Notes and Tips
+## Notes, Tips, etc.
 
 {% include note.html content="Remember to do this. If you have \"quotes\", you must escape them." %}
 {% include tip.html content="In the descriptions of the build scripts, \"mydoc\" is used as the sample project. Substitute in whatever
 your real project name is." %}
+{% include callout.html content="Lazy people will read this more than other text. **Maybe even more if it is bold.**. Assuming you do
+not abuse this thing too much." %}
+{% include warning.html content="Beware of the dog!" %}
+{% include important.html content="The dog is dead." %}
 
 ## Images
 
 {% include image.html file="jazz_block.png" caption="An image" %}
+
+Text, text, text.
+
+{% include image.html file="jazz_block.png" alt = "This shows when the image fails" caption="This always shows" max-width=320 %}
+
+Text, text, text, {% include inline_image.html file="company_logo.png" alt="kaalam.ai" %}, text.
 
 ## Video
 
