@@ -19,6 +19,31 @@ entries:
       url: /basics_jazz_vision.html
       output: web, pdf
 
+      subfolders:
+      - title: The Vision
+        output: web
+        subfolderitems:
+
+        - title: Blocks and keeprs
+          url: /vision_blocks_keeprs.html
+          output: web
+
+        - title: Core functions
+          url: /vision_applying_core_to_blocks.html
+          output: web
+
+        - title: Distributed containers
+          url: /vision_distributed_containers.html
+          output: web
+
+        - title: Bebop, Classes, Functions and Operators
+          url: /vision_bebop.html
+          output: web
+
+        - title: APIs, Jazz as a Server
+          url: /vision_apis_http.html
+          output: web
+
     - title: What is the usable part of Jazz today?
       url: /basics_jazz_today.html
       output: web, pdf
