@@ -1,6 +1,6 @@
 ---
 title: Using Jazz as an Http server
-summary: 
+summary: Starting with Jazz (advanced mode) Understanding http server setup.
 sidebar: mydoc_sidebar
 permalink: starting_jazz_server_setup.html
 ---

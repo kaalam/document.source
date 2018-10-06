@@ -1,6 +1,6 @@
 ---
 title: Using Jazz as a Python package only
-summary: 
+summary: Starting with Jazz (Python only) Installing the Python package.
 sidebar: mydoc_sidebar
 permalink: starting_jazz_from_python.html
 ---
