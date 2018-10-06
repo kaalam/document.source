@@ -1,6 +1,6 @@
 ---
 title: Core functions
-summary: Introducing Jazz's core functions
+summary: What is Jazz (part 2) Introducing Jazz's core functions.
 sidebar: mydoc_sidebar
 permalink: vision_core_functions.html
 ---

@@ -1,6 +1,6 @@
 ---
 title: APIs, Jazz as a Server
-summary: Introduces the Jazz API model as a server and from the clients.
+summary: What is Jazz (part 5) Introducing the Jazz API model as a server and from the clients.
 sidebar: mydoc_sidebar
 permalink: vision_apis_http.html
 ---

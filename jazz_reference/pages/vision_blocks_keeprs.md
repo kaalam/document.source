@@ -1,6 +1,6 @@
 ---
 title: Blocks and keeprs
-summary: What is Jazz (part 1) Blocks and Keeprs
+summary: What is Jazz (part 1) Blocks and Keeprs.
 sidebar: mydoc_sidebar
 permalink: vision_blocks_keeprs.html
 ---

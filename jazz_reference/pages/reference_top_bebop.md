@@ -1,6 +1,6 @@
 ---
 title: Bebop
-summary: 
+summary: A page with links and materials on what is implemented so far on Bebop.
 sidebar: mydoc_sidebar
 permalink: reference_top_bebop.html
 ---

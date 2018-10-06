@@ -1,6 +1,6 @@
 ---
 title: Distributed containers
-summary: Introducing the classes that abstract clusters of Jazz servers as objects that can be computed in any of the nodes and automatically distribute computation.
+summary: What is Jazz (part 3) Introducing the classes that abstract clusters of Jazz servers as objects that can be computed in any of the nodes and automatically distribute computation.
 sidebar: mydoc_sidebar
 permalink: vision_distributed_containers.html
 ---

@@ -1,6 +1,6 @@
 ---
 title: Language basics
-summary: 
+summary: Automatic programming ideas and a place to set language specifications.
 sidebar: mydoc_sidebar
 permalink: reference_bop_basics.html
 ---

@@ -1,6 +1,6 @@
 ---
 title: API reference a clients
-summary: 
+summary: A page with links and materials on what is implemented so far on the R and Python clients.
 sidebar: mydoc_sidebar
 permalink: reference_top_clients.html
 ---

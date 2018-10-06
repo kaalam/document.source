@@ -1,6 +1,6 @@
 ---
 title: How to run a Jazz Docker image
-summary: 
+summary: A simple guide with pointers on Docker images.
 sidebar: mydoc_sidebar
 permalink: reference_docker_how_to_run.html
 ---

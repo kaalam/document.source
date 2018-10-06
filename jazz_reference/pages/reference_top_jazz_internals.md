@@ -1,6 +1,6 @@
 ---
 title: Server internals and setup
-summary: 
+summary: Some extra materials for Jazz developers besides the doxygen website with some explanations and references.
 sidebar: mydoc_sidebar
 permalink: reference_top_jazz_internals.html
 ---
