@@ -28,4 +28,9 @@ to understand assuming you have the time and the skills. Or even automate that.
 * **Efficiency**, **persistence**, a **production-level API** for your project, **error management**, result **caching**, integration with
 other **AI** (tree search, RL, etc.), reading/writing to files in **common binary formats**, what else?
 
+<br/>
+
+| <span class="label label-default">Previous ...</span> | | | | | <span class="label label-info">Next ...</span> |
+| [Blocks and keeprs](vision_blocks_keeprs.html) | | | | | [Distributed containers](vision_distributed_containers.html) |
+
 {% include links.html %}

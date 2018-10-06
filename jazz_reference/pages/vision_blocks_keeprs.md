@@ -81,4 +81,9 @@ E.g., Open a **source in a running http server** from a Python interpreter to se
 {% include note.html content="Since **LMDB is a transactionally consistent key/value store** using a memory mapped file as a persistence, Jazz,
 at its minimum, is a distributed key/value store second to none in terms of efficiency." %}
 
+<br/>
+
+| <span class="label label-default">Previous ...</span> | | | | | <span class="label label-info">Next ...</span> |
+| [Jazz vision](basics_jazz_vision.html) | | | | | [Core functions](vision_core_functions.html) |
+
 {% include links.html %}

@@ -83,4 +83,9 @@ serializing functionality to use the REST API from Python seamlessly.
 Again, anything can be created in Bebop, a Bebop function can be a Python string so working with Jazz can be straightforward, but making
 it **Pythonic** may require other packages built on top of **pyjazz**.
 
+<br/>
+
+| <span class="label label-default">Previous ...</span> | | | | | <span class="label label-info">Next ...</span> |
+| [Bebop](vision_bebop.html) | | | | | [Jazz today](basics_jazz_today.html) |
+
 {% include links.html %}
