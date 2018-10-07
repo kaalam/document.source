@@ -9,7 +9,7 @@ permalink: vision_blocks_keeprs.html
 
 In Jazz **everything is a block**. As you keep reading, you will see how strictly this is meant. Let's start with the simplest blocks.
 
-{% include image.html file="jazz_block.png" caption="A jazz block" %}
+{% include image.html file="jazz_block.png" caption="A jazz block" max-width=540 %}
 
 ### A Block is a tensor
 
@@ -32,8 +32,8 @@ block. Possible attributes are:
 * **Jazz classes**. Last but not least: Functions are blocks, classes are blocks, more on that in a moment.
 
 {% include note.html content="Since any resource is a block and blocks can have urls. A Jazz server is the only http server you need
-to support any web technology, from static webpages to Typescript and JS frameworks such as Angular and Ionic. For the final user, Jazz is a
-website or mobile app that does AI magic." %}
+to support any web technology, from static webpages to Typescript and JS frameworks such as Angular and Ionic." %}
+{% include tip.html content="For the final user, Jazz is a website or mobile app that does \"AI magic\"." %}
 
 ### A Block has an owner
 
@@ -67,7 +67,8 @@ Volatile containers are RAM-only JazzBlockKeepr descendants. They are efficient 
 binary trees, any trees, stacks and priority queues. Using the API, you will create keeprs by abstracting them as blocks and without caring
 about the details.
 {% include note.html content="You can create **graphs of keeprs** of any complexity using the API. E.g., a queue of trees of models belonging
-to a class written in Bebop. (**A class is a keepr itself**, it contains variables and methods, and is **abstracted as a block**.)" %}
+to a class written in Bebop." %}
+{% include tip.html content="**A class is a keepr itself**, it contains variables and methods, and is abstracted as a block." %}
 
 ### Persistence and sources
 
@@ -78,8 +79,8 @@ other keeprs any number of blocks in one call.
 * **JazzSource** - Is the implementation of JazzPersistence using **LMDB**. Therefore, a Jazz file is an LMDB file of persisted blocks.
 You can even use command line LMDB utilities to backup a Jazz server while running or access the same file from more than one process.
 E.g., Open a **source in a running http server** from a Python interpreter to see/fix it while running.
-{% include note.html content="Since **LMDB is a transactionally consistent key/value store** using a memory mapped file as a persistence, Jazz,
-at its minimum, is a distributed key/value store second to none in terms of efficiency." %}
+{% include important.html content="Because LMDB is a transactionally consistent key/value store, Jazz is \"out of the box\" **a distributed
+key/value store second to none in terms of efficiency**." %}
 
 <br/>
 
