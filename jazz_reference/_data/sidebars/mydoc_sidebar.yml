@@ -48,16 +48,12 @@ entries:
       url: /basics_jazz_today.html
       output: web, pdf
 
-    - title: Why would I be interested in a product still under development?
-      url: /basics_why_anytime_soon.html
-      output: web, pdf
-
   - title: Using Jazz
     output: web, pdf
     folderitems:
 
     - title: What simple Proof of Concept can I do using prebuilt packages?
-      url: /starting_trying_out_pocs.html
+      url: /starting_trying_out_poc.html
       output: web, pdf
 
     - title: How can I compile Jazz and the clients?
@@ -86,10 +82,6 @@ entries:
 
     - title: What kind of skills can be helpful?
       url: /contributing_welcome_all.html
-      output: web, pdf
-
-    - title: How do you plan making Jazz a business?
-      url: /contributing_why_kaalam.html
       output: web, pdf
 
   - title: Server Reference
@@ -151,20 +143,12 @@ entries:
           url: /reference_bop_basics.html
           output: web
 
-        - title: Support for automatic programming
-          url: /reference_bop_ideas_automatic_programming.html
-          output: web
-
   - title: Docker Reference
     output: web, pdf
     folderitems:
 
     - title: How to run a Jazz Docker image
       url: /reference_docker_how_to_run.html
-      output: web, pdf
-
-    - title: How to build a Jazz Docker image
-      url: /reference_docker_how_to_build.html
       output: web, pdf
 
       subfolders:
@@ -174,8 +158,4 @@ entries:
 
         - title: Latest Stable Server
           url: /reference_docker_latest_server.html
-          output: web
-
-        - title: A Google assistant PoC
-          url: /reference_google_actions_poc.html
           output: web
