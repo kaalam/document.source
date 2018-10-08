@@ -15,17 +15,15 @@ movement\"." %}
 
 * [What is the vision? What does Jazz want to become?](basics_jazz_vision.html)
 * [What is the usable part of Jazz today?](basics_jazz_today.html)
-* [Why would I be interested in a product still under development?](basics_why_anytime_soon.html)
 
 ## Using Jazz
 
-* [What simple Proof of Concept can I do using prebuilt packages?](starting_trying_out_pocs.html)
+* [What simple Proof of Concept can I do using prebuilt packages?](starting_trying_out_poc.html)
 * [How can I compile Jazz and the clients?](starting_compile_jazz.html)
 
 ## Contributing to Jazz
 
 * [What kind of skills can be helpful?](contributing_welcome_all.html)
-* [How do you plan making Jazz a business?](contributing_why_kaalam.html)
 
 ## References
 
