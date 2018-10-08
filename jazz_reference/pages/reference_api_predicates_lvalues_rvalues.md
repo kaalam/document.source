@@ -1,6 +1,6 @@
 ---
 title: Predicates, lvalues and rvalues
-summary: 
+summary: An explanation of the basic parts of an API call (common for all clients).
 sidebar: mydoc_sidebar
 permalink: reference_api_predicates_lvalues_rvalues.html
 ---
