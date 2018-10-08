@@ -80,3 +80,5 @@ You can even use command line LMDB utilities to backup a Jazz server while runni
 E.g., Open a **source in a running http server** from a Python interpreter to see/fix it while running.
 {% include note.html content="Since **LMDB is a transactionally consistent key/value store** using a memory mapped file as a persistence, Jazz,
 at its minimum, is a distributed key/value store second to none in terms of efficiency." %}
+
+{% include links.html %}
