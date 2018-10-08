@@ -1,6 +1,6 @@
 ---
 title: Using Jazz as an R package only
-summary: 
+summary: Starting with Jazz (R only) Installing the R package.
 sidebar: mydoc_sidebar
 permalink: starting_jazz_from_r.html
 ---
