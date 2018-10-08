@@ -1,6 +1,6 @@
 ---
 title: Bebop, Classes, Functions and Operators
-summary: Introducing Bebop, Jazz's language to make efficient bytecode human-friendly while introducing functions for automatic programming.
+summary: What is Jazz (part 4) Introducing Bebop, Jazz's language to make efficient bytecode human-friendly while introducing functions for automatic programming.
 sidebar: mydoc_sidebar
 permalink: vision_bebop.html
 ---

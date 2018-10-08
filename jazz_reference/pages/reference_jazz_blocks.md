@@ -1,6 +1,6 @@
 ---
 title: Blocks
-summary: 
+summary: A page with links and materials on what is implemented so far on blocks.
 sidebar: mydoc_sidebar
 permalink: reference_jazz_blocks.html
 ---
