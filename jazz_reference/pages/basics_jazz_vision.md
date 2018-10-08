@@ -1,5 +1,5 @@
 ---
-title: What is the vision? What does Jazz want to become?
+title: What is the vision? What does Jazz want to be?
 summary: What will Jazz be if everything is finally implemented as it is imagined today.
 sidebar: mydoc_sidebar
 permalink: basics_jazz_vision.html

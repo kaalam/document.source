@@ -15,7 +15,7 @@ entries:
       output: web, pdf
       type: homepage
 
-    - title: What is the vision? What does Jazz want to become?
+    - title: What is the vision? What does Jazz want to be?
       url: /basics_jazz_vision.html
       output: web, pdf
 
