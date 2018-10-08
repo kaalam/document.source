@@ -2,7 +2,7 @@
 title: What simple Proof of Concept can I do using prebuilt packages?
 summary: 
 sidebar: mydoc_sidebar
-permalink: starting_trying_out_pocs.html
+permalink: starting_trying_out_poc.html
 ---
 
 ## This is a template!
