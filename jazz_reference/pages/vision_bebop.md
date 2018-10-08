@@ -54,4 +54,9 @@ can be potentially huge. The cleanness of the functional dependencies (no side e
 makes caching simple, reliable and potentially hugely profitable. Function caching can also be used as a algorithmic strategy as in **dynamic**
 **programming**.
 
+<br/>
+
+| <span class="label label-default">Previous ...</span> | | | | | <span class="label label-info">Next ...</span> |
+| [Distributed containers](vision_distributed_containers.html) | | | | | [APIs](vision_apis_http.html) |
+
 {% include links.html %}
