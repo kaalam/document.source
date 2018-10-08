@@ -27,8 +27,8 @@ These modules include code that supports most or all the necessary functionality
 
 | Group | Module | Description | Complete |
 |-------|--------|-------------|----------|
-| elements | jazz_persistence | The fundamental persisted keepers. | <span class="label label-warning">80%</span> |
-| main | jazz_restapi | The implementation of the http responses at server level. | <span class="label label-warning">60%</span> |
+| elements | jazz_persistence | The fundamental persisted keepers. | <span class="label label-info">80%</span> |
+| main | jazz_restapi | The implementation of the http responses at server level. | <span class="label label-info">60%</span> |
 
 ## What is under development
 
