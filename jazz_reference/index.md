@@ -28,7 +28,7 @@ movement\"." %}
 ## References
 
 * [Server internals and setup](reference_top_jazz_internals.html)
-* [API reference a clients](reference_top_clients.html)
+* [API reference and clients](reference_top_clients.html)
 * [Bebop](reference_top_bebop.html)
 
 {% include links.html %}
