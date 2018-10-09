@@ -7,6 +7,8 @@ permalink: vision_blocks_keeprs.html
 
 ## Introducing Blocks
 
+<span class="label label-info">JazzBlock</span>
+
 In Jazz **everything is a block**. As you keep reading, you will see how strictly this is meant. Let's start with the simplest blocks.
 
 {% include image.html file="jazz_block.png" caption="A jazz block" max-width=540 %}
@@ -53,6 +55,8 @@ handle **persisted** blocks that can be: saved, backed-up, moved across nodes, e
 
 ## Keeprs: JazzBlockKeepr descendants
 
+<span class="label label-info">JazzBlockKeepr</span>
+
 Jazz blocks have identifiers. Identifiers are unique in the context of their owner. Since Jazz is cluster aware, identifiers by their first
 character can be classified as:
 
@@ -71,6 +75,8 @@ to a class written in Bebop." %}
 {% include tip.html content="**A class is a keepr itself**, it contains variables and methods, and is abstracted as a block." %}
 
 ### Persistence and sources
+
+<span class="label label-info">JazzPersistence</span><span class="label label-info">JazzSource</span>
 
 Jazz has two more important local classes:
 
