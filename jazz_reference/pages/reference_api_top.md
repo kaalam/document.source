@@ -1,8 +1,8 @@
 ---
-title: Bebop
-summary: A page with links and materials on what is implemented so far on Bebop.
+title: API reference
+summary: The top page describing the API for all the ways of accessing Jazz blocks (Bebop, Http, R and Python).
 sidebar: mydoc_sidebar
-permalink: reference_top_bebop.html
+permalink: reference_api_top.html
 ---
 
 ## This is a template!

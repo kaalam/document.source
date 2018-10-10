@@ -1,8 +1,8 @@
 ---
-title: API reference a clients
-summary: A page with links and materials on what is implemented so far on the R and Python clients.
+title: Bebop
+summary: A page with links and materials on what is implemented so far on Bebop.
 sidebar: mydoc_sidebar
-permalink: reference_top_clients.html
+permalink: reference_bop_top.html
 ---
 
 ## This is a template!
