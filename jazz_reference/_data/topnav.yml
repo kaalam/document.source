@@ -14,24 +14,19 @@ topnav_dropdowns:
   folders:
     - title: Quick Help
       folderitems:
-        - title: Getting started in R without a server
-          url: rjazz_walkthrough_client_only.html
-        - title: Getting started in Python without a server
-          url: pyjazz_walkthrough_client_only.html
-        - title: Getting started in R with a Docker server
-          url: rjazz_walkthrough_with_server.html
-        - title: Getting started in Python with a Docker server
-          url: pyjazz_walkthrough_with_server.html
-        - title: Get the latest stable Reference Server dockerized
-          url: docker_latest_stable_reference.html
-        - title: Explore the dockerized Jazz pre-built applications
-          url: docker_jazz_a_la_carte.html
-        - title: Jazz REST API reference
-          url: rest_reference.html
+        - title: What is the vision? What does Jazz want to become?
+          url: basics_jazz_vision.html
+        - title: What simple Proof of Concept can I do without compiling anything?
+          url: starting_trying_out_poc.html
+        - title: How can I help?
+          url: contributing_welcome_all.html
+        - title: Jazz for developers
+          external_url: https://kaalam.github.io/develop/
+        - title: Jazz API reference
+          url: reference_api_top.html
         - title: R client Reference
           external_url: https://kaalam.github.io/rjazz/
         - title: Python client Reference
           external_url: https://kaalam.github.io/pyjazz/
-        - title: Jazz for developers
-          external_url: https://kaalam.github.io/develop/
-
+        - title: What is the usable part of Jazz today?
+          url: basics_jazz_today.html
