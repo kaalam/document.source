@@ -105,8 +105,8 @@ entries:
     output: web, pdf
     folderitems:
 
-    - title: API reference a clients
-      url: /reference_top_clients.html
+    - title: API reference
+      url: /reference_api_top.html
       output: web, pdf
 
       subfolders:
@@ -131,7 +131,7 @@ entries:
     folderitems:
 
     - title: Bebop
-      url: /reference_top_bebop.html
+      url: /reference_bop_top.html
       output: web, pdf
 
       subfolders:
