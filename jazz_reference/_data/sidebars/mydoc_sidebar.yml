@@ -6,7 +6,7 @@ entries:
   version: 0.3.1
   folders:
 
-  - title: Basic Questions on Jazz
+  - title: Basic questions on Jazz
     output: web, pdf
     folderitems:
 
@@ -20,7 +20,7 @@ entries:
       output: web, pdf
 
       subfolders:
-      - title: The Vision
+      - title: The vision
         output: web
         subfolderitems:
 
@@ -36,11 +36,11 @@ entries:
           url: /vision_distributed_containers.html
           output: web
 
-        - title: Bebop, Classes, Functions and Operators
+        - title: Bebop, classes, functions and operators
           url: /vision_bebop.html
           output: web
 
-        - title: APIs, Jazz as a Server
+        - title: APIs, Jazz as a server or a package
           url: /vision_apis_http.html
           output: web
 
@@ -80,7 +80,7 @@ entries:
     output: web, pdf
     folderitems:
 
-    - title: What kind of skills can be helpful?
+    - title: How can I help? What kind of skills are needed?
       url: /contributing_welcome_all.html
       output: web, pdf
 
@@ -97,11 +97,11 @@ entries:
         output: web
         subfolderitems:
 
-        - title: Blocks
+        - title: Block reference
           url: /reference_jazz_blocks.html
           output: web
 
-  - title: API Reference
+  - title: API reference
     output: web, pdf
     folderitems:
 
@@ -126,7 +126,7 @@ entries:
           url: /reference_api_rvalues_specification.html
           output: web
 
-  - title: Bebop Reference
+  - title: Bebop reference
     output: web, pdf
     folderitems:
 
@@ -143,7 +143,7 @@ entries:
           url: /reference_bop_basics.html
           output: web
 
-  - title: Docker Reference
+  - title: Docker reference
     output: web, pdf
     folderitems:
 
@@ -156,6 +156,6 @@ entries:
         output: web
         subfolderitems:
 
-        - title: Latest Stable Server
+        - title: (LSJS) Latest Stable Jazz Server
           url: /reference_docker_latest_server.html
           output: web

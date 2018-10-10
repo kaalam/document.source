@@ -1,5 +1,5 @@
 ---
-title: Latest Stable Server
+title: (LSJS) Latest Stable Jazz Server
 summary: Where can I find the latest Jazz server?
 sidebar: mydoc_sidebar
 permalink: reference_docker_latest_server.html
