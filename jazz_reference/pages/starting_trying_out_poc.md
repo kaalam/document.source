@@ -18,7 +18,7 @@ You can run a Jazz 0.1.7 server (still implemented as legacy in Jazz 0.2+) using
 docker run -p8888:8888 kaalam/jazz_neat:0.2.1.99
 ```
 
-Check [dockerhub](https://hub.docker.com/r/kaalam/jazz_neat/tags/) to find the name of the latest image.
+Check [docker hub](https://hub.docker.com/r/kaalam/jazz_neat/tags/) to find the name of the latest image.
 
 Point a browser to http://localhost:8888/// to see if the server is running, you should get a page similar to
 
