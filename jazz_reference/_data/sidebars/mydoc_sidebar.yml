@@ -60,22 +60,6 @@ entries:
       url: /starting_compile_jazz.html
       output: web, pdf
 
-    - title: Using Jazz as an R package only
-      url: /starting_jazz_from_r.html
-      output: web, pdf
-
-    - title: Using Jazz as a Python package only
-      url: /starting_jazz_from_python.html
-      output: web, pdf
-
-    - title: Using Jazz as an Http server
-      url: /starting_jazz_server_setup.html
-      output: web, pdf
-
-    - title: Configuring a Jazz cluster
-      url: /starting_jazz_cluster_setup.html
-      output: web, pdf
-
   - title: Contributing to Jazz
     output: web, pdf
     folderitems:
