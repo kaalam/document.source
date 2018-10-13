@@ -50,7 +50,7 @@ means the creator owns the block. All other blocks have a **keepr**. Via the API
 For now, just note that some keeprs handle **volatile** blocks (like data passed in a url or intermediate results of functions) and others
 handle **persisted** blocks that can be: saved, backed-up, moved across nodes, etc.
 
-{% include image.html file="jazz_block_keeper.png" caption="Some important JazzBlockKeepr descendants" %}
+{% include image.html file="jazz_block_keeper.png" caption="Some important JazzBlockKeepr descendants" max-width=880 %}
 
 
 ## Keeprs: JazzBlockKeepr descendants
