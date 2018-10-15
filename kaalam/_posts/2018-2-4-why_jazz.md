@@ -23,12 +23,12 @@ of it that allows AI researchers to implement new ideas and publish new results 
 So we may think current frameworks like Tensorflow, Keras, MxNet, ... are all we need to create the advances AI needs, including such things as:
 
 <ul>
-	<li>Applying reinforcement learning outside highly abstract fields like board games. As Trump would put it: Making Tree Search great again!</li>
-	<li>Learning with something else than Gradient Descent.</li>
-	<li>Learning with something else than fully connected layers.</li>
+	<li>Applying reinforcement learning outside highly abstract fields like board games.</li>
+	<li>Learning with something other than Gradient Descent.</li>
+	<li>Learning with something other than fully connected layers.</li>
 	<li>Exploring ideas with the right amount of data naturally. Even with a billion rows, many conclusions can still be drawn from hundred
 	cases or less.</li>
-	<li>Creating semantic representations that do not make AI look stupid to laymen as soon as the initial "wow" fades out.</li>
+	<li>Creating semantic representations that are not "rectangular".</li>
 	<li>Finding safe and automated ways to work with all kinds of data sources.</li>
 	<li>Supporting scaling and the creation of APIs in a natural automatic and intuitive way.</li>
 </ul>
