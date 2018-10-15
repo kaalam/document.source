@@ -10,12 +10,12 @@ image: assets/images/pic02.jpg
 
 Kaalam, which is Filipino for **wisdom**, it is a meritocratic society created around the development and commercial deployment of Jazz and
 Jazz-based services. It is not yet a corporation, not yet funded and not related to BBVA (the owner of Jazz 0.1.7) or any other organization.
-The original author of Jazz is a co-founder of **kaalam.ai**.
+The original author of Jazz is a co-founder at **kaalam.ai**.
 
 If you are only interested in Jazz, this is probably all you need to know about **kaalam.ai** and you can safely skip the rest of this post.
 We are open and eager to find people willing to be part of our project. We need help in all parts, including: coding, helping with communication,
 creating Jazz projects, Jazz tutorials, giving feedback or just spreading the word. If you may be interested, you will probably want to know
-more. This is our **"Hello World!"**.
+more. This page is the **"Hello World!"** of the Jazz community.
 
 
 <h3>The Mangrove Forest</h3>
@@ -35,7 +35,7 @@ Kaggle medal in the Zillow price, a knowledge base, **an ambitious AI strategy**
 We believe managerial tasks should be kept simple, outsourced when possible and at the service of corporate goals and strategy. Strategy in
 a scale-up aspiring to push over the edge is entangled with technical feasibility. We need the kind of rigor only a technical manager can
 deliver. You probably do not expect the managing partner of law firm not to be a lawyer, but in tech companies the managing coder is an
-exception. Well, we are the exception.
+exception. Well, **we are the exception**.
 
 Don't take the building a "corporation of coders" too strictly. Of course, we need people to define UX, brand, marketing, regulation, sales
 and everything else, but we want those people to understand how to deliver these things "as code". Meaning that it is something that can be:
@@ -48,7 +48,7 @@ them to your children.
 
 We aspire to become **responsible innovators**. We need money to deliver, money buys commitment when you already have vision, talent and
 part of the product. Some day we will deliver products in exchange for money from our investors to create more money for all of us. After
-all, Jazz was born in the financial sector.
+all, **Jazz** was born in the financial sector.
 
 
 <h3>No exclusion, no exceptions</h3>
@@ -66,49 +66,39 @@ We believe in doing everything correctly, **first** proving that we can become a
 invest their time just for the sake of making it happen.
 
 Premature funding, especially by incumbents, typically ends up replicating the incumbent's hierarchy. In such scenarios, budget ownership
-replaces vision and ladder climbing skills replace merit. Of course, there may be exceptional incumbents who have successfully innovated
-in "skunk works" mode, but the risk of the former scenario makes us not want the shelter of a large corporation too early. Again, **not
-too early** we definitely look forward to build alliances with major players. We believe in going through a period of austerity that
-self-selects the team, builds the product and earns respect for the vision. After that, alliances can be built, not just for money but
-based of shared strategy, talent, experience and common interests.
+replaces vision and ladder climbing skills replace merit. Of course, we don't know everything and we would accept funding that does not
+imply diverging from our strategic goals. It's just that the risk of becoming "yet another you-name-it" prevents us from looking for the
+shelter of a large corporation too early. Again, **not too early**! We definitely look forward to build alliances with major players. We
+believe in going through a period of austerity that self-selects the team, builds the product and earns respect for the vision. After that,
+alliances should be built, not for money but based common interests.
 
-Just to clarify: This is compatible with **crowdfunding Jazz-based products**. At this stage, we are not looking for investors, but raising
+**Just to clarify**: This is compatible with crowdfunding Jazz-based products. At this stage, we are not looking for investors, but raising
 donations and crowdfunding to make products happen by committing full time dedication of coders is part of the strategy.
 
 
-<h3>Meritocracy and forking</h3>
+<h3>Why OSS? A brief Q&A for people not familiar with Open Source Software</h3>
 
-Contributing to the code base gives you the right to shared copyright holding, that is fair and legal, but not nearly as important as being
-part of the project. Let me elaborate on that. What we build is free software, it means **everyone** can build on top of it. When  kaalam
-becomes a corporation, someone else may decide to ignore all of us and create her own fork, that is totally okay. You, hypothetical co-author,
-may want to be part of kaalam, or want to build your own corporate project, or none of that. Let's just have a look at these options.
+<h4>Q1: What if a non Jazz author ignores kaalam and builds her own Jazz company?</h4>
 
-<h4>Scenarios</h4>
-<dl>
-	<dt>Someone else (a non Jazz author) ignores kaalam an builds her own Jazz company</dt>
-	<dd>
-		<p>This is legal and even good for all of us. It places Jazz in the center of an ecosystem. We should not be afraid to compete. And
-		honestly, we would compete with an unfair advantage. <b>Free software is a little bit like Texas hold'em</b>. The six open source
-		repositories are the community cards, but there are thirty other private repositories that are our hole cards. You need all the
-		cards to win hands. You need the people who can not just answer to what was done, but to why it was done. You need the people who
-		can deliver new features, better and faster and understanding all the implications. <b>It is a business model</b>.</p>
-	</dd>
-	<dt>You (a Jazz author) build your own Jazz company</dt>
-	<dd>
-		<p>Unlike in the previous case, you deeply understand the technology and the vision because you have been "in the trenches" for a
-		long time. You probably disagree with the corporate vision and think you can do better. Okay, that is a failure of all of us.
-		Hopefully, when kaalam becomes a corporation we do not lose most of the talent. Inevitably, there is always a decision to be made
-		between getting a bigger part of a smaller thing or a smaller part of a bigger thing. In a company  there is commitment, deadlines,
-		shareholders and a hierarchy, accepting most of it and rowing in the same direction is essential. Incompatible visions better become
-		different projects than eternal fights. And again, <b>the more the merrier</b>.</p>
-	</dd>
-	<dt>We all build kaalam.ai together</dt>
-	<dd>
-		<p>This is the optimal scenario. It requires a transparent business strategy shared by the three groups of stakeholders: <b>founders</b>,
-		<b>investors</b> and <b>staff members</b>. We want the company to be <b>attractive to top talent</b> and <b>equity</b> is the incentive
-		that will create the kind of involvement we expect from all. It is an exercise of <b>generosity</b>, <b>strategic resonance</b> and
-		<b>commitment</b>.</p>
-	</dd>
-</dl>
+This is **legal** and even **good** for all of us. It places Jazz in the center of an ecosystem. We should not be afraid to compete. And
+honestly, we would compete with an unfair advantage. **Free software is a little bit like Texas hold'em**. The six open source repositories
+are the community cards, but there are thirty other private repositories that are our hole cards. You need all the cards to win hands. You
+need the people who can not just answer what was done, but why it was done. You need the people who can deliver new features, better,
+faster and understanding all the implications. **It is a business model.**
 
-Hopefully, we made our point on why we should not be in a hurry to raise money.
+<h4>Q2: What if some author does not agree on how kaalam evolves and builds her own Jazz company?</h4>
+
+Unlike in the previous case, she deeply understands the technology and the vision because she has been "in the trenches" for a long time.
+**That's okay too**! Inevitably, there is always a decision to be made between getting a bigger part of a smaller thing or a smaller part
+of a bigger thing. Incompatible visions better become different projects than eternal fights. And again, **the more the merrier**. But, of
+course, when kaalam becomes a corporation we hope not to lose most of our talent.
+
+<h4>Q3: What if the project never reaches the point where it can grow organically and the authors give up?</h4>
+
+**That's a real problem!** Most projects don't make it. But also here **being OSS helps**: In an OSS project **you own everything you built
+and everything everyone else built**. It's the magic of software, it multiplies endlessly. If you are thrilled about making it happen, if you
+are tired of AI becoming yet another overhyped end-to-end deep learning model taken from the 10000 similar ideas you see in every conference,
+if you are exceptional at what you do (whatever that is), **you should consider being part of Jazz**. It is an opportunity, you will have a
+say on what has to be built for the advancement of AI.
+
+Hopefully, this clarifies why we should not be in a hurry to raise money.
