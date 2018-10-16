@@ -1,5 +1,5 @@
 ---
-title: What simple Proof of Concept can I do using prebuilt packages?
+title: What simple Proof of Concept can I do using pre-built packages?
 summary: Starting with Jazz (the simplest option) How to run a simple Proof of Concept using prebuilt binaries.
 sidebar: mydoc_sidebar
 permalink: starting_trying_out_poc.html
