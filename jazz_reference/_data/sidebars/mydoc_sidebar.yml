@@ -76,15 +76,6 @@ entries:
       url: /reference_top_jazz_internals.html
       output: web, pdf
 
-      subfolders:
-      - title: Blocks
-        output: web
-        subfolderitems:
-
-        - title: Block reference
-          url: /reference_jazz_blocks.html
-          output: web
-
   - title: API reference
     output: web, pdf
     folderitems:
