@@ -21,12 +21,12 @@ topnav_dropdowns:
         - title: How can I help?
           url: contributing_welcome_all.html
         - title: Jazz for developers
-          external_url: https://kaalam.github.io/develop/
+          external_url: /develop/
         - title: Jazz API reference
           url: reference_api_top.html
         - title: R client Reference
-          external_url: https://kaalam.github.io/rjazz/
+          external_url: /rjazz/
         - title: Python client Reference
-          external_url: https://kaalam.github.io/pyjazz/
+          external_url: /pyjazz/
         - title: What is the usable part of Jazz today?
           url: basics_jazz_today.html
