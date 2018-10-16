@@ -52,7 +52,7 @@ entries:
     output: web, pdf
     folderitems:
 
-    - title: What simple Proof of Concept can I do using prebuilt packages?
+    - title: What simple Proof of Concept can I do using pre-built packages?
       url: /starting_trying_out_poc.html
       output: web, pdf
 
@@ -131,8 +131,8 @@ entries:
     output: web, pdf
     folderitems:
 
-    - title: How to run a Jazz Docker image
-      url: /reference_docker_how_to_run.html
+    - title: How to build your own Jazz Docker image
+      url: /reference_docker_how_to_build.html
       output: web, pdf
 
       subfolders:
@@ -140,6 +140,6 @@ entries:
         output: web
         subfolderitems:
 
-        - title: (LSJS) Latest Stable Jazz Server
+        - title: Jazz (LSS) Latest Stable Server
           url: /reference_docker_latest_server.html
           output: web
