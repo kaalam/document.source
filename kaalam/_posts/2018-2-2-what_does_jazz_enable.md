@@ -7,7 +7,7 @@ image: assets/images/pic03.jpg
 
 <h2>A short Q&A: Why should you care about Jazz</h2>
 
-In the [first kaalam post](https://kaalam.github.io/kaalam/2018/02/04/why_jazz.html) we made some strong claims on current
+In the [first kaalam post](/kaalam/2018/02/04/why_jazz.html) we made some strong claims on current
 limitations of AI frameworks and stated that Jazz is a step forward addressing these issues. Now, we want to look at all these claims
 one by one. Even if you are very happy with you current framework, we want you to give some though to what things could be done
 better on a different tool. We definitely do not expect you to replace your framework like you replace your car. We expect
@@ -16,8 +16,8 @@ all frameworks will evolve and some day a **community is built** that uses Jazz 
 
 <h3>Q: But first, what is Jazz?</h3>
 
-Before we continue, you need to understand what Jazz is. The introduction in this
-[2500 word post](https://kaalam.github.io/jazz_reference/basics_fundamental.html) is all you need to follow the rest of this discussion.
+Before we continue, you need to understand what Jazz is. The introduction in these
+[vision articles](/jazz_reference/basics_jazz_vision.html) is all you need to follow the rest of this discussion.
 We tried to make it rigorous and short, the result may be too technical or assuming too much knowledge, sorry for that.
 
 <h3>Q: You stated "current frameworks are a hindrance in the exploration of new ideas", isn't that too strong?</h3>
