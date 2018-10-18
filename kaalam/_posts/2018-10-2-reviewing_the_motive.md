@@ -1,13 +1,13 @@
 ---
 layout: post
-title: What Does Jazz Enable?
-description: In plain English, what makes Jazz different?
-image: assets/images/pic03.jpg
+title: Reviewing the Motive
+description: In terms anyone can understand, what can be improved in current platforms?
+image: assets/images/top_motive.jpg
 ---
 
 <h2>A short Q&A: Why should you care about Jazz</h2>
 
-In the [first kaalam post](/kaalam/2018/02/04/why_jazz.html) we made some strong claims on current
+In the [first kaalam post](/kaalam/xxx) we made some strong claims on current
 limitations of AI frameworks and stated that Jazz is a step forward addressing these issues. Now, we want to look at all these claims
 one by one. Even if you are very happy with you current framework, we want you to give some though to what things could be done
 better on a different tool. We definitely do not expect you to replace your framework like you replace your car. We expect

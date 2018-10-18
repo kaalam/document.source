@@ -1,8 +1,8 @@
 ---
 layout: post
 title: What Is kaalam.ai?
-description: The Mangrove Forest Explained
-image: assets/images/pic02.jpg
+description: The mangrove forest vision on building a community
+image: assets/images/top_kaalam.jpg
 ---
 
 <h2>What is kaalam.ai?</h2>
