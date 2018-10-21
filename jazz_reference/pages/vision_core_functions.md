@@ -8,7 +8,7 @@ permalink: vision_core_functions.html
 ## What are core functions?
 
 **Jazz** does not prioritize being a Deep Learning framework. The authors of Jazz believe that the next step of AI applications will use
-DL, but requires a lot more than DL. To do DL we would not have created a new tool. [More on that ...](https://kaalam.github.io/kaalam/)
+DL, but requires a lot more than DL. To do DL we would not have created a new tool. [More on that ...](/kaalam/)
 Jazz still needs all the "boring" functions applied to blocks (tensors) including serializing binaries to/from strings, doing arithmetic,
 logic, statistics, and, of course, Neural Networks. All these functions collectively are referred to as the **standard core** are written in
 C++. The standard core can only be extended in C++.

@@ -9,7 +9,7 @@ permalink: basics_jazz_today.html
 
 This page is a snapshot of the current state of development in terms of Jazz modules. It is updated after the completion (meaning
 implementation, documentation and testing) of modules and the percentages of executions are rough estimates, except for complete. The
-details of development are updated in the [developer's reference](https://kaalam.github.io/develop/)
+details of development are updated in the [developer's reference](/develop/)
 
 {% include image.html file="jazz_modules.png" caption="Jazz modules" max-width=880 %}
 
