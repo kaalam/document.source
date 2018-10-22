@@ -97,8 +97,10 @@ course, when kaalam becomes a corporation we hope not to lose most of our talent
 
 **That's a real problem!** Most projects don't make it. But also here **being OSS helps**: In an OSS project **you own everything you built
 and everything everyone else built**. It's the magic of software, it multiplies endlessly. If you are thrilled about making it happen, if you
-are tired of AI becoming yet another overhyped end-to-end deep learning model taken from the 10000 similar ideas you see in every conference,
-if you are exceptional at what you do (whatever that is), **you should consider being part of Jazz**. It is an opportunity, you will have a
-say on what has to be built for the advancement of AI.
+are tired of your next project being yet another end-to-end deep learning model like 10000 similar projects you see in every conference,
+if you are exceptional at what you do (whatever that is), **you should consider being part of Jazz**. It is an opportunity to have a say on the
+advancement of AI, in case, of course, our analysis is more right that wrong.
 
 Hopefully, this clarifies why we should not be in a hurry to raise money.
+
+[How can I help?](/jazz_reference/contributing_welcome_all.html)
