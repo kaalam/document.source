@@ -47,4 +47,25 @@ platforms." %}
 If it is a fix or simple feature to the Jazz repository and you know how to make a **pull request**. you can try that way. But still our
 favorite method is: <a href="mailto:kaalam@kaalam.ai">contact us</a>.
 
+## The **Hard Parts** of Open Source
+
+<span class="label label-success">Recommended video on OSS dynamics</span>
+
+**Evan Czaplicki**, the author of Elm, has already been tackling with OSS for seven years and gave this brilliant speech. We have not yet
+reached the point of maturity where the Elm community is today, but there are some wonderful lessons that make us recommend watching it
+attentively.
+
+Just sketching a few ideas:
+
+  * Building Jazz is, in the best case, going to be a long process.
+  * Understanding OSS community dynamics and empathizing will help.
+  * There are beautiful solutions (see **conversation flows** at '41) to improve focus and constructive discussion.
+
+<br/>
+
+{% unless site.output == "pdf" %}
+
+<iframe width="640" height="480" src="https://www.youtube.com/embed/o_4EX4dPppA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+{% endunless %}
+
 {% include links.html %}
