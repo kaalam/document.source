@@ -1,60 +1,214 @@
 ---
 layout: post
-title: Reviewing the Motive
+title: The Motive
 description: In terms anyone can understand, what can be improved in current platforms?
 image: assets/images/top_motive.jpg
 ---
+<div id="main" class="alt">
+<section id="one">
 
-<h2>A short Q&A: Why should you care about Jazz</h2>
+<h4>Related pages</h4>
+<ul class="actions vertical small">
+	<li><a href="/kaalam/2018/10/04/why_jazz.html" class="button small">I want the short version, why Jazz?</a></li>
+	<li><a href="/jazz_reference/basics_jazz_vision.html" class="button small">Technically speaking, what is Jazz?</a></li>
+</ul>
 
-In the [first kaalam post](/kaalam/xxx) we made some strong claims on current
-limitations of AI frameworks and stated that Jazz is a step forward addressing these issues. Now, we want to look at all these claims
-one by one. Even if you are very happy with you current framework, we want you to give some though to what things could be done
-better on a different tool. We definitely do not expect you to replace your framework like you replace your car. We expect
-curious early-adopters to explore the possibilities, build some success cases so we all gain some traction together. In the meantime,
-all frameworks will evolve and some day a **community is built** that uses Jazz as their primary framework.
+<h2 id="content">AI winter (maybe) coming</h2><p>
+<div class="row">
+<div class="6u 12u$(small)">
+<h3>Does AI live in the perfect world businesses and mainstream media are telling us?</h3>
+<p>AI is living the most exciting moment in decades. All the necessary tools to explore, train and deploy deep learning models are free
+software. They combine highly optimized low level CPU and GPU software with highly expressive and productive scripting languages on top
+of it. This allows AI researchers to implement new ideas and publish new results every day at an unprecedented pace.</p>
+<h3>Meanwhile, in the same planet ...</h3>
+<p>The most important AI researchers, <i>sorry we just name three to avoid digressing</i>, agree that we still need drastic changes before
+we can solve problems such as common sense reasoning and many more. Humans can solve these tasks even as kids.</p>
+</div>
+<div class="6u$ 12u$(small)">
+<blockquote><b>Geoffrey Hinton</b>: "'Science progresses one funeral at a time.' The future depends on some graduate student who is deeply
+suspicious of everything I have said."</blockquote>
+<blockquote><b>Yoshua Bengio</b>: "Engineers and companies will continue to tune getting slight progress. That's not going to be nearly
+enough. We need some fairly drastic changes in the way that we are considering learning."</blockquote>
+<blockquote><b>François Chollet</b>: "For all the progress made, it seems like almost all important questions in AI remain unanswered. Many
+have not even been properly asked yet."</blockquote>
+<h3>Our only intention making this point</h3>
+<p>We obviously don't know how to solve common sense reasoning, our point here is: <b>nobody does</b>, which is relevant as we continue
+explaining.</p>
+</div>
+</div>
 
-<h3>Q: But first, what is Jazz?</h3>
+<h2 id="content">The "Good Old Fashioned AI" argument is partial at best</h2><p>
+<div class="row">
+<div class="6u 12u$(small)">
+<h3>Here is how it goes</h3>
+<p>We don't cite anyone as its author. The argument just got repeated to the point it is <b>common belief</b>. It goes: <i>"Long time ago,
+we as humans coded the solutions to the problems, that's <b>GOFAI</b> (Good Old Fashioned AI), we figured that was a dead end and switched
+to end-to-end optimization. Now, data makes the difference, and the machine creates the model using <b>deep learning</b>."</i> Many even
+state that, today, major AI players can only be the data owners.</p>
 
-Before we continue, you need to understand what Jazz is. The introduction in these
-[vision articles](/jazz_reference/basics_jazz_vision.html) is all you need to follow the rest of this discussion.
-We tried to make it rigorous and short, the result may be too technical or assuming too much knowledge, sorry for that.
+<p>The least important thing is that this argument is unfair to all the researchers and achievements AI produced for over sixty years
+~1950-2013 and that some of these achievements were truly game changing. It's just that we all got used to taking them for granted.
+That's what AI has always been about: the <b>next problem</b>.</p>
+</div>
+<div class="6u$ 12u$(small)">
+<p>The important thing is that even in the fields in which <b>DL</b> (Deep Learning) produced major advances, as in <b>computer go</b> this
+vision is partial to the point of not being true. <b>AlphaGo</b>, the program who beat Lee Sedol, the best player in the world, is a
+mix of Monte-Carlo Tree Search and DL. Without the DL it is still stronger than almost the whole human population and as strong as the best
+humans in 9x9. Without the Tree Search, it just sucks. It becomes a player that plays strong and elegant moves, but does not understand
+<b>why</b> or <b>when</b> they should be played.</p>
 
-<h3>Q: You stated "current frameworks are a hindrance in the exploration of new ideas", isn't that too strong?</h3>
+<p>Our point being: <b>deep learning</b> is great, but hard problems require more than just DL. You may be thinking: <i>"I can do these other
+things on top of current platforms easily."</i> Well, easily, maybe, but <b>not efficiently</b> as we are about to explain.</p>
+</div>
+</div>
 
-This statement is strong, but if you agree on most of (or even all) the following points, it becomes a consequence. Keep reading.
+<h2 id="content">(Not really) a digression on rectangles</h2><p>
+<div class="row">
+<div class="6u 12u$(small)">
+<span class="image fit"><img src="/kaalam/assets/images/buildings.jpg" alt="" /></span>
+<p>We immediately recognize rectangular shapes as man made.</p>
+<span class="image fit"><img src="/kaalam/assets/images/panels.jpg" alt="" /></span>
+<p>They can be good solutions to optimizing some problem.</p>
+<span class="image fit"><img src="/kaalam/assets/images/greenhouses.jpg" alt="" /></span>
+<p>Some have more aesthetic value than others.</p>
+<p>And we do not just <b>build objects</b> as rectangles ...</p>
+</div>
+<div class="6u$ 12u$(small)">
+<h4>... we abstract ideas as rectangles</h4>
+<ul>
+	<li>We build our data sets as rectangles. (like sheets and tables)</li>
+	<li>Images and videos are rectangles. (in higher dimension)</li>
+	<li>Neural networks are rectangles. (of units)</li>
+	<li>Even words in <b>natural language processing</b> are rectangles!</li>
+</ul>
+<blockquote>
+Believe it or not, the latter is true. In the online version of the Cambridge Dictionary, the many definitions of the word <b>do</b> take
+442 lines to describe, the word <b>think</b> takes 143 and <b>pneumonoultramicroscopicsilicovolcanoconiosis</b> takes 4. In deep learning
+models, they all take the same: <b>one row</b>.
+</blockquote>
+<p>And that, of course, is very good, because <b>humans are very efficient pushing rectangles into other rectangles</b>.</p>
+<p>We build rectangular buildings out of rectangular elements, store the energy from the rectangular panels in rectangular arrays of
+batteries that, again, are rectangular arrangements of rectangular cells. In AI, we push our data rectangles into rectangular
+GPUs where we compute rectangular arrays of artificial neural networks.</p>
 
-<h3>Q: "Reinforcement Learning", how is Jazz better suited for that?</h3>
+<span class="image fit"><img src="/kaalam/assets/images/nvidia2048gpu.jpg" alt="" /></span>
+<p>This beauty is a GPU. If you enlarge it, you can count 2048 cores.</p>
 
-<h3>Q: "Learning with something else than Gradient Descent", again, how?</h3>
+<blockquote>
+You may be surprised to read that all the 2048 cores of the GPU not just execute the same program, but they do it exactly at the same time.
+When one of the cores, as a result of a conditional branch, takes a different logical path than the others, all the other cores wait until
+it completes. Cores can only execute the same instruction as the others or do nothing.
+</blockquote>
 
-Computer Go has been sold as a success of deep learning. It is a combination of MonteCarlo Tree Search and DNN. Without the DNN it is still
-stronger than almost the whole human population and as strong as the best in 9x9. Without the Tree Search it just sucks, it becomes
-a player that plays strong and elegant moves, but does not understand when to play them. A few mistakes and the game is over, just one
-mistake against a professional player.
+<span class="image fit"><img src="/kaalam/assets/images/neurons.jpg" alt="" /></span>
+<p>And surprisingly, many writers seriously claim that artificial neural networks are biologically inspired. But <b>that</b> would be a
+digression.</p>
 
-<h3>Q: "Exploring ideas with the right amount of data naturally." I can do that with, say, Tensorflow, so what?</h3>
 
-This includes "Learning with something else than fully connected layers."
+</div>
+</div>
 
-<h3>Q: "Semantics that do not make AI look stupid", didn't you just say you don't know how to do that?</h3>
+<h2 id="content">How we optimize software</h2><p>
+<div class="row">
+<div class="6u 12u$(small)">
+<h3>What is a profiler?</h3>
+<p>Sorry for introducing a technicality, but it is necessary. A computer program is made of smaller parts. Simplifying, we call these
+parts <b>functions</b>. What a <b>profiler</b> does, is interrupt a program millions of times, registers the name of the function that
+was interrupted and lets the program carry on. This way, it builds a map of how much time is spent in each function. This is used to
+know what is worth optimizing. If a function only runs 1/10000 of the time, who would want to optimize that? Even if you made it ten times
+faster, the difference would not be noticeable.</p>
+<p>This way, when <b>what runs most of the time</b> is highly optimized, we are living in the <b>perfect world</b>.</p>
+<blockquote>
+That is <b>usually</b> true. At least, it is true <b>outside AI</b>.
+</blockquote>
+<p>When we look at a running AI system, <b>it looks</b> pretty well optimized. Most of the processing time is spent by efficiently computing
+neural networks with highly optimized code and much less is spent in the "application logic" that is expressed in "higher level" languages.</p>
+<h3>So, how is the "perfect world" model for AI broken?</h3>
+<p>It is broken in different ways.</p>
+<ul>
+	<li>Current platforms are only near optimal <b>in one direction</b>. If we add something as trivial as tree search, it can take 1000
+times more time in a high level language than it takes in a lower level language. Suddenly, the profiler shows the pattern exactly upside
+down.</li>
+	<li>Even when we compute "just neural networks", its efficiency depends on us <b>pushing rectangles into other rectangles</b>.
+Technically, we are stacking "fully connected" layers. Why? In some cases, just because it is computationally "cheap" when we have a lot of
+GPU power.</li>
+</ul>
+</div>
+<div class="6u$ 12u$(small)">
+<ul>
+	<li>Current platforms do not have efficient mechanisms to try ideas on <b>"just a few cases"</b>. You can, of course, build smaller data
+sets to explore ideas. But some hypotheses such as <i>"An elephant is heavier than an ant."</i> inherently require less cases to be verified
+than others like <i>"Martian gravity influences athletic records."</i>. This is not minor, learning is precisely about verifying
+hypotheses.</li>
+	<li>And, less easy to explain without getting technical, besides data processing, we need <b>data storing</b> and <b>web serving</b>,
+especially since data is big and needs to be computed across multiple computers. The current trend is to do these things as separate
+processes. Not because it is the fastest way, it is not. There are inter-process barriers and communication overhead can become the
+bottleneck that makes global performance plummet.</li>
+</ul>
+<h3>Converging to a solution vs. "just doing it"</h3>
+<p>If you hear the phrase <b>"Turing complete"</b> applied to any system, it means the system can compute anything. There is a remarkable
+theoretical framework called the <b>"Church-Turing Thesis"</b> that states (simplifying) that all Turing complete systems are equivalent.
+This is a solid foundation for AI: if the brain can do it, a computer can, since both are Turing complete.</p>
+<blockquote>
+There is a lot of excitement about neural networks being Turing complete (except in trivial cases) since it should mean: <b>we don't need
+anything else</b> to do AI.
+</blockquote>
+<p>Actually, we do, at least if we want it <b>before the sun burns out</b>.</p>
+<p>You can read arguments on Twitter going like: <i>"Well, actually, this is more right than you think: A multiplication *is* a convolution
+of one multi-digit number by another one over the digit dimension. Think about it."</i> by none other than <b>Yann LeCun</b>.</p>
+<p>But, when we need a multiplication, we can choose: A <b>CPU</b> doing hundreds of millions per core per second with 0% error in 20 digit
+precision or a <b>neural network</b> doing 100 per second after three days of training in 3 digit precision with a 2% error rate. (The
+former is just average performance of devices costing $10, the latter a generous estimation without even mentioning its cost.)</p>
 
-Automatic programming.
+</div>
+</div>
 
-<h3>Q: "Safe and automated ways to work with all kinds of data sources" aren't you overpromising here?</h3>
+<h2 id="content">We should increase interoperability of what we already have.</h2><p>
+<div class="row">
+<div class="6u 12u$(small)">
+<h3>One giant leap for mankind ...</h3>
+<p>... was the invention of the <b>file</b>. It happened in different steps, starting in 1940 and only resembles current file systems
+since 1961. Today, we have amazing free software tools to process all kinds of data, but the creation of data pipelines is still tedious
+and error prone. We have to manage many <i>"unknown file type, wrong version, option not supported, unexpected syntax"</i> errors, wait
+until hundreds of gigabytes get decompressed just to check image sizes, etc.</p>
+<p>We could wait until computers spontaneously get so smart that they guess what we want and do it for us using the right tools, with
+optimal arguments ...</p>
 
-It is true that we have amazing free software tools to process all kinds of data. But, since we have not advanced much in persistent data abstractions since 1950 (yeah, the file was invented in 1950), it is hard for a machine to reason about how to apply these tools seamlessly. Creation of data pipelines is tedious and error prone.
+</div>
+<div class="6u$ 12u$(small)">
+<p>... or just <b>make the whole process machine understandable</b>.</p>
+<h3>And the same applies to APIs</h3>
+<p><span class="image left"><img src="/kaalam/assets/images/api-icon.png" alt="" /></span>We could improve on standardized ways to abstract
+API details. Finding such things as: language, timestamp, expected expiry time, units, etc. for existing data or having mechanisms to
+ask for updated data in straightforward ways, are things that add value and <b>simplify the whole process</b>.</p>
+</div>
+</div>
 
-<h3>Q: Why on earth do we need another language? Would xyz not have been a better choice?</h3>
+<h2 id="content">Putting it all together</h2><p>
+<div class="row">
+<div class="6u 12u$(small)">
+<p>We summarize our points that we address one by one in:
 
-<h3>Q: "Getting rid of scripting languages", why should that be an objective?</h3>
+<ul class="actions vertical small">
+	<li><a href="/kaalam/2018/10/01/how_is_jazz_a_solution.html" class="button small">How is Jazz a solution?</a></li>
+</ul>
 
-<h3>Q: "Scaling, creating APIs, ..." I can already do that, why move to a less established framework?</h3>
-
-"The lightweight, single process, unlimited threads back-end that simply doesn't need anything else that itself."
-
-"In the end, all you need is a box running Jazz and a browser."
-
-<h3>Q: Jazz does not have security implemented, am I right?</h3>
-
-<h3>Q: How reliable is Jazz?</h3>
+Always keep in mind that nobody knows what AI needs to succeed, but we do know a lot on building data driven solutions. So the platform
+should ideally help <b>experimentation</b> while providing <b>industrial quality technology to build data engines in production
+environments</b>.</p>
+<p>These points are what we want to improve over current platforms.</p>
+</div>
+<div class="6u$ 12u$(small)">
+<ol>
+	<li>Current platforms can be more a hindrance than a help in the exploration of <b>new ideas</b>.</li>
+	<li>The efficiency of current systems is broken, unless all you need is pushing <b>rectangles</b> into other rectangles.</li>
+	<li>They are not giving any thought (at platform level) to efficient <b>quick exploration</b>.</li>
+	<li>We need the power of a CPU to do <b>more things than just neural networks</b>.</li>
+	<li>Depending on <b>external services</b> for such things as exposing REST APIs and persisting data, not to mention interpreters
+and virtual machines, makes platforms less efficient.</li>
+	<li>Working with different kinds of <b>data files</b> and <b>services</b> is tedious and error prone.</li>
+	<li><b>Scripting languages</b> are great <b>for exploring</b> ideas. In production environments, they are slow, memory inefficient and
+introduce inter-process barriers.</li>
+</ol>
+</div>
+</div>
