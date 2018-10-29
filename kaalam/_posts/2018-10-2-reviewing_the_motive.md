@@ -213,8 +213,8 @@ should ideally help <b>experimentation</b> while providing <b>technology to buil
 	<li>The efficiency of current systems is broken, unless all you need is pushing <b>rectangles</b> into other rectangles.</li>
 	<li>Current platforms can sometimes be more a hindrance than a help in the exploration of <b>new ideas</b>.</li>
 	<li>Current solutions are not giving any thought (at platform level) to efficient <b>quick exploration</b>.</li>
-	<li>Using CPU/GPU to do neural networks while <b>expecting neural networks to do what the CPU does</b> is broken.</li>
 	<li>Using <b>external processes</b> for creating REST APIs, storing data or computing with interpreters isn't the fastest choice.</li>
+	<li>Using CPU/GPU to do neural networks while <b>expecting neural networks to do what the CPU does</b> is broken.</li>
 	<li><b>Scripting languages</b> are great for exploration. In production, they are slow, memory hungry and challenge the architecture.</li>
 	<li>Working with different kinds of <b>data files</b> and <b>services</b> is tedious and error prone.</li>
 </ol>
