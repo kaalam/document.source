@@ -40,7 +40,7 @@ platforms." %}
 
   * The reasons **why** are described in [why Jazz](/kaalam/2018/10/04/why_jazz.html).
   * **What** our solution is, is described [here](basics_jazz_vision.html).
-  * The "Hello world!" of the Jazz [community](/kaalam/2018/10/03/what_is_kaalam.ai.html).
+  * The "Hello world!" of the Jazz [community](/kaalam/2018/10/03/what_is_kaalam_ai.html).
 
 ## How do I make a contribution?
 
