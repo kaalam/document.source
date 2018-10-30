@@ -215,7 +215,7 @@ should ideally help <b>experimentation</b> while providing <b>technology to buil
 	<li>Current solutions are not giving any thought (at platform level) to efficient <b>quick exploration</b>.</li>
 	<li>Using <b>external processes</b> for creating REST APIs, storing data or computing with interpreters isn't the fastest choice.</li>
 	<li>Using CPU/GPU to do neural networks while <b>expecting neural networks to do what the CPU does</b> is broken.</li>
-	<li><b>Scripting languages</b> are great for exploration. In production, they are slow, memory hungry and challenge the architecture.</li>
+	<li><b>Scripting languages</b> are great for exploration. In production, they are slow, memory hungry and challenge architecture.</li>
 	<li>Working with different kinds of <b>data files</b> and <b>services</b> is tedious and error prone.</li>
 </ol>
 </div>
