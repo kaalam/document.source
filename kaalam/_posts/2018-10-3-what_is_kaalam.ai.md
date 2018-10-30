@@ -73,8 +73,8 @@ meritocracy, we need help, we want to find people that believe in the idea enoug
 happen.</p>
 
 <p>Premature funding, especially by incumbents, typically ends up replicating the incumbent's hierarchy. In such scenarios, budget ownership
-replaces vision and ladder climbing skills replace merit. Of course, we don't know everything and we would accept funding that does not
-imply diverging from our strategic goals. It's just that the risk of becoming "yet another you-name-it" prevents us from looking for the
+replaces vision and ladder climbing skills replace merit. Of course, we don't know everything and <b>we would accept funding that does not
+imply diverging from our strategic goals</b>. It's just that the risk of becoming "yet another you-name-it" prevents us from looking for the
 shelter of a large corporation too early. Again, <b>not too early</b>! We definitely look forward to build alliances with major players. We
 believe in going through a period of austerity that self-selects the team, builds the product and earns respect for the vision. After that,
 alliances should be built, not for money but based on goals.</p>
@@ -105,12 +105,13 @@ merrier</b>. But, of course, when kaalam becomes a corporation we hope not to lo
 		<p>That's <b>a real problem</b>. Most projects don't make it. But also here <b>being OSS helps</b>: In an OSS project you own
 everything you built and everything everyone else built. It's the magic of software, it multiplies endlessly. If you are thrilled about
 making it happen, if you are tired of your next project being yet another end-to-end deep learning model like 10000 similar projects you
-see in every conference, if you are exceptional at what you do (whatever that is), <b>you should consider being part of Jazz</b>. It is an
-opportunity to have a say on the advancement of AI, in case, of course, our analysis is more right that wrong.</p>
+see in every conference, if you have enough self-confidence to create something exceptional by just delivering a chunk of it every day,
+if you wish to have a say on the advancement of AI (in case, of course, you agree our analysis is more right that wrong)
+<b>... you should be part of Jazz!</b></p>
 	</dd>
 </dl>
 
-<blockquote>Hopefully, this clarifies why we should not be in a hurry to raise money.</blockquote>
+<blockquote>Hopefully, this clarifies how we expect to do it and why we should not be in a hurry to raise money.</blockquote>
 
 <ul class="actions small">
 	<li><a href="/jazz_reference/contributing_welcome_all.html" class="button small">How can I help?</a></li>
