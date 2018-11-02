@@ -15,9 +15,9 @@ image: assets/images/top_solution.jpg
 
 
 <p>In the <a href="/kaalam/2018/10/02/reviewing_the_motive.html"><b>first part</b></a> we identified seven opportunities for improvement. In
-this post we discuss how Jazz addresses those issues to better understand why Jazz was created at all. We also add three extra questions that
-are directly related with Jazz's vision and, hopefully, help clarifying it. We apologize for getting <b>a bit technical</b>, in the end it
-is a debate on technical solutions to technical problems.</p>
+this post we discuss how Jazz addresses those issues to better understand why Jazz was created at all. We also add one bonus question that
+hopefully, helps clarifying Jazz's vision and intentions. We apologize for getting <b>maybe too technical</b>, in the end it is a debate on
+technical solutions to technical problems.</p>
 
 <h4><b>One:</b> The efficiency of current systems is broken, unless all you need is pushing <b>rectangles</b> into other rectangles.</h4>
 
@@ -25,7 +25,7 @@ is a debate on technical solutions to technical problems.</p>
 they can make use of all the hardware you can throw at them very efficiently. When you ask simple questions like <i>"do I really need all
 the connections?"</i> you could argue <i>"For training I do, how else would I know which ones are useless until I train?"</i> and it sounds
 like a fair point, but for prediction, defining <b>useless</b> as a connection that can never make a change in the final result because of
-its weights: <i>"Do I have 1% of useless connections or 99%?"</i>. The answer could be <i>"who cares? the optimization would break if you
+its weights: <i>"Do I have 1% of useless connections or 99%?"</i>. The answer could be: <i>"who cares? the optimization would break if you
 start cherry picking connections."</i> Well, apparently, <b>brains do</b>.</p>
 <p>So maybe, we would benefit from cherry picking as we mention in issue three. But, for the moment, let's say we need the <b>power
 to express complex ideas at low level</b>. And by low level, we mean the "things" that are executed millions of times (per core, thread and
@@ -78,45 +78,79 @@ speed orders of magnitude.</p>
 
 <h4><b>Four:</b> Using <b>external processes</b> for creating REST APIs, storing data or computing with interpreters isn't the fastest choice.</h4>
 
-<p>As we just advanced, at least the persistence and the processing platforms should be the same process if you want to benefit from
-fast random access to data. Thanks to C++ and OSS, you can do better than that, you can have your process being a persistence (LMDB),
-an http server (libmicrohttpd), an http client (libcurl) and a computing platform. Everything is re-entrant and multi-threaded.
-Everything is <b>as fast as it can be built</b>. The first Jazz had an embedded R interpreter, that was kind of a technical "tour de
-force", it was very efficient, but single threaded, sort of breaking the whole idea. We resisted as much as we could before accepting
-that we had to create another programming language, but finally surrendered.</p>
+<p>As we just mentioned, at least the persistence and the processing platforms should be in the same process if you want to benefit from
+fast random access to data. Thanks to C++ and OSS, we can do better than that: we have persistence (LMDB-based), an http server
+(libmicrohttpd-based), an http client (libcurl-based) and a computing platform in the same process. Everything is re-entrant and
+multi-threaded. Everything is <b>as fast as it can be built</b> and everything, except the computing platform, is broadly used by millions
+of users. The original Jazz had an embedded R interpreter. That was some kind of a technical "tour de force", it was very efficient, but
+single threaded, kind of breaking the whole idea. Jazz still has direct binary support for R vectors inherited from the original code
+base.</p>
+
+<div class="box">
+<p><b>We resisted all we could</b> before accepting that we had to <b>create another programming language</b>, but finally
+surrendered.</p>
+</div>
 
 <blockquote>
 In the end, <b>Jazz runs on top of Linux and does not require anything else</b>. It persists data, does computation, scales across a cluster,
 and serves final applications that only need a web browser or a mobile phone app to connect to it. Just <b>one monolithic process</b> that
-is extremely lightweight and conceptually very simple. Should there be complexity, it is in the application code written in Bebop or
-in the front end technologies written for the browser that Jazz only serves.
+is <b>extremely lightweight</b> and <b>conceptually very simple</b>. Should there be complexity, it is in the application code written in
+<b>Bebop</b> or in the front end technologies written for the browser that Jazz only serves.
 </blockquote>
 
 <h4><b>Five:</b> Using CPU/GPU to do neural networks while <b>expecting neural networks to do what the CPU does</b> is broken.</h4>
 
-<p>Bla, bla, bla,</p>
+<p>This is kind of waking up from the <i>"GOFAI is the past of AI"</i> dream and finding out that just adding layers to DNN architectures
+did not solve the <b>next problem</b>. We could digress a lot on what kind of cognitive functions are like perception and which are like
+causal inference and what requires what, but we save it by just stating: as of today, nobody knows how to build human-like reasoning.</p>
 
-<h4><b>Six: Scripting languages</b> are great for exploration. In production, they are slow, memory hungry and challenge the architecture.</h4>
+<blockquote>
+<b>Jazz</b> does not have this problem at all. Jazz has a language that can do arithmetic, logic and everything a CPU can do. It does not
+need to "grow a network that multiplies", it can just use the <b>mul</b> instruction. If we let a program learn multiplication, we just
+give it the opportunity to "play" with the <b>mul</b> instruction. Digital devices are superhuman doing almost everything they do. The
+problem is hard enough to add constraints.
+</blockquote>
 
-<p>Bla, bla, bla,</p>
+<h4><b>Six: Scripting languages</b> are great for exploration. In production, they are slow, memory hungry and challenge architecture.</h4>
+
+<p>Despite that being true, it is always possible to argue: <i>"Human hours are more expensive that computing hours."</i> or <i>"Resources
+are much better spent building new things than optimizing things that are already good enough."</i> and many other <b>perfect sense making
+points</b>. In short: there is not always a compelling reason to "get rid of scripting languages".</p>
+
+<blockquote>
+If we implied that <b>Jazz</b> requires getting rid of scripting languages, we apologize, <b>it does not</b>. You can perfectly run
+a Jazz solution from Python or R forever if that is what you want.
+</blockquote>
+
+<p>Now, look at it form the other side: When you have a working solution, how long does it take to convert that into something lightweight,
+parallelized that does not require the interpreter anymore? That is what Jazz development is about, when you have developed your solution
+using Jazz, <b>you already have it</b>.</p>
 
 <h4><b>Seven:</b> Working with different kinds of <b>data files</b> and <b>services</b> is tedious and error prone.</h4>
 
-<p>Bla, bla, bla,</p>
+<p>Data integration is ugliest part of data analytics. It is already bad when we only have tabular data. Who knows how many hours are spent
+fixing character encodings and date formats. In AI it is even worse, since AI is about "unstructured" data. We have myriads of binary
+formats for images, sound, video, text files and more. Some algorithms also expect data to be transformed: images to be scaled, normalized,
+etc.</p>
+<p>On the other side, we have myriads of tools to do these things that have limitations and different argument syntax. The knowledge on
+what to use on what to produce what is stored as human readable text.</p>
 
-<h4>Bonus 1: Why on earth do we need another language? Wouldn't x have been a better choice?</h4>
+<blockquote>
+Making the knowledge <b>machine understandable</b> rather than human understandable makes sense to us. If there was a universal tool for
+this (in the way git is the universal version control system), we wouldn't even mention it. But, there is no such tool and the first thing
+we need to make it happen is tagging the files with attributes specifying what they are and what tools can produce what and how. In Jazz
+files are blocks and blocks have attributes as first class citizen. Just like a web resource has mime types, languages, a url, etc. any
+file could have attributes defining what can be done with it.
+</blockquote>
 
-<p>Bla, bla, bla,</p>
+<p>So, in Jazz we could declare a reference to "a 100x100 scaled image of frame 12345 from a video file inside a .tar.gz file"
+the reference could be used as a promise. When the picture is actually needed, the framework extracts the video, uses the appropriate
+codec to render the specific frame, scales the image and returns it.</p>
 
-<h4>Bonus 2: Why is removing scripting languages an objective?</h4>
-
-<p>Bla, bla, bla,</p>
-
-<h4>Bonus 3: Why should I take your word on efficiency of something you haven't built yet?</h4>
+<h4>Bonus question: Why should I take your word about the efficiency of something you haven't built yet?</h4>
 
 We obviously do not expect to convince most people immediately. As we deliver, we will be able to build apples to apples benchmarks
 and hopefully ...
-
 
 </section>
 </div>
