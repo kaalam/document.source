@@ -15,9 +15,9 @@ image: assets/images/top_solution.jpg
 
 
 <p>In the <a href="/kaalam/2018/10/02/reviewing_the_motive.html"><b>first part</b></a> we identified seven opportunities for improvement. In
-this post we discuss how Jazz addresses those issues to better understand why Jazz was created at all. We also add one bonus question that
-hopefully, helps clarifying Jazz's vision and intentions. We apologize for getting <b>maybe too technical</b>, in the end it is a debate on
-technical solutions to technical problems.</p>
+this post we discuss how Jazz addresses those issues to better understand why Jazz was created at all. Hopefully, this helps clarifying Jazz's
+vision and intentions. We apologize for getting <b>maybe too technical</b>, in the end it is a debate on technical solutions to technical
+problems.</p>
 
 <h4><b>One:</b> The efficiency of current systems is broken, unless all you need is pushing <b>rectangles</b> into other rectangles.</h4>
 
@@ -61,7 +61,7 @@ and trying out without breaking things. It's biological inspiration is more evol
 <p>This is exactly why Jazz was created in the first place. We had to provide analysis based on millions (to billions) of data rows
 to thousands of users. The overhead of waiting for queries that took minutes was too much for the average case and the infrastructure
 could not handle giving access to querying to thousands of users. We had to focus on partial results taken from random samples and
-leveraging cached results as much as possible. Before deciding that we needed Jazz, we wrote code running in the back end of existing
+leveraging cached results as much as possible. Before deciding that we needed Jazz, we wrote code running in the back-end of existing
 distributed key-value stores. That almost did the job, but was very short sighted in terms of product life cycle. We learned a lot about
 distributing data and, at some point, we found the courage to tell our bosses that we needed to write the storage (almost) from scratch,
 in C++, to own a platform to do data computation for the future, <b>in a bank</b>! Jazz uses LMDB as the persistence, but, and here we
@@ -128,7 +128,7 @@ using Jazz, <b>you already have it</b>.</p>
 
 <h4><b>Seven:</b> Working with different kinds of <b>data files</b> and <b>services</b> is tedious and error prone.</h4>
 
-<p>Data integration is ugliest part of data analytics. It is already bad when we only have tabular data. Who knows how many hours are spent
+<p>Data integration is the ugliest part of data analytics. It is already bad when we only have tabular data. Who knows how many hours are spent
 fixing character encodings and date formats. In AI it is even worse, since AI is about "unstructured" data. We have myriads of binary
 formats for images, sound, video, text files and more. Some algorithms also expect data to be transformed: images to be scaled, normalized,
 etc.</p>
@@ -146,11 +146,6 @@ file could have attributes defining what can be done with it.
 <p>So, in Jazz we could declare a reference to "a 100x100 scaled image of frame 12345 from a video file inside a .tar.gz file"
 the reference could be used as a promise. When the picture is actually needed, the framework extracts the video, uses the appropriate
 codec to render the specific frame, scales the image and returns it.</p>
-
-<h4>Bonus question: Why should I take your word about the efficiency of something you haven't built yet?</h4>
-
-We obviously do not expect to convince most people immediately. As we deliver, we will be able to build apples to apples benchmarks
-and hopefully ...
 
 </section>
 </div>
