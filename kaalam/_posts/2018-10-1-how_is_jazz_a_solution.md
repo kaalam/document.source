@@ -15,9 +15,9 @@ image: assets/images/top_solution.jpg
 
 
 <p>In the <a href="/kaalam/2018/10/02/reviewing_the_motive.html"><b>first part</b></a> we identified seven opportunities for improvement. In
-this post we discuss how Jazz addresses those issues to better understand why Jazz was created at all. Hopefully, this helps clarifying Jazz's
-vision and intentions. We apologize for getting <b>maybe too technical</b>, in the end it is a debate on technical solutions to technical
-problems.</p>
+this post we discuss how Jazz addresses those issues to better understand why Jazz was created at all. We also add a final bonus question
+to clarify the relationship with other platforms. Hopefully, this helps clarifying Jazz's vision and intentions. We apologize for getting
+<b>maybe too technical</b>, in the end it is a debate on technical solutions to technical problems.</p>
 
 <h4><b>One:</b> The efficiency of current systems is broken, unless all you need is pushing <b>rectangles</b> into other rectangles.</h4>
 
@@ -124,7 +124,7 @@ a Jazz solution from Python or R forever if that is what you want.
 
 <p>Now, look at it form the other side: When you have a working solution, how long does it take to convert that into something lightweight,
 parallelized that does not require the interpreter anymore? That is what Jazz development is about, when you have developed your solution
-using Jazz, <b>you already have it</b>.</p>
+using Jazz, <b>you already have it</b>. See <a href="/jazz_reference/vision_apis_http.html"><b>API vision</b></a></p>
 
 <h4><b>Seven:</b> Working with different kinds of <b>data files</b> and <b>services</b> is tedious and error prone.</h4>
 
@@ -146,6 +146,19 @@ file could have attributes defining what can be done with it.
 <p>So, in Jazz we could declare a reference to "a 100x100 scaled image of frame 12345 from a video file inside a .tar.gz file"
 the reference could be used as a promise. When the picture is actually needed, the framework extracts the video, uses the appropriate
 codec to render the specific frame, scales the image and returns it.</p>
+
+<h4><b>Bonus question:</b> Do you plan to use Jazz <b>instead</b> of other platforms?</h4>
+
+<p><b>Not instead</b>! The wonderful part of OSS is, you don't have to chose one or the other! Even in the best case scenario in which Jazz
+is a success, it is very unlikely that it becomes the best option for training a deep learning model. We will not spend development
+resources in a direction in which there is a well established industry and solutions already work near perfectly.</p>
+
+<blockquote>
+Focus should be on: with minimum effort, we import a trained model from a different platform and run it in Jazz. The model automatically
+benefits from lightweight multi-threaded scalability in the hands of its users. Other Jazz services can also use it as part of more complex
+ideas. We can even maintain a collection of useful models pre-trained as text-to-speech, voice recognition, etc.
+<a href="/jazz_reference/reference_docker_latest_server.html"><b>Jazz à la carte</b></a>
+</blockquote>
 
 </section>
 </div>
