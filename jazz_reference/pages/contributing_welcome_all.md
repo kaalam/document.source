@@ -38,8 +38,10 @@ and {% include inline_image.html file="be_part_of_it.png" alt="be part of it." %
 {% include callout.html content="The vision is building a platform to make advances in AI happen that are not straightforward using current
 platforms." %}
 
-  * The reasons **why** are described in [why Jazz](/kaalam/2018/10/04/why_jazz.html).
-  * **What** our solution is, is described [here](basics_jazz_vision.html).
+  * A short pitch [why Jazz](/kaalam/2018/10/04/why_jazz.html).
+  * Identifying improvement opportunities [the motive](/kaalam/2018/10/02/reviewing_the_motive.html).
+  * How Jazz fits these opportunities [Jazz as a solution](/kaalam/2018/10/01/how_is_jazz_a_solution.html).
+  * Technically speaking, what is the vision [here](basics_jazz_vision.html).
   * The "Hello world!" of the Jazz [community](/kaalam/2018/10/03/what_is_kaalam_ai.html).
 
 ## How do I make a contribution?
