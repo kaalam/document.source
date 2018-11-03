@@ -7,9 +7,11 @@ image: assets/images/top_kaalam.jpg
 <div id="main" class="alt">
 <section id="one">
 
-<blockquote><b>kaalam</b>, which is Filipino for <b>wisdom</b>, it is a meritocratic society created around the development and deployment
+<div class="box">
+<p><b>kaalam</b>, which is Filipino for <b>wisdom</b>, it is a meritocratic society created around the development and deployment
 of <b>Jazz</b> and related services. It is not yet a corporation, not yet funded and not related to BBVA (the owner of Jazz 0.1.7) or any
-other organization. The original author of Jazz is a co-founder at <b>kaalam.ai</b>.</blockquote>
+other organization. The original author of Jazz is a co-founder at <b>kaalam.ai</b>.</p>
+</div>
 
 <p>We are willing to find people wanting to be part of our project. This page is the <b>"Hello World!"</b> of the Jazz community.</p>
 
