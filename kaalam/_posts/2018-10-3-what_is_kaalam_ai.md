@@ -7,16 +7,11 @@ image: assets/images/top_kaalam.jpg
 <div id="main" class="alt">
 <section id="one">
 
-<p><b>kaalam</b>, which is Filipino for <b>wisdom</b>, it is a meritocratic society created around the development and commercial deployment
-of Jazz and related services. It is not yet a corporation, not yet funded and not related to BBVA (the owner of Jazz 0.1.7) or any other
-organization. The original author of Jazz is a co-founder at <b>kaalam.ai</b>.</p>
+<blockquote><b>kaalam</b>, which is Filipino for <b>wisdom</b>, it is a meritocratic society created around the development and deployment
+of <b>Jazz</b> and related services. It is not yet a corporation, not yet funded and not related to BBVA (the owner of Jazz 0.1.7) or any
+other organization. The original author of Jazz is a co-founder at <b>kaalam.ai</b>.</blockquote>
 
-<p>If you are only interested in Jazz, this is probably all you need to know about <b>kaalam.ai</b> and you can safely skip the rest of this
-post. We are open and eager to find people willing to be part of our project. We need help in all parts, including: coding, helping with
-communication, creating Jazz projects, Jazz tutorials, giving feedback or just spreading the word. If you may be interested, you will
-probably want to know more.</p>
-<blockquote>This page is the <b>"Hello World!"</b> of the Jazz community.</blockquote>
-
+<p>We are willing to find people wanting to be part of our project. This page is the <b>"Hello World!"</b> of the Jazz community.</p>
 
 <h3>The Mangrove Forest</h3>
 
@@ -25,8 +20,6 @@ The mangrove forest will be a recurrent theme in kaalam's brand. Trees that prou
 lifeforms out of their boundaries. It represents <b>life</b> and <b>respect for Asia</b>. When we invest in corporate brand, we will evolve
 the mangrove forest theme. For now, we just use <b>one green mangrove leave</b> as the promise of a new life form finding its place.
 </p>
-
-
 
 <h3>Geekery</h3>
 
@@ -53,13 +46,11 @@ explaining them to your children.</blockquote>
 and part of the product. Some day we will deliver products in exchange for money from our investors to create more money for all of us.
 After all, <b>Jazz</b> was born in the financial sector.</p>
 
-
 <h3>No exclusion, no exceptions</h3>
 
 <p>One of the advantages of creating kaalam in <b>Spain</b> is we are not bound by exclusion that applies in places like the US. We
 have <b>planetary focus</b> and  design for billions of users. If you happen to be born in Iran, Cuba, Syria, North Korea, Sudan, Crimea
 or wherever, you are just perfect for us.</p>
-
 
 <h3>First bootstrapping, then funding</h3>
 
@@ -112,6 +103,26 @@ if you wish to have a say on the advancement of AI (in case, of course, you agre
 </dl>
 
 <blockquote>Hopefully, this clarifies how we expect to do it and why we should not be in a hurry to raise money.</blockquote>
+
+<div class="inner">
+<h3>Just because you passionately believe in it, that does not make it a good idea</h3>
+<div class="row">
+<div class="6u 12u$(small)">
+<blockquote>
+“The interesting balance you have to get right as an entrepreneur is you have to have a healthy disregard for what other people are saying,
+in the sense that if everyone is saying it is a good idea it it probably too late. You are certainly not five years ahead of your time, you
+may be two years behind. The key thing is, how do you not be delusional as well. You can easily just go I am not going to listen to any
+negative feedback. Just because you passionately believe in it, that does not make it a good idea. ... Actually, you can get self delusional
+thinking, you can over-inspire people to the point they are not thinking rationally about what the can actually achieve in certain amount
+to time."
+</blockquote>
+</div>
+<div class="6u$ 12u$(small)">
+<br/><br/><br/>
+<b>Demis Hassabis</b>, co-founder of DeepMind.
+</div>
+</div>
+</div>
 
 <ul class="actions small">
 	<li><a href="/jazz_reference/contributing_welcome_all.html" class="button small">How can I help?</a></li>
