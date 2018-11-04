@@ -48,7 +48,7 @@ to end-to-end optimization. Now, data makes the difference, and the machine crea
 state that, today, major AI players can only be the data owners.</p>
 
 <p>The least important thing is how this argument is unfair to all the researchers and achievements AI produced for over sixty years
-~1950-2013 and that some of these achievements were truly game changing. We just all got used to take them for granted. That's what AI has
+~1950-2013 and that some of these achievements were truly game changing. We just all got used to taking them for granted. That's what AI has
 always been about: the <b>next problem</b>.</p>
 </div>
 <div class="6u$ 12u$(small)">
