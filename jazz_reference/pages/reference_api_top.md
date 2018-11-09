@@ -7,7 +7,7 @@ permalink: reference_api_top.html
 
 <br/>
 
-{% include important.html content="These pages are really being edited as things are implemented and will change." %}
+{% include important.html content="These pages are being edited as things are implemented and will change." %}
 
 {% include note.html content="This does not yet address important things such as a consistent use of reserved words to provide consistent
 functionality across all Jazz. It just defines character set usage in the different APIs and how the basic predicates are implemented." %}
