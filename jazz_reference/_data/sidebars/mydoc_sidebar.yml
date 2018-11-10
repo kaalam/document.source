@@ -85,20 +85,40 @@ entries:
       output: web, pdf
 
       subfolders:
-      - title: Predicates, lvalues and rvalues
+      - title: API element reference
         output: web
         subfolderitems:
 
-        - title: Predicates, lvalues and rvalues
-          url: /reference_api_predicates_lvalues_rvalues.html
+        - title: API elements
+          url: /reference_api_elements.html
           output: web
 
-        - title: Lvalues specification
-          url: /reference_api_lvalues_specification.html
+        - title: Block constructors
+          url: /reference_api_block_constructors.html
           output: web
 
-        - title: Rvalues specification
-          url: /reference_api_rvalues_specification.html
+        - title: Block selections
+          url: /reference_api_block_selections.html
+          output: web
+
+        - title: Block attributes
+          url: /reference_api_block_attributes.html
+          output: web
+
+        - title: Predicates
+          url: /reference_api_predicates.html
+          output: web
+
+        - title: Predicate modifiers
+          url: /reference_api_predicate_modifiers.html
+          output: web
+
+        - title: Lvalues
+          url: /reference_api_lvalue.html
+          output: web
+
+        - title: Rvalues
+          url: /reference_api_rvalue.html
           output: web
 
   - title: Bebop reference
