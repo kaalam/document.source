@@ -17,7 +17,7 @@ other organization. The original author of Jazz is a co-founder at <b>kaalam.ai<
 
 <h3>The Mangrove Forest</h3>
 
-<p><span class="image left"><img src="/kaalam/assets/images/company_logo.png" alt="" /></span>
+<p><span class="image left"><img src="/kaalam/assets/images/logo_80.png" alt="" style="width:80px;" /></span>
 The mangrove forest will be a recurrent theme in kaalam's brand. Trees that proudly show their roots and challenge the ocean extending
 lifeforms out of their boundaries. It represents <b>life</b> and <b>respect for Asia</b>. When we invest in corporate brand, we will evolve
 the mangrove forest theme. For now, we just use <b>one green mangrove leave</b> as the promise of a new life form finding its place.
