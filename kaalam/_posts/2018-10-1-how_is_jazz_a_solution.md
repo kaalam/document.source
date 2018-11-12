@@ -15,9 +15,9 @@ image: assets/images/top_solution.jpg
 
 
 <p>In the <a href="/kaalam/2018/10/02/reviewing_the_motive.html"><b>first part</b></a> we identified seven opportunities for improvement. In
-this post we discuss how Jazz addresses those issues to better understand why Jazz was created at all. We also add a final bonus question
-to clarify the relationship with other platforms. Hopefully, this helps clarifying Jazz's vision and intentions. We apologize for getting
-<b>maybe too technical</b>, in the end it is a debate on technical solutions to technical problems.</p>
+this post we discuss how Jazz addresses them to better understand why Jazz was created. We also add final bonus questions to clarify
+the relationship with other platforms. Hopefully, this helps clarifying Jazz's vision and intentions. We apologize for getting <b>maybe too
+technical</b>, in the end it is a debate on technical solutions to technical problems.</p>
 
 <h4><b>One:</b> The efficiency of current systems is broken, unless all you need is pushing <b>rectangles</b> into other rectangles.</h4>
 
