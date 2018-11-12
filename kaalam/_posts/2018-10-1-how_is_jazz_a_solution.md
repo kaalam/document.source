@@ -182,14 +182,13 @@ language on top, but then, we would diverge and create a hell to keep up to date
 many things we find unnecessary and that just add overhead to our projects. <b>mxnet</b> has a key-value store, but that's not how we
 want the persistence to be,  ...</p>
 
-<p>We have spent a lot of time pondering on this, also looked for <b>perfect matches</b> (like LMDB, Libmicrohttpd and libCurl) on the
-tensor arithmetic side that provide most of what we need out of the box. Projects like tiny-dnn, ... It is still not a no, maybe we
-end up transforming some OSS code to help implementing the standard core, but that's something we are already doing for other parts of
-Jazz.</p>
+<p>We have spent a lot of time pondering on this. We also looked for <b>perfect matches</b> (like LMDB, Libmicrohttpd and libCurl) on the
+tensor arithmetic side that provide most of what we need out of the box. Projects like tiny-dnn, ... It is still not a final decision,
+maybe we end up transforming some OSS code to help implementing the standard core like we are already doing in other parts of Jazz.</p>
 
-<p>We could have also extended a platform as a partial solution just to build something similar to what we want. This is, again, how
-Jazz was born, understanding that sometimes you need to take the time to create the tool you need instead of patching something that
-could do the job.</p>
+<p>We could also have extended a platform as a partial solution just to build something similar to what we want. This is, again, how
+Jazz was born: understanding that sometimes you need to take the time to <b>create the tool you need</b> instead of patching something that
+does the job "more or less".</p>
 
 <p>Or <b>we may simply be wrong</b> and should be doing what everyone else is doing. (No sarcasm.)</p>
 
