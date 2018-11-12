@@ -121,21 +121,17 @@ parts <b>functions</b>. What a <b>profiler</b> does, is interrupt a program mill
 was interrupted and lets the program carry on. This way, it builds a map of how much time is spent in each function. This is used to
 know what is worth optimizing. If a function only runs 1/10000 of the time, who would want to optimize that? Even if you made it ten times
 faster, the difference would not be noticeable.</p>
-<p>This way, when <b>what runs most of the time</b> is highly optimized, we are living in the <b>perfect world</b>.</p>
-<blockquote>
-That is <b>usually</b> true. At least, it is true <b>outside AI</b>.
-</blockquote>
+<p>This way, when what runs <b>most of the time</b> is highly optimized, we are living in the <b>perfect world</b>. That is at least true
+<b>outside AI</b>.</p>
 <p>When we look at a running AI system, <b>it looks</b> pretty well optimized. Most of the processing time is spent by efficiently computing
 neural networks with highly optimized code and much less is spent in the "application logic" that is expressed in "higher level" languages.</p>
 <h3>So, how is the "perfect world" model for AI broken?</h3>
 <p>It is broken in different ways.</p>
 <ul>
-	<li>Current platforms are only near optimal <b>in one direction</b>. If we add something as trivial as tree search, it can take 1000
-times more time in a high level language than it takes in a lower level language. Suddenly, the profiler shows the pattern exactly upside
-down.</li>
+	<li>Current platforms are only near optimal <b>in one direction</b>. If we add something like tree search, it can take 1000 times more
+in a high level language than it takes in a lower level one. Suddenly, the profiler shows the pattern exactly upside down.</li>
 	<li>Even when we compute "just neural networks", its efficiency depends on us <b>pushing rectangles into other rectangles</b>.
-Technically, we are stacking "fully connected" layers. Why? In some cases, just because it is computationally "cheap" when we have a lot of
-GPU power.</li>
+We stack fully connected layers without considering alternatives.</li>
 	<li>Current platforms do not have efficient mechanisms to try ideas on <b>"just a few cases"</b>. You can, of course, build smaller data
 sets to explore ideas. But some hypotheses such as <i>"An elephant is heavier than an ant."</i> inherently require less cases to be verified
 than others like <i>"Martian gravity influences athletic records."</i>. This is not minor, learning is precisely about verifying
@@ -146,9 +142,9 @@ hypotheses.</li>
 <ul>
 	<li>And, less easy to explain without getting technical, besides data processing, we need <b>data storing</b> and <b>web serving</b>,
 especially since data is big and needs to be computed across multiple computers. The current trend is to do these things as separate
-processes. Not because it is the fastest way, it is not. We don't want to discuss about inter-process barriers or communication overhead, neither
-disrespect the arguments of the architects that go for many processes. As in the design of the Linux kernel, making it monolithic is an option.
-Our point: There is room for improvement in terms of efficiency if, like in today's architectures, you use many processes intercommunicating.</li>
+processes. Not because it is the fastest way, it is not. We don't want to discuss about inter-process barriers or communication overhead,
+neither disrespect the arguments of the architects that prefer many processes. As in the design of the Linux kernel, making it monolithic
+was just an option. <b>Our point</b>: A single process has advantages we will discuss and is faster.</li>
 </ul>
 <h3>Converging to a solution vs. "just doing it"</h3>
 <p>If you hear the phrase <b>"Turing complete"</b> applied to any system, it means the system can compute anything. There is a remarkable
