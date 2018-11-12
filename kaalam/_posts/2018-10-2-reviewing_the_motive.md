@@ -180,8 +180,8 @@ optimal arguments ...</p>
 <p>... or just <b>make the whole process machine understandable</b>.</p>
 <h3>And the same applies to APIs</h3>
 <p><span class="image left"><img src="/kaalam/assets/images/api-icon.png" alt="" /></span>We could improve on standardized ways to abstract
-API details. Finding such things as: language, timestamp, expected expiry time, units, etc. for existing data and having mechanisms to
-ask for updated data in straightforward ways, are things that add value and <b>simplify the whole process</b>.</p>
+API details. Finding such things as: language, timestamp, expected expiry time, units, etc. Besides that, creating mechanisms to ask for
+updated data in consistent ways, are things that add value and <b>simplify data processing</b>.</p>
 </div>
 </div>
 
