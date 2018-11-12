@@ -91,7 +91,7 @@ Text, text, text.
 
 {% include image.html file="jazz_block.png" alt = "This shows when the image fails" caption="This always shows" max-width=320 %}
 
-Text, text, text, {% include inline_image.html file="company_logo.png" alt="kaalam.ai" %}, text.
+Text, text, text, {% include inline_image.html file="logo_80.png" alt="kaalam.ai" %}, text.
 
 ## Video
 
