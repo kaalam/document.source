@@ -93,9 +93,9 @@ surrendered.</p>
 
 <blockquote>
 In the end, <b>Jazz runs on top of Linux and does not require anything else</b>. It persists data, does computation, scales across a cluster,
-and serves final applications that only need a web browser or a mobile phone app to connect to it. Just <b>one monolithic process</b> that
-is <b>extremely lightweight</b> and <b>conceptually very simple</b>. Should there be complexity, it is in the application code written in
-<b>Bebop</b> or in the front end technologies written for the browser that Jazz only serves.
+and serves final applications that only need a web browser or a mobile app to connect to it. Just <b>one monolithic process</b> that is
+<b>extremely lightweight</b> and <b>conceptually very simple</b>. Should there be complexity, it is in the application code written in
+<b>Bebop</b> or in the front end technologies written for the browser.
 </blockquote>
 
 <h4><b>Five:</b> Using CPU/GPU to do neural networks while <b>expecting neural networks to do what the CPU does</b> is broken.</h4>
