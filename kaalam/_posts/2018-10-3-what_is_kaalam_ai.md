@@ -56,25 +56,32 @@ or wherever, you are just perfect for us.</p>
 
 <h3>First bootstrapping, then funding</h3>
 
+<div class="box">
+<p>There is no substitute for doing.</p>
+</div>
+
 <p>We believe in doing it the right way: <b>First</b> proving that we can become a player capable of achieving major advances in AI and
 <b>then</b> raising money.</p>
-
-<blockquote>There is no substitute for doing.</blockquote>
 
 <p>We want others to respect us for the same thing we respect others: <b>delivering amazing technology</b>. We definitely believe in
 meritocracy, we need help, we want to find people that believe in the idea enough to invest their time just for the sake of making it
 happen.</p>
 
-<p>Premature funding, especially by incumbents, typically ends up replicating the incumbent's hierarchy. In such scenarios, budget ownership
-replaces vision and ladder climbing skills replace merit. Of course, we don't know everything and <b>we would accept funding that does not
-imply diverging from our strategic goals</b>. It's just that the risk of becoming "yet another you-name-it" prevents us from looking for the
-shelter of a large corporation too early. Again, <b>not too early</b>! We definitely look forward to build alliances with major players. We
-believe in going through a period of austerity that self-selects the team, builds the product and earns respect for the vision. After that,
-alliances should be built, not for money but based on goals.</p>
+<p>Premature funding, <a href="https://www.cbinsights.com/research/corporate-innovation-strategy-guide">especially by incumbents</a>,
+typically ends up replicating the incumbent's hierarchy. In such scenarios, budget ownership replaces vision and ladder climbing skills
+replace merit. Of course, <b>we would accept funding that does not imply diverging from our strategic goals</b>. It's just that we cannot
+condition building Jazz to funding. We came this far without money, money would buy us time to advance faster, just that. A community is a
+collaborative contribution of time, which is money. Somehow, crowd collaboration and crowdfunding look like a better option for now.
+And <b>building a community is the way to healthy growth</b>. In early stages, premature business plans just to make the project suitable
+for VC, or accepting "money vs. product" imbalance, since the product is not yet assessed as it should be, could end up frustrating the
+whole idea.</p>
 
-<blockquote><b>Just to clarify</b>: This is compatible with crowdfunding Jazz-based products. At this stage, we are not looking for
-investors, but raising donations and crowdfunding to make products happen by committing full time dedication of coders is part of the
-strategy.</blockquote>
+<p><b>Just to clarify</b>: This is compatible with crowdfunding Jazz-based products. Raising donations and crowdfunding to make products
+happen by committing full time dedication of coders is part of the strategy.</p>
+
+<p>And again, <b>not too early</b>! We definitely look forward to build alliances with major players. We believe in going through a period
+of austerity that self-selects the team, builds the product and earns respect for the vision. After that, alliances should be built, not
+for money but based on goals.</p>
 
 <h3>Why OSS? A brief Q&A for people not familiar with Open Source Software</h3>
 <dl>
