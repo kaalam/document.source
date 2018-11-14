@@ -15,6 +15,11 @@ For the moment, this page only defines \"where to go\" but finding some elegant 
   * There must be some support for modules: E.g., "import rnn"
   * Aliases and other syntactic sugar: E.g., **using** /xxx.yy.zz **as** _z_
 
+## Bebop makes things easy
+
+  * There is a clear **type inference** mechanism. Primitive types meet on the minimum common enclosing type (bool -> int -> double). Classes meet on the closest ancestor if a->b->c and a->b->d  c and d meet on b.
+  * There is a clear **shape inference** mechanism. We make things simple by translating ideas like "with the dimensions of", "with the number of rows of" or "repeated as necessary", etc. into code, like "a + 2" meaning, as expected, element-wise addition of 2 to any tensor of any shape and numeric type.
+
 ## Bebop is functional
 
   * Functions can be arguments of functions.
