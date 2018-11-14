@@ -104,24 +104,22 @@ if you wish to have a say on the advancement of AI (in case, of course, you agre
 	</dd>
 </dl>
 
-<blockquote>Hopefully, this clarifies how we expect to do it and why we should not be in a hurry to raise money.</blockquote>
-
 <div class="inner">
 <h3>Just because you passionately believe in it, that does not make it a good idea</h3>
 <div class="row">
 <div class="6u 12u$(small)">
 <blockquote>
 “The interesting balance you have to get right as an entrepreneur is you have to have a healthy disregard for what other people are saying,
-in the sense that if everyone is saying it is a good idea it it probably too late. You are certainly not five years ahead of your time, you
-may be two years behind. The key thing is, how do you not be delusional as well. You can easily just go I am not going to listen to any
-negative feedback. Just because you passionately believe in it, that does not make it a good idea. ... Actually, you can get self delusional
-thinking, you can over-inspire people to the point they are not thinking rationally about what the can actually achieve in certain amount
-to time."
+in the sense that if everyone is saying it is a good idea, it is probably too late. You are certainly not five years ahead of your time, you
+may be two years behind. The key thing is, how do you not be delusional as well. You can easily just go: I am not going to listen to any
+negative feedback. Just because you passionately believe in it, that does not make it a good idea. ... Actually, you can get self-delusional
+thinking, you can over-inspire people to the point they are not thinking rationally about what they can actually achieve in a certain amount
+of time."
 </blockquote>
 </div>
 <div class="6u$ 12u$(small)">
 <br/><br/><br/>
-<b>Demis Hassabis</b>, co-founder of DeepMind.
+<b>Demis Hassabis</b>, CEO and co-founder of DeepMind.
 </div>
 </div>
 </div>
