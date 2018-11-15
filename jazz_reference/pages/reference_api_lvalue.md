@@ -1,9 +1,24 @@
 ---
 title: Lvalues
-summary: 
+summary: API lvalue reference
 sidebar: mydoc_sidebar
 permalink: reference_api_lvalue.html
 ---
+
+## Initial definition
+
+In Jazz an **lvalue** is one of:
+
+  * A chain of keeprs abstracted as block ids starting from root ending with the name of a block. They must all exist except, possibly, the last name.
+  * A data block that will be returned as a Python object, R object or http (GET) resource.
+
+## Initial caveats
+
+All lvalue assignments are idempotent. Assigning twice has the same effect than assigning once. There is no += operator.
+
+## As implemented
+
+{% include important.html content="NOT DEFINED (currently WiP)" %}
 
 <br/>
 
