@@ -30,8 +30,7 @@ pJazzBlock new_jazz_block (int            cell_type,
 
 ## Syntax
 
-{% include important.html content="NOT DEFINED." %}
-
+{% include important.html content="NOT DEFINED (currently WiP)" %}
 
 <br/>
 
