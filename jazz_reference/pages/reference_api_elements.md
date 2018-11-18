@@ -15,7 +15,7 @@ and http with only a few caveats:
 <span class="label label-info">R</span>
 <span class="label label-info">Python</span>
   * R and Python will **put** and **get** native R and Python objects rather than binary objects. This is limited to vectors of basic types like
-boolean, integers, doubles and numeric.
+boolean, integer, double and string.
 
 <span class="label label-success">Http</span>
   * Http objects will automatically be returned with mime types specified as attributes and be available at urls specified as attributes.
@@ -25,9 +25,8 @@ boolean, integers, doubles and numeric.
 
 ### String constants
 
-String constants are part of Bebop, they are applied separated by double quote `"` with a simple C-like escape sequence mechanism. See
-function [ExpandEscapeSequences](/develop_jazz02/namespacejazz__utils.html) for details for details. Inside a url, url encoding should
-be used.
+String constants are part of Bebop, they are applied separated by double quote `"` with a simple C-like escape sequence mechanism. Look for the
+function ExpandEscapeSequences [here](/develop_jazz02/namespacejazz__utils.html) for details. Inside a url, url encoding should be used.
 
 ## Blocks
 
