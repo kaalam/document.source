@@ -39,10 +39,10 @@ The regex JAZZ_REGEX_VALIDATE_BLOCK_ID validates a block identifier.
 
 ### Block attributes
 
-In some `http` cases, when attributes are relevant to the protocol, they are automatically converted to mim types and urls. In all cases,
+In some `http` cases, when attributes are relevant to the protocol, they are automatically converted to mime types and urls. In all cases,
 attributes of a block can be read using the function get_block_attributes() and written with set_block_attributes(). These functions exist
 in all APIs. They are implemented as standard code functions so that $std.get_block_attributes() and $std.set_block_attributes() work
-everywhere.
+everywhere. Attribute reference is [here](reference_api_block_attributes.html)
 
 ### Anchor keepers
 
