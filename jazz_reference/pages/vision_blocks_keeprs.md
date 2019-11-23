@@ -84,7 +84,7 @@ Jazz has two more important local classes:
 other keeprs any number of blocks in one call.
 * **JazzSource** - Is the implementation of JazzPersistence using **LMDB**. Therefore, a Jazz file is an LMDB file of persisted blocks.
 You can even use command line LMDB utilities to backup a Jazz server while running or access the same file from more than one process.
-E.g., Open a **source in a running http server** from a Python interpreter to see/fix it while running.
+
 {% include important.html content="Because LMDB is a transactionally consistent key/value store, Jazz is \"out of the box\" **a distributed
 key/value store second to none in terms of efficiency**." %}
 

@@ -17,9 +17,8 @@ Before a detailed introduction, in case you feel the need to put a label on Jazz
 
 Jazz is a new kind of data product. It combines all these things and some others (an automated creator of APIs, an abstraction over data
 sources, ...) while being **just one** extremely lightweight process. It is free software created on top of third party free software.
-It is written in C++, available through R and Python packages and also through a REST API. The framework is Linux only, but, since it is
-an http back-end, Jazz consumers include all devices and operating systems. Jazz is designed for millions of users interacting concurrently
-with large clusters.
+It is written in C++, available through a REST API. The framework is Linux only, but, since it is an http back-end, Jazz consumers include
+all devices and operating systems. Jazz is designed for millions of users interacting concurrently with large clusters.
 
 Now, let's explain the concepts one by one.
 

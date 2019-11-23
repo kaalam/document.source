@@ -7,22 +7,6 @@ permalink: reference_api_elements.html
 
 ## API elements
 
-### API "flavors"
-
-The API describes access to blocks in a Jazz server. Blocks can be functions, classes, keepers, etc. The API is identical for Bebop, R, Python
-and http with only a few caveats:
-
-<span class="label label-info">R</span>
-<span class="label label-info">Python</span>
-  * R and Python will **put** and **get** native R and Python objects rather than binary objects. This is limited to vectors of basic types like
-boolean, integer, double and string.
-
-<span class="label label-success">Http</span>
-  * Http objects will automatically be returned with mime types specified as attributes and be available at urls specified as attributes.
-
-<span class="label label-success">Http</span>
-  * The http API has character encoding limitations like all urls have. (E.g., space must be encoded as `%20`.)
-
 ### String constants
 
 String constants are part of Bebop, they are applied separated by double quote `"` with a simple C-like escape sequence mechanism. Look for the

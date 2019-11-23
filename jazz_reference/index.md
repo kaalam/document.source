@@ -1,6 +1,6 @@
 ---
 title: Welcome to Jazz!
-summary: Reference documentation for Jazz (the server), the R and Python clients, Bebop (the language) and core Docker images
+summary: Reference documentation for Jazz (the server), Bebop (the language) and core Docker images
 sidebar: mydoc_sidebar
 permalink: index.html
 ---

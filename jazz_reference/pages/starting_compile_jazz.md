@@ -10,7 +10,7 @@ permalink: starting_compile_jazz.html
 <span class="label label-info">Prerequisites</span>
 
 {% include tip.html content="We try to make Jazz as self-contained and version independent as possible. Any version that is recent enough
-to support C++11, Python 2.7 or 3.x, R 3.x should be fine. The list of prerequisites may not be complete. Please, help us completing it
+to support C++11, R 3.x should be fine. The list of prerequisites may not be complete. Please, help us completing it
 if you find missing tools or version conflicts." %}
 
 Make sure you are running a Linux box including (see the why column to decide if you need it):
@@ -24,10 +24,7 @@ Make sure you are running a Linux box including (see the why column to decide if
 | **scan-build** (included with clang) | To statically analyze the server's source code. |
 | **cppcheck** | To statically analyze the server's source code. |
 | **Valgrind** | To dynamically analyze the server. |
-| **Swig** | To build both packages. |
 | **Docker** | To build and run images. |
-| **Python** | To build the Python package. |
-| Python package **setuptools** | Required by the Python package installer. |
 | **R** | To build the R package. |
 | R package **rcurl** | A dependency of rjazz. |
 | R package **knitr** | To make all the package documentations. |
@@ -57,9 +54,6 @@ You should get (after typing y at the prompt) a screen like the following:
       - server/src/main.dox (main page for Doxygen)
       - r_package/rjazz/DESCRIPTION (With version information for R)
       - r_package/build.sh (to build, test and install the R package)
-      - py_package/pyjazz/pyjazz/get_jazz_version.py (Vers. for Python)
-      - py_package/pyjazz/setup.py (Versioned setuptools script)
-      - py_package/html/index.md (Versioned main doc page for Python)
       - docker/upload_docker.sh (build & upload reference Docker image)
 
     Do you want to continue? [y/N] y
@@ -69,9 +63,6 @@ You should get (after typing y at the prompt) a screen like the following:
     Writing: server/src/main.dox ... Ok.
     Writing: r_package/rjazz/DESCRIPTION ... Ok.
     Writing: r_package/build.sh ... Ok.
-    Writing: py_package/pyjazz/pyjazz/get_jazz_version.py ... Ok.
-    Writing: py_package/pyjazz/setup.py ... Ok.
-    Writing: py_package/html/index.md ... Ok.
     Writing: docker/upload_docker.sh ... Ok.
 
       Congratulations, you have successfully configured your project. Now,
@@ -89,11 +80,6 @@ You should get (after typing y at the prompt) a screen like the following:
       - cd r_package
       - ./build.sh
 
-      3. Build the Python package
-
-      - cd py_package
-      - ./build.sh
-
 ## Compile the server
 
     cd server
@@ -109,11 +95,6 @@ variables." %}
     ./build.sh
 
 {% include tip.html content="You can also type \"**./build_doc.sh**\" to build the documentation website. (Assuming you installed pkgdown.)" %}
-
-## Build the Python package
-
-    cd py_package
-    ./build.sh
 
 {% include tip.html content="Unless you have a correctly configured PyPI account, you will not be able to upload the package you built.)" %}
 

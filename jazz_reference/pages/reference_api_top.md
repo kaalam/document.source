@@ -1,6 +1,6 @@
 ---
 title: API reference
-summary: The top page describing the API for all the ways of accessing Jazz blocks (Bebop, Http, R and Python).
+summary: The top page describing the API.
 sidebar: mydoc_sidebar
 permalink: reference_api_top.html
 ---

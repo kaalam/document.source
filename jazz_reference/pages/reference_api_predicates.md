@@ -9,7 +9,7 @@ permalink: reference_api_predicates.html
 
 The current description is [here](vision_apis_http.html#rest).
 
-{% include important.html content="How these are reflected in the R and Python API is in progress." %}
+{% include important.html content="How these are reflected in the API is in progress." %}
 
 See also [predicate modifiers](reference_api_predicate_modifiers.html).
 
