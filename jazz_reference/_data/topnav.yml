@@ -26,7 +26,5 @@ topnav_dropdowns:
           url: reference_api_top.html
         - title: R client Reference
           external_url: /rjazz/
-        - title: Python client Reference
-          external_url: /pyjazz/
         - title: What is the usable part of Jazz today?
           url: basics_jazz_today.html
