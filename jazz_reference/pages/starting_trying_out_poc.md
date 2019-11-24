@@ -5,14 +5,18 @@ sidebar: mydoc_sidebar
 permalink: starting_trying_out_poc.html
 ---
 
+## Trying out Jazz 0.4+
+
+{% include important.html content="Jazz is still under development to create the first Jazz 0.4.1 MVP. There is no PoC for the latest
+version." %}
+
 ## Trying out Jazz 0.3+
 
-{% include important.html content="Jazz is still under development to create the first Jazz 0.3+ MVP. There is no PoC for the latest
-version. If you understand C++ you can compile from source and **run unit tests**, **static** and **dynamic analysis** of the source code." %}
+{% include important.html content="Versions 0.2.x and 0.3.x are deprecated." %}
 
 ## Trying out Jazz 0.1.7
 
-You can run a Jazz 0.1.7 server (still implemented as legacy in Jazz 0.2+) using Docker from Docker Hub.
+You can run a Jazz 0.1.7 server (still implemented as legacy in Jazz 0.2.x) using Docker from Docker Hub.
 
 ```bash
 docker run -p8888:8888 kaalam/jazz_neat:0.2.1.99
