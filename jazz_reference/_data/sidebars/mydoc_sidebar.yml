@@ -24,40 +24,32 @@ entries:
         output: web
         subfolderitems:
 
-        - title: Blocks and keeprs
-          url: /vision_blocks_keeprs.html
+        - title: Blocks, Filestores and Containers
+          url: /vision_blocks_containers.html
           output: web
 
-        - title: Core functions
-          url: /vision_core_functions.html
+        - title: Bebop, Fields and Contexts
+          url: /vision_bop_fields_contexts.html
           output: web
 
-        - title: Distributed containers
-          url: /vision_distributed_containers.html
+        - title: Relations and the Finder
+          url: /vision_relations_finder.html
           output: web
 
-        - title: Bebop, classes, functions and operators
-          url: /vision_bebop.html
+        - title: APIs and Services
+          url: /vision_apis_services.html
           output: web
-
-        - title: APIs, Jazz as a server or a package
-          url: /vision_apis_http.html
-          output: web
-
-    - title: What is the usable part of Jazz today?
-      url: /basics_jazz_today.html
-      output: web, pdf
 
   - title: Using Jazz
     output: web, pdf
     folderitems:
 
-    - title: What simple Proof of Concept can I do using pre-built packages?
-      url: /starting_trying_out_poc.html
+    - title: What is the usable part of Jazz today?
+      url: /using_jazz_today.html
       output: web, pdf
 
     - title: How can I compile Jazz and the clients?
-      url: /starting_compile_jazz.html
+      url: /using_compile_jazz.html
       output: web, pdf
 
   - title: Contributing to Jazz
@@ -73,70 +65,40 @@ entries:
     folderitems:
 
     - title: Server internals and setup
-      url: /reference_top_jazz_internals.html
+      url: /reference_server_setup.html
       output: web, pdf
 
-  - title: API reference
+  - title: API fundamentals
     output: web, pdf
     folderitems:
 
-    - title: API reference
-      url: /reference_api_top.html
-      output: web, pdf
+    - title: API elements
+      url: /api_ref_elements.html
+      output: web
 
-      subfolders:
-      - title: API element reference
-        output: web
-        subfolderitems:
+    - title: Block constructors
+      url: /api_ref_block_constructors.html
+      output: web
 
-        - title: API elements
-          url: /reference_api_elements.html
-          output: web
+    - title: Block selections
+      url: /api_ref_block_selections.html
+      output: web
 
-        - title: Block constructors
-          url: /reference_api_block_constructors.html
-          output: web
+    - title: Block attributes
+      url: /api_ref_block_attributes.html
+      output: web
 
-        - title: Block selections
-          url: /reference_api_block_selections.html
-          output: web
+    - title: Predicates
+      url: /api_ref.html
+      output: web
 
-        - title: Block attributes
-          url: /reference_api_block_attributes.html
-          output: web
-
-        - title: Predicates
-          url: /reference_api_predicates.html
-          output: web
-
-        - title: Predicate modifiers
-          url: /reference_api_predicate_modifiers.html
-          output: web
-
-        - title: Lvalues
-          url: /reference_api_lvalue.html
-          output: web
-
-        - title: Rvalues
-          url: /reference_api_rvalue.html
-          output: web
-
-  - title: Bebop reference
+  - title: Bebop fundamentals
     output: web, pdf
     folderitems:
 
-    - title: Bebop
-      url: /reference_bop_top.html
+    - title: Bebop elements
+      url: /bop_ref_elements.html
       output: web, pdf
-
-      subfolders:
-      - title: Language basics
-        output: web
-        subfolderitems:
-
-        - title: Language basics
-          url: /reference_bop_basics.html
-          output: web
 
   - title: Docker reference
     output: web, pdf
@@ -146,11 +108,6 @@ entries:
       url: /reference_docker_how_to_build.html
       output: web, pdf
 
-      subfolders:
-      - title: Jazz "&agrave; la carte"
-        output: web
-        subfolderitems:
-
-        - title: Jazz (LSS) Latest Stable Server
-          url: /reference_docker_latest_server.html
-          output: web
+    - title: Jazz (LSS) Latest Stable Server
+      url: /reference_docker_latest_server.html
+      output: web
