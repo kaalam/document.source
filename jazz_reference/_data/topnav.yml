@@ -16,15 +16,15 @@ topnav_dropdowns:
       folderitems:
         - title: What is the vision? What does Jazz want to become?
           url: basics_jazz_vision.html
-        - title: What simple Proof of Concept can I do without compiling anything?
-          url: starting_trying_out_poc.html
+        - title: Where can I find the Latest Stable Server (Jazz LSS)?
+          url: reference_docker_latest_server.html
         - title: How can I help?
           url: contributing_welcome_all.html
         - title: Jazz for developers
           external_url: /develop/
         - title: Jazz API reference
-          url: reference_api_top.html
+          url: api_ref_elements.html
         - title: R client Reference
           external_url: /rjazz/
         - title: What is the usable part of Jazz today?
-          url: basics_jazz_today.html
+          url: using_jazz_today.html
