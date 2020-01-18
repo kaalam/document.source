@@ -1,6 +1,6 @@
 ---
 title: Blocks, Filestores and Containers
-summary: 
+summary: What is Jazz (part 1) Introduction to blocks, filestores and containers.
 sidebar: mydoc_sidebar
 permalink: vision_blocks_containers.html
 ---

@@ -1,6 +1,6 @@
 ---
 title: Bebop, Fields and Contexts
-summary: 
+summary: What is Jazz (part 2) Introduction to Bebop, fields and contexts.
 sidebar: mydoc_sidebar
 permalink: vision_bop_fields_contexts.html
 ---

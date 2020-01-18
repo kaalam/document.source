@@ -1,6 +1,6 @@
 ---
 title: Relations and the Finder
-summary: 
+summary: What is Jazz (part 3) How fields stick together, relations and the Finder.
 sidebar: mydoc_sidebar
 permalink: vision_relations_finder.html
 ---

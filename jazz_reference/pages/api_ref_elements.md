@@ -1,6 +1,6 @@
 ---
 title: API elements
-summary: 
+summary: An explanation of the basic parts of an API call (common to all clients).
 sidebar: mydoc_sidebar
 permalink: api_ref_elements.html
 ---

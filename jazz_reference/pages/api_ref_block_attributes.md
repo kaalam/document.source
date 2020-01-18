@@ -1,6 +1,6 @@
 ---
 title: Block attributes
-summary: 
+summary: Block attribute details
 sidebar: mydoc_sidebar
 permalink: api_ref_block_attributes.html
 ---

@@ -89,7 +89,7 @@ entries:
       output: web
 
     - title: Predicates
-      url: /api_ref.html
+      url: /api_ref_predicates.html
       output: web
 
   - title: Bebop fundamentals

@@ -1,6 +1,6 @@
 ---
 title: Block selections
-summary: 
+summary: Syntax to do block selection as a block modifier
 sidebar: mydoc_sidebar
 permalink: api_ref_block_selections.html
 ---

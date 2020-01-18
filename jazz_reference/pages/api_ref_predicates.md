@@ -1,6 +1,6 @@
 ---
 title: Predicates
-summary:
+summary: How all predicates are translated in the different APIs
 sidebar: mydoc_sidebar
 permalink: api_ref_predicates.html
 ---

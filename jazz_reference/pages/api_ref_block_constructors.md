@@ -1,6 +1,6 @@
 ---
 title: Block constructors
-summary: 
+summary: Definition of Block constructors
 sidebar: mydoc_sidebar
 permalink: api_ref_block_constructors.html
 ---

@@ -1,6 +1,6 @@
 ---
 title: Bebop elements
-summary: 
+summary: How Bebop is implemented in terms of the language itself and support for automatic programming.
 sidebar: mydoc_sidebar
 permalink: bop_ref_elements.html
 ---
