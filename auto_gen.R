@@ -69,6 +69,8 @@ search_files <- function(pat = 'jazz_reference/pages', index_pat = 'jazz_referen
 	ist_fn <- ist_fn[!(ist_fn %in% soll_fn)]
 
 	if (length(ist_fn) > 0) {
+		system('mkdir recycle')
+
 		cmds <- paste0('mv ', ist_fn, ' recycle/', gsub('^.*/([^/]+)$', '\\1', ist_fn))
 
 		for (cmd in cmds) {
