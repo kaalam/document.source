@@ -7,3 +7,4 @@ permalink: vision_apis_services.html
 
 ## This is a template!
 
+{% include links.html %}

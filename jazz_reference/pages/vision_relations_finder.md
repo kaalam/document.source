@@ -19,4 +19,3 @@ permalink: vision_relations_finder.html
 | [Bebop, Fields and Contexts](vision_bop_fields_contexts.html) | | | | | [APIs and Services](vision_apis_services.html) |
 
 {% include links.html %}
-
