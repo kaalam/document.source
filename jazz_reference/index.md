@@ -1,6 +1,6 @@
 ---
 title: Welcome to Jazz!
-summary: Reference documentation for Jazz (the server), Bebop (the language) and core Docker images
+summary: This is the reference documentation for Jazz (the server), Bebop (the language), the Jazz API and core Docker images.
 sidebar: mydoc_sidebar
 permalink: index.html
 ---
