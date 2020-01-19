@@ -16,7 +16,7 @@ entries:
       type: homepage
 
     - title: What is the vision? What does Jazz want to be?
-      url: /basics_jazz_vision.html
+      url: /vision_intro_page.html
       output: web, pdf
 
       subfolders:
@@ -40,6 +40,42 @@ entries:
           url: /vision_apis_services.html
           output: web
 
+  - title: Bebop fundamentals
+    output: web, pdf
+    folderitems:
+
+    - title: Bebop elements
+      url: /bop_ref_elements.html
+      output: web, pdf
+
+  - title: API fundamentals
+    output: web, pdf
+    folderitems:
+
+    - title: API elements
+      url: /api_ref_elements.html
+      output: web
+
+  - title: Docker reference
+    output: web, pdf
+    folderitems:
+
+    - title: How to build your own Jazz Docker image
+      url: /reference_docker_how_to_build.html
+      output: web, pdf
+
+    - title: Jazz (LSS) Latest Stable Server
+      url: /reference_docker_latest_server.html
+      output: web
+
+  - title: Server Reference
+    output: web, pdf
+    folderitems:
+
+    - title: Server internals and setup
+      url: /reference_server_setup.html
+      output: web, pdf
+
   - title: Using Jazz
     output: web, pdf
     folderitems:
@@ -59,55 +95,3 @@ entries:
     - title: How can I help? What kind of skills are needed?
       url: /contributing_welcome_all.html
       output: web, pdf
-
-  - title: Server Reference
-    output: web, pdf
-    folderitems:
-
-    - title: Server internals and setup
-      url: /reference_server_setup.html
-      output: web, pdf
-
-  - title: API fundamentals
-    output: web, pdf
-    folderitems:
-
-    - title: API elements
-      url: /api_ref_elements.html
-      output: web
-
-    - title: Block constructors
-      url: /api_ref_block_constructors.html
-      output: web
-
-    - title: Block selections
-      url: /api_ref_block_selections.html
-      output: web
-
-    - title: Block attributes
-      url: /api_ref_block_attributes.html
-      output: web
-
-    - title: Predicates
-      url: /api_ref_predicates.html
-      output: web
-
-  - title: Bebop fundamentals
-    output: web, pdf
-    folderitems:
-
-    - title: Bebop elements
-      url: /bop_ref_elements.html
-      output: web, pdf
-
-  - title: Docker reference
-    output: web, pdf
-    folderitems:
-
-    - title: How to build your own Jazz Docker image
-      url: /reference_docker_how_to_build.html
-      output: web, pdf
-
-    - title: Jazz (LSS) Latest Stable Server
-      url: /reference_docker_latest_server.html
-      output: web
