@@ -13,13 +13,12 @@ movement\"." %}
 
 ## Basic Questions on Jazz
 
-* [What is the vision? What does Jazz want to become?](basics_jazz_vision.html)
-* [What is the usable part of Jazz today?](basics_jazz_today.html)
+* [What is the vision? What does Jazz want to become?](vision_intro_page.html)
 
 ## Using Jazz
 
-* [What simple Proof of Concept can I do using prebuilt packages?](starting_trying_out_poc.html)
-* [How can I compile Jazz and the clients?](starting_compile_jazz.html)
+* [What is the usable part of Jazz today?](using_jazz_today.html)
+* [How can I compile Jazz and the clients?](using_compile_jazz.html)
 
 ## Contributing to Jazz
 
@@ -27,8 +26,8 @@ movement\"." %}
 
 ## References
 
-* [Server internals and setup](reference_top_jazz_internals.html)
-* [API reference and clients](reference_api_top.html)
-* [Bebop](reference_bop_top.html)
+* [Bebop](bop_ref_elements.html)
+* [API reference and clients](api_ref_elements.html)
+* [Server internals and setup](reference_server_setup.html)
 
 {% include links.html %}
