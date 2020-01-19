@@ -32,7 +32,7 @@ Make sure you are running a Linux box including (see the why column to decide if
 
 ## Clone the Jazz github repository
 
-     https://github.com/kaalam/Jazz.git
+     git clone https://github.com/kaalam/Jazz.git
 
 Use the branch master unless you know what you are doing.
 
