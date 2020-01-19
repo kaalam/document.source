@@ -1,320 +1,98 @@
 ---
 title: Blocks, Filestores and Containers
-summary: What is Jazz (part 1) Introduction to blocks, filestores and containers.
+summary: What is Jazz (part 1) Introduction to blocks, filestores and containers. These classes are the basement for all the Jazz magic.
 sidebar: mydoc_sidebar
 permalink: vision_blocks_containers.html
 ---
 
-## This is a template!
+## Introducing Blocks
 
-When linking to an external site, use Markdown formatting because it's simplest:
+<span class="label label-info">JazzBlock</span>
 
-[Google](http://google.com)
+In Jazz **everything is a block**. This means all the classes, data, functions, Bop programs and static objects that make a system are
+stored as blocks. Even the block containers are stored as blocks. Let's start with what blocks are made of.
 
-And internal link is, see [Getting Started](index.html).
+{% include image.html file="jazz_block.png" caption="A jazz block" max-width=540 %}
 
-## Highlighted text
+### A Block is a tensor
 
-As expected, you can use **bold** and *italic*. Also, special words like `if` and `endif` can be drawn in "red on gray".
+A tensor is just a vector of vectors of vectors of ... **one type**. E.g., a video is a tensor of rank 4 (frame #, x, y, rgb). Types
+include what you expect in any language: Boolean, integer, float, string of different sizes. Data blocks are typically small, as
+in tenths of thousands of cells, but can be bigger to avoid cross-block boundaries when processing bigger objects (e.g. high resolution
+video). Also, rigorous data analytics is supported: All types (except byte) support a NA (Not Available) logic. There are **sorted factor**,
+**unsorted factor** and **strings as factor** types. Bear in mind that **any file** is a block, since it is a vector (tensor or rank 1)  of
+bytes. Besides that, there are multi-block abstractions (columns, tables, etc.), which are, again, implemented as blocks.
 
-## Bullet points
+### A Block has attributes
 
-Some of the more prominent features of this theme include the following:
+Blocks have attributes as first class citizen. Attributes are maps from integer to string. Attributes are contained inside the
+block. Possible attributes are:
 
-* Bootstrap framework
-* Ability to specify different sidebars for different products
-* Top navigation bar with drop-down menus
-* Notes, tips, and warning information notes
-* Tags for alternative navigation
+* **Urls**. This automatically exposes the object under that url in the http server.
+* Http **mime types**. How should a browser treat this thing? What is the language of the content? ...
+* **File system** attributes. E.g., what software can compress/decompress this.
+* **Media** attributes. This is a compressed video of: running time, x, y, codec, ...
+* **Jazz classes**. Last but not least: Functions are blocks, classes are blocks, more on that in a moment.
 
-## Numbered list
+{% include note.html content="Since any resource is a block and blocks can have urls. A Jazz server is the only http server you need
+to support any web technology, from static webpages to Typescript and JS frameworks such as Angular and Ionic." %}
+{% include tip.html content="For the final user, Jazz is a website or mobile app that does \"AI magic\"." %}
 
-1.  First item.
-1.  Second item.
-1.  Third item.
+### A Block has an owner
 
-## Complex Lists
+A block is binary moveable, quasi-immutable and has an owner, called a **container**.
+This means:
 
-1.  Sample first item.
+* **Binary moveable** - It can be copied "as is" because it has no pointers.
+* **Quasi-immutable** - Via the API, it appears as immutable. Of course, in C++ you can still change its content for performance reasons and
+provide an interface that abstracts that out.
+* **Owner** - According to the owner, a block can be: **one shot**, **volatile** or **persisted**. **One shot** is possible only in C++, it
+means the creator owns the block. All other blocks have a **container**. Via the API, blocks can only be created inside `Container` descendants. Some containers have a `Filestore`. In that case their blocks are **persisted**, i.e., they exist on a memory mapped file to/from which they can be saved/loaded. Other containers, e.g., a tree used in a tree search, do not need to be persisted. Their blocks are named **volatile** in this case.
 
-    * sub-bullet one
-    * sub-bullet two
+{% include image.html file="jazz_block_keeper.png" caption="Some important JazzBlockKeepr descendants" max-width=880 %}
 
-2.  Continuing the list
 
-    1. sub-list numbered one
-    2. sub-list numbered two
+## Introducing Filestores
 
-3.  Another list item.
+The class `Filestore` implements persistence of all Jazz objects using **LMDB**. Therefore, a Jazz file is an LMDB file of persisted blocks.
+You can even use command line LMDB utilities to backup a Jazz server while running or access the same file from more than one process.
 
-## Another Complex List
+{% include important.html content="Because LMDB is a transactionally consistent key/value store, Jazz is \"out of the box\" **a distributed
+key/value store second to none in terms of efficiency**." %}
 
-1.  Sample first item.
+{% include image.html file="jazz_filestores.png" caption="Filestores class" %}
 
-    This is a result statement that talks about something....
+### Filestores can contain any number of containers
 
-2.  Continuing the list
+`Filestore` is not inherited. Instead, all `Container` descendants can be grounded in a `Filestore`, when they do, they inherit the store's Get/Put API. This design allows any number of containers being stored in any number of filestores, of course, each one belonging to just one filestore.
 
-    {% include note.html content="Remember to do this. If you have \"quotes\", you must escape them." %}
 
-    Here's a list in here:
+## Introducing Containers
 
-    * first item
-    * second item
+The class `Container`is an abstract class. It defines an API to manage blocks (possibly persisted) with a consistent interface. The containers themselves are just efficient data structures required by different algorithms. You can think of it as the C++ STL, actually
+some containers are wrappers around STL containers. Others are implemented from scratch or using more than one STL container.
 
-3.  Another list item.
+{% include image.html file="jazz_container.png" caption="Containers class" %}
 
-    ```js
-    function alert("hello");
-    ```
+### Blocks and containers have identifiers, Jazz clusters have global paths
 
-4.  Another item.
+Jazz blocks have identifiers. Identifiers are unique in the context of their container. Containers themselves, since they are blocks, have identifiers. Adding Filestores and even Jazz nodes to the "combo" results in global distributed paths valid over a cluster of Jazz nodes.
 
-### Key Principle to Remember with Lists
+<br/>
 
-The key principle is to line up the first character after the dot following the number:
+{% include note.html content="You can create **trees of containers** of any complexity using the API." %}
 
-{% include image.html file="liningup.png" caption="Lining up the left edge ensures the list stays in tact." %}
+<br/>
 
-For the sake of simplicity, use two spaces after the dot for numbers 1 through 9. Use one space for numbers 10 and up. If any part of
-your list doesn't align symmetrically on this left edge, the list will not render correctly. Also note that this is characteristic of
-kramdown-flavored Markdown and may not yield the same results in other Markdown flavors.
+{% include tip.html content="Since containers are efficient data structures, many Jazz classes inherit them. E.g., The Finder is a Chart." %}
 
-## Notes, Tips, etc.
+<br/>
 
-{% include note.html content="Remember to do this. If you have \"quotes\", you must escape them." %}
-{% include tip.html content="In the descriptions of the build scripts, \"mydoc\" is used as the sample project. Substitute in whatever
-your real project name is." %}
-{% include callout.html content="Lazy people will read this more than other text. **Maybe even more if it is bold.**. Assuming you do
-not abuse this thing too much." %}
-{% include warning.html content="Beware of the dog!" %}
-{% include important.html content="The dog is dead." %}
+{% include important.html content="The reference for each Container descendant is the source code, at least until their definitions are stable." %}
 
-## Images
+<br/>
 
-{% include image.html file="jazz_block.png" caption="An image" %}
-
-Text, text, text.
-
-{% include image.html file="jazz_block.png" alt = "This shows when the image fails" caption="This always shows" max-width=320 %}
-
-Text, text, text, {% include inline_image.html file="logo_80.png" alt="kaalam.ai" %}, text.
-
-## Video
-
-{% unless site.output == "pdf" %}
-See the following Jekyll cast for more info about using parameters with includes:
-
-<iframe width="640" height="480" src="https://www.youtube.com/embed/kzpGqdEMbIs" frameborder="0" allowfullscreen></iframe>
-{% endunless %}
-
-## Tables
-
-The available include properties are as follows:
-
-| Property | description |
-|-------|--------|
-| file | The name of the file. Reference the subfolder path here, like this: `my_subfolder/jekyll.png` |
-| url | Whether to link the image to a URL |
-| alt | Alternative image text for accessibility and SEO |
-| caption | A caption for the image |
-| max-width | a maximum width for the image (in pixels). Just specify the number, not px.|
-
-### Table without a header
-
-| annotate, blame | show changeset information by line for each file |
-| diff | diff repository (or selected files) |
-| forget {filename} | forget the specified files on the next commit |
-
-## HTML Tables {#htmltables}
-
-If you need a more sophisticated table syntax, use HTML syntax for the table. Although you're using HTML, you can use Markdown inside the
-table cells by adding `markdown="span"` as an attribute for the `td` tag, as shown in the following table. You can also control the column
-widths.
-
-<table>
-<colgroup>
-<col width="30%" />
-<col width="70%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Field</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td markdown="span">First column **fields**</td>
-<td markdown="span">Some descriptive text. This is a markdown link to [Google](http://google.com). Or see [some link][mydoc_tags].</td>
-</tr>
-<tr>
-<td markdown="span">Second column **fields**</td>
-<td markdown="span">Some more descriptive text.
-</td>
-</tr>
-</tbody>
-</table>
-
-## jQuery DataTables
-
-You also have the option of using a [jQuery DataTable](https://www.datatables.net/), which gives you some additional capabilities. To use
-a jQuery DataTable in a page, include `datatable: true` in a page's front matter. This tells the default layout to load the necessary CSS
-and javascript bits and to include a `$(document).ready()` function that initializes the DataTables library.
-
-You can change the options used to initialize the DataTables library by editing the call to `$('table.display').DataTable()` in the default
-layout.  The available options for Data tables are described in the [DataTable documentation](https://www.datatables.net/manual/options),
-which is excellent.
-
-You also must add a class of `display` to your tables.  You can change the class, but then you'll need to change the trigger defined in
-the `$(document).ready()` function in the default layout from `table.display` to the class you prefer.
-
-You can also add page-specific triggers (by copying the `<script></script>` block from the default layout into the page) and classes,
-which lets you use different options on different tables.
-
-If you use an HTML table, adding `class="display"` to the `<table>` tag is sufficient.
-
-Markdown, however, doesn't allow you to add classes to tables, so you'll need to use a trick: add `<div class="datatable-begin"></div>`
-before the table and `<div class="datatable-end"></div>` after the table.  The default layout includes a jQuery snippet that automatically
-adds the `display` class to any table it finds between those two markers.  So you can start with this (we've trimmed the descriptions for
-display):
-
-<div class="datatable-begin"></div>
-
-Food    | Description                                                                                       | Category | Sample type
-------- | ------------------------------------------------------------------------------------------------- | -------- | -----------
-Apples  | A small, somewhat round and often red-colored, crispy fruit grown on trees.                       | Fruit    | Fuji
-Bananas | A long and curved, often-yellow, sweet and soft fruit that grows in bunches in tropical climates. | Fruit    | Snow
-Kiwis   | A small, hairy-skinned sweet fruit with green-colored insides and seeds.                          | Fruit    | Golden
-Oranges | A spherical, orange-colored sweet fruit commonly grown in Florida and California.                 | Fruit    | Navel
-
-<div class="datatable-end"></div>
-
-Notice a few features:
-
-* You can keyword search the table. When you type a word, the table filters to match your word.
-* You can sort the column order.
-* You can page the results so that you show only a certain number of values on the first page and then require users to click next to see
-more entries.
-
-Read more of the [DataTable documentation](https://www.datatables.net/manual/options) to get a sense of the options you can configure. You
-should probably only use DataTables when you have long, massive tables full of information.
-
-## Code
-
-Here's the code for the above (with the filler text abbreviated):
-
-```html
-<ul id="profileTabs" class="nav nav-tabs">
-    <li class="active"><a href="#profile" data-toggle="tab">Profile</a></li>
-    <li><a href="#about" data-toggle="tab">About</a></li>
-    <li><a href="#match" data-toggle="tab">Match</a></li>
-</ul>
-  <div class="tab-content">
-<div role="tabpanel" class="tab-pane active" id="profile">
-    <h2>Profile</h2>
-<p>The quick brown fox....</p>
-</div>
-
-<div role="tabpanel" class="tab-pane" id="about">
-    <h2>About</h2>
-    <p>Lorem ipsum ...</p></div>
-
-<div role="tabpanel" class="tab-pane" id="match">
-    <h2>Match</h2>
-    <p>jumps over ....</p>
-</div>
-</div>
-```
-
-```cpp
-// Silly thing
-	for (i=0; i<3; i++) a += b[i];
-
-	std.cout << "Sum is" << a;
-```
-
-## Nav tabs demo
-
-The following is a demo of a nav tab. Refresh your page to see the tab you selected remain active.
-
-<ul id="profileTabs" class="nav nav-tabs">
-    <li class="active"><a class="noCrossRef" href="#profile" data-toggle="tab">Profile</a></li>
-    <li><a class="noCrossRef" href="#about" data-toggle="tab">About</a></li>
-    <li><a class="noCrossRef" href="#match" data-toggle="tab">Match</a></li>
-</ul>
-  <div class="tab-content">
-<div role="tabpanel" class="tab-pane active" id="profile" markdown="1">
-## Profile
-
-The quick brown fox,
-
-1.  jumps over
-2.  the lazy animals
-    * including the lazy dog
-    * and a hamster
-
-> And the zoo keeper
-</div>
-
-<div role="tabpanel" class="tab-pane" id="about">
-    <h2>About</h2>
-    <p>The quick brown fox jumps over the lazy dog a few times and then has a nap.</p></div>
-
-<div role="tabpanel" class="tab-pane" id="match">
-    <h2>Match</h2>
-    <p>The quick brown fox jumps over the lazy dog a few times and then has a nap. (again)</p>
-</div>
-</div>
-
-## Design constraints
-
-Bootstrap automatically clears any floats after the nav tab. Make sure you aren't trying to float any element to the right of your nav tabs,
-or there will be some awkward space in your layout.
-
-## Appearance in the mini-TOC
-
-If you put a heading in the nav tab content, that heading will appear in the mini-TOC as long as the heading tag has an ID. If you don't
-want the headings for each nav tab section to appear in the mini-TOC, omit the ID attribute from the heading tag. Without this ID attribute
-in the heading, the mini-TOC won't insert the heading title into the mini-TOC.
-
-## Must use HTML
-
-You must use HTML within the nav tab content because each nav tab section is surrounded with HTML, and you can't use Markdown inside HTML.
-
-## Match up ID tags
-
-Each tab's `href` attribute must match the `id` attribute of the tab content's `div` section. So if your tab has `href="#acme"`, then you
-add `acme` as the ID attribute in `<div role="tabpanel" class="tab-pane" id="acme">`.
-
-## Set an active tab
-One of the tabs needs to be set as active, depending on what tab you want to be open by default (usually the first one).
-
-```html
-<div role="tabpanel" class="tab-pane active" id="acme">
-```
-
-## About labels
-Labels might come in handy for adding button-like tags next to elements, such as POST, DELETE, UPDATE methods for endpoints. You can use
-any classes from Bootstrap in your content.
-
-<span class="label label-default">Default</span>
-<span class="label label-primary">Primary</span>
-<span class="label label-success">Success</span>
-<span class="label label-info">Info</span>
-<span class="label label-warning">Warning</span>
-<span class="label label-danger">Danger</span>
-
-You can have a label appear within a heading simply by including the span tag in the heading. However, you can't mix Markdown syntax with
-HTML, so you'd have to hard-code the heading ID for the auto-TOC to work.
-
-## PDF download
-
-You can see an example of the finished product here:
-
-<a target="\_blank" class="noCrossRef" href="{{ "pdf/mydoc.pdf"}}"><button type="button" class="btn btn-default" aria-label="Left Align">
-<span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span> PDF Download</button></a>
-
-To generate the PDF, follow all the instructions in the documentation template site.
+| <span class="label label-default">Previous ...</span> | | | | | <span class="label label-info">Next ...</span> |
+| [What is the vision?](vision_intro_page.html) | | | | | [Bebop, Fields and Contexts](vision_bop_fields_contexts.html) |
 
 {% include links.html %}
