@@ -49,8 +49,6 @@ provide an interface that abstracts that out.
 * **Owner** - According to the owner, a block can be: **one shot**, **volatile** or **persisted**. **One shot** is possible only in C++, it
 means the creator owns the block. All other blocks have a **container**. Via the API, blocks can only be created inside `Container` descendants. Some containers have a `Filestore`. In that case their blocks are **persisted**, i.e., they exist on a memory mapped file to/from which they can be saved/loaded. Other containers, e.g., a tree used in a tree search, do not need to be persisted. Their blocks are named **volatile** in this case.
 
-{% include image.html file="jazz_block_keeper.png" caption="Some important JazzBlockKeepr descendants" max-width=880 %}
-
 
 ## Introducing Filestores
 
