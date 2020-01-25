@@ -67,26 +67,26 @@ key/value store second to none in terms of efficiency**." %}
 
 ## Introducing Containers
 
-The class `Container`is an abstract class. It defines an API to manage blocks (possibly persisted) with a consistent interface. The containers themselves are just efficient data structures required by different algorithms. You can think of it as the C++ STL, actually
-some containers are wrappers around STL containers. Others are implemented from scratch or using more than one STL container.
+The class `Container`is an abstract class. It defines an API to manage blocks (possibly persisted) with a consistent interface. The containers themselves are just efficient data structures required by different algorithms. You can think of it as the C++ STL. Actually,
+some containers are just wrappers around STL containers, others are implemented from scratch or using more than one STL container.
 
 {% include image.html file="jazz_container.png" caption="Containers class" %}
 
 ### Blocks and containers have identifiers, Jazz clusters have global paths
 
-Jazz blocks have identifiers. Identifiers are unique in the context of their container. Containers themselves, since they are blocks, have identifiers. Adding Filestores and even Jazz nodes to the "combo" results in global distributed paths valid over a cluster of Jazz nodes.
+Jazz blocks have identifiers. Identifiers are unique in the context of their container. Containers themselves, since they are blocks, have identifiers. Adding `Filestore` IDs and even Jazz node IDs we get "global" distributed paths (valid over a cluster of Jazz nodes).
 
 <br/>
 
-{% include note.html content="You can create **trees of containers** of any complexity using the API." %}
+{% include note.html content="You can create **trees of containers** of any complexity using the API. The only limitation is: Once any container is grounded in a `FileStore`, all its descendants can only be grounded in the same `FileStore`. This behavior is handled by the class automatically." %}
 
 <br/>
 
 {% include tip.html content="Since containers are efficient data structures, many Jazz classes inherit them. E.g., The Finder is a Chart." %}
 
-<br/>
+### Container descendent reference
 
-{% include important.html content="The reference for each Container descendant is the source code, at least until their definitions are stable." %}
+{% include important.html content="The reference for each Container descendant is included in its source code and available via the [developer documentation](/develop/). At least until definitions are so stable that we consider backward compatibility a priority, there is no other reference." %}
 
 <br/>
 
