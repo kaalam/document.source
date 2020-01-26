@@ -15,7 +15,7 @@ topnav_dropdowns:
     - title: Quick Help
       folderitems:
         - title: What is the vision? What does Jazz want to become?
-          url: basics_jazz_vision.html
+          url: vision_intro_page.html
         - title: Where can I find the Latest Stable Server (Jazz LSS)?
           url: reference_docker_latest_server.html
         - title: How can I help?

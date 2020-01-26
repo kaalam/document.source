@@ -10,7 +10,7 @@ image: assets/images/top_motive.jpg
 <h4>Related pages</h4>
 <ul class="actions vertical small">
 	<li><a href="/kaalam/2018/10/04/why_jazz.html" class="button small">I want the short version, why Jazz?</a></li>
-	<li><a href="/jazz_reference/basics_jazz_vision.html" class="button small">Technically speaking, what is Jazz?</a></li>
+	<li><a href="/jazz_reference/vision_intro_page.html" class="button small">Technically speaking, what is Jazz?</a></li>
 </ul>
 
 <h2 id="content">AI winter (maybe) coming</h2><p>

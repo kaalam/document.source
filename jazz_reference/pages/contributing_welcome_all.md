@@ -40,7 +40,7 @@ platforms." %}
   * A short pitch [why Jazz](/kaalam/2018/10/04/why_jazz.html).
   * Identifying improvement opportunities [the motive](/kaalam/2018/10/02/reviewing_the_motive.html).
   * How Jazz fits these opportunities [Jazz as a solution](/kaalam/2018/10/01/how_is_jazz_a_solution.html).
-  * Technically speaking, what is the vision [here](basics_jazz_vision.html).
+  * Technically speaking, what is the vision [here](vision_intro_page.html).
   * The "Hello world!" of the Jazz [community](/kaalam/2018/10/03/what_is_kaalam_ai.html).
 
 ## How do I make a contribution?
