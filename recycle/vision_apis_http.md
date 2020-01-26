@@ -36,6 +36,6 @@ There is no support for POST or TRACE, any functions other than those mentioned 
 <br/>
 
 | <span class="label label-default">Previous ...</span> | | | | | <span class="label label-info">Next ...</span> |
-| [Bebop](vision_bebop.html) | | | | | [Jazz today](basics_jazz_today.html) |
+| [Bebop](vision_bop_fields_contexts.html) | | | | | [Jazz today](using_jazz_today.html) |
 
 {% include links.html %}
