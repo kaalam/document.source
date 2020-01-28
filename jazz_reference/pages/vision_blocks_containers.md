@@ -1,6 +1,6 @@
 ---
 title: Blocks, Filestores and Containers
-summary: What is Jazz (part 1) Introduction to blocks, filestores and containers. These classes are the basement for all the Jazz magic.
+summary: What is Jazz (part 1) Introduction to blocks, filestores and containers. These classes are the basement for the "Jazz Magic".
 sidebar: mydoc_sidebar
 permalink: vision_blocks_containers.html
 ---
@@ -32,11 +32,11 @@ Blocks have attributes as first class citizen. Attributes are maps from integer 
 * Http **mime types**. How should a browser treat this thing? What is the language of the content? ...
 * **File system** attributes. E.g., what software can compress/decompress this.
 * **Media** attributes. This is a compressed video of: running time, x, y, codec, ...
-* **Jazz classes**. Last but not least: Functions are blocks, classes are blocks, more on that in a moment.
+* **Jazz fields**. Last but not least: Functions are blocks, fields are blocks, ... More on that on the next page.
 
 {% include note.html content="Since any resource is a `Block` and blocks can have urls. A Jazz server is the only http server you need
 to support any web technology, from static webpages to Typescript and JS frameworks such as Angular and Ionic." %}
-{% include tip.html content="For the final user, Jazz is a website or mobile app that does \"AI magic\"." %}
+{% include tip.html content="For the final user, Jazz is a website or mobile app that does \"AI Magic\"." %}
 
 ### A Block has an owner
 
