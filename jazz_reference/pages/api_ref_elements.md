@@ -7,6 +7,35 @@ permalink: api_ref_elements.html
 
 ## API elements
 
+## APIs
+
+{% include important.html content="In version 0.4.1 the API has been redesigned. Details will be updated." %}
+
+### REST
+
+<span class="label label-info">REST API</span>
+
+The REST API supports **standard http commands**.
+
+* **GET** with a valid **rvalue**. To read from Jazz.
+* **HEAD** with a valid **rvalue**. Internally the same as GET, but returns the header only.
+* **PUT** with a valid **lvalue**. To write blocks into a Jazz keepr.
+* **DELETE** with a valid **lvalue**. To delete blocks or keeprs (at any level of the tree).
+* **OPTIONS** with a string. Parses the string and returns the commands that would accept that string as a URL.
+* **GET** with **lvalue=rvalue**. Assignment in the server. Similar to "PUT(lvalue, GET(rvalue))" without traffic.
+
+There is no support for POST or TRACE, any functions other than those mentioned return an error.
+
+### R API
+
+<span class="label label-info">R</span>
+
+{% include tip.html content="The R package **rjazz** also includes built-in http client support to use the REST API from R." %}
+
+<br/>
+
+
+
 ### String constants
 
 String constants are part of Bebop, they are applied separated by double quote `"` with a simple C-like escape sequence mechanism. Look for the
