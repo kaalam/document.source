@@ -36,7 +36,7 @@ entries:
           url: /vision_relations_finder.html
           output: web
 
-        - title: APIs and Services
+        - title: API, Services, Instances, etc.
           url: /vision_apis_services.html
           output: web
 
