@@ -5,11 +5,11 @@ sidebar: mydoc_sidebar
 permalink: api_ref_elements.html
 ---
 
+{% include important.html content="In version 0.4.1 the API has been redesigned. Details will be updated." %}
+
 ## API elements
 
 ## APIs
-
-{% include important.html content="In version 0.4.1 the API has been redesigned. Details will be updated." %}
 
 ### REST
 
