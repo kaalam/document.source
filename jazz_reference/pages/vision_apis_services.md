@@ -13,9 +13,23 @@ permalink: vision_apis_services.html
 
 ## Services
 
+<span class="label label-info">Service</span>
+
+In Jazz, the class `Service` provides the necessary abstractions to deal with parts that will be instantiated and configured. Services have things such as: configuration files, loggers and are instantiated. In Jazz, services allocate most of the memory. Services include things like the http server itself and the classes that return any container.
+
+{% include tip.html content="E.g., A Chart container is created by asking the service Charts to create a new Chart."%}
+
+Services are available via API and can be called from C++, Bop and http.
+
 ## Instances
 
+Since Jazz is an http server, resource allocation serves thousands of clients per node. The server's RAM space is distributed in a configurable way among its services. Every service has just one instance of it per node. These instances of all the classes derived from `Service` and some simple ones like a logger or a system timer available to all classes are the instances that are **created as global variables** and exist through the life of the server. That's what is meant by **instances** in Jazz terms.
+
 ## The API
+
+Remember "anything is a block", "blocks have identifiers" and "blocks have owners"? Well, putting all that together with some simple syntax, joined by characters that make the whole thing readable and http compatible, is what the http API is about. These locators are available from C++, Bop and http. Functions are also blocks and function calls use parenthesis and comma separated arguments as you would expect.
+
+* The details in [API reference](api_ref_elements.html)
 
 ## Jazz source code project organization
 
