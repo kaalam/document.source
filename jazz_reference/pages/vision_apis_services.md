@@ -1,11 +1,11 @@
 ---
-title: APIs and Services
-summary: What is Jazz (part 4) Introducing the architecture.
+title: API, Services, Instances, etc.
+summary: What is Jazz (part 4) More on the architecture.
 sidebar: mydoc_sidebar
 permalink: vision_apis_services.html
 ---
 
-{% include callout.html content="And finally, **the API**. Thanks for reading this far !!" %}
+{% include callout.html content="Thank you for for reading this far. This final page on the vision covers some necessary not yet mentioned elements." %}
 
 ## Other relevant classes required to understand the architecture
 
