@@ -5,9 +5,9 @@ sidebar: mydoc_sidebar
 permalink: api_ref_elements.html
 ---
 
-{% include important.html content="In version 0.4.1 the API has been redesigned. Details will be updated. This page contains parts of previous specification that have not changed, but is not a complete specification anymore." %}
-
 ## API elements
+
+{% include important.html content="In version 0.4.1 the API has been redesigned. Details will be updated. This page contains parts of previous specification that have not changed, but is not a complete specification anymore." %}
 
 
 ### `lvalue` and `rvalue`
@@ -85,5 +85,6 @@ The new design goes back to the original concept of `C++` and `http`. An R packa
 
 {% include tip.html content="The R package **rjazz** also includes built-in http client support to use the REST API from R." %}
 
+<br/>
 
 {% include links.html %}
