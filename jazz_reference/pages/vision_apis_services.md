@@ -56,4 +56,9 @@ We want Jazz to have learning algorithms we know well and have experience using/
 
 From version 0.4.x on, as we did in the original pre-2018 Jazz, we want this layer to be complete as a priority. We want the whole development to be driven by functional testing an processing. Again, this layer was already complete in the 2018 version but requires refactoring.
 
+<br/>
+
+| <span class="label label-default">Previous ...</span> |
+| [Relations and the Finder](vision_relations_finder.html) |
+
 {% include links.html %}
