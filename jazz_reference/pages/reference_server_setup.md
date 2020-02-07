@@ -22,7 +22,7 @@ improving it by providing [feedback](contributing_welcome_all.html)" %}
 
 ### Building and installing Jazz
 
-First you should build Jazz as described [here](starting_compile_jazz.html). Then, run `make install` to install it as a service.
+First you should build Jazz as described [here](using_compile_jazz.html). Then, run `make install` to install it as a service.
 That requires being a sudoer.
 
 ### Configuring
