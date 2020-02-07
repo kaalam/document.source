@@ -5,13 +5,15 @@ sidebar: mydoc_sidebar
 permalink: using_jazz_today.html
 ---
 
-## What is complete?
+{% include important.html content="Jazz 0.4.x is a full refactor pivoting the goal to what is described in this website. What is complete has to be updated after Jazz 0.4.1 is closed. Stay tuned!" %}
+
+{% include image.html file="jazz_modules.png" caption="Jazz modules for version 0.4.x" max-width=880 %}
+
+## What is complete (Jazz 0.3.x)?
 
 This page is a snapshot of the current state of development in terms of Jazz modules. It is updated after the completion (meaning
 implementation, documentation and testing) of modules and the percentages of executions are rough estimates, except for complete. The
 details of development are updated in the [developer's reference](/develop/)
-
-{% include image.html file="jazz_modules.png" caption="Jazz modules" max-width=880 %}
 
 | Group | Module | Description | Complete |
 |-------|--------|-------------|----------|
