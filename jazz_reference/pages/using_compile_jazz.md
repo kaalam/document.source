@@ -98,4 +98,6 @@ variables." %}
 
 {% include tip.html content="Unless you have a correctly configured PyPI account, you will not be able to upload the package you built.)" %}
 
+<br/>
+
 {% include links.html %}

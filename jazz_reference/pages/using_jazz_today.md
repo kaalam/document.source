@@ -113,4 +113,6 @@ as the development server. You can find the source code of the automation on git
 {% include note.html content="The website automation is intended of internal use even if it is OSS. There is no support for it, but if
 you feel comfortable with R, you can probably make it work or ping the author." %}
 
+<br/>
+
 {% include links.html %}

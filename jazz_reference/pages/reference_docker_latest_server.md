@@ -29,4 +29,6 @@ FROM kaalam/jazz_neat:latest
 
 ```
 
+<br/>
+
 {% include links.html %}

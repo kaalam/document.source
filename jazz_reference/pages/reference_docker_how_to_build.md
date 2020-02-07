@@ -100,4 +100,6 @@ and make a copy of that file into your Docker image. To tell Jazz to open that J
 Even if the JazzSource is on the server, you have to open it to make the server learn all the urls in order to have your application
 working." %}
 
+<br/>
+
 {% include links.html %}
