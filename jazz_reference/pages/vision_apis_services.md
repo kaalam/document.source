@@ -21,6 +21,8 @@ In Jazz, the class `Service` provides the necessary abstractions to deal with pa
 
 Services are available via API and can be called from C++, Bop and http.
 
+{% include image.html file="jazz_service.png" caption="Jazz services" %}
+
 ## Instances
 
 Since Jazz is an http server, resource allocation serves thousands of clients per node. The server's RAM space is distributed in a configurable way among its services. Every service has just one instance of it per node. These instances of all the classes derived from `Service` and some simple ones like a logger or a system timer available to all classes are the instances that are **created as global variables** and exist through the life of the server. That's what is meant by **instances** in Jazz terms.
