@@ -98,7 +98,7 @@ automatically." %}
 {% include tip.html content="Since containers are efficient data structures, many Jazz classes inherit them. E.g.,
 The Finder is a Chart." %}
 
-### Container descendent reference
+### Container descendant reference
 
 {% include important.html content="The reference for each Container descendant is included in its source code and available via the
 [developer documentation](/develop/). At least until definitions are so stable that we consider backward compatibility a priority, there
