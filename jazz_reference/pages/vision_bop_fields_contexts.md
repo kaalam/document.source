@@ -7,7 +7,7 @@ permalink: vision_bop_fields_contexts.html
 
 ## What is that "Jazz Magic"?
 
-Until now, we introduced blocks, filestores and containers that somehow (we will get there) are accessed via http. That part is just a very efficient and hopefully simple way to manage already known things. The basement of Jazz so to say. The question is still: "why bother using Jazz instead of any other platform with more traction that implements these things?" Hint: Efficiency and simplicity alone are not good enough reasons.
+Until now, we introduced blocks, storage and containers that somehow (we will get there) are accessed via http. That part is just a very efficient and hopefully simple way to manage already known things. The basement of Jazz so to say. The question is still: "why bother using Jazz instead of any other platform with more traction that implements these things?" Hint: Efficiency and simplicity alone are not good enough reasons.
 
 Before we talk about `Field`, `Relation`,`Context` and some other classes, we need to explain where we want to go. What we want to build is a platform that does distributed computation building on top of simple programs (functions).
 
@@ -91,6 +91,6 @@ A `Context` can be seen as an actionable log file. This is a requirement for rep
 <br/>
 
 | <span class="label label-default">Previous ...</span> | | | | | <span class="label label-info">Next ...</span> |
-| [Blocks, Filestores and Containers](vision_blocks_containers.html) | | | | | [Relations and the Finder](vision_relations_finder.html) |
+| [Blocks, Storage and Containers](vision_blocks_containers.html) | | | | | [Relations and the Finder](vision_relations_finder.html) |
 
 {% include links.html %}

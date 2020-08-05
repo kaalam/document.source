@@ -19,7 +19,7 @@ Jazz is a new kind of data product. It combines all these things and some others
 
 Now, let's explain the main ideas:
 
-* [Blocks, Filestores and Containers](vision_blocks_containers.html)
+* [Blocks, Storage and Containers](vision_blocks_containers.html)
 * [Bebop, Fields and Contexts](vision_bop_fields_contexts.html)
 * [Relations and the Finder](vision_relations_finder.html)
 * [APIs and Services](vision_apis_services.html)
@@ -32,6 +32,6 @@ See also:
 <br/>
 
 | <span class="label label-info">Next ...</span> |
-| [Blocks, Filestores and Containers](vision_blocks_containers.html) |
+| [Blocks, Storage and Containers](vision_blocks_containers.html) |
 
 {% include links.html %}
