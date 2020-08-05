@@ -107,6 +107,6 @@ is no other reference." %}
 <br/>
 
 | <span class="label label-default">Previous ...</span> | | | | | <span class="label label-info">Next ...</span> |
-| [What is the vision?](vision_intro_page.html) | | | | | [Bebop, Fields and Contexts](vision_bop_fields_contexts.html) |
+| [What is the vision?](vision_intro_page.html) | | | | | [Bebop, Formal Fields and Code Generation](vision_bop_fields_contexts.html) |
 
 {% include links.html %}

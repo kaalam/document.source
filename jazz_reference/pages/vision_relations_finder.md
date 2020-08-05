@@ -5,6 +5,10 @@ sidebar: mydoc_sidebar
 permalink: vision_relations_finder.html
 ---
 
+{% include important.html content="This page is outdated. See the [the Formal Fields Paper](https://arxiv.org/abs/2007.14075) for an up to date
+reference on Formal Fields as already implemented in the PoC and currently being implemented in the main Jazz project." %}
+
+
 ## Introducing Relations
 
 The class `Field` is the implementation of the idea of **Formal Fields**. For now, we said they are "something like OOP classes", but each of them has a language, Bebop, defined by a set of functions inherited from other fields or extended in Bebop. We also mentioned that anything, including a poem in English or a video is Bop source code in some `Field` and may be compiled to bytecode, but we did not explain how that works.
@@ -26,12 +30,7 @@ We use the word "guesses" intentionally to indicate that the posterior likelihoo
 A simpler type of bonds, that can only succeed of fail (disk full, etc.) and have no learned parameters is called a `Way`. There could be a way from **"SoundWave"** to **"MP3file"** that would just be a "save as mp3" function.
 
 
-{% include image.html file="jazz_relation.png" caption="Relations between any two Fields" %}
-
-
 ## Introducing The Finder
-
-{% include image.html file="jazz_finder.png" caption="The Finder, a Chart of all Fields and Relations" %}
 
 A complete `Chart` (A `Chart` is a `Container` that holds graphs efficiently) of all the `Field` descendants and all their ways and bonds is updated automatically by the classes at Jazz node level and is known as the `Finder`.
 
@@ -40,6 +39,6 @@ Because finding working `Compound` chains is not as easy as finding paths in gra
 <br/>
 
 | <span class="label label-default">Previous ...</span> | | | | | <span class="label label-info">Next ...</span> |
-| [Bebop, Fields and Contexts](vision_bop_fields_contexts.html) | | | | | [APIs and Services](vision_apis_services.html) |
+| [Bebop, Formal Fields and Code Generation](vision_bop_fields_contexts.html) | | | | | [APIs and Services](vision_apis_services.html) |
 
 {% include links.html %}

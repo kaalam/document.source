@@ -28,7 +28,7 @@ entries:
           url: /vision_blocks_containers.html
           output: web
 
-        - title: Bebop, Fields and Contexts
+        - title: Bebop, Formal Fields and Code Generation
           url: /vision_bop_fields_contexts.html
           output: web
 
