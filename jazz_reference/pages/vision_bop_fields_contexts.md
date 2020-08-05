@@ -5,6 +5,10 @@ sidebar: mydoc_sidebar
 permalink: vision_bop_fields_contexts.html
 ---
 
+{% include important.html content="This page is outdated. See the [the Formal Fields Paper](https://arxiv.org/abs/2007.14075) for an up to date
+reference on Formal Fields as already implemented in the PoC and currently being implemented in the main Jazz project." %}
+
+
 ## What is that "Jazz Magic"?
 
 Until now, we introduced blocks, storage and containers that somehow (we will get there) are accessed via http. That part is just a very efficient and hopefully simple way to manage already known things. The basement of Jazz so to say. The question is still: "why bother using Jazz instead of any other platform with more traction that implements these things?" Hint: Efficiency and simplicity alone are not good enough reasons.
