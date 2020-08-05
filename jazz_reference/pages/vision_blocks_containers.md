@@ -1,6 +1,6 @@
 ---
-title: Blocks, Filestores and Containers
-summary: What is Jazz (part 1) Introduction to blocks, filestores and containers. These classes are the basement for the "Jazz Magic".
+title: Blocks, Storage and Containers
+summary: What is Jazz (part 1) Introduction to blocks, storage and containers. These classes are the basement for the "Jazz Magic".
 sidebar: mydoc_sidebar
 permalink: vision_blocks_containers.html
 ---
@@ -20,8 +20,8 @@ A tensor is just a vector of vectors of vectors of ... **one type**. E.g., a vid
 include what you expect in any language: Boolean, integer, float, string of different sizes. Data blocks are typically small, as
 in tenths of thousands of cells, but can be bigger to avoid cross-block boundaries when processing bigger objects (e.g. high resolution
 video). Also, rigorous data analytics is supported: All types (except byte) support a NA (Not Available) logic. There are **sorted factor**,
-**unsorted factor** and **strings as factor** types. Bear in mind that **any file** is a `Block`, since it is a vector (tensor or rank 1)  of
-bytes. Besides that, there are multi-block abstractions (columns, tables, etc.), which are, again, implemented as blocks.
+**unsorted factor** and **strings as factor** types. Bear in mind that **any file** is a `Block`, since it is a vector (tensor or rank 1)
+of bytes. Besides that, there are multi-block abstractions (columns, tables, etc.), which are, again, implemented as blocks.
 
 ### A Block has attributes
 
@@ -44,53 +44,65 @@ A `Block` is binary moveable, quasi-immutable and has an owner, called a `Contai
 This means:
 
 * **Binary moveable** - It can be copied "as is" because it has no pointers.
-* **Quasi-immutable** - Via the API, it appears as immutable. Of course, in C++ you can still change its content for performance reasons and
-provide an interface that abstracts that out.
-* **Owner** - According to the owner, a `Block` can be: **one shot**, **volatile** or **persisted**. **One shot** is possible only in C++, it
-means the creator owns the `Block`. All other blocks have a **container**. Via the API, blocks can only be created inside `Container` descendants. Some containers have a `Filestore`. In that case their blocks are **persisted**, i.e., they exist on a memory mapped file to/from which they can be saved/loaded. Other containers, e.g., a tree used in a tree search, do not need to be persisted. Their blocks are named **volatile** in this case.
+* **Quasi-immutable** - Via the API, it appears as immutable. Of course, in C++ you can still change its content for performance reasons
+and provide an interface that abstracts that out.
+* **Owner** - According to the owner, a `Block` can be: **one shot**, **volatile** or **persisted**. **One shot** is possible only in C++,
+it means the creator owns the `Block`. All other blocks have a **container**. Via the API, blocks can only be created inside `Container`
+descendants. Some containers have a `Storage`. In that case their blocks are **persisted**, i.e., they exist on a memory mapped file
+to/from which they can be saved/loaded. Other containers, e.g., a tree used in a tree search, do not need to be persisted. Their blocks are
+named **volatile** in this case.
 
 
-## Introducing Filestores
+## Introducing Storage
 
-<span class="label label-info">Filestore</span>
+<span class="label label-info">storage</span>
 
-The class `Filestore` implements persistence of all Jazz objects using **LMDB**. Therefore, a Jazz file is an LMDB file of persisted blocks.
+The class `Storage` implements persistence of all Jazz objects using **LMDB**. Therefore, a Jazz file is an LMDB file of persisted blocks.
 You can even use command line LMDB utilities to backup a Jazz server while running or access the same file from more than one process.
 
 {% include important.html content="Because LMDB is a transactionally consistent key/value store, Jazz is \"out of the box\" **a distributed
 key/value store second to none in terms of efficiency**." %}
 
-{% include image.html file="jazz_filestores.png" caption="Filestores class" %}
+{% include image.html file="jazz_storage.png" caption="Storage class" %}
 
-### Filestores can contain any number of containers
+### Storage can contain any number of containers
 
-`Filestore` is not inherited. Instead, all `Container` descendants can be grounded in a `Filestore`, when they do, they inherit the store's Get/Put API. This design allows any number of containers being stored in any number of filestores, of course, each one belonging to just one filestore.
+`Storage` is not inherited. Instead, all `Container` descendants can be grounded in a `Storage`, when they do, they inherit the store's
+Get/Put API. This design allows any number of containers being stored in any number of `Storage` objects, of course, each one belonging
+to just one `Storage`.
 
 
 ## Introducing Containers
 
 <span class="label label-info">Container</span>
 
-The class `Container`is an abstract class. It defines an API to manage blocks (possibly persisted) with a consistent interface. The containers themselves are just efficient data structures required by different algorithms. You can think of it as the C++ STL. Actually,
+The class `Container`is an abstract class. It defines an API to manage blocks (possibly persisted) with a consistent interface. The
+containers themselves are just efficient data structures required by different algorithms. You can think of it as the C++ STL. Actually,
 some containers are just wrappers around STL containers, others are implemented from scratch or using more than one STL container.
 
 {% include image.html file="jazz_container.png" caption="Containers class" %}
 
 ### Blocks and containers have identifiers, Jazz clusters have global paths
 
-Jazz blocks have identifiers. Identifiers are unique in the context of their container. Containers themselves, since they are blocks, have identifiers. Adding `Filestore` IDs and even Jazz node IDs we get "global" distributed paths (valid over a cluster of Jazz nodes).
+Jazz blocks have identifiers. Identifiers are unique in the context of their container. Containers themselves, since they are blocks, have
+identifiers. Adding `Storage` IDs and even Jazz node IDs we get "global" distributed paths (valid over a cluster of Jazz nodes).
 
 <br/>
 
-{% include note.html content="You can create **trees of containers** of any complexity using the API. The only limitation is: Once any container is grounded in a `FileStore`, all its descendants can only be grounded in the same `FileStore`. This behavior is handled by the class automatically." %}
+{% include note.html content="You can create **trees of containers** of any complexity using the API. The only limitation is: Once any
+container is grounded in a `Storage`, all its descendants can only be grounded in the same `Storage`. This behavior is handled by the class
+automatically." %}
 
 <br/>
 
-{% include tip.html content="Since containers are efficient data structures, many Jazz classes inherit them. E.g., The Finder is a Chart." %}
+{% include tip.html content="Since containers are efficient data structures, many Jazz classes inherit them. E.g.,
+The Finder is a Chart." %}
 
 ### Container descendent reference
 
-{% include important.html content="The reference for each Container descendant is included in its source code and available via the [developer documentation](/develop/). At least until definitions are so stable that we consider backward compatibility a priority, there is no other reference." %}
+{% include important.html content="The reference for each Container descendant is included in its source code and available via the
+[developer documentation](/develop/). At least until definitions are so stable that we consider backward compatibility a priority, there
+is no other reference." %}
 
 <br/>
 

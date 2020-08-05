@@ -24,7 +24,7 @@ entries:
         output: web
         subfolderitems:
 
-        - title: Blocks, Filestores and Containers
+        - title: Blocks, Storage and Containers
           url: /vision_blocks_containers.html
           output: web
 
