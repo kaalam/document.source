@@ -1,6 +1,6 @@
 ---
-title: Bebop, Fields and Contexts
-summary: What is Jazz (part 2) Introduction to Bebop, fields and contexts.
+title: Bebop, Formal Fields and Code Generation
+summary: What is Jazz (part 2) Introduction to Bebop, fields and code generation.
 sidebar: mydoc_sidebar
 permalink: vision_bop_fields_contexts.html
 ---
@@ -79,14 +79,6 @@ Pure functions can be optionally cached (memoized) by a directive. This makes ca
 As mentioned, a `Field` is an abstraction that has many of the features classes have in OOP. It is also similar to a package or library. Some STL fields will include efficient functions to do arithmetic, algebra, text manipulation, etc. Fields can also be purely created in Bop. Fields relate to each other, not just by a DAG like code dependencies, but by and arbitrary complex graph of `Field` relations. Reading the next page on relations will shed light on the role fields play in Jazz.
 
 {% include image.html file="jazz_field.png" caption="Field class" %}
-
-## Introducing Contexts
-
-<span class="label label-info">Context</span>
-
-A `Context` can be seen as an actionable log file. This is a requirement for reproducibility and is also required to compare learning methods. The precise definition of a context will surely change over time. So take `Context` informally as "everything required to reproduce a result". It could be a conversation with a chatbot, a text corpus used to answer questions, ... Ideally, in a format like a macro that records and plays back interactions, possibly one by one, with the same or different code.
-
-{% include image.html file="jazz_context.png" caption="Context class" %}
 
 <br/>
 
