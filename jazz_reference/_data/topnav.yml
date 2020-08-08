@@ -6,7 +6,7 @@ topnav:
     - title: kaalam.ai
       external_url: http://kaalam.ai
     - title: GitHub
-      external_url: https://github.com/bbvadata/Jazz
+      external_url: https://github.com/kaalam/Jazz
 
 #Topnav dropdowns
 topnav_dropdowns:
@@ -22,8 +22,8 @@ topnav_dropdowns:
           url: contributing_welcome_all.html
         - title: Jazz for developers
           external_url: /develop/
-        - title: Jazz API reference
-          url: api_ref_elements.html
+        - title: Jazz API introduction
+          url: api_ref_intro.html
         - title: R client Reference
           external_url: /rjazz/
         - title: What is the usable part of Jazz today?
