@@ -52,8 +52,12 @@ entries:
     output: web, pdf
     folderitems:
 
-    - title: API elements
-      url: /api_ref_elements.html
+    - title: API introduction
+      url: /api_ref_intro.html
+      output: web
+
+    - title: API details
+      url: /api_ref_details.html
       output: web
 
   - title: Docker reference
