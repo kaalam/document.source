@@ -5,8 +5,8 @@ sidebar: mydoc_sidebar
 permalink: vision_intro_page.html
 ---
 
-{% include note.html content="To avoid confusion, we call this page \"What is the vision\" instead of \"What is Jazz\" some day, we will
-change the name to the latter. Take this as **This is Jazz** but most of it is not implemented yet." %}
+{% include important.html content="Jazz is still under development to produce the first Minimum Viable Product (MVP) after the original 0.1.7.
+Things are changing fast and this manual **is not the place** to keep up with updates. PoC are only on github when complete. To follow Jazz development see [Programming documentation for the Jazz Server](https://kaalam.github.io/develop_jazz02/index.html)." %}
 
 
 ## From 20,000 feet:
