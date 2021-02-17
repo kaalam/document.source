@@ -7,7 +7,7 @@ permalink: api_ref_details.html
 
 ## API reference
 
-{% include important.html content="In version 0.4.1 the API has been redesigned. This is updated frequently." %}
+{% include important.html content="In version 0.5.x the API has been redesigned. The true reference is the documentation of the methods in api.cpp and api.h This is will be updated as the spec gets stable." %}
 
 
 ### REST predicates
@@ -23,7 +23,7 @@ The REST API supports **standard http commands**.
 * **OPTIONS** with a string. Parses the string and returns the commands that would accept that string as a URL.
 * **HEAD** with `lvalue`=`rvalue`. Assignment in the server. Similar to "PUT(lvalue, GET(rvalue))" without traffic.
 
-#### Limitations in version 0.4.x
+#### Limitations in version 0.5.x
 
   * No support for POST or TRACE.
   * Compression is not supported.
