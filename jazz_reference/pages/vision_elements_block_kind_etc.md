@@ -71,6 +71,6 @@ named **volatile** in this case.
 <br/>
 
 | <span class="label label-default">Previous ...</span> | | | | | <span class="label label-info">Next ...</span> |
-| [What is the vision?](vision_intro_page.html) | | | | | [Bebop, Formal Fields and Code Generation](vision_elements_containers.html) |
+| [What is the vision?](vision_intro_page.html) | | | | | [Elements - Containers](vision_elements_containers.html) |
 
 {% include links.html %}
