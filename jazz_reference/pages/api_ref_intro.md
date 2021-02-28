@@ -1,5 +1,5 @@
 ---
-title: API introduction
+title: API reference - Introduction
 summary: An introduction to the API basics, storage details, function calls and the http REST API.
 sidebar: mydoc_sidebar
 permalink: api_ref_intro.html
