@@ -1,6 +1,6 @@
 ---
 title: Agency elements
-summary: Overview of agency
+summary: Overview of agency (lifelong learning and automated code generation)
 sidebar: mydoc_sidebar
 permalink: agency_elements.html
 ---
