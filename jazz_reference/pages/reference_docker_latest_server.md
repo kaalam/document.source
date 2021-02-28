@@ -6,8 +6,8 @@ permalink: reference_docker_latest_server.html
 ---
 
 {% include callout.html content="**Jazz à la carte** is intended to be a series of Jazz servers maintained as Docker images through
-continuous integration including such things as \"voice recognition\", \"text to speech\", etc. For the moment, the neat LSS is the only
-member." %}
+continuous integration including such things as \"voice recognition\", \"text to speech\", etc. For the moment, the neat LSS and The
+Tangle server are the only members." %}
 {% include tip.html content="**kaalam** maintains an updated Jazz server (without any application) in Docker Hub." %}
 
 ## How to check for the latest version?
