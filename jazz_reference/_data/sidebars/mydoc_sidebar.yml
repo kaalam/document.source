@@ -24,16 +24,20 @@ entries:
         output: web
         subfolderitems:
 
-        - title: Blocks, Storage and Containers
-          url: /vision_blocks_containers.html
+        - title: Elements - Blocks, Kinds, Tuples, Tables and Fluxes
+          url: /vision_elements_block_kind_etc.html
           output: web
 
-        - title: Bebop, Formal Fields and Code Generation
-          url: /vision_bop_fields_contexts.html
+        - title: Elements - Containers - Volatile, Remote and Persisted
+          url: /vision_elements_containers.html
           output: web
 
-        - title: Relations and the Finder
-          url: /vision_relations_finder.html
+        - title: Code Generation - Formal Fields and Bebop
+          url: /vision_code_bebop.html
+          output: web
+
+        - title: Agency - Code Automation
+          url: /vision_agency_code.html
           output: web
 
         - title: API, Services, Instances, etc.
@@ -45,19 +49,51 @@ entries:
     folderitems:
 
     - title: Bebop elements
-      url: /bop_ref_elements.html
+      url: /bop_elements.html
+      output: web, pdf
+
+  - title: Agency fundamentals
+    output: web, pdf
+    folderitems:
+
+    - title: Agency elements
+      url: /agency_elements.html
       output: web, pdf
 
   - title: API fundamentals
     output: web, pdf
     folderitems:
 
-    - title: API introduction
+    - title: API reference - Introduction
       url: /api_ref_intro.html
       output: web
 
-    - title: API details
-      url: /api_ref_details.html
+    - title: API reference - How it works
+      url: /api_ref_modules_.html
+      output: web
+
+    - title: API reference - The http API
+      url: /api_ref_http_api.html
+      output: web
+
+    - title: API reference - Names
+      url: /api_ref_names.html
+      output: web
+
+    - title: API reference - Locators
+      url: /api_ref_locators.html
+      output: web
+
+    - title: API reference - Constants
+      url: /api_ref_const.html
+      output: web
+
+    - title: API reference - Block and tuple slicing
+      url: /api_ref_slicing.html
+      output: web
+
+    - title: API reference - Block and tuple contracts
+      url: /api_ref_contracts.html
       output: web
 
   - title: Docker reference
@@ -70,6 +106,10 @@ entries:
 
     - title: Jazz (LSS) Latest Stable Server
       url: /reference_docker_latest_server.html
+      output: web
+
+    - title: Jazz (TNG) The Tangle Server
+      url: /reference_docker_tangle_server.html
       output: web
 
   - title: Server Reference
