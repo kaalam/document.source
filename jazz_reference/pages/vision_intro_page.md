@@ -26,7 +26,8 @@ Now, let's explain the main ideas:
 
 See also:
 
-* [Bebop](bop_ref_elements.html)
+* [Bebop](bop_elements.html)
+* [Agency](agency_elements.html)
 * [APIs](api_ref_elements.html)
 
 <br/>

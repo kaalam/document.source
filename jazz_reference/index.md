@@ -25,7 +25,8 @@ Things are changing fast and this manual **is not the place** to keep up with up
 
 ## References
 
-* [Bebop](bop_ref_elements.html)
+* [Bebop](bop_elements.html)
+* [Agency](agency_elements.html)
 * [API reference and clients](api_ref_elements.html)
 * [Server internals and setup](reference_server_setup.html)
 
