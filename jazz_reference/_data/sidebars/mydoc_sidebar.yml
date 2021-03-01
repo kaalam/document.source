@@ -92,7 +92,7 @@ entries:
       url: /api_ref_slicing.html
       output: web
 
-    - title: API reference - Block and tuple contracts
+    - title: API reference - Block and Container contracts
       url: /api_ref_contracts.html
       output: web
 

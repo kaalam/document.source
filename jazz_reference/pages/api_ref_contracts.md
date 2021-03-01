@@ -1,6 +1,6 @@
 ---
-title: API reference - Block and tuple contracts
-summary: Item, block, kind, tuple, column and table contracts
+title: API reference - Block and Container contracts
+summary: Item, Block, Kind, Tuple, Column, Table, Flux, Container, Volatile, Remote and Persisted contracts
 sidebar: mydoc_sidebar
 permalink: api_ref_contracts.html
 ---
