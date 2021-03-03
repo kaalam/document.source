@@ -16,13 +16,27 @@ their syntax explained below. All contracts are GET (or any read predicate), exc
 
 ## Contracts for Block and descendants
 
-### .as_cpp()
+### .as_cpp
 
-### .as_json()
+.as_cpp    | Return the C++ interface of a Kind
+---------- | ----------------------------------
+Applies to | A `Kind` or `Tuple`.
+Returns    | A compilable C/C++ `struct` that allows writing C/C++ code accessing all the data in every Tuple of that Kind.
+Notes      | This is used by Bebop to support kernel writing in C++ and also underlies the just-in-time linking of Tuples.
 
-### .as_text()
 
-### .blocktype()
+### .as_json
+
+### .as_text
+
+### .blocktype
+
+.blocktype | Return the fundamental block type: tensor, filter, kind or tuple
+---------- | ----------------------------------------------------------------
+Applies to | Any `Block descendant`.
+Returns    | A `string` with the one of the four possibilities (tensor, filter, kind or tuple).
+Notes      | This just gets the attribute BLOCK_ATTRIB_TYPE of the block. Many complex classes are tuples, `.type` gets the class name.
+
 
 ### .bytes(\<dimensions\>)
 
@@ -30,15 +44,15 @@ their syntax explained below. All contracts are GET (or any read predicate), exc
 
 ### .\<column\>
 
-### .columns()
+### .columns
 
-### .dimensions()
+### .dimensions
 
-### .events()
+### .events
 
 ### .\<item\>
 
-### .items()
+### .items
 
 ### .kind(\<source|dest\>)
 
@@ -46,24 +60,41 @@ their syntax explained below. All contracts are GET (or any read predicate), exc
 
 ### .listen(\<dimensions\>, \<handler\>)
 
-### .meta()
+### .meta
 
-### .mime()
+### .mime
 
 ### .\<raw\>
 
-### .shape()
+### .shape
 
 ### .size(\<dimensions\>)
 
 ### .\<slice\>
 
-### .type()
+### .type
 
-### .url()
+.type      | Return the name to the cpp class stored as the block
+---------- | ----------------------------------------------------
+Applies to | Any `Block descendant`.
+Returns    | A `string` with the name.
+Notes      | This just gets the attribute BLOCK_ATTRIB_TYPE of the block.
+
+
+### .url
+
+.url       | Return the static http url assigned to a block
+---------- | ----------------------------------------------
+Applies to | A `Block`. Most likely a file == vector of CELL_TYPE_BYTE with some mime type.
+Returns    | A `string` with the url without the http://server part. Static http resources are not sharded.
+Notes      | This just gets the attribute BLOCK_ATTRIB_URL of the block.
 
 
 ## Contracts for Container and descendants
+
+### (PUT) .add_base(\<name\>)
+
+### (PUT) .add_container(\<name\>)
 
 ### (PUT) .assign(\<locator\>, \<rvalue\>)
 
