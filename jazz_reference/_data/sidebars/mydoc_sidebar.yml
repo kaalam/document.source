@@ -96,6 +96,26 @@ entries:
       url: /api_ref_contracts.html
       output: web
 
+    - title: API reference - Function calls
+      url: /api_ref_fun_calls.html
+      output: web
+
+    - title: API reference - GET and HEAD calls reference
+      url: /api_ref_get_head.html
+      output: web
+
+    - title: API reference - PUT calls reference
+      url: /api_ref_put.html
+      output: web
+
+    - title: API reference - Assignment calls reference
+      url: /api_ref_assign.html
+      output: web
+
+    - title: API reference - Fluxes, event and agents
+      url: /api_ref_fluxes_agents.html
+      output: web
+
   - title: Docker reference
     output: web, pdf
     folderitems:
