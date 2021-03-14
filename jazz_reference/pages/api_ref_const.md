@@ -15,6 +15,11 @@ This is incomplete, but what is here is up to date." %}
 A constant is a string in a query that defines a tensor, tuple or kind. If parsed successfully, it will be converted into a one shot block
 and will be used in a contract (block slicing, function call or assignment).
 
+## Spacing
+
+Space and tab characters are ignored everywhere except inside a name, a number or the content of a string. The first two result in
+PARSE_ERROR_INVALID_CHAR and the third in the space being part of the string.
+
 ## Constant tensors
 
 Constant tensors can only have three possible types: integer (CELL_TYPE_INTEGER), double (CELL_TYPE_DOUBLE) or string (CELL_TYPE_STRING).
