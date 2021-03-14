@@ -71,13 +71,18 @@ functionality clients. Ideally, also a Javascript client joins the project somed
 
 See also:
 
-* [How modules work to serve API calls](api_ref_modules_.html)
-* [http API](api_ref_http_api.html)
-* [Names](api_ref_names.html)
-* [Locators](api_ref_locators.html)
-* [Constants](api_ref_const.html)
-* [Slicing](api_ref_slicing.html)
-* [Contracts](api_ref_contracts.html)
+* API terminology and how [modules](api_ref_modules_.html) work together to serve API calls.
+* High level overview of the [http API](api_ref_http_api.html).
+* Rules to build and use [names](api_ref_names.html).
+* Rules to build block [locators](api_ref_locators.html).
+* Syntax of [constants](api_ref_const.html)
+* [Slicing](api_ref_slicing.html) details.
+* List of all [contracts](api_ref_contracts.html).
+* [Function call](api_ref_fun_calls.html) reference.
+* Detailed reference of http [GET, HEAD and OPTIONS](api_ref_get_head.html).
+* Detailed reference of http [PUT and DELETE](api_ref_put.html).
+* Detailed reference of http [assignment](api_ref_assign.html) queries.
+* Event [connection](api_ref_fluxes_agents.html) reference.
 
 <br/>
 
