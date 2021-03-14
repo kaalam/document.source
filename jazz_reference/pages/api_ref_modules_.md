@@ -1,6 +1,6 @@
 ---
 title: API reference - How it works
-summary: How the different services work to serve API calls and how it works in Bebop and C++.
+summary: API terminology and how the different services work to serve API calls and how it works in Bebop and C++.
 sidebar: mydoc_sidebar
 permalink: api_ref_modules_.html
 ---
