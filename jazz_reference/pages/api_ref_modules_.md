@@ -19,8 +19,7 @@ There are two ways to upload that content:
 
 1. The content of the folder configured as STATIC_HTML_AT_START will be uploaded automatically. The mime type will be guessed from the
 file extension.
-2. Uploading a block (as raw binary) with the content to //static/ with the attributes BLOCK_ATTRIB_URL and BLOCK_ATTRIB_MIMETYPE set
-to match the desired url.
+2. Uploading a block (as raw binary) with the content to //static/ with the attributes BLOCK_ATTRIB_URL, BLOCK_ATTRIB_MIMETYPE and BLOCK_ATTRIB_LANGUAGE set to match the desired url.
 
 ### The /// API
 
