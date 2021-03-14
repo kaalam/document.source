@@ -30,6 +30,43 @@ returning things like: build versions, statistics, configuration settings, etc.
 
 Is the real http API for anything (GET, PUT, DELETE, OPTIONS, HEAD) with blocks, contracts, function calls and event handling.
 
+
+## How modules fit together
+
+### All the API is steered by an instance of the class Api
+
+You can see how containers inherit each other [here](/develop_jazz02/classjazz__elements_1_1Container.html). There is one instance of
+each of these services. The API is called by the http server's callback function and "distributes the game".
+
+### API is a container
+
+The API inherits from Container (which is the one shot container) and, therefore, can allocate one shot blocks (used in constant
+conversion, etc.). Executing an API query has two parts, **parsing** and **executing** (getting, locking, unlocking, running a contract,
+etc.). The API parses the queries and forwards the execution to the appropriate container. In the case of the `///` API, that container
+is the API itself.
+
+### How things are forwarded
+
+There are two mechanisms by which a container is implicitly specified in an API query: **reserved contracts** and **reserved base names**.
+Priority-wise, reserved contracts have higher priority. E.g., A function call will always be forwarded to **Bebop** and Bebop may use
+reserved base names to locate the data.
+
+There are only two reserved contracts: **function calls** and **event connections**. Function calls are identified by the enclosing
+brackets `(` and `)`. Function calls are forwarded to `Bebop`. Event connections are identified by the `@` (connect), `!@` (disconnect)
+and `?` (send a constant value into a connection) and forwarded to `Agency`.
+
+Reserved base names can be found in this table. Anything that is not in the list of reserved names will be forwarded to `Persisted`
+assuming it is a database name. The reserved names from `Persisted` are also database names, but those databases are special and managed
+by the Jazz node.
+
+Container | Reserved base names
+--------- | ----------------------------------------------------------------
+API | `<empty>` is the empty base name. As a consequence `///` calls are executed in the API itself.
+Volatile | `deque`, `map`, `tree`, `queue`. <br/>E.g., (GET) `//deque.new("waiting_list")` <br/>followed by (PUT) `//deque/waiting_list.l_push([1,2])`
+Persisted | `sys`, `group`, `kind`, `field`, `flux`, `agent` and `static`. Are special databases to keep system config and all the groups, kinds, fields, fluxes, agents and static http served objects.
+Remote | `jazz_get` and `jazz_put` are the normal way to address sharded resources. <br/>`jazz_broadcast` is generated automatically to keep cluster level synchronization, <br/>`http_get` and `http_put` allow accessing REST APIs or resources outside the Jazz cluster.
+
+
 ## API terminology:
 
 ### Names
