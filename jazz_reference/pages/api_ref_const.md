@@ -79,7 +79,17 @@ to that instead of the original tuple.
 
 ### Syntax
 
-E.g., `image::red[width, heigth]:BYTE, green[width, heigth]:BYTE, blue[width, heigth]:BYTE`
+E.g.:
+```
+image:: red: BYTE[width, height], green: BYTE[width, height], blue: BYTE[width, height]
+image:: buff: SINGLE[width, height, 3], title: STRING[1], category: INTEGER[1]
+image:: buff: SINGLE[width, height, 3], title: STRING, category: INTEGER
+image_mono640x480:: buff: SINGLE[640, 480], description: BYTE[128]
+voice::wave:INTEGER[num_channels,num_samples],frames_per_Sec:INTEGER
+```
+Note:
+- shape `[1]` can be omitted. INTEGER[1] is the same as INTEGER
+- STRING[1] Is a vector of one string (== STRING), **not** a string of one character. String length is not limited.
 
 Valid types are:
 
