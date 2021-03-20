@@ -39,7 +39,7 @@ of type string. Strings support url-encoding starting with a `%` for all charact
 is not parsed as the beginning or end of an element which provides a mechanism to include double quotes inside the string.
 A use of the `%` char that does not form a valid (possibly multi-byte) url-encode (E.g., 1 byte `%81`, 2 bytes `%C6%92`,
 3 bytes `%E2%80%A6`) produces PARSE_ERROR_ENCODING. When parsing a tensor of strings (inferred from the first element) any
-element that is not a string will produce PARSE_ERROR_NOT_A_STRING.
+element that is not a string will produce PARSE_ERROR_INVALID_CHAR (because of a mismatch with the expected ").
 
 #### Type double
 
