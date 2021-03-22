@@ -5,22 +5,30 @@ sidebar: mydoc_sidebar
 permalink: api_ref_names.html
 ---
 
-{% include important.html content="Jazz is still under development to produce the first Minimum Viable Product (MVP) after the original 0.1.7.
-This is incomplete, but what is here is up to date." %}
+## Name
 
-### Block names
+### Definition of name
 
-A block name is a sequence of case-sensitive alphanumeric characters or underscores of maximum length MAX_BLOCK_ID_LENGTH - 1 (actually 31)
-starting with a letter.
+A name is a string of letters, numbers and underscores, starting with a letter, up to 31 characters long.
 
-The regex REGEX_VALIDATE_BLOCK_ID validates a block identifier.
+The regex REGEX_VALIDATE_NAME validates a name. See [search for REGEX_VALIDATE_NAME](/develop_jazz02/container_8h.html#a7a8bfd610ac1e273cd0522d1b7169f68).
 
+Names are combined to form locators as referenced [here](api_ref_locators.html).
 
-<span class="label label-info">R</span>
+### Use of names
 
-The new design goes back to the original concept of `C++` and `http`. An R package to manage the `http` client will still be included.
+Names are use in all these places:
 
-{% include tip.html content="The R package **rjazz** also includes built-in http client support to use the REST API from R." %}
+Parser state | Reserved base names
+------------ | ----------------------------------------------------------------
+BASE_NAME | Is the first name in both an `L-value` and an `R-value`, always followed by `/`.
+CONTAINER_NAME | Anything (possibly nothing) between the base name and the block name, separated by `/`. There is a limit of MAX_NESTED_CONTAINERS to how many names can be defined before a block name.
+BLOCK_NAME | The last name in an `L-value` or the last name **not** followed by `/` in an `R-value`
+CONTRACT_NAME | A name following a block name or another contract name separated by a `.` There is a limit of MAX_CONTRACTS_IN_R_VALUE to how many contracts can be chained to a block.
+KIND_NAME | In a constant defining a Kind, the first name. It is identified by being the only name followed by a double colon `::`. See [constant kind](api_ref_const.html#constant-kinds).
+ITEM_NAME | Is the name of an item (some tensor) inside a constant defining a kind or a tuple. It is followed by a single colon `:`.
+DIMENSION_NAME | In a constant defining a Kind, a dimension of a tensor that is defined by a name instead of by its value. E.g., `width`, `height` in [constant kind](api_ref_const.html#constant-kinds).
+TYPE_NAME | In a constant defining a Kind, the cell type of a tensor. E.g., `BYTE_BOOLEAN`, `INTEGER`, `TIME`, `DOUBLE`, etc.
 
 <br/>
 
