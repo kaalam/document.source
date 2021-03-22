@@ -10,12 +10,20 @@ permalink: api_ref_const.html
 ### Definition
 
 A constant is a string in a query that defines a tensor, tuple or kind. If parsed successfully, it will be converted into a one shot block
-and will be used in a contract (block slicing, function call or assignment).
+and will be used in a contract (block slicing, function call, etc.) or an assignment.
 
 ## Spacing
 
-Space and tab characters are ignored everywhere except inside a name, a number or the content of a string. The first two result in
-PARSE_ERROR_INVALID_CHAR and the third in the space being part of the string.
+Space and tab characters `\t` are ignored ***almost everywhere**. The definition is: everywhere, except:
+
+- Inside a string (between the starting and the ending double quotes `"`) it becomes part of string.
+- "Around" a number they produce PARSE_ERROR_INVALID_CHAR. The number starts at its first `-` or `0-9` digit and ends by: a separator,
+a closer, a semicolon, the end of the query, etc. Space is **never** part of a number. All these are equally wrong: `- 12,`, `-1 2,` and
+`-12 ,`. For efficiency reasons, queries are parsed without copying or modifying them. The space is not part of the number. Implementing
+workarounds just to allow a bad practice is not how we design Jazz. Simply **do not separate numbers** from whatever follows them.
+- Names cannot contain spaces producing PARSE_ERROR_INVALID_CHAR.
+
+Otherwise, space is ok. `" [ [ [ 1, 2, 3]\t ,\t [4, 5, 6] ] , [ [ 1,\t -2,\t-3], [ 4, 5, 6] ] ]\t"` parses ok.
 
 ## Constant tensors
 
