@@ -43,8 +43,19 @@ The type string is inferred by the use of double quotes `"` bounding each elemen
 of type string. Strings support url-encoding starting with a `%` for all character sizes in utf8. A url-encoded double quote `"` (`%22`)
 is not parsed as the beginning or end of an element which provides a mechanism to include double quotes inside the string.
 A use of the `%` char that does not form a valid (possibly multi-byte) url-encode (E.g., 1 byte `%81`, 2 bytes `%C6%92`,
-3 bytes `%E2%80%A6`) produces PARSE_ERROR_ENCODING. When parsing a tensor of strings (inferred from the first element) any
-element that is not a string will produce PARSE_ERROR_INVALID_CHAR (because of a mismatch with the expected ").
+3 bytes `%E2%80%A6` and 4 bytes `%f0%92%80%bb`) produces PARSE_ERROR_ENCODING. Hex letters `a` to `f` can be given both uppercase or
+lowercase. When parsing a tensor of strings (inferred from the first element) any cell that is not a string will produce
+PARSE_ERROR_INVALID_CHAR.
+
+All characters other than:
+
+```
+ABCDE FGHIJ KLMNO PQRST UVW XYZ
+abcde fghij klmno pqrst uvw xyz
+01234 56789
+\t -_.~!#$&'()*+,/:;=?@[]
+```
+must be url-encoded.
 
 #### Type double
 
