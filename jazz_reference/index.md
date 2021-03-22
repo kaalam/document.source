@@ -8,7 +8,7 @@ permalink: index.html
 Thank you for your interest in Jazz, this is the place to start.
 
 {% include important.html content="Jazz is still under development to produce the first Minimum Viable Product (MVP) after the original 0.1.7.
-Things are changing fast and this manual **is not the place** to keep up with updates. PoC are only on github when complete. To follow Jazz development see [Programming documentation for the Jazz Server](https://kaalam.github.io/develop_jazz02/index.html)." %}
+Things are changing fast. To keep up, besides this manual, see [Programming documentation for the Jazz Server](https://kaalam.github.io/develop_jazz02/index.html)." %}
 
 ## Basic Questions on Jazz
 

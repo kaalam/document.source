@@ -6,7 +6,7 @@ permalink: using_jazz_today.html
 ---
 
 {% include important.html content="Jazz is still under development to produce the first Minimum Viable Product (MVP) after the original 0.1.7.
-Things are changing fast and this manual **is not the place** to keep up with updates. PoC are only on github when complete. To follow Jazz development see [Programming documentation for the Jazz Server](https://kaalam.github.io/develop_jazz02/index.html)." %}
+Things are changing fast and this page is **not up to date**. To follow Jazz development see [Programming documentation for the Jazz Server](https://kaalam.github.io/develop_jazz02/index.html)." %}
 
 {% include image.html file="jazz_modules.png" caption="Jazz modules for version 0.4.x" max-width=880 %}
 
