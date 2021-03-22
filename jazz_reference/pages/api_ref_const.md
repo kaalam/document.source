@@ -59,8 +59,9 @@ must be url-encoded.
 
 #### Type double
 
-The type double is inferred by the use of the decimal point `.` in a number, otherwise the number is an integer. Any number of the tensor
-being a double makes the whole tensor of type double.
+The type double is inferred by the use of the decimal point `.` or the `e` (e.g., `1e9`) in a number, otherwise the number is an integer.
+The first character of a number cannot be a `.` E.g., `.5` is wrong, you must write `0.5`. Any cell of the tensor being a double makes the
+whole tensor of type double.
 
 ## Constant tuples
 
