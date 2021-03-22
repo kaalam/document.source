@@ -28,6 +28,8 @@ name and coherent behavior. Besides block contracts, Services have contracts too
 
 See more details [here](api_ref_modules_.html)
 
+## The different APIs
+
 ### The C++ API
 
 The C++ API is designed, for the moment, to just merge the source code in another project, using the three different namespaces, each one
@@ -42,13 +44,12 @@ See technical documentation [here](/develop/)
 ### The Bebop API
 
 {% include important.html content="Bebop implementation in C++ will start with Jazz version 0.6.x. For the moment, consider the bebop API
-just like the current http API without the restrictions of http predicates and with function calls. Functions are just Blocks and
-function arguments are Tuples." %}
+just like the current http API without the restrictions of http predicates. Functions are just Blocks and function arguments are Tuples." %}
 
 ### The http API
 
 The http API is what this documentation is about. It has two parts, one http specific (http predicates and encoding specifics) and a
-general syntax of queries with is defined by its parts (names, locators, constants, slicing and contracts). Before that, it is important
+general syntax of queries which is defined by its parts: (names, locators, constants, slicing, ...). Before that, it is important
 to read how the different modules fit together and what the different APIS /, // and /// are.
 
 ### Python and R APIs
