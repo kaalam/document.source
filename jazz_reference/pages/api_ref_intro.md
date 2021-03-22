@@ -5,12 +5,7 @@ sidebar: mydoc_sidebar
 permalink: api_ref_intro.html
 ---
 
-## API introduction: the different APIs
-
-{% include important.html content="Jazz is still under development to produce the first Minimum Viable Product (MVP) after the original 0.1.7.
-This is incomplete, but what is here is up to date." %}
-
-### How it works (brief intro)
+## How it works (short intro)
 
 Jazz is designed for performance. It is a server that can use as much CPU and RAM as available with near 100% efficiency serving thousands
 of concurrent API calls. This comes with some strict architectural decisions that are better kept in mind to understand how the APIs work.
