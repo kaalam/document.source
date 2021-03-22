@@ -77,6 +77,12 @@ An answer is a string (up to 4K characters long) built by the API to return, usu
 return answers. E.g., .as_json() will always return a block (of text) since the result may not fit in an answer. Metadata contracts like:
 .columns(), .dimensions(), .size(), .type(), etc. always return answers.
 
+### L-value
+
+Is computer science terminology for the **left** part of an assignment operation. "An L-value refers to an object that persists beyond
+a single expression.". In simple terms, it is a block somewhere in the server described by a **locator**, but only the whole block, not
+a transformation, a selection, a call of the block (assuming it is a function), etc.
+
 ### Locators
 
 Locators are sequences of names identifying blocks, selections inside blocks, contracts, etc. Locators can be **L-values** (as the the left
