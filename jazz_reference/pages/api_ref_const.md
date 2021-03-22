@@ -75,12 +75,10 @@ names and tensors.
 
 ### Syntax
 
-The tuple is a succession of item names followed by a colon `:` and a tensor. Note the in one-element tensors, the `[]` can be omitted.
+The tuple is a succession of item names followed by a colon `:` and a tensor, separated by a semicolon `;`. Note the in one-element
+tensors, the `[]` can be omitted.
 
-E.g. `wave:[2,3,5],encoding:"json",volume:3.5` is a valid tuple and the same as `wave:[2,3,5],encoding:["json"],volume:[3.5]`.
-
-**Note** that the tuple does not include bounding `[]` or `()`.  `a(.tuple.)` or `a[.tuple.]` are just syntactic sugar for the contracts
-\<call\> and \<slice\> respectively.
+E.g. `wave:[2,3,5];encoding:"json";volume:3.5` is a valid tuple and the same as `wave:[2,3,5];encoding:["json"];volume:[3.5]`.
 
 ## Constant kinds
 
@@ -88,7 +86,7 @@ Kinds are like like Tuples with three differences:
 
 - Their tensors do not contain data, only types and shapes.
 - Shapes can be defined by integer constants (like in Tuples) or by **dimensions**. (Names that may have different values in different tuples of a kind, but must have the same value in the same tuple when used more than once.)
-- Kinds have a name and that name is unique across the whole cluster.
+- Kinds have a name defined followed by a double colon `::`.
 
 **Note that**: Tuples themselves define a specific kind, but that kind has no name. Tuples can be of more than one Kind: A tuple is of any
 kind that matches its item names, types and finds a match for the dimensions. Besides that strict match, Bebop-wise there is also a **numeric typecasting match**. It is possible to use integer as doubles by just creating a copy of the tuple with the appropriate types and linking
@@ -98,11 +96,11 @@ to that instead of the original tuple.
 
 E.g.:
 ```
-image:: red: BYTE[width, height], green: BYTE[width, height], blue: BYTE[width, height]
-image:: buff: SINGLE[width, height, 3], title: STRING[1], category: INTEGER[1]
-image:: buff: SINGLE[width, height, 3], title: STRING, category: INTEGER
-image_mono640x480:: buff: SINGLE[640, 480], description: BYTE[128]
-voice::wave:INTEGER[num_channels,num_samples],frames_per_Sec:INTEGER
+image:: red: BYTE[width, height]; green: BYTE[width, height]; blue: BYTE[width, height]
+image:: buff: SINGLE[width, height, 3]; title: STRING[1]; category: INTEGER[1]
+image:: buff: SINGLE[width, height, 3]; title: STRING; category: INTEGER
+image_mono640x480:: buff: SINGLE[640, 480]; description: BYTE[128]
+voice::wave:INTEGER[num_channels,num_samples];frames_per_Sec:INTEGER
 ```
 Note:
 - shape `[1]` can be omitted. INTEGER[1] is the same as INTEGER
