@@ -110,8 +110,8 @@ Are calls returning something (a block, or possibly an answer) from an **R-value
 ### L-value
 
 Is computer science terminology for the **left** part of an assignment operation. "An L-value refers to an object that persists beyond
-a single expression.". In simple terms, it is a block somewhere in the server described by a **locator**, but only the whole block, not
-a transformation, a selection, a call of the block (assuming it is a function), etc.
+a single expression." In simple terms: a block somewhere in the server described by a **locator**, but only the whole block, not
+a transformation (selection, call, etc.).
 
 ### Locators
 
@@ -127,6 +127,12 @@ containers, sub-containers, blocks and contracts.
 ### PUT calls
 
 Are calls assigning a block identified by an **L-value** from something uploaded, possibly involving a format change or setting attributes.
+
+### R-value
+
+Is computer science terminology for the **right** part of an assignment operation. "An R-value is a temporary value that does not persist
+beyond the expression that uses it." In simple terms: the result of an operation involving, possibly multiple blocks, transformations,
+selections, a function calls, contracts, etc.
 
 ### Slicing
 
