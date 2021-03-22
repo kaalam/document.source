@@ -26,7 +26,7 @@ returning things like: build versions, statistics, configuration settings, etc.
 ### The // API
 
 Is the real http API for anything (GET, PUT, DELETE, OPTIONS, HEAD) with blocks, contracts, function calls and event handling.
-
+Every http AP call will start with `//base/...` where base is some base name.
 
 ## How modules fit together
 
