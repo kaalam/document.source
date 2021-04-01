@@ -86,6 +86,35 @@ search_files <- function(pat = 'jazz_reference/pages', index_pat = 'jazz_referen
 search_files()
 
 
+check_links <- function(body, fn)
+{
+	rex <- '^.*\\[([^\\[]+)\\]\\(([^\\(]+)\\).*$'
+
+	ix <- which(grepl(rex, body))
+
+	if (length(ix) == 0) return()
+
+	link <- sort(unique(gsub(rex, '\\2', body[ix])))
+	link <- link[!(link %in% valid_link)]
+
+	if (length(link) == 0) return()
+
+	rex <- '^https?:.*$'
+
+	ix <- which(grepl(rex, link))
+
+	if (length(ix) > 0) {
+		for (i in ix)
+			if (http_not_found(link[i]))
+				cat(sprintf('Failed links in %36s : %s\n', gsub('jazz_reference/pages/', '', fn), link[i]))
+		link <- link[-ix]
+	}
+
+	for (lnk in link)
+		if (file_not_found(lnk))
+			cat(sprintf('Failed links in %36s : %s\n', gsub('jazz_reference/pages/', '', fn), lnk))
+}
+
 audit_file <- function(i)
 {
 	fn  <- pages$fname[i]
