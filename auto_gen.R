@@ -86,6 +86,15 @@ search_files <- function(pat = 'jazz_reference/pages', index_pat = 'jazz_referen
 search_files()
 
 
+valid_urls <- function()
+{
+	rex <- '^jazz_reference/pages/(.*).md$'
+
+	ix <- which(grepl(rex, pages$fname))
+	paste0(gsub(rex, '\\1', pages$fname[ix]), '.html')
+}
+
+valid_link <- valid_urls()
 check_links <- function(body, fn)
 {
 	rex <- '^.*\\[([^\\[]+)\\]\\(([^\\(]+)\\).*$'
