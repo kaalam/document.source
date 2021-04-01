@@ -1,6 +1,8 @@
 #!/usr/bin/Rscript
 
 
+library(RCurl)
+
 get_serial <- function(fn = '../Jazz/server/src/include/jazz_platform.h')
 {
 	txt <- readLines(fn)
@@ -95,6 +97,11 @@ valid_urls <- function()
 }
 
 valid_link <- valid_urls()
+
+http_not_found <- function (url)
+{
+	!url.exists	(url, useragent = "curl/7.39.0 Rcurl/1.95.4.5")
+}
 
 file_not_found <- function (fn)
 {
