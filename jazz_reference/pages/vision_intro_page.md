@@ -19,20 +19,19 @@ Jazz is a new kind of data product. It combines all these things and some others
 
 Now, let's explain the main ideas:
 
-* [Blocks, Storage and Containers](vision_blocks_containers.html)
-* [Bebop, Formal Fields and Code Generation](vision_bop_fields_contexts.html)
-* [Relations and the Finder](vision_relations_finder.html)
+* [Blocks, Storage and Containers](vision_elements_block_kind_etc.html)
+* [Bebop, Formal Fields and Code Generation](vision_code_bebop.html)
 * [APIs and Services](vision_apis_services.html)
 
 See also:
 
 * [Bebop](bop_elements.html)
 * [Agency](agency_elements.html)
-* [APIs](api_ref_elements.html)
+* [APIs](api_ref_intro.html)
 
 <br/>
 
 | <span class="label label-info">Next ...</span> |
-| [Blocks, Storage and Containers](vision_blocks_containers.html) |
+| [Blocks, Storage and Containers](vision_elements_block_kind_etc.html) |
 
 {% include links.html %}

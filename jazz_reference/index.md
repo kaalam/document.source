@@ -27,7 +27,7 @@ Things are changing fast. To keep up, besides this manual, see [Programming docu
 
 * [Bebop](bop_elements.html)
 * [Agency](agency_elements.html)
-* [API reference and clients](api_ref_elements.html)
+* [API reference and clients](api_ref_intro.html)
 * [Server internals and setup](reference_server_setup.html)
 
 {% include links.html %}
