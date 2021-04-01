@@ -95,6 +95,12 @@ valid_urls <- function()
 }
 
 valid_link <- valid_urls()
+
+file_not_found <- function (fn)
+{
+	!file.exists(paste0('../kaalam.github.io', fn))
+}
+
 check_links <- function(body, fn)
 {
 	rex <- '^.*\\[([^\\[]+)\\]\\(([^\\(]+)\\).*$'
