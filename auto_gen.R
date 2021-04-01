@@ -135,6 +135,8 @@ audit_file <- function(i)
 
 	while (body[1] == '') body <- body[-1]
 
+	check_links(body, fn)
+
 	if (any(body == '## This is a template!')) cat('Template detected in', fn, '\n')
 	if (any(body == '## Remove this!')) {
 		cmd <- paste0('mv ', fn, ' recycle/', gsub('^.*/([^/]+)$', '\\1', fn))
