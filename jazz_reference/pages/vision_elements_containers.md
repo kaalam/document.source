@@ -9,13 +9,13 @@ permalink: vision_elements_containers.html
 
 * See C++ ref [Kind](/develop_jazz02/classjazz__elements_1_1Container.html)
 
+## Introducing Channels
+
+* See C++ ref [Tuple](/develop_jazz02/classjazz__elements_1_1Channels.html)
+
 ## Introducing Volatile
 
 * See C++ ref [Tuple](/develop_jazz02/classjazz__elements_1_1Volatile.html)
-
-## Introducing Remote
-
-* See C++ ref [Table](/develop_jazz02/classjazz__elements_1_1Remote.html)
 
 ## Introducing Persisted
 

@@ -60,14 +60,6 @@ named **volatile** in this case.
 
 * See C++ ref [Tuple](/develop_jazz02/classjazz__elements_1_1Tuple.html)
 
-## Introducing Tables
-
-* See C++ ref [Table](/develop_jazz02/classjazz__elements_1_1Table.html)
-
-## Introducing Fluxes
-
-* See C++ ref [Flux](/develop_jazz02/classjazz__elements_1_1Flux.html)
-
 <br/>
 
 | <span class="label label-default">Previous ...</span> | | | | | <span class="label label-info">Next ...</span> |
