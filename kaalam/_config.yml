@@ -6,7 +6,6 @@ description: Efficiency is never wrong.
 baseurl: "/kaalam" # the subpath of your site, e.g. /blog
 url: "https://kaalam.github.io" # the base hostname & protocol for your site
 author: The Authors of Jazz
-country: Madrid and the whole planet (for now).
 
 # homepage tiles
 tiles-source: posts # accepts "posts" or "pages"
