@@ -1,5 +1,5 @@
 ---
-title: API reference - Assignment calls reference
+title: API reference - Assignment calls
 summary: Technical details of the internal assignment GET queries
 sidebar: mydoc_sidebar
 permalink: api_ref_assign.html
