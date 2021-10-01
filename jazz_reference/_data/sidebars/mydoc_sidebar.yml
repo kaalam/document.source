@@ -100,39 +100,39 @@ entries:
       url: /api_ref_bebop_wip.html
       output: web
 
-    - title: API reference - Channel base "0-mq"
+    - title: API reference - Channel base 0-mq
       url: /api_ref_channel_zmq.html
       output: web
 
-    - title: API reference - Channel base "bash"
+    - title: API reference - Channel base bash
       url: /api_ref_channel_bash.html
       output: web
 
-    - title: API reference - Channel base "file"
+    - title: API reference - Channel base file
       url: /api_ref_channel_file.html
       output: web
 
-    - title: API reference - Channel base "http"
+    - title: API reference - Channel base http
       url: /api_ref_channel_http.html
       output: web
 
-    - title: API reference - Persisted base "lmdb"
+    - title: API reference - Persisted base lmdb
       url: /api_ref_persisted_lmdb.html
       output: web
 
-    - title: API reference - Volatile base "deque"
+    - title: API reference - Volatile base deque
       url: /api_ref_volatile_deque.html
       output: web
 
-    - title: API reference - Volatile base "index"
+    - title: API reference - Volatile base index
       url: /api_ref_volatile_index.html
       output: web
 
-    - title: API reference - Volatile base "queue"
+    - title: API reference - Volatile base queue
       url: /api_ref_volatile_queue.html
       output: web
 
-    - title: API reference - Volatile base "tree"
+    - title: API reference - Volatile base tree
       url: /api_ref_volatile_tree.html
       output: web
 
