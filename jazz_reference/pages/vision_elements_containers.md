@@ -1,5 +1,5 @@
 ---
-title: Elements - Containers - Volatile, Remote and Persisted
+title: Elements - Containers - One Shot, Channels, Volatile and Persisted
 summary: What is Jazz (part 2) Introduction to the different types of containers.
 sidebar: mydoc_sidebar
 permalink: vision_elements_containers.html

@@ -1,5 +1,5 @@
 ---
-title: Elements - Blocks, Kinds, Tuples, Tables and Fluxes
+title: Elements - Blocks, Kinds, Tuples
 summary: What is Jazz (part 1) Introduction to blocks, kinds, etc. These classes are the basement for the "Jazz Magic".
 sidebar: mydoc_sidebar
 permalink: vision_elements_block_kind_etc.html
