@@ -3,7 +3,7 @@
 entries:
 - title: sidebar
   product: Jazz
-  version: 0.5.1
+  version: 0.5.2
   folders:
 
   - title: Basic questions on Jazz
@@ -24,11 +24,11 @@ entries:
         output: web
         subfolderitems:
 
-        - title: Elements - Blocks, Kinds, Tuples, Tables and Fluxes
+        - title: Elements - Blocks, Kinds, Tuples
           url: /vision_elements_block_kind_etc.html
           output: web
 
-        - title: Elements - Containers - Volatile, Remote and Persisted
+        - title: Elements - Containers - One Shot, Channels, Volatile and Persisted
           url: /vision_elements_containers.html
           output: web
 
@@ -40,11 +40,7 @@ entries:
           url: /vision_agency_code.html
           output: web
 
-        - title: API, Services, Instances, etc.
-          url: /vision_apis_services.html
-          output: web
-
-  - title: Bebop fundamentals
+  - title: Bebop fundamentals (Jazz 0.6.x)
     output: web, pdf
     folderitems:
 
@@ -52,7 +48,7 @@ entries:
       url: /bop_elements.html
       output: web, pdf
 
-  - title: Agency fundamentals
+  - title: Agency fundamentals (Jazz 0.7.x)
     output: web, pdf
     folderitems:
 
@@ -69,51 +65,75 @@ entries:
       output: web
 
     - title: API reference - How it works
-      url: /api_ref_modules_.html
+      url: /api_ref_how_it_works.html
       output: web
 
     - title: API reference - The http API
       url: /api_ref_http_api.html
       output: web
 
-    - title: API reference - Names
-      url: /api_ref_names.html
-      output: web
-
-    - title: API reference - Locators
-      url: /api_ref_locators.html
-      output: web
-
-    - title: API reference - Constants
-      url: /api_ref_const.html
+    - title: API reference - Constants and %-encoding
+      url: /api_ref_const_encoding.html
       output: web
 
     - title: API reference - Block and tuple slicing
       url: /api_ref_slicing.html
       output: web
 
-    - title: API reference - Block and Container contracts
-      url: /api_ref_contracts.html
-      output: web
-
     - title: API reference - Function calls
       url: /api_ref_fun_calls.html
       output: web
 
-    - title: API reference - GET and HEAD calls reference
-      url: /api_ref_get_head.html
-      output: web
-
-    - title: API reference - PUT calls reference
-      url: /api_ref_put.html
-      output: web
-
-    - title: API reference - Assignment calls reference
+    - title: API reference - Assignment calls
       url: /api_ref_assign.html
       output: web
 
-    - title: API reference - Fluxes, event and agents
-      url: /api_ref_fluxes_agents.html
+    - title: API reference - Attribute calls
+      url: /api_ref_attributes.html
+      output: web
+
+    - title: API reference - Agency bases (Work in Progress)
+      url: /api_ref_agency_wip.html
+      output: web
+
+    - title: API reference - Bebop bases (Work in Progress)
+      url: /api_ref_bebop_wip.html
+      output: web
+
+    - title: API reference - Channel base "0-mq"
+      url: /api_ref_channel_zmq.html
+      output: web
+
+    - title: API reference - Channel base "bash"
+      url: /api_ref_channel_bash.html
+      output: web
+
+    - title: API reference - Channel base "file"
+      url: /api_ref_channel_file.html
+      output: web
+
+    - title: API reference - Channel base "http"
+      url: /api_ref_channel_http.html
+      output: web
+
+    - title: API reference - Persisted base "lmdb"
+      url: /api_ref_persisted_lmdb.html
+      output: web
+
+    - title: API reference - Volatile base "deque"
+      url: /api_ref_volatile_deque.html
+      output: web
+
+    - title: API reference - Volatile base "index"
+      url: /api_ref_volatile_index.html
+      output: web
+
+    - title: API reference - Volatile base "queue"
+      url: /api_ref_volatile_queue.html
+      output: web
+
+    - title: API reference - Volatile base "tree"
+      url: /api_ref_volatile_tree.html
       output: web
 
   - title: Docker reference
