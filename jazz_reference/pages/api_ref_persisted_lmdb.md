@@ -24,7 +24,7 @@ Both the input and the output of binary blocks can be serialized as text or from
 and PUT a block of text using `//lmdb/db/key.raw` into a binary block. You can also store the text version and read it as binary by just
 switching .raw and .text.
 
-Lmdb Blocks support everything described in this reference: slicing, calls, attributes, constant assignment, forwarding, ...
+Lmdb Blocks support everything described in this reference: slicing, being used in calls, attributes, constant assignment, forwarding, ...
 
 <br/>
 
