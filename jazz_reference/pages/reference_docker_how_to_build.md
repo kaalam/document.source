@@ -47,8 +47,8 @@ docker build -t jazz_ref_stable .
 
 docker login
 
-docker tag jazz_ref_stable kaalam/jazz_neat:0.3.1
-docker push kaalam/jazz_neat:0.3.1
+docker tag jazz_ref_stable kaalam/jazz_neat:0.5.2
+docker push kaalam/jazz_neat:0.5.2
 
 rm jazz
 rm jazz_config.ini
@@ -57,16 +57,16 @@ rm jazz_config.ini
 You can use this to run the docker image in debug mode (allowing login into the Linux image).
 
 ```bash
-docker run -p8888:8888 -ti kaalam/jazz_neat:0.2.0.99 /bin/bash
+docker run -p8888:8888 -ti kaalam/jazz_neat:0.5.2 /bin/bash
 ```
 
 Use this to run the image you just created.
 
 ```bash
-docker run -p8888:8888 kaalam/jazz_neat:0.2.0.99
+docker run -p8888:8888 kaalam/jazz_neat:0.5.2
 ```
 
-This example (implicitly) refers to a Dockerfile that tell Docker how to build the image
+This example (implicitly) refers to a Dockerfile to tell Docker how to build the image
 
 ```docker
 FROM ubuntu

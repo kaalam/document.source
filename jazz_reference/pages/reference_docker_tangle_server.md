@@ -13,25 +13,13 @@ series." %}
 
 It is an entangled collection of English text: books, wikipedia articles, movie subtitles and also dictionaries (wordnet) ...
 
-## Datasets included in the current version
-
-### Wordnet
-
-### Jeopardy! questions
-
-### English Wikipedia
-
-### Project Gutenberg
-
-### +++
-
 ## How to check for the latest version?
 
 Follow [this link](https://hub.docker.com/r/kaalam/jazz_tangle/tags/) and note the version number.
 
 ## How to run it
 
-{% include important.html content="This is the first docker image available soon! (On the fist Jazz 0.5.x MVP.)" %}
+{% include important.html content="This first docker image will be available during October 2021 loaded on Jazz 0.5.2!" %}
 
 ## Can I build applications on top of it?
 
