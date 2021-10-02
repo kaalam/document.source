@@ -25,7 +25,7 @@ the interface expects a block, it must be a block containing just one string.
 
 ## In terms of the Jazz server API
 
-A deque is created empty by GET `//index/ent_name.new` and destroyed with DELETE `//index/ent_name`.
+An index is created empty by GET `//index/ent_name.new` and destroyed with DELETE `//index/ent_name`.
 
 You can populate it (PUT `//index/name/~put`) or save it (GET `//index/name/~get`) with an appropriate Tuple (A Tuple of two string vectors
 of the same length named "key" and "value").
