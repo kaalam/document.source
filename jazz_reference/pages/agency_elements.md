@@ -17,4 +17,8 @@ applied to the [ARC challenge](https://www.kaggle.com/c/abstraction-and-reasonin
 * [Formal Fields paper](https://arxiv.org/abs/2007.14075)
 * [slides](https://www.slideshare.net/SantiagoBasalda/jazz-open-expo-europe-june-2020)
 
+## See also
+
+* [Agency](vision_agency_code.html)
+
 {% include links.html %}
