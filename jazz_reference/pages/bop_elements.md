@@ -11,6 +11,6 @@ permalink: bop_elements.html
 
 Some definitions on how `Bebop` works can be found [here](vision_code_bebop.html)
 
-Otherwise, follow the [development documentation](../develop_jazz02/index.html)
+Otherwise, follow the [development documentation](/develop_jazz02/index.html)
 
 {% include links.html %}
