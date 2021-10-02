@@ -35,6 +35,9 @@ You may need additional reference found at:
 
  * [LMDB](http://www.lmdb.tech/doc/)
  * [libmicrohttpd](https://www.gnu.org/software/libmicrohttpd/manual/libmicrohttpd.html)
+ * [CURL](https://curl.se/libcurl/c/libcurl-tutorial.html)
+ * [ZeroMQ](https://zeromq.org/languages/c/)
+ * [Catch2](https://github.com/catchorg/Catch2/blob/devel/docs/Readme.md#top)
 
 <br/>
 
