@@ -17,8 +17,6 @@ actually automate code generation. It is done using MCTS (Monte-Carlo Tree Searc
 The ideas that we have for Jazz 0.7.x (2023, possibly) include how everything fits together and why lifelong learning is an essential part
 of it. Stay tuned!
 
-* See [Agency](agency_elements.html)
-
 <br/>
 
 | <span class="label label-default">Previous ...</span> |
