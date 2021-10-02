@@ -37,7 +37,7 @@ Blocks have attributes as first class citizen. Attributes are maps from integer 
 {% include note.html content="Since any resource is a `Block` and blocks can have urls. A Jazz server is the only http server you need
 to support any web technology, from static webpages to Typescript and JS frameworks such as Angular and Ionic or Flutter and Dart." %}
 
-{% include tip.html content="For the final user, Jazz is a website or mobile app that does \"AI Magic\"." %}
+{% include tip.html content="For the final user, Jazz is just a website or mobile app that does \"AI Magic\" very fast." %}
 
 ### A Block has an owner
 
@@ -51,9 +51,9 @@ Blocks "move" with a `Transaction` and usually a `Locator`. It can "move" across
 system, transmitted through zMQ, libCURL, persisted or stored in many efficient structures).
 **One shot** is a block linked to a transaction (typically as the result of some query, that will be destroyed as the transaction is
 destroyed). **Volatile** is a block in RAM inside some efficient structure, queue, deque, tree, index, all of them possibly accessed as
-a key/value store. **Persisted** is a block stored on a memory mapped file to/from which they can be saved/loaded using LMDB technology.
+a key/value store. **Persisted** is a block stored on a memory mapped file to/from which it can be saved/loaded using LMDB technology.
 Of course, you can also save blocks to a file, in Jazz terminology the file system is a channel whose base is "file", not a "persisted"
-block..
+block.
 
 * See C++ ref [Block](/develop_jazz02/classjazz__elements_1_1Block.html)
 
