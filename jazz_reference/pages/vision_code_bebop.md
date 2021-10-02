@@ -39,7 +39,7 @@ So we do not build Jazz with the intention of creating conscious robots in five 
 
 Jazz has a programming language called **Bebop** (or simply **Bop**).
 
-{% include important.html content="Bebop is work in progress. The reference is included in its source code and available via the [developer documentation](/develop/). Coding safety mechanisms are explained in a paper to be shared soon."%}
+{% include important.html content="Bebop is work in progress. Now that Jazz 0.5.1 is released (October 2021), the moment has come! After two years of PoC and refining the idea, we are actually working on this! This is Jazz 0.6.1, stay tuned. This page was last updated after the 2019 PoC and is still essentially what the idea is."%}
 
 {% include image.html file="jazz_bebop.png" caption="Bebop" %}
 
@@ -69,11 +69,13 @@ Bop only needs one tuple as an argument and one tuple as a return (which is no l
 A kernel bytecode instruction is just a just-in-time linked c++ function. Alternatively, a bytecode instruction can be a bop function which
 can be learned of written in the kernel.
 
-## Introducing Fields
+## Introducing Formal Fields
 
 <span class="label label-info">Field</span>
 
-As mentioned, a `Field` is an abstraction that has many of the features classes have in OOP. It is also similar to a package or library. Some STL fields will include efficient functions to do arithmetic, algebra, text manipulation, etc. Fields can also be purely created in Bop. Fields relate to each other, not just by a DAG like code dependencies, but by and arbitrary complex graph of `Field` relations. Reading the next page on relations will shed light on the role fields play in Jazz.
+Our paper from 2019 [formal fields](https://arxiv.org/abs/2007.14075) still holds quite well. Maybe, some ways of defining things are too
+formal and verbose. Using the simplest version of category theory. You can think of a formal field as "the set of morphisms that relate two
+`Kind` objects". And that defines the primary structure, all other structures are compositions of morphisms (== opcodes).
 
 {% include image.html file="jazz_field.png" caption="Field class" %}
 
