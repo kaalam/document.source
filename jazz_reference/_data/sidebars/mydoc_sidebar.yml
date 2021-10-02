@@ -64,10 +64,6 @@ entries:
       url: /api_ref_intro.html
       output: web
 
-    - title: API reference - How it works
-      url: /api_ref_how_it_works.html
-      output: web
-
     - title: API reference - The http API
       url: /api_ref_http_api.html
       output: web
