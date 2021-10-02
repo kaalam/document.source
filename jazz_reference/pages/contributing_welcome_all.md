@@ -12,7 +12,6 @@ permalink: contributing_welcome_all.html
 We need as much help as we can get with all kind of skills
 
   * C++ coders for Jazz server core development
-  * R (possibly with C++) for advancing the R experience
   * Front-end coders to create web and mobile Jazz applications
   * UX experts at two levels: programming APIs and end-users
   * Writers and reviewers for documentation, tutorials and articles
