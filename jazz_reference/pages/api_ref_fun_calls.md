@@ -24,14 +24,16 @@ See
 Can be done by either an existing block or a constant. E.g.,
 
 * `//0-mq/speech2text/(//lmdb/sound/voice_one)`
-* `//bash/exec/(#ls%20-la;)`
+* `//bash/exec/(&ls%20-la)`
 
 **Note**: These calls follow the final `/` immediately, since they refer to an entity (//0-mq/speech2text or //bash/exec), not a key.
+
+{% include note.html content="In a function call (or a filter), constants are not terminated by a `;` but by the closing bracket." %}
 
 Function calls done by `Bebop` (Jazz 0.6x) do use keys:
 
 * `//core/field/opcode(//lmdb/sound/voice_one)`
-* `//core/field/opcode(#ls%20-la;)`
+* `//core/field/opcode(&ls%20-la)`
 
 <br/>
 

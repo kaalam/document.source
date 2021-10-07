@@ -32,7 +32,9 @@ The tensors used as selectors are known as `filters`. Filters are just tensors w
 Can be done by either an existing block or a constant. E.g.,
 
 * `//lmdb/my_ent/block_1[//queue/filters/filter_1]`
-* `//lmdb/my_ent/block_1[#[1,3,5];]`
+* `//lmdb/my_ent/block_1[&[1,3,5]]`
+
+{% include note.html content="In a filter constants are not terminated by a `;` but by the closing square bracket." %}
 
 <br/>
 

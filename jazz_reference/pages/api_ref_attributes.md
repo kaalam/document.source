@@ -26,10 +26,10 @@ Most attributes have user defined codes, the lower codes are:
 
 Programmatically, you can assign blocks to attributes, form the rest API, setting attributes only supports constants.
 
-* GET `//lmdb/www/blk_idx=//file#~/hello/index.html;`
-* PUT `//lmdb/www/blk_idx(4)=#text/html;`
-* PUT `//lmdb/www/blk_idx(5)=#/hello/index.html;`
-* PUT `//lmdb/www/blk_idx(6)=#en-us;`
+* GET `//lmdb/www/blk_idx=//file&~/hello/index.html;`
+* PUT `//lmdb/www/blk_idx(4)=&text/html;`
+* PUT `//lmdb/www/blk_idx(5)=&/hello/index.html;`
+* PUT `//lmdb/www/blk_idx(6)=&en-us;`
 
 This short sequence, assuming the file "~/hello/index.html" exists, will make it accessible at `/hello/index.html` in the server.
 

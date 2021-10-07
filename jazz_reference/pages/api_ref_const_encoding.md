@@ -24,9 +24,13 @@ connecting will handle the call.
 
 ## Constants
 
-Constants are the exception to the `///node//base/entity/key++` format. They are delimited by `#;` as in `#this%20is%a%20constant;` and
+Constants are the exception to the `///node//base/entity/key++` format. They are delimited by `&;` as in `&this%20is%a%20constant;` and
 since they are part of a url, must be [%-encoded](https://en.wikipedia.org/wiki/Percent-encoding). Any character that is not RFC 3986
 section 2.2 or RFC 3986 section 2.3 must be percent encoded. You can write utf-8 by just %-encoding all the characters.
+
+{% include important.html content="As an exception to this rule, In a function call or a filter, constants are not terminated by a `;`
+but by the closing `)` or `]`." %}
+
 
 There are two types of constants:
 
@@ -38,10 +42,10 @@ requirements of a `Name`.
 
 There are four ways to insert a constant in an API call:
 
-* After the base, instead of the `/` `//file#any_%_encoded_path;` or `//http#http://my_api.org/something;`
-* In a block slice `//base/entity/key[#[2,4,6];]`
-* In a function call `//base/entity/key(#[2,4,6];)`
-* In an assignment `//base/entity/key=#[2,4,6];`
+* After the base, instead of the `/` `//file&any_%_encoded_path;` or `//http&http://my_api.org/something;`
+* In a block slice `//base/entity/key[&[2,4,6]]`
+* In a function call `//base/entity/key(&[2,4,6])`
+* In an assignment `//base/entity/key=&[2,4,6];`
 
 ## Constant Syntax
 

@@ -17,7 +17,7 @@ shell) is accessible. This includes all protocols supported by zeroMQ and libCUR
 ## The base `file`
 
 This read/writes/deletes to the filesystem. Since the API does not use locators, there is no hardcoded name restriction. Via the http
-server, just use the URL (#...;). Remember to %-encode whatever http expects to be encoded. E.g., get("//file/#whatever%20you%20want;").
+server, just use the URL (&...;). Remember to %-encode whatever http expects to be encoded. E.g., get("//file/&whatever%20you%20want;").
 Note that "//file/" is a mandatory prefix, therefore "//file/aa" is "aa" and //file//aa" is "/aa".
 
 get() gets files as arrays of byte and folders as an Index (the keys are file names and the values either "file" or "folder"). put() writes
@@ -30,13 +30,13 @@ new_entity() creates a new folder.
 
 ## In terms of the Jazz server API
 
-GET `//file#relative_path;` or GET `//file#/absolute_path;` gets the files as vectors of byte and the folders as tuples where the key is
+GET `//file&relative_path;` or GET `//file&/absolute_path;` gets the files as vectors of byte and the folders as tuples where the key is
 the file name and the value is either "file" or "folder".
 
-PUT `//file#relative_path;` or PUT `//file#/absolute_path;` writes blocks (the tensor only) to file.
-PUT `//file#relative_path;/` or PUT `//file#/absolute_path;/` ignores what is sent and creates a new folder.
+PUT `//file&relative_path;` or PUT `//file&/absolute_path;` writes blocks (the tensor only) to file.
+GET `//file&relative_path;.new` or GET `//file&/absolute_path;.new` creates a new folder just like any `//base/entity.new` call.
 
-DELETE `//file#relative_path;` or DELETE `//file#/absolute_path;` deletes either a file or a folder with anything in it.
+DELETE `//file&relative_path;` or DELETE `//file&/absolute_path;` deletes either a file or a folder with anything in it.
 
 For more advanced control, load the files into `Volatile` or `Persisted` with an assignment call.
 

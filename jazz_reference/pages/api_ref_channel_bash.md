@@ -23,9 +23,11 @@ filled up to the available size and something will be lost. The answer includes 
 
 ## In terms of the Jazz server API
 
-This is a function call: either GET `//bash/exec/(//lmdb/stuff/script)` or GET `//bash/exec/(#ls%20-la;)` the argument can be anything in
+This is a function call: either GET `//bash/exec/(//lmdb/stuff/script)` or GET `//bash/exec/(&ls%20-la)` the argument can be anything in
 Persisted, Volatile, even a file or an //http get or a (%-encoded) constant as in the second example. The API reserves a block of 4 Kb
 size for the answer. Anything longer than that will be cut off.
+
+{% include note.html content="In a function call (or a filter), constants are not terminated by a `;` but by the closing bracket." %}
 
 <br/>
 

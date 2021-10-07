@@ -21,7 +21,7 @@ calls that are intended for other nodes in a Jazz cluster. This is done at the t
 get("///node_x//lmdb/things/this") will forward the call to the node_x (if anything is well configured see JAZZ_NODE_NAME_.., etc.)
 and return the result just as if is was a local call. At the class level, this is done by forward_get(), forward_put() and forward_del().
 You can also send simple GET, PUT and DELETE http calls to random urls by either using the get(), put() and remove() or using the Jazz http
-server API GET "//http#https://google.com;"
+server API GET "//http&https://google.com;"
 
 The most advanced way to do it is creating a connection (similar to a "0-mq" pipeline) by put()-ing an Index to: //http/connection/a_name
 the index requires the mandatory key URL and the optional keys: CURLOPT_USERNAME, CURLOPT_USERPWD, CURLOPT_COOKIEFILE and CURLOPT_COOKIEJAR
@@ -38,7 +38,7 @@ There are three ways:
 
 * Inside the Jazz cluster, just use the API of another node like the API of the current node. E.g., `///tokyo_node//lmdb/base17/key55` This
 will forward automatically.
-* For easy URL (no cookies, authorization, etc.), just use the constant form GET, PUT or DELETE to `//http#http://url...;`
+* For easy URL (no cookies, authorization, etc.), just use the constant form GET, PUT or DELETE to `//http&http://url...;`
 * For advanced control, just create the pipeline `my_pipe` programmatically and GET, PUT or DELETE to `//http/my_pipe/`
 
 {% include important.html content="http operation must be enabled via configuration by setting ENABLE_HTTP_CLIENT to something non-zero." %}

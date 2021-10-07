@@ -22,8 +22,8 @@ Additionally, `node` names can be given to copy blocks across a Jazz cluster.
 Can be done by either an existing block or a constant. E.g.,
 
 * `//lmdb/base17/key55=///tokyo_node//lmdb/base17/key55`
-* `//lmdb/base17/key55=#[1,5,6];`
-* `//lmdb/base17/key55=//bash/exec/(#ls%20-la;)`
+* `//lmdb/base17/key55=&[1,5,6];`
+* `//lmdb/base17/key55=//bash/exec/(&ls%20-la)`
 * `///tokyo_node//lmdb/base17/key55=//0-mq/speech2text/(//lmdb/sound/voice_one)`
 * `///tokyo_node//tree/this/that=///anchorage_node//lmdb/base17/key55`
 

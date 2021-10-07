@@ -34,8 +34,10 @@ Besides this, `get("//0-mq/pipeline/speech2text")` will return just a block with
 
 ## In terms of the Jazz server API
 
-This is a function call: either GET `//0-mq/speech2text/(//lmdb/stuff/my_tensor)` or GET `//0-mq/speech2text/(#[1,2,3];)` the argument
+This is a function call: either GET `//0-mq/speech2text/(//lmdb/stuff/my_tensor)` or GET `//0-mq/speech2text/(&[1,2,3])` the argument
 can be anything in Persisted, Volatile, even a file or an //http get or a (%-encoded) constant as in the second example.
+
+{% include note.html content="In a function call (or a filter), constants are not terminated by a `;` but by the closing bracket." %}
 
 <br/>
 
