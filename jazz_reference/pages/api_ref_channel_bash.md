@@ -16,7 +16,7 @@ shell) is accessible. This includes all protocols supported by zeroMQ and libCUR
 
 ## The base `bash`
 
-This is, like 0-mq, also a translate() call, the difference is you don't create the pipeline, it always exists and is called "//bash/exec".
+This is, like 0-mq, also a modify() call, the difference is you don't create the pipeline, it always exists and is called "//bash/exec".
 The Tuple is an array of byte, both ways "input" and "result". If the size of the "result" buffer is too small for the answer it will be
 filled up to the available size and something will be lost. The answer includes whatever a popen("bash script.sh") writes to stdout/stderr
 (where script.sh is the content of the "input" tensor).
@@ -24,10 +24,14 @@ filled up to the available size and something will be lost. The answer includes 
 ## In terms of the Jazz server API
 
 This is a function call: either GET `//bash/exec/(//lmdb/stuff/script)` or GET `//bash/exec/(&ls%20-la)` the argument can be anything in
-Persisted, Volatile, even a file or an //http get or a (%-encoded) constant as in the second example. The API reserves a block of 4 Kb
-size for the answer. Anything longer than that will be cut off.
+Persisted, Volatile, even a file or an //http get or a (%-encoded) constant as in the second example.
 
 {% include note.html content="In a function call (or a filter), constants are not terminated by a `;` but by the closing bracket." %}
+
+{% include note.html content="API-wise, this is a modify() call (instead of an exec() call) because the key is empty." %}
+
+{% include note.html content="Note that when you call it with a constant, it automatically creates a Tuple with a 4Kb vector of byte
+reserved for the answer. Anything longer than that will be cut off. That Tuple will be returned by the GET call." %}
 
 <br/>
 

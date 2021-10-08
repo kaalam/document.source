@@ -13,7 +13,8 @@ A `Container` is a `Service` to manage Jazz blocks. All Jazz blocks are managed 
 
  - Transparent thread safety .enter_read() .enter_write() .leave_read() .leave_write() .lock_container() .unlock_container()
  - Allocation: .new_block(), .destroy_transaction()
- - **CRUD** (Create/Read/Update/Delete): .get(), .header(), .put(), .new_entity(), .remove(), .copy() .translate()
+ - **CRUD** (Create/Read/Update/Delete): .get(), .locate(), .header(), .new_entity(), .put(), .remove(), .copy()
+ - **CORE** (Function execution API): .exec() and .modify()
  - Support for container names in the API .base_names()
  - A configuration style for all descendants
 
