@@ -108,7 +108,7 @@ file_not_found <- function (fn)
 	!file.exists(paste0('../kaalam.github.io', fn))
 }
 
-check_links <- function(body, fn)
+check_md_links <- function(body, fn)
 {
 	rex <- '^.*\\[([^\\[]+)\\]\\(([^\\(]+)\\).*$'
 
@@ -135,6 +135,42 @@ check_links <- function(body, fn)
 	for (lnk in link)
 		if (file_not_found(lnk))
 			cat(sprintf('Failed links in %36s : %s\n', gsub('jazz_reference/pages/', '', fn), lnk))
+}
+
+check_href_links <- function(body, fn)
+{
+	rex <- '\\<href\\>'
+
+	ix <- which(grepl(rex, body))
+
+	if (length(ix) == 0) return()
+
+	rex <- '^.*href="([^"]+)".*$'
+
+	jx <- which(grepl(rex, body))
+
+	stopifnot(all(ix == jx))
+
+	link <- sort(unique(gsub(rex, '\\1', body[ix])))
+
+	rex <- '^https?:.*$'
+
+	ix <- which(grepl(rex, link))
+
+	if (length(ix) > 0) {
+		for (i in ix) {
+			# cat(fn, link[i], '..\n')
+			if (http_not_found(link[i]))
+				cat(sprintf('Failed links in %36s : %s\n', gsub('kaalam/', '', fn), link[i]))
+		}
+		link <- link[-ix]
+	}
+
+	for (lnk in link) {
+		# cat(fn, lnk, '..\n')
+		if (file_not_found(lnk))
+			cat(sprintf('Failed links in %36s : %s\n', gsub('kaalam/', '', fn), lnk))
+	}
 }
 
 audit_file <- function(i)
@@ -186,7 +222,7 @@ audit_file <- function(i)
 
 	while (body[1] == '') body <- body[-1]
 
-	check_links(body, fn)
+	check_md_links(body, fn)
 
 	if (any(body == '## This is a template!')) cat('Template detected in', fn, '\n')
 	if (any(body == '## Remove this!')) {
@@ -240,3 +276,9 @@ new_file <- function(i)
 }
 
 for (i in which(pages$status == 'not_found')) new_file(i)
+
+for (fn in list.files('kaalam', '*.md', full.names = T, recursive = T)) {
+	body <- readLines(fn)
+	check_md_links(body, fn)
+	check_href_links(body, fn)
+}
