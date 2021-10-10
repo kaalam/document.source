@@ -24,7 +24,5 @@ topnav_dropdowns:
           external_url: /develop/
         - title: Jazz API introduction
           url: api_ref_intro.html
-        - title: R client Reference
-          external_url: /rjazz/
         - title: What is the usable part of Jazz today?
           url: using_jazz_today.html
