@@ -26,7 +26,7 @@ The first and last can be peeked by get()ting `//deque/entity/~first` and `//deq
 `//deque/entity/key~prev` for get(), header() and locate() or as the what of copy(), but not for put(), remove() or as the where of
 copy().
 
-You cat also PUT a block into a deque without giving it a name by putting to `//deque/entity/~push`. The container will give it a new
+You can also PUT a block into a deque without giving it a name by putting to `//deque/entity/~push`. The container will give it a new
 name automatically. This way you avoid finding a name that does not match existing blocks in the deque. You can use `~push` and `~plast`
 combined to use the deque just as a LIFO stack or `~push` and `~pfirst` as a FIFO queue.
 
