@@ -88,6 +88,10 @@ entries:
       url: /api_ref_attributes.html
       output: web
 
+    - title: API reference - Block serialization calls
+      url: /api_ref_serialization.html
+      output: web
+
     - title: API reference - Using Jazz to serve applications
       url: /api_ref_serving_frontend.html
       output: web
