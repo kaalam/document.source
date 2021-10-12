@@ -20,9 +20,13 @@ The special database `www` is used to store the blocks exposed via the [static A
 
 The key is always an identifier inside the database, there are no commands.
 
+## Serializing blocks
+
 Both the input and the output of binary blocks can be serialized as text or from text. To do this you can GET using `//lmdb/db/key.text`
 and PUT a block of text using `//lmdb/db/key.raw` into a binary block. You can also store the text version and read it as binary by just
-switching .raw and .text.
+switching .raw and .text. See [more](api_ref_serialization.html)
+
+<br/>
 
 Lmdb Blocks support everything described in this reference: slicing, being used in calls, attributes, constant assignment, forwarding, ...
 
