@@ -44,8 +44,8 @@ In the previous PUT example, where implicit deserialization does not apply, you 
 
 If the API does not support both, E.g. you can either `//lmdb/base/key.text` or `//lmdb/base/key[@[3,5]]` but
 not `//lmdb/base/key[@[3,5]].text`. You may need to create an intermediate volatile block. Assuming you created a deque named `my_stack`,
-you can GET `//deque/m_stack/~push=//lmdb/base/key[@[3,5]]` and GET `//deque/m_stack/~plast.text`. Note that you have created a volatile
-block in the deque (giving it a new name automatically using the `~push` command to avoid possibly replacing an existing block) and then,
+you can GET `//deque/m_stack/~last=//lmdb/base/key[@[3,5]]` and GET `//deque/m_stack/~plast.text`. Note that you have created a volatile
+block in the deque (giving it a new name automatically using the `~last` command to avoid possibly replacing an existing block) and then,
 you have **deleted** it as you read it (`~last` would have read it without deleting it, `~plast` stands for pop last).
 
 <br/>
