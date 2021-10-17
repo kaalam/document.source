@@ -188,7 +188,7 @@ audit_file <- function(i)
 	body <- txt[-ix]
 
 	get <- function(key) {
-		rex <- paste0('^', key, ': *"?([^ ].*[^ "])"? *$')
+		rex <- paste0('^', key, ':[ ]*([^ ].*[^ ])[ ]*$')
 		gsub(rex, '\\1', head[grepl(rex, head)])
 	}
 
