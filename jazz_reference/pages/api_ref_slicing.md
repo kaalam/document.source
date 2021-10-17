@@ -1,6 +1,6 @@
 ---
 title: API reference - Block and tuple slicing
-summary: Filtering rows from a Tensor and selecting items from a Tuple.
+summary: Filtering rows from a Tensor and selecting items from a Tuple
 sidebar: mydoc_sidebar
 permalink: api_ref_slicing.html
 ---

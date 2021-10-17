@@ -1,6 +1,6 @@
 ---
 title: How can I compile Jazz and the clients?
-summary: Starting with Jazz (most advanced option) compiling everything form source.
+summary: Starting with Jazz by compiling everything from source
 sidebar: mydoc_sidebar
 permalink: using_compile_jazz.html
 ---

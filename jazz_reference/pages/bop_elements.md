@@ -1,6 +1,6 @@
 ---
 title: Bebop elements
-summary: Overview of formal fields, bebop (the language), cores (code running infrastructure) and the jit linker.
+summary: Overview of formal fields, bebop (the language), cores (code running infrastructure) and the jit linker
 sidebar: mydoc_sidebar
 permalink: bop_elements.html
 ---

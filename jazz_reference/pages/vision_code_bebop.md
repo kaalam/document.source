@@ -1,6 +1,6 @@
 ---
 title: Code Generation - Formal Fields and Bebop
-summary: What is Jazz (part 3) Introduction to Bebop, fields and code generation.
+summary: What is Jazz (part 3) Introduction to Bebop, fields and code generation
 sidebar: mydoc_sidebar
 permalink: vision_code_bebop.html
 ---

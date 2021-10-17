@@ -1,6 +1,6 @@
 ---
 title: How to build your own Jazz Docker image
-summary: A few clues on creating a Jazz on Docker image.
+summary: A few clues on creating a Jazz Docker image
 sidebar: mydoc_sidebar
 permalink: reference_docker_how_to_build.html
 ---

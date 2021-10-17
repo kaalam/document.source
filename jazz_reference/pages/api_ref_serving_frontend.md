@@ -1,6 +1,6 @@
 ---
 title: API reference - Using Jazz to serve applications
-summary: Setting us Jazz as a server for static objects.
+summary: Setting up Jazz as a server for static objects
 sidebar: mydoc_sidebar
 permalink: api_ref_serving_frontend.html
 ---

@@ -1,6 +1,6 @@
 ---
 title: API reference - The http API
-summary: Http operation supported
+summary: Http operations supported
 sidebar: mydoc_sidebar
 permalink: api_ref_http_api.html
 ---

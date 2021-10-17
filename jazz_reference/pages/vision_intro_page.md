@@ -1,6 +1,6 @@
 ---
 title: What is the vision? What does Jazz want to be?
-summary: What will Jazz be when everything is finally implemented.
+summary: What is Jazz becoming?
 sidebar: mydoc_sidebar
 permalink: vision_intro_page.html
 ---

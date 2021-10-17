@@ -1,6 +1,6 @@
 ---
 title: Agency - Code Automation
-summary: What is Jazz (part 4) Code Automation.
+summary: What is Jazz (part 4) Code Automation
 sidebar: mydoc_sidebar
 permalink: vision_agency_code.html
 ---

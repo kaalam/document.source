@@ -1,6 +1,6 @@
 ---
 title: What is the usable part of Jazz today?
-summary: Some clues about what is complete, under development and to be done.
+summary: Some clues about what is complete, under development and to be done
 sidebar: mydoc_sidebar
 permalink: using_jazz_today.html
 ---

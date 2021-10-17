@@ -1,6 +1,6 @@
 ---
 title: API reference - Introduction
-summary: An introduction to the API basics and the ToC.
+summary: An introduction to the API basics
 sidebar: mydoc_sidebar
 permalink: api_ref_intro.html
 ---
