@@ -92,6 +92,10 @@ entries:
       url: /api_ref_serialization.html
       output: web
 
+    - title: API reference - Using Jazz as a cluster
+      url: /api_ref_jazz_cluster.html
+      output: web
+
     - title: API reference - Using Jazz to serve applications
       url: /api_ref_serving_frontend.html
       output: web
