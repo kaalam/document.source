@@ -13,12 +13,11 @@ HTTP-wise, the protocol is very simple. This page describes the basic http model
 
 The REST API supports **standard http commands**.
 
-  * **GET** with a valid `R-value`. To read from Jazz.
-  * **HEAD** with a valid `R-value`. Internally the same as GET, but returns the header only.
+  * **GET** with a valid `R-value` or a statement. To read from Jazz or execute statements.
+  * **HEAD** with a valid `R-value` or statement. Internally the same as GET, but returns the header only.
   * **PUT** with a valid `L-value`. To write blocks into a Jazz container.
   * **DELETE** with a valid `L-value`. To delete blocks or containers (at any level of the tree).
   * **OPTIONS** with a string. Parses the string and returns the http predicates that would accept that string as a query.
-  * Assignment calls (calls doing `L-value = R-value` ) are **GET** calls returning just an answer (some status code).
 
 Basically, you should understand that all calls are either GET, PUT or DELETE (HEAD being a wrapper over GET and OPTIONS a "thing" the API
 just tries to parse and if the syntax is correct, it includes the predicate.)
