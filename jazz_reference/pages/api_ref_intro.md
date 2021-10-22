@@ -15,8 +15,8 @@ Blocks, which are everything (data, metadata, indices, code, etc.), and are poss
 {% include note.html content="<b>First thing</b>: Blocks cannot allocate RAM. Only Services can. In our case, <b>Containers</b>, which are
 Services allocate RAM!" %}
 
-Note that even simple operations like slicing a block as `/lmdb/my_table/my_block[&[1,2,3]]` requires converting the string `[1,2,3]` into
-a (one shot) block and using that block to select rows inside `/lmdb/my_table/my_block`, the result being another block. This block needs
+Note that even simple operations like slicing a block as `//lmdb/my_table/my_block[&[1,2,3]]` requires converting the string `[1,2,3]` into
+a (one shot) block and using that block to select rows inside `//lmdb/my_table/my_block`, the result being another block. This block needs
 some RAM allocation and only a Container can do that.
 
 When you are using the C++ API you talk to the Containers directly. Via http the petitions you are doing to blocks are served by one or
