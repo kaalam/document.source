@@ -23,14 +23,18 @@ and return the result just as if is was a local call. At the class level, this i
 You can also send simple GET, PUT and DELETE http calls to random urls by either using the get(), put() and remove() or using the Jazz http
 server API GET "//http&https://google.com;"
 
-The most advanced way to do it is creating a connection (similar to a "0-mq" pipeline) by put()-ing an Index to: //http/connection/a_name
-the index requires the mandatory key URL and the optional keys: CURLOPT_USERNAME, CURLOPT_USERPWD, CURLOPT_COOKIEFILE and CURLOPT_COOKIEJAR
-(see https://curl.se/libcurl/c/CURLOPT_USERNAME.html and https://everything.curl.dev/libcurl-http/cookies) Once the connection exists, you
-can get(), put() and remove() to just its name (without the word connection). I.e, get(txn, "//http/a_name") or
-get(txn, "//http/a_name/args") will send the http GET to connection[URL] + "args". Same for put() and remove().
+The most advanced way to do it is creating a connection (similar to a "0-mq" pipeline) by put()-ing an **Index serialized as a Tuple**
+to: //http/connection/a_name the index requires the mandatory key URL and the optional keys: CURLOPT_USERNAME, CURLOPT_USERPWD,
+CURLOPT_COOKIEFILE and CURLOPT_COOKIEJAR (see https://curl.se/libcurl/c/CURLOPT_USERNAME.html and
+https://everything.curl.dev/libcurl-http/cookies) Once the connection exists, you can get(), put() and remove() to just its name (without
+the word connection). I.e, get(txn, "//http/a_name") or get(txn, "//http/a_name/args") will send the http GET to connection[URL] + "args".
+Same for put() and remove().
 
- If you remove("//http/connection/a_name"), you destroy the connection. get("//http/connection/a_name") returns an Index with all the
-connection parameters.
+{% include note.html content="An Index serialized as a Tuple is a <b>Tuple of two string vectors</b> of the same length named `key` and
+`value`." %}
+
+ If you remove("//http/connection/a_name"), you destroy the connection. get("//http/connection/a_name") returns an
+**Index serialized as a Tuple**  with all the connection parameters.
 
 ## In terms of the Jazz server API
 

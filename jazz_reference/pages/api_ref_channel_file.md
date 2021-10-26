@@ -20,8 +20,12 @@ This read/writes/deletes to the filesystem. Since the API does not use locators,
 server, just use the URL (&...;). Remember to %-encode whatever http expects to be encoded. E.g., get("//file/&whatever%20you%20want;").
 Note that "//file/" is a mandatory prefix, therefore "//file/aa" is "aa" and //file//aa" is "/aa".
 
-get() gets files as arrays of byte and folders as an Index (the keys are file names and the values either "file" or "folder"). put() writes
-either Jazz blocks with all the metadata (if mode == WRITE_EVERYTHING) of just the content of the tensor (if mode == WRITE_TENSOR_DATA).
+get() gets files as arrays of byte and folders as an **Index serialized as a Tuple** (the keys are file names and the values either "file"
+or "folder"). put() writes either Jazz blocks with all the metadata (if mode == WRITE_EVERYTHING) of just the content of the tensor
+(if mode == WRITE_TENSOR_DATA).
+
+{% include note.html content="An Index serialized as a Tuple is a <b>Tuple of two string vectors</b> of the same length named `key` and
+`value`." %}
 
 WRITE_ONLY_IF_EXISTS and WRITE_ONLY_IF_NOT_EXISTS work as expected. remove() deletes whatever matches the path either a file or a folder
 (with anything inside it).
