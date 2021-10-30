@@ -18,7 +18,9 @@ Follow [this link](https://hub.docker.com/r/kaalam/jazz_neat/tags/) and note the
 
 Using the right version number, and assuming you have docker installed, type:
 
-  docker run -p8888:8888 kaalam/jazz_neat:0.2.1.99
+```bash
+  docker run -p8888:8888 kaalam/jazz_neat:0.5.2
+```
 
 ## Can I build applications on top of it?
 
