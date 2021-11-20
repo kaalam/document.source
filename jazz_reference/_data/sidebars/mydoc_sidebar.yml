@@ -152,6 +152,10 @@ entries:
       url: /reference_docker_how_to_build.html
       output: web, pdf
 
+    - title: Jazz (BASE) Base Dockerfile
+      url: /reference_docker_base_dockerfile.html
+      output: web
+
     - title: Jazz (LSS) Latest Stable Server
       url: /reference_docker_latest_server.html
       output: web
