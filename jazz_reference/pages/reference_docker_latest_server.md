@@ -12,24 +12,20 @@ Tangle server are the only members." %}
 
 ## How to check for the latest version?
 
-Follow [this link](https://hub.docker.com/r/kaalam/jazz_neat/tags/) and note the version number.
+Follow [this link](https://hub.docker.com/r/kaalam/jazz_lss/tags) and note the version number.
 
 ## How to run it
 
 Using the right version number, and assuming you have docker installed, type:
 
 ```bash
-  docker run -p8888:8888 kaalam/jazz_neat:0.5.2
+  docker run -p8899:8899 kaalam/jazz_lss:0.5.3
 ```
 
 ## Can I build applications on top of it?
 
-Yes. That is the intention. Just start your Dockerfile with:
+No. Use [this](reference_docker_base_dockerfile.html) instead.
 
-```docker
-FROM kaalam/jazz_neat:latest
-
-```
 
 <br/>
 
