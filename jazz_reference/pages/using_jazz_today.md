@@ -7,6 +7,31 @@ permalink: using_jazz_today.html
 
 {% include image.html file="jazz_modules.png" caption="Jazz modules for version 0.4.x" max-width=880 %}
 
+
+## Jazz 0.5.3: The Tangle Server
+
+The last 0.5.x series version is the fist real world application of the modern Jazz versions. It contains **The Tangle**
+a curated entangled dataset of English language.
+
+In 40 Gb of text, it contains many important English datasets that can be navigated at high speed (millions of jumps per seconds
+per thread) built on top of Jazz. It is the present and future of Jazz development. All the data provisioning processes are fully
+automated.
+
+It will be maintained and used as the base of **our language as code** approach to AI.
+
+
+### The reason to create The Tangle: Building on the Shoulders of Linguists
+
+{% include image.html file="tangle_motive.png" caption="Join the team" %}
+
+
+### Some links:
+
+  * The tangle [poster](https://raw.githubusercontent.com/kaalam/kaalam/master/the_tangle.pdf)
+  * Presentation [slides](https://www.slideshare.net/SantiagoBasalda/slsp-2021)
+  * How to [run it](reference_docker_tangle_server.html)
+
+
 ## What is complete (Jazz 0.5.2)?
 
 This page is a snapshot of the current state of development in terms of Jazz modules. It is updated after the completion (meaning
@@ -29,9 +54,11 @@ details of development are updated in the [developer's reference](/develop/)
 | main | instances | Instantiation of the classes for the server and the clients. | <span class="label label-success">100%</span> |
 | main | main | Http server implementation. | <span class="label label-success">100%</span> |
 
+
 ## What is still refactoring from Jazz 0.3.x?
 
 Nothing.
+
 
 ## What is under development?
 
@@ -40,11 +67,13 @@ Nothing.
 | bebop | core | The logic to run code. | <span class="label label-warning">30%</span> |
 | bebop | field | The higher level organization as languages. | <span class="label label-warning">20%</span> |
 
+
 ## What is to be done?
 
 | Group | Module | Description | Complete |
 |-------|--------|-------------|----------|
 | agency | agency | Automating code generation. | <span class="label label-danger">5%</span> |
+
 
 ## What can I try out from the original Jazz 0.1.7?
 
@@ -90,6 +119,7 @@ list_web_sources()
 delete_web_source('my_test')
 set_jazz_host(host)
 ```
+
 
 ## A real world use of Jazz as an http server
 
