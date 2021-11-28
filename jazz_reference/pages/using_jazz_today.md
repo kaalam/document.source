@@ -5,7 +5,7 @@ sidebar: mydoc_sidebar
 permalink: using_jazz_today.html
 ---
 
-{% include image.html file="jazz_modules.png" caption="Jazz modules for version 0.4.x" max-width=880 %}
+{% include image.html file="jazz_modules.png" caption="Jazz modules for version 0.6.x" max-width=880 %}
 
 
 ## Jazz 0.5.3: The Tangle Server
