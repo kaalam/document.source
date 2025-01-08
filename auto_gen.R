@@ -126,7 +126,7 @@ check_md_links <- function(body, fn) {
 	}
 
 	for (lnk in link)
-		if (file_not_found(lnk))
+		if (file_not_found(lnk) && lnk != 'index.html')
 			cat(sprintf('Failed links in %36s : %s\n', gsub('jazz_reference/pages/', '', fn), lnk))
 }
 
