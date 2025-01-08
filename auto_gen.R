@@ -25,7 +25,7 @@ parse_yml <- function (fn = 'jazz_reference/_data/sidebars/mydoc_sidebar.yml')
 {
 	txt <- readLines(fn)
 
-	rex <- '^  version: [0-9]+\\.[0-9]+\\.[0-9]+$'
+	rex <- '^  version: [0-9]+.*$'
 
 	ix <- which(grepl(rex, txt))
 
