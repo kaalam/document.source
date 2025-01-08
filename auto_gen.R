@@ -98,9 +98,7 @@ valid_urls <- function()
 
 valid_link <- valid_urls()
 
-http_not_found <- function (url)
-{
-	!url.exists	(url, useragent = "curl/7.39.0 Rcurl/1.95.4.5")
+	!url.exists	(url, useragent = 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36')
 }
 
 file_not_found <- function (fn)
