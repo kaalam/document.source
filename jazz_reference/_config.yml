@@ -1,4 +1,4 @@
-repository: bbvadata/Jazz
+repository: kaalam/Jazz
 
 output: web
 # this property is useful for conditional filtering of content that is separate from the PDF.
@@ -108,4 +108,4 @@ description: "Jazz User's Manual"
 # the description is used in the feed.xml file
 
 # needed for sitemap.xml file only
-url: http://kaalam.github.io/jazz_reference
+url: https://kaalam.github.io/jazz_reference

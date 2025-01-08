@@ -3,10 +3,10 @@
 entries:
 - title: sidebar
   product: Jazz
-  version: 0.6.1
+  version: 1.25.0
   folders:
 
-  - title: Basic questions on Jazz
+  - title: Basic Questions on Jazz
     output: web, pdf
     folderitems:
 
@@ -15,140 +15,148 @@ entries:
       output: web, pdf
       type: homepage
 
-    - title: What is the vision? What does Jazz want to be?
+    - title: What is the Vision?
       url: /vision_intro_page.html
       output: web, pdf
 
       subfolders:
-      - title: The vision
+      - title: The Vision
         output: web
         subfolderitems:
 
-        - title: Elements - Blocks, Kinds, Tuples
+        - title: Basic Types - Blocks, Kinds, Tuples
           url: /vision_elements_block_kind_etc.html
           output: web
 
-        - title: Elements - Containers - One Shot, Channels, Volatile and Persisted
+        - title: Storing Elements in Containers - One Shot, Channels, Volatile and Persisted
           url: /vision_elements_containers.html
           output: web
 
-        - title: Code Generation - Formal Fields and Bebop
+        - title: Abstracting Containers - APIs and Spaces
+          url: /vision_apis_spaces.html
+          output: web
+
+        - title: Code Execution - Onnx and Bebop
           url: /vision_code_bebop.html
           output: web
 
-        - title: Agency - Code Automation
-          url: /vision_agency_code.html
+        - title: Adding Intelligence - Code Automation
+          url: /vision_models.html
           output: web
 
-  - title: Bebop fundamentals (Jazz 0.6.x)
+        - title: Customizing Jazz for Production - Uplifts
+          url: /vision_uplifts.html
+          output: web
+
+  - title: Bebop Fundamentals (since Jazz 1.25.1)
     output: web, pdf
     folderitems:
 
-    - title: Bebop elements
-      url: /bop_elements.html
+    - title: Bebop Elements
+      url: /bop_introduction.html
       output: web, pdf
 
-  - title: Agency fundamentals (Jazz 0.7.x)
+  - title: Models Fundamentals (since Jazz 1.25.2)
     output: web, pdf
     folderitems:
 
-    - title: Agency elements
-      url: /agency_elements.html
+    - title: Models Elements
+      url: /models_introduction.html
       output: web, pdf
 
-  - title: API fundamentals
+  - title: API Fundamentals
     output: web, pdf
     folderitems:
 
-    - title: API reference - Introduction
+    - title: API Reference - Introduction
       url: /api_ref_intro.html
       output: web
 
-    - title: API reference - The http API
+    - title: API Reference - The HTTP API
       url: /api_ref_http_api.html
       output: web
 
-    - title: API reference - Constants and %-encoding
+    - title: API Reference - Constants and %-encoding
       url: /api_ref_const_encoding.html
       output: web
 
-    - title: API reference - Block and tuple slicing
+    - title: API Reference - Block and tuple slicing
       url: /api_ref_slicing.html
       output: web
 
-    - title: API reference - Function calls
+    - title: API Reference - Function calls
       url: /api_ref_fun_calls.html
       output: web
 
-    - title: API reference - Assignment calls
+    - title: API Reference - Assignment calls
       url: /api_ref_assign.html
       output: web
 
-    - title: API reference - Attribute calls
+    - title: API Reference - Attribute calls
       url: /api_ref_attributes.html
       output: web
 
-    - title: API reference - Block serialization calls
+    - title: API Reference - Block serialization calls
       url: /api_ref_serialization.html
       output: web
 
-    - title: API reference - Using Jazz as a cluster
+    - title: API Reference - Using Jazz as a cluster
       url: /api_ref_jazz_cluster.html
       output: web
 
-    - title: API reference - Using Jazz to serve applications
+    - title: API Reference - Using Jazz to serve applications
       url: /api_ref_serving_frontend.html
       output: web
 
-    - title: API reference - Agency bases (Work in Progress)
-      url: /api_ref_agency_wip.html
+    - title: API Reference - Core API
+      url: /api_ref_core.html
       output: web
 
-    - title: API reference - Bebop bases (Work in Progress)
-      url: /api_ref_bebop_wip.html
+    - title: API Reference - Model API
+      url: /api_ref_model.html
       output: web
 
-    - title: API reference - Channel base 0-mq
+    - title: API Reference - Channel base 0-mq
       url: /api_ref_channel_zmq.html
       output: web
 
-    - title: API reference - Channel base bash
+    - title: API Reference - Channel base bash
       url: /api_ref_channel_bash.html
       output: web
 
-    - title: API reference - Channel base file
+    - title: API Reference - Channel base file
       url: /api_ref_channel_file.html
       output: web
 
-    - title: API reference - Channel base http
+    - title: API Reference - Channel base http
       url: /api_ref_channel_http.html
       output: web
 
-    - title: API reference - Persisted base lmdb
+    - title: API Reference - Persisted base lmdb
       url: /api_ref_persisted_lmdb.html
       output: web
 
-    - title: API reference - Volatile base deque
+    - title: API Reference - Volatile base deque
       url: /api_ref_volatile_deque.html
       output: web
 
-    - title: API reference - Volatile base index
+    - title: API Reference - Volatile base index
       url: /api_ref_volatile_index.html
       output: web
 
-    - title: API reference - Volatile base queue
+    - title: API Reference - Volatile base queue
       url: /api_ref_volatile_queue.html
       output: web
 
-    - title: API reference - Volatile base tree
+    - title: API Reference - Volatile base tree
       url: /api_ref_volatile_tree.html
       output: web
 
-  - title: Docker reference
+  - title: Docker Reference
     output: web, pdf
     folderitems:
 
-    - title: How to build your own Jazz Docker image
+    - title: How to Build your Own Jazz Docker Image
       url: /reference_docker_how_to_build.html
       output: web, pdf
 
@@ -168,7 +176,7 @@ entries:
     output: web, pdf
     folderitems:
 
-    - title: Server internals and setup
+    - title: Server Internals and Setup
       url: /reference_server_setup.html
       output: web, pdf
 
@@ -176,18 +184,22 @@ entries:
     output: web, pdf
     folderitems:
 
-    - title: What is the usable part of Jazz today?
-      url: /using_jazz_today.html
+    - title: How Can I Start with Jazz?
+      url: /using_jazz_start.html
       output: web, pdf
 
-    - title: How can I compile Jazz and the clients?
-      url: /using_compile_jazz.html
+    - title: How Can I Compile Jazz?
+      url: /using_compile.html
+      output: web, pdf
+
+    - title: How Can I Extend Jazz?
+      url: /using_extend.html
       output: web, pdf
 
   - title: Contributing to Jazz
     output: web, pdf
     folderitems:
 
-    - title: How can I help? What kind of skills are needed?
+    - title: How Can I Help?
       url: /contributing_welcome_all.html
       output: web, pdf

@@ -4,7 +4,7 @@ topnav:
 - title: Topnav
   items:
     - title: kaalam.ai
-      external_url: http://kaalam.ai
+      external_url: https://kaalam.ai
     - title: GitHub
       external_url: https://github.com/kaalam/Jazz
 
@@ -14,15 +14,15 @@ topnav_dropdowns:
   folders:
     - title: Quick Help
       folderitems:
-        - title: What is the vision? What does Jazz want to become?
-          url: vision_intro_page.html
+        - title: What is the vision?
+          url: /vision_intro_page.html
         - title: Where can I find the Latest Stable Server (Jazz LSS)?
-          url: reference_docker_latest_server.html
+          url: /reference_docker_latest_server.html
         - title: How can I help?
-          url: contributing_welcome_all.html
+          url: /contributing_welcome_all.html
         - title: Jazz for developers
           external_url: /develop/
         - title: Jazz API introduction
-          url: api_ref_intro.html
-        - title: What is the usable part of Jazz today?
-          url: using_jazz_today.html
+          url: /api_ref_intro.html
+        - title: How Can I Start with Jazz?
+          url: /using_jazz_start.html
