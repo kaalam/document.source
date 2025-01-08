@@ -1,24 +1,27 @@
 ---
 title: Welcome to Jazz!
-summary: This is the reference documentation for Jazz (the server), Bebop (the language), the Jazz API and core Docker images.
+summary: This is the reference documentation for Jazz (the server) intended for end users. This includes introducing the server, the API and the docker images.
 sidebar: mydoc_sidebar
 permalink: index.html
 ---
 
-Thank you for your interest in Jazz, this is the place to start.
+Thank you for your interest in Jazz, this is the Jazz server's reference manual.
 
 {% include important.html content="Jazz is still under development. Since version 0.5.1, everything in jazz_elements and the server itself
-are stable. To keep up with Jazz Bebop development Jazz 0.6.x and Agency development Jazz 0.7.x, see
+are stable. More modern interfaces keep backwards compatibility, but add ONNX and Bebop (a language that compiles to ONNX) on top of it.
+If you plan to use ONNX, you need a version >= 1.25.1. If you also want models, you need a version >= 1.25.2.
+To keep up with Jazz development, see
 [Programming documentation for the Jazz Server](https://kaalam.github.io/develop_jazz02/index.html)." %}
 
 ## Basic Questions on Jazz
 
-* [What is the vision? What does Jazz want to become?](vision_intro_page.html)
+* [What is the vision?](vision_intro_page.html)
 
 ## Using Jazz
 
-* [What is the usable part of Jazz today?](using_jazz_today.html)
-* [How can I compile Jazz and the clients?](using_compile_jazz.html)
+* [How Can I Start with Jazz?](using_jazz_start.html)
+* [How Can I Compile Jazz?](using_compile.html)
+* [How Can I Extend Jazz?](using_extend.html)
 
 ## Contributing to Jazz
 
@@ -26,8 +29,8 @@ are stable. To keep up with Jazz Bebop development Jazz 0.6.x and Agency develop
 
 ## References
 
-* [Bebop Jazz 0.6.x](bop_elements.html)
-* [Agency Jazz 0.7.x](agency_elements.html)
+* [Bebop Fundamentals](bop_introduction.html)
+* [Models Fundamentals](models_introduction.html)
 * [API reference and clients](api_ref_intro.html)
 * [Server internals and setup](reference_server_setup.html)
 
