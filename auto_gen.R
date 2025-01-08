@@ -280,3 +280,29 @@ for (fn in list.files('kaalam', '*.md', full.names = T, recursive = T)) {
 	check_md_links(body, fn)
 	check_href_links(body, fn)
 }
+
+check_links_in_yml <- function (body, fn) {
+	rex <- '^[ ]*url:(.*)$'
+
+	for (s in body) {
+		if (grepl(rex, s)) {
+			lnk <- gsub(rex, '\\1', s)
+			lnk <- gsub('^[ ]*([^ ].*[^ ])[ ]*$', '\\1', lnk)
+			if (lnk == '/index.html')
+				next
+			if (length(which(paste0('/', valid_link) == lnk)) == 1)
+				next
+			if (grepl('https://kaalam.ai', lnk))
+				next
+			if (grepl('https://kaalam.github.io', lnk))
+				next
+			cat('Wrong link in', fn, ':', lnk, '\n')
+		}
+	}
+}
+
+for (fn in list.files('.', '*.yml', full.names = T, recursive = T)) {
+	body <- readLines(fn)
+	check_links_in_yml(body, fn)
+}
+
