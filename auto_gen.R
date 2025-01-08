@@ -1,10 +1,9 @@
 #!/usr/bin/Rscript
 
-
 library(RCurl)
 
-get_serial <- function(fn = '../Jazz/server/src/include/jazz_platform.h')
-{
+
+get_serial <- function(fn = '../Jazz/server/src/include/jazz_platform.h') {
 	txt <- readLines(fn)
 
 	rex <- '^#define JAZZ_VERSION *"?([0-9]+\\.[0-9]+\\.[0-9]+)"? *$'
@@ -21,8 +20,7 @@ pages       <- data.frame(stringsAsFactors = FALSE)
 files_moved <- FALSE
 
 
-parse_yml <- function (fn = 'jazz_reference/_data/sidebars/mydoc_sidebar.yml')
-{
+parse_yml <- function (fn = 'jazz_reference/_data/sidebars/mydoc_sidebar.yml') {
 	txt <- readLines(fn)
 
 	rex <- '^  version: [0-9]+.*$'
@@ -58,8 +56,7 @@ parse_yml <- function (fn = 'jazz_reference/_data/sidebars/mydoc_sidebar.yml')
 parse_yml()
 
 
-search_files <- function(pat = 'jazz_reference/pages', index_pat = 'jazz_reference')
-{
+search_files <- function(pat = 'jazz_reference/pages', index_pat = 'jazz_reference') {
 	ist_fn  <- list.files(path = index_pat, pattern = '*.md', full.names = TRUE, recursive = TRUE)
 
 	soll_fn    <- paste0(pat, '/', pages$name, '.md')
@@ -88,8 +85,7 @@ search_files <- function(pat = 'jazz_reference/pages', index_pat = 'jazz_referen
 search_files()
 
 
-valid_urls <- function()
-{
+valid_urls <- function() {
 	rex <- '^jazz_reference/pages/(.*).md$'
 
 	ix <- which(grepl(rex, pages$fname))
@@ -98,16 +94,15 @@ valid_urls <- function()
 
 valid_link <- valid_urls()
 
+http_not_found <- function (url) {
 	!url.exists	(url, useragent = 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36')
 }
 
-file_not_found <- function (fn)
-{
+file_not_found <- function (fn) {
 	!file.exists(paste0('../kaalam.github.io', fn))
 }
 
-check_md_links <- function(body, fn)
-{
+check_md_links <- function(body, fn) {
 	rex <- '^.*\\[([^\\[]+)\\]\\(([^\\(]+)\\).*$'
 
 	ix <- which(grepl(rex, body))
@@ -135,8 +130,7 @@ check_md_links <- function(body, fn)
 			cat(sprintf('Failed links in %36s : %s\n', gsub('jazz_reference/pages/', '', fn), lnk))
 }
 
-check_href_links <- function(body, fn)
-{
+check_href_links <- function(body, fn) {
 	rex <- '\\<href\\>'
 
 	ix <- which(grepl(rex, body))
@@ -171,8 +165,7 @@ check_href_links <- function(body, fn)
 	}
 }
 
-audit_file <- function(i)
-{
+audit_file <- function(i) {
 	fn  <- pages$fname[i]
 	txt <- readLines(fn)
 
@@ -254,8 +247,7 @@ for (i in which(pages$status == 'found')) audit_file(i)
 if (files_moved) stop ('Some files were moved, run again to create new files (or copy manually if move was wrong).')
 
 
-new_file <- function(i)
-{
+new_file <- function(i) {
 	fn <- pages$fname[i]
 
 	head <- c('---',
