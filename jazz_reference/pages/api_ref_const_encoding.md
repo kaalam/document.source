@@ -1,5 +1,5 @@
 ---
-title: API reference - Constants and %-encoding
+title: API Reference - Constants and %-encoding
 summary: Syntax for defining constant blocks, kinds and tuples
 sidebar: mydoc_sidebar
 permalink: api_ref_const_encoding.html

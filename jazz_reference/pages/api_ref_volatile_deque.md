@@ -1,5 +1,5 @@
 ---
-title: API reference - Volatile base deque
+title: API Reference - Volatile base deque
 summary: Api Reference for the base "deque" inside the container Volatile
 sidebar: mydoc_sidebar
 permalink: api_ref_volatile_deque.html

@@ -1,5 +1,5 @@
 ---
-title: API reference - Persisted base lmdb
+title: API Reference - Persisted base lmdb
 summary: Api Reference for the base "lmdb" inside the container Persisted
 sidebar: mydoc_sidebar
 permalink: api_ref_persisted_lmdb.html

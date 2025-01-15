@@ -1,5 +1,5 @@
 ---
-title: API reference - Assignment calls
+title: API Reference - Assignment calls
 summary: Making assignments via the rest API
 sidebar: mydoc_sidebar
 permalink: api_ref_assign.html

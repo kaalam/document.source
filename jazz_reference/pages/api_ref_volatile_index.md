@@ -1,5 +1,5 @@
 ---
-title: API reference - Volatile base index
+title: API Reference - Volatile base index
 summary: Api Reference for the base "index" inside the container Volatile
 sidebar: mydoc_sidebar
 permalink: api_ref_volatile_index.html

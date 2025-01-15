@@ -29,7 +29,7 @@ CMD ["/home/jazz/start.sh"]
 ```
 
 For `jazz_base_stable` to exist as a local image, you must have `git clone`-d the Jazz repository, configured successfully so that you
-can [compile](using_compile_jazz.html), installed docker and run the `build_upload_all.sh` in the Jazz `docker` folder.
+can [compile](using_compile.html), installed docker and run the `build_upload_all.sh` in the Jazz `docker` folder.
 
 
 

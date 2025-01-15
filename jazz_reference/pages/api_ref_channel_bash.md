@@ -1,5 +1,5 @@
 ---
-title: API reference - Channel base bash
+title: API Reference - Channel base bash
 summary: Api Reference for the base "bash" inside the container Channels
 sidebar: mydoc_sidebar
 permalink: api_ref_channel_bash.html

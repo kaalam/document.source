@@ -1,5 +1,5 @@
 ---
-title: API reference - Block serialization calls
+title: API Reference - Block serialization calls
 summary: Understanding and specifying how blocks have to be serialized and deserialized
 sidebar: mydoc_sidebar
 permalink: api_ref_serialization.html

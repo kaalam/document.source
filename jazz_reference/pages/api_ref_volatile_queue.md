@@ -1,5 +1,5 @@
 ---
-title: API reference - Volatile base queue
+title: API Reference - Volatile base queue
 summary: Api Reference for the base "queue" inside the container Volatile
 sidebar: mydoc_sidebar
 permalink: api_ref_volatile_queue.html

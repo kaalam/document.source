@@ -1,5 +1,5 @@
 ---
-title: API reference - Channel base file
+title: API Reference - Channel base file
 summary: Api Reference for the base "file" inside the container Channels
 sidebar: mydoc_sidebar
 permalink: api_ref_channel_file.html

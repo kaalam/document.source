@@ -1,5 +1,5 @@
 ---
-title: How can I help? What kind of skills are needed?
+title: How Can I Help?
 summary: Building a community with "no exclusion, no exceptions"
 sidebar: mydoc_sidebar
 permalink: contributing_welcome_all.html

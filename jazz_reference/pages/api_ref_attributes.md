@@ -1,5 +1,5 @@
 ---
-title: API reference - Attribute calls
+title: API Reference - Attribute calls
 summary: Reading and writing Block Attributes
 sidebar: mydoc_sidebar
 permalink: api_ref_attributes.html

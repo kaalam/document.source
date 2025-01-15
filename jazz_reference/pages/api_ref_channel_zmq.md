@@ -1,5 +1,5 @@
 ---
-title: API reference - Channel base 0-mq
+title: API Reference - Channel base 0-mq
 summary: Api Reference for the base "0-mz" inside the container Channels
 sidebar: mydoc_sidebar
 permalink: api_ref_channel_zmq.html

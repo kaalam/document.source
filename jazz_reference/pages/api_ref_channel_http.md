@@ -1,5 +1,5 @@
 ---
-title: API reference - Channel base http
+title: API Reference - Channel base http
 summary: Api Reference for the base "http" inside the container Channels
 sidebar: mydoc_sidebar
 permalink: api_ref_channel_http.html

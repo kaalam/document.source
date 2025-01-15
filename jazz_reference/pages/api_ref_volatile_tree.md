@@ -1,5 +1,5 @@
 ---
-title: API reference - Volatile base tree
+title: API Reference - Volatile base tree
 summary: Api Reference for the base "tree" inside the container Volatile
 sidebar: mydoc_sidebar
 permalink: api_ref_volatile_tree.html

@@ -1,5 +1,5 @@
 ---
-title: API reference - Using Jazz as a cluster
+title: API Reference - Using Jazz as a cluster
 summary: How Jazz nodes talk to each other
 sidebar: mydoc_sidebar
 permalink: api_ref_jazz_cluster.html
