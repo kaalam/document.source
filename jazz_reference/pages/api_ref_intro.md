@@ -1,5 +1,5 @@
 ---
-title: API reference - Introduction
+title: API Reference - Introduction
 summary: An introduction to the API basics
 sidebar: mydoc_sidebar
 permalink: api_ref_intro.html
@@ -31,13 +31,13 @@ containing the previous ones.
 
 - **jazz_elements** (all the pieces: blocks, tuples, storage, fluxes, communication, services, ...)
 - **jazz_bebop** (everything to create bebop code, run it and expand Formal Fields)
-- **jazz_agency** (agency as automating code generation over graphs of fields)
+- **jazz_models** (models as automating code generation over graphs of fields)
 
-See technical documentation [here](/develop/)
+See developer documentation [here](/develop/)
 
 ### The Bebop API
 
-{% include important.html content="Bebop, of course, also has access to the API. This is under current implementation in Jazz 0.6.x." %}
+{% include important.html content="Bebop, of course, also has access to the API. This is under current implementation in Jazz 1.25.x." %}
 
 ### The http API
 
