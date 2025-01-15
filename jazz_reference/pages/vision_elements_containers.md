@@ -1,6 +1,6 @@
 ---
-title: Elements - Containers - One Shot, Channels, Volatile and Persisted
-summary: What is Jazz (part 2) Introduction to the different types of containers
+title: Storing Elements in Containers - One Shot, Channels, Volatile and Persisted
+summary: What is Jazz (part 2) - Introduction to the different types of containers
 sidebar: mydoc_sidebar
 permalink: vision_elements_containers.html
 ---
@@ -22,6 +22,7 @@ The **CRUD** has two forms, the "easy" API where things are described ina string
 its constituents. This may include commands and many things that are full described in [API](api_ref_intro.html)
 
 * See C++ ref [Container](/develop_jazz02/classjazz__elements_1_1Container.html)
+* See the programming reference document on how Containers are used [here](/develop/rfc2/services_apis.html)
 
 ## Introducing Channels
 
@@ -54,6 +55,6 @@ Persisted blocks are blocks stored using LMDB in the Jazz process.
 <br/>
 
 | <span class="label label-default">Previous ...</span> | | | | | <span class="label label-info">Next ...</span> |
-| [Elements - Blocks, Kinds, etc.](vision_elements_block_kind_etc.html) | | | | | [Code Generation - Bebop](vision_code_bebop.html) |
+| [Blocks, Kinds, Tuples](vision_elements_block_kind_etc.html) | | | | | [APIs and Spaces](vision_apis_spaces.html) |
 
 {% include links.html %}
