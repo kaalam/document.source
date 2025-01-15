@@ -62,7 +62,7 @@ understanding.</p>
 <b>Bebop-25</b> has <b>introspection and composition</b> at its core. By representing everything as a computational graph, it inherently
 understands dependencies, enabling seamless transformations such as converting a method of a class into a standalone function or merging
 multiple functions into a cohesive unit. This natural handling of dependencies extends beyond structure to behavior, making the system
-remarkably adaptable. On top of this, the <b>solver/compiler</b> paradigm empowers <b>Bebop-25</b> to compose code in a manner analogous
+remarkably adaptable. On top of this, the <b>resolver/compiler</b> paradigm empowers <b>Bebop-25</b> to compose code in a manner analogous
 to how we construct natural language—blending smaller, meaningful units into larger, coherent expressions. This approach bridges the gap
 between human intent and machine execution, making <b>Bebop-25</b> not only a tool but a true partner in problem-solving.</b>
 
@@ -103,7 +103,7 @@ between human intent and machine execution, making <b>Bebop-25</b> not only a to
     </tr>
     <tr>
       <td><b>Code generation</b></td>
-      <td>Generates Bebop-25 automatically by a solver, runs and evaluates.</td>
+      <td>Generates Bebop-25 automatically by a resolver, runs and evaluates.</td>
     </tr>
     <tr>
       <td><b>Monolith design</b></td>
