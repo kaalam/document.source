@@ -52,16 +52,16 @@ entries:
     output: web, pdf
     folderitems:
 
-    - title: Bebop Elements
-      url: /bop_introduction.html
+    - title: Bebop Reference
+      url: /bop_reference.html
       output: web, pdf
 
   - title: Models Fundamentals (since Jazz 1.25.2)
     output: web, pdf
     folderitems:
 
-    - title: Models Elements
-      url: /models_introduction.html
+    - title: Models Reference
+      url: /models_reference.html
       output: web, pdf
 
   - title: API Fundamentals

@@ -42,8 +42,8 @@ Now, let's dive a little bit over each of these features [Blocks, Kinds, Tuples]
 
 See also:
 
-* [Bebop Fundamentals](bop_introduction.html)
-* [Models Fundamentals](models_introduction.html)
+* [Bebop Reference](bop_reference.html)
+* [Models Reference](models_reference.html)
 * [APIs](api_ref_intro.html)
 
 <br/>

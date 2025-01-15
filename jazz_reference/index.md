@@ -29,8 +29,8 @@ To keep up with Jazz development, see
 
 ## References
 
-* [Bebop Fundamentals](bop_introduction.html)
-* [Models Fundamentals](models_introduction.html)
+* [Bebop Reference](bop_reference.html)
+* [Models Reference](models_reference.html)
 * [API reference and clients](api_ref_intro.html)
 * [Server internals and setup](reference_server_setup.html)
 
