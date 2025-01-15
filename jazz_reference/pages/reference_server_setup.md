@@ -1,5 +1,5 @@
 ---
-title: Server internals and setup
+title: Server Internals and Setup
 summary: Some extra materials for Jazz developers besides the doxygen website with some explanations and references
 sidebar: mydoc_sidebar
 permalink: reference_server_setup.html
@@ -9,9 +9,8 @@ permalink: reference_server_setup.html
 
 Jazz internals is meant as: **How do I start if I want to use the source code in a C++ project?**
 
-{% include important.html content="We are not yet providing examples on extending Jazz in C++." %}
-
-Instead, you should see the [development documentation](/develop/).
+  * See the [development documentation](/develop/).
+  * See [extending Jazz](using_extend.html).
 
 
 ## Setting up a Jazz server
@@ -22,8 +21,9 @@ improving it by providing [feedback](contributing_welcome_all.html)" %}
 
 ### Building and installing Jazz
 
-First you should build Jazz as described [here](using_compile_jazz.html). Then, run `make install` to install it as a service.
+First you should build Jazz as described [here](using_compile.html). Then, run `make install` to install it as a service.
 That requires being a sudoer.
+
 
 ### Configuring
 
@@ -38,6 +38,8 @@ You may need additional reference found at:
  * [CURL](https://curl.se/libcurl/c/libcurl-tutorial.html)
  * [ZeroMQ](https://zeromq.org/languages/c/)
  * [Catch2](https://github.com/catchorg/Catch2/blob/devel/docs/Readme.md#top)
+ * [ONNX](https://onnx.ai/)
+ * [ONNX-runtime](https://onnxruntime.ai/)
 
 <br/>
 
