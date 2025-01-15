@@ -1,6 +1,6 @@
 ---
-title: Elements - Blocks, Kinds, Tuples
-summary: What is Jazz (part 1) Introduction to blocks, kinds, etc. as the basement for the "Jazz Magic"
+title: Basic Types - Blocks, Kinds, Tuples
+summary: What is Jazz (part 1) - Introduction to blocks, kinds, and tuples as the basement for the "Jazz Magic"
 sidebar: mydoc_sidebar
 permalink: vision_elements_block_kind_etc.html
 ---
