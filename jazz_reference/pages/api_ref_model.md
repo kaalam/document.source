@@ -23,7 +23,7 @@ block in a container.
 
 ### Models in ModelsAPI
 
-The models are created, typically, extending Jazz using [uplifting](/develop_jazz02/uplifting.html) the class `ModelsAPI` just registers
+The models are created, typically, extending Jazz using [uplifting](using_extend.html) the class `ModelsAPI` just registers
 the existing models and forwards the calls to them.
 
 
