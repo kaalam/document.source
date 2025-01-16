@@ -30,10 +30,10 @@ no source code, it is just an ONNX model created with any tool that can export t
 with a vector of bytes (a file).
 
 
-### Spaces in Core
+### Fields in Core
 
-The `Core` uses a Space (that supports basic persisted key/value functionality) to store the snippets. These spaces are persisted in a
-configurable database. You create a new space with `//bop/space_name.new` like in any other container.
+The `Core` uses `Field` (a Space that supports basic persisted key/value functionality) to store the snippets. These spaces are persisted
+in a configurable database. You create a new space with `//bop/field_name.new` like in any other container.
 
 
 ### Snippets in Core
@@ -52,11 +52,12 @@ or merge the source code of the function with the caller). From the API, it is a
 
 ### Configuring Core
 
-Core has two configurable parameters:
+Core has configurable parameters:
 
 | Property | description |
 |-------|--------|
-| `SNIPPETSPACE_STORAGE_ENTITY` | The database entity name where the snippets are stored. |
+| `FIELD_STORAGE_ENTITY` | Name of the database where the Core stores the Field data. |
+| `SNIPPET_STORAGE_ENTITY` | Name of the database where the Core stores the Snippet data. |
 | `ONNXRT_MAX_NUM_SESSIONS` | The maximum number of simultaneously open ONNX runtime sessions. |
 
 <br/>
