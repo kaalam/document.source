@@ -61,5 +61,4 @@ Core has two configurable parameters:
 
 <br/>
 
-
 {% include links.html %}
