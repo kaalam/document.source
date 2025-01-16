@@ -26,6 +26,8 @@ See
 
 * Executing [bash calls](api_ref_channel_bash.html)
 * Executing [zeroMQ client calls](api_ref_channel_zmq.html)
+* Executing [Core calls](api_ref_core.html)
+* Executing [Model calls](api_ref_model.html)
 
 ### Function call syntax from the rest API
 
