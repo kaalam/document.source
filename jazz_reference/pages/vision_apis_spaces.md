@@ -49,7 +49,7 @@ A `Field` (aka. Formal Field) is a `Space` that stores Snippets. I has the forma
 ## Snippets
 
 Besides storing general application data, Jazz can store code. Code comes in different flavors, the simplest is a `Snippet`.
-A `Snippet` is Space that contains Bebop code that can be compiled. Snippets also store the ONNX "executable". A computation graph than
+A `Snippet` is Tuple that contains Bebop code that can be compiled. Snippets also store the ONNX "executable", computation graph that
 can be run using ONNX runtime.
 
 * See C++ ref [Snippet](/develop_jazz02/classjazz__bebop_1_1Snippet.html)
