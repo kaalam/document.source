@@ -42,9 +42,10 @@ replication, etc.
 
 ## Fields
 
-A `Field` (aka. Formal Field) is a `Space` that stores Snippets. I has the formal (Bebop) definitions of a system.
+A `Fields` (the `Service` that stores all the formal fields) is a `Space` that stores Snippets in fields (namespaces). I has the formal
+(Bebop) definitions of a system.
 
-* See C++ ref [Field](/develop_jazz02/classjazz__bebop_1_1Field.html)
+* See C++ ref [Fields](/develop_jazz02/classjazz__bebop_1_1Fields.html)
 
 ## Snippets
 
@@ -68,9 +69,10 @@ a problem defined as a sequence of Concepts.
 
 ## SemSpaces
 
-A `Semspace` (Semantic Space) is a `Field` that stores concepts instead of just Snippets. It can be an English dictionary, like SPEED
-(Small Preserved Everyday English Dictionary) or the state of the knowledge of an agent. SemSpaces have multiple inheritance, this way
-an agent can have its own knowledge stored as a difference from the general knowledge his class of agents share.
+`SemSpaces` (the service that stores semantic spaces) is a `Fields`-descendant that stores Concepts instead of just Snippets. A SemSpace
+(a namespace inside SemSpaces) can be an English dictionary, like SPEED (Small Preserved Everyday English Dictionary) or the state of the
+knowledge of an agent. SemSpaces have multiple inheritance, this way an agent can have its own knowledge stored as a difference from the
+general knowledge his class of agents share.
 
 * See C++ ref [SemSpace](/develop_jazz02/classjazz__models_1_1SemSpace.html)
 

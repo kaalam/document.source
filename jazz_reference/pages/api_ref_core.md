@@ -32,8 +32,9 @@ with a vector of bytes (a file).
 
 ### Fields in Core
 
-The `Core` uses `Field` (a Space that supports basic persisted key/value functionality) to store the snippets. These spaces are persisted
-in a configurable database. You create a new space with `//bop/field_name.new` like in any other container.
+The `Core` uses `Fields` (a Space that supports basic persisted key/value functionality) to store the snippets in namespaces (each
+namespace is a field, `Fields` is the service that stores them all). These spaces are persisted in a configurable database. You create
+a new space with `//bop/field_name.new` like in any other container.
 
 
 ### Snippets in Core
@@ -56,7 +57,7 @@ Core has configurable parameters:
 
 | Property | description |
 |-------|--------|
-| `FIELD_STORAGE_ENTITY` | Name of the database where the Core stores the Field data. |
+| `FIELD_STORAGE_ENTITY` | Name of the database where the Core stores the Fields data. |
 | `SNIPPET_STORAGE_ENTITY` | Name of the database where the Core stores the Snippet data. |
 | `ONNXRT_MAX_NUM_SESSIONS` | The maximum number of simultaneously open ONNX runtime sessions. |
 
