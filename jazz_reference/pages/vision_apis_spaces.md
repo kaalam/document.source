@@ -69,12 +69,12 @@ a problem defined as a sequence of Concepts.
 
 ## SemSpaces
 
-`SemSpaces` (the service that stores semantic spaces) is a `Fields`-descendant that stores Concepts instead of just Snippets. A SemSpace
-(a namespace inside SemSpaces) can be an English dictionary, like SPEED (Small Preserved Everyday English Dictionary) or the state of the
-knowledge of an agent. SemSpaces have multiple inheritance, this way an agent can have its own knowledge stored as a difference from the
-general knowledge his class of agents share.
+`SemSpaces` (the service that stores semantic spaces) is a `Fields`-descendant that stores Concepts instead of just Snippets. A semspace
+(semantic space, a namespace inside SemSpaces) can be an English dictionary, like SPEED (Small Preserved Everyday English Dictionary) or
+the state of the knowledge of an agent. SemSpaces have multiple inheritance, this way an agent can have its own knowledge stored as a
+difference from the general knowledge his class of agents share.
 
-* See C++ ref [SemSpace](/develop_jazz02/classjazz__models_1_1SemSpace.html)
+* See C++ ref [SemSpaces](/develop_jazz02/classjazz__models_1_1SemSpaces.html)
 
 ## See also
 
