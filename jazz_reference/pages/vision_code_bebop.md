@@ -22,7 +22,7 @@ We want to support any deep learning framework, via ONNX, to support anything wr
 and hundreds of other frameworks. And we want to do that using the tensors stored in Jazz and be able to serve the service (or even compile
 Bop on the fly) via API. Well Bebop does that in a **clean and simple way**.
 
-On another side, we want to provide `DataSpace` objects to make our models use data abstractions that support such things as embeddings,
+On another side, we want `DataSpaces` to provide spaces to make our models use data abstractions that support such things as embeddings,
 nearest neighbors, and other things that are not supported by ONNX, in a seamless way.
 
 That, on itself is a reason big enough to use Jazz. We get rid of any scripting language in favor of a concurrent, controllable monolithic

@@ -26,9 +26,9 @@ containers to store both data and metadata.
 
 ## DataSpaces
 
-A `DataSpace` is a `Space` that stores data. DataSpaces are used to store data in a way that is more user friendly than using Containers.
+A `DataSpaces` is a `Space` that stores data. DataSpaces are used to store data in a way that is more user friendly than using Containers.
 
-A `DataSpace` can be configured to do:
+`DataSpaces` is the `Service` that contains multiple data spaces that can be configured to do:
 
 * Sharding across a cluster of Jazz nodes
 * Embeddings (vectors that represent data) including conversion of data into an embedding, search by embedding or by nearest neighbors.
@@ -38,7 +38,7 @@ A `DataSpace` can be configured to do:
 DataSpaces return iterators over the rows returned as tuples. DataSpaces also provide ETL support for populating the tables,
 replication, etc.
 
-* See C++ ref [DataSpace](/develop_jazz02/classjazz__bebop_1_1DataSpace.html)
+* See C++ ref [DataSpaces](/develop_jazz02/classjazz__bebop_1_1DataSpaces.html)
 
 ## Fields
 
