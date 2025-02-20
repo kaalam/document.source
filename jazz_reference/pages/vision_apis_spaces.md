@@ -26,9 +26,10 @@ containers to store both data and metadata.
 
 ## DataSpaces
 
-A `DataSpaces` is a `Space` that stores data. DataSpaces are used to store data in a way that is more user friendly than using Containers.
+A `DataSpaces` is a `Service` that stores all the `Space` descendants that store metadata. DataSpaces are used to store data in a way that
+is more user friendly (abstracts Block locators using a FROM/SELECT/WHERE/AS query style) than using Containers.
 
-`DataSpaces` is the `Service` that contains multiple data spaces that can be configured to do:
+`DataSpaces` is the `Service` that contains multiple data spaces (`Space` descendants) that can be configured to do:
 
 * Sharding across a cluster of Jazz nodes
 * Embeddings (vectors that represent data) including conversion of data into an embedding, search by embedding or by nearest neighbors.
@@ -42,8 +43,8 @@ replication, etc.
 
 ## Fields
 
-A `Fields` (the `Service` that stores all the formal fields) is a `Space` that stores Snippets in fields (namespaces). I has the formal
-(Bebop) definitions of a system.
+A `Fields` (the `Service` that stores all the formal fields) it stores Snippets in fields (namespaces). I has the formal (Bebop)
+definitions of a system.
 
 * See C++ ref [Fields](/develop_jazz02/classjazz__bebop_1_1Fields.html)
 
