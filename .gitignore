@@ -5,3 +5,5 @@
 *.Rproj
 .vscode/
 recycle/
+_tags_/
+spec_brainstorming/
