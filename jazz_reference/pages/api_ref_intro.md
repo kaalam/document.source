@@ -37,7 +37,7 @@ See developer documentation [here](/develop/)
 
 ### The Bebop API
 
-{% include important.html content="Bebop, of course, also has access to the API. This is under current implementation in Jazz 1.25.x." %}
+{% include important.html content="Bebop, of course, also has access to the API. This is under current implementation in Jazz 1.26.x." %}
 
 ### The http API
 

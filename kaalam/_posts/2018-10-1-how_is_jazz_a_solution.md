@@ -66,7 +66,7 @@ remarkably adaptable. On top of this, the <b>resolver/compiler</b> paradigm empo
 to how we construct natural language—blending smaller, meaningful units into larger, coherent expressions. This approach bridges the gap
 between human intent and machine execution, making <b>Bebop-25</b> not only a tool but a true partner in problem-solving.</b>
 
-<h2>Summarizing Jazz 1.25.x</h2><p>
+<h2>Summarizing Jazz 1.26.x</h2><p>
 
 </p>
 

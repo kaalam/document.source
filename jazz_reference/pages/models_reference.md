@@ -7,7 +7,7 @@ permalink: models_reference.html
 
 ## Models Reference
 
-{% include important.html content="This document is under development. The first Models specification will be released with Jazz 1.25.2." %}
+{% include important.html content="This document is under development. The first Models specification will be released with Jazz 1.26." %}
 
 <br/>
 

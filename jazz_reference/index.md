@@ -9,7 +9,7 @@ Thank you for your interest in Jazz, this is the Jazz server's reference manual.
 
 {% include important.html content="Jazz is still under development. Since version 0.5.1, everything in jazz_elements and the server itself
 are stable. More modern interfaces keep backwards compatibility, but add ONNX and Bebop (a language that compiles to ONNX) on top of it.
-If you plan to use ONNX, you need a version >= 1.25.1. If you also want models, you need a version >= 1.25.2.
+If you plan to use ONNX, you need a version >= 1.26.1. If you also want models, you need a version >= 1.26.2.
 To keep up with Jazz development, see
 [Programming documentation for the Jazz Server](https://kaalam.github.io/develop_jazz02/index.html)." %}
 

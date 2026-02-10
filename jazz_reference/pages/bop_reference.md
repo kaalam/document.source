@@ -7,7 +7,7 @@ permalink: bop_reference.html
 
 ## Bebop-25.1 Reference
 
-{% include important.html content="This document is under development. The first Bebop specification will be released with Jazz 1.25.1." %}
+{% include important.html content="This document is under development. The first Bebop specification will be released with Jazz 1.26.1." %}
 
 <br/>
 

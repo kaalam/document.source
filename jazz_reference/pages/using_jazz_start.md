@@ -5,7 +5,7 @@ sidebar: mydoc_sidebar
 permalink: using_jazz_start.html
 ---
 
-{% include image.html file="jazz_modules.png" caption="Jazz modules for version 1.25.x" max-width=880 %}
+{% include image.html file="jazz_modules.png" caption="Jazz modules for version 1.26.x" max-width=880 %}
 
 
 ## The easy way: Latest Stable Server
@@ -21,7 +21,7 @@ permalink: using_jazz_start.html
 ## Jazz 0.5.3: The Tangle Server
 
 {% include important.html content="A new Tangle server with the data updated to 2025 (The data repositories are already available on
-github: https://github.com/kaalam/tng-data-*) will be release with Jazz 1.25.1 in Q2 2025. Wait for it if you can."%}
+github: https://github.com/kaalam/tng-data-*) will be release with Jazz 1.26.1 in Q2 2025. Wait for it if you can."%}
 
 The last 0.5.x series version is the fist real world application of the modern Jazz versions. It contains **The Tangle**
 a curated entangled dataset of English language.

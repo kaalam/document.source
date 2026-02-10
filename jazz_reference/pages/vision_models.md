@@ -16,7 +16,7 @@ Despite the publications representing results of different stages of the researc
 two years after the last publication, there is no white book titled "The Intelligence Engineering Handbook", our limited resources
 do not allow us to divert much from software development for now and we communicate just through reference manuals.
 
-The exact implementation of Models in Jazz 1.25.2 is not yet available. We only define high-level ideas for now and will provide
+The exact implementation of Models in Jazz 1.26.2 is not yet available. We only define high-level ideas for now and will provide
 implementation details in the future.
 
 
@@ -45,7 +45,7 @@ The process of resolving is done by a `Model` in Jazz terms. A `Model` is a prog
 
 ### Again, we write Jazz because we need Jazz
 
-We need **Jazz 1.25.2** because it allows extension by uplifting to research the next generation of ideas. We have been researching
+We need **Jazz 1.26.2** because it allows extension by uplifting to research the next generation of ideas. We have been researching
 intelligence engineering since since 2017 and before and look forward to having the tool we need.
 
 

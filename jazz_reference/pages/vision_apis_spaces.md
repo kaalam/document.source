@@ -39,14 +39,10 @@ is more user friendly (abstracts Block locators using a FROM/SELECT/WHERE/AS que
 DataSpaces return iterators over the rows returned as tuples. DataSpaces also provide ETL support for populating the tables,
 replication, etc.
 
-* See C++ ref [DataSpaces](/develop_jazz02/classjazz__bebop_1_1DataSpaces.html)
-
 ## Fields
 
 A `Fields` (the `Service` that stores all the formal fields) it stores Snippets in fields (namespaces). I has the formal (Bebop)
 definitions of a system.
-
-* See C++ ref [Fields](/develop_jazz02/classjazz__bebop_1_1Fields.html)
 
 ## Snippets
 
@@ -74,8 +70,6 @@ a problem defined as a sequence of Concepts.
 (semantic space, a namespace inside SemSpaces) can be an English dictionary, like SPEED (Small Preserved Everyday English Dictionary) or
 the state of the knowledge of an agent. SemSpaces have multiple inheritance, this way an agent can have its own knowledge stored as a
 difference from the general knowledge his class of agents share.
-
-* See C++ ref [SemSpaces](/develop_jazz02/classjazz__models_1_1SemSpaces.html)
 
 ## See also
 
