@@ -5,6 +5,8 @@ sidebar: mydoc_sidebar
 permalink: vision_apis_spaces.html
 ---
 
+{% include important.html content="This document is under development. It will be updated for Jazz 1.26." %}
+
 ## APIs and the BaseAPI class
 
 Jazz has a [customizable](vision_uplifts.html) http API. This API abstracts over all the Containers in the system. The `BaseAPI` class is
