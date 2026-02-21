@@ -69,6 +69,16 @@ the item name, type and shape. Valid types are: "INTEGER", "DOUBLE", "BYTE", "ST
 
 E.g., `{"palette" : BYTE[10, height, num_col], "time" : TIME[3], "author" : STRING[40], "filter" : SINGLE[height, height, 3]}`
 
+Since Bebop-26, (everything has a Kind), simple Block objects (like the tensors that make a tuple) also have a Kind, in general, Bebop
+objects have a kind. The Kind of a block will be serialized like a kind of only one item and without a name.
+
+E.g., `{BYTE[size_x, size_y, size_z]}` or `{BYTE[32, 32]}`
+
+The kind of an arbitrary Bebop object is serialized as a sequence of dot-separated names, with no additional spaces. These names define
+a node in a tree of spaces.
+
+E.g., `{"geo.city.Madrid"}`
+
 **Note 1**: The dimension `height` appears 3 times in the Kind. A tuple of this kind can have any value for `height`, but must have
 the same value in the three places, otherwise it is not a tuple of this kind.
 
